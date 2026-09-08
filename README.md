@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://chenzhiyong1994.github.io/riji/">项目主页</a> ·
-  <a href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.5.apk">下载 Android 安装包</a> ·
+  <a href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.6.apk">下载 Android 安装包</a> ·
   <a href="CHANGELOG.md">版本说明</a> ·
   <a href="CONTRIBUTING.md">参与开发</a>
 </p>
@@ -17,7 +17,7 @@
 
 ## 下载与安装
 
-**[下载日跻 1.0.5 APK](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.5.apk)** · Android 8.0+ · 58.8 MiB · [SHA-256 校验](downloads/SHA256SUMS.txt)
+**[下载日跻 1.0.6 APK](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.6.apk)** · Android 8.0+ · 57.8 MiB · [SHA-256 校验](downloads/SHA256SUMS.txt)
 
 下载后打开 APK，按系统提示允许当前下载工具安装应用。已有同签名日跻/迹练的用户可以覆盖更新；升级前建议导出备份，不要先卸载。包名保持 `local.jilian.app`，存储与旧版 JSON 备份继续兼容。
 
@@ -56,7 +56,6 @@ App 不声明网络、位置、通讯录、相机或全盘存储读取权限。�
 
 ```sh
 npm ci
-npm run prepare:media
 npm run dev
 ```
 
@@ -70,6 +69,4 @@ npm run dev
 
 ## 开源许可与来源
 
-原创代码采用 [MIT License](LICENSE)。MakeHuman 人体图形资产使用 CC0 1.0；兼容静态插图按其独立许可作应用内使用：**Exercise data by [RepDB (repdb.co)](https://repdb.co)**。
-
-RepDB 图片不作为数据集放入本仓库，构建时仅从固定上游恢复所需文件并验证哈希；不得将其用于生成式 AI 衍生处理。当前源码和 APK 不包含其他 App 的程序代码、SDK、图片或动画。第三方许可、逐文件来源及封面生成说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+原创代码采用 [MIT License](LICENSE)。素材许可与来源记录见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

@@ -8,8 +8,6 @@ __pycache__/
 *.blend1
 art/**/renders/
 art/**/cache/
-# RepDB assets are fetched from the licensed upstream for in-app use only.
-app/src/main/assets/movements/
 # Signing credentials and local environment files never belong in the project.
 *.jks
 *.keystore

@@ -10,18 +10,13 @@
 - [CC0 完整许可](app/src/main/assets/licenses/makehuman-cc0.txt)
 - [MakeHuman 许可说明](https://static.makehumancommunity.org/about/license.html)
 
+上述 CC0 来源说明为维护记录；App 与介绍页无需展示署名。
+
 来源目录中的 `LICENSE.md` 说明 MakeHuman 上游程序许可；本项目取用的是 CC0 图形资产，未集成 MakeHuman 程序。
 
-## RepDB 免费静态插图
+## 旧版本素材记录
 
-**Exercise data by [RepDB (repdb.co)](https://repdb.co)**。
-
-安装包内保留 61 张免费静态插图，作为旧记录的兼容与回退配图。来源为 RepDB 官方仓库固定提交 `b25c9bc82cab09082b34dce3285bb32f9d45402a`，适用 [Free Tier License v1.0](app/src/main/assets/licenses/repdb-free-tier.md)。该许可允许带署名的应用内使用，禁止重新分发为数据集/API，以及生成式 AI 衍生处理。
-
-源码仓库不单独分发这些图片。构建准备命令仅从固定上游恢复已登记的文件并逐项验证 SHA-256；不下载完整数据集或付费预览动画。不要将准备后的图片目录另行发布为数据集。App 关于页、此文件与 README 均保留署名。
-
-- [应用内映射、来源 URL 与哈希](app/src/main/assets/media-manifest.json)
-- [上游原始许可](https://github.com/RepDB/exercise-dataset/blob/b25c9bc82cab09082b34dce3285bb32f9d45402a/LICENSE-DATA.md)
+1.0.6 起不再使用或打包 RepDB 静态图，相关引用及下载脚本已移除。旧版 1.0.5 APK 曾按 [Free Tier License v1.0](https://github.com/RepDB/exercise-dataset/blob/b25c9bc82cab09082b34dce3285bb32f9d45402a/LICENSE-DATA.md) 使用 61 张应用内插图；该旧安装包继续保留当时的许可和署名，不作为图片数据集分发。
 
 ## 开发工具
 

@@ -29,69 +29,25 @@ test("安装包资源不再包含从原 APK 提取的图片或动画", () => {
   );
 });
 
-test("每张配图均对应固定来源、完整许可及未修改的原图指纹", () => {
-  const manifest = JSON.parse(
-    fs.readFileSync(path.join(assets, "media-manifest.json"), "utf8"),
+test("已移除的静态图库不得通过改名或复制重新打包", () => {
+  const denied = new Set(
+    require("./fixtures/removed-repdb-sha256.json").sha256,
   );
-  const entries = JSON.parse(
-    fs
-      .readFileSync(path.join(assets, "catalog.js"), "utf8")
-      .replace(/^window\.MOVEMENTS\s*=\s*/, "")
-      .replace(/;\s*$/, ""),
-  );
-  entries.push(
-    ...JSON.parse(
-      fs
-        .readFileSync(path.join(assets, "legacy-catalog.js"), "utf8")
-        .replace(/^[\s\S]*?window\.LEGACY_MOVEMENTS\s*=\s*/, "")
-        .replace(/;\s*$/, ""),
-    ),
-  );
-  const sha256 = (file) =>
-    crypto
-      .createHash("sha256")
-      .update(fs.readFileSync(path.join(assets, file)))
-      .digest("hex");
-  assert.equal(manifest.matches.length, 32);
-  assert.equal(manifest.files.length, 61);
-  assert.match(
-    manifest.licenseUrl,
-    /RepDB\/exercise-dataset\/blob\/[a-f0-9]{40}\/LICENSE-DATA\.md$/,
-  );
-  assert.equal(sha256("licenses/repdb-free-tier.md"), manifest.licenseSha256);
-  const registered = new Set(manifest.files.map((file) => file.path));
-  assert.equal(registered.size, manifest.files.length);
-  for (const file of manifest.files) {
-    assert.ok(
-      file.sourceUrl.startsWith(
-        `https://raw.githubusercontent.com/RepDB/exercise-dataset/${manifest.revision}/images/flat/`,
-      ),
-    );
-    assert.equal(sha256(file.path), file.sha256);
-    assert.equal(fs.statSync(path.join(assets, file.path)).size, file.size);
+  assert.equal(denied.size, 61);
+  function walk(dir) {
+    for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
+      const file = path.join(dir, item.name);
+      if (item.isDirectory()) walk(file);
+      else {
+        assert.doesNotMatch(item.name, /repdb/i, file);
+        const bytes = fs.readFileSync(file);
+        const sha = crypto.createHash("sha256").update(bytes).digest("hex");
+        assert.ok(!denied.has(sha), path.relative(assets, file));
+        if (/\.(js|json|html|css|md|txt)$/i.test(file))
+          assert.doesNotMatch(bytes.toString("utf8"), /repdb/i, file);
+      }
+    }
   }
-  assert.ok(
-    manifest.files.reduce((sum, file) => sum + file.size, 0) < 2 * 1024 * 1024,
-    "轻量配图应低于 2 MiB",
-  );
-  const actual = fs
-    .readdirSync(path.join(assets, "movements"))
-    .map((file) => "movements/" + file);
-  assert.deepEqual(
-    actual.sort(),
-    [...registered].sort(),
-    "不得额外打包未登记图片",
-  );
-  for (const entry of entries.filter((e) => e.image)) {
-    const match = manifest.matches.find((m) => m.exerciseId === entry.id);
-    assert.ok(match);
-    assert.equal(entry.media.source, "RepDB");
-    assert.deepEqual(entry.media.poses, match.poses);
-    for (const file of [
-      entry.image,
-      entry.thumb,
-      ...entry.media.poses.map((pose) => pose.path),
-    ])
-      assert.ok(registered.has(file));
-  }
+  walk(assets);
+  assert.ok(!fs.existsSync(path.join(assets, "media-manifest.json")));
 });

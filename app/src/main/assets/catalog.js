@@ -10,23 +10,7 @@ window.MOVEMENTS = [
       "三角肌前束",
       "一点前锯肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-bench-press-peak.webp",
-    "thumb": "movements/repdb-bench-press-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "bench-press",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-bench-press-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-bench-press-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "dumbellpress",
@@ -37,23 +21,7 @@ window.MOVEMENTS = [
       "胸",
       "三头"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-db-bench-press-peak.webp",
-    "thumb": "movements/repdb-db-bench-press-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "db-bench-press",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-db-bench-press-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-db-bench-press-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "upperdumbellpress",
@@ -64,23 +32,7 @@ window.MOVEMENTS = [
       "胸",
       "三头"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-incline-db-press-peak.webp",
-    "thumb": "movements/repdb-incline-db-press-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "incline-db-press",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-incline-db-press-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-incline-db-press-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "incline-benchpress",
@@ -125,23 +77,7 @@ window.MOVEMENTS = [
     "parts": [
       "胸"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-db-fly-peak.webp",
-    "thumb": "movements/repdb-db-fly-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "db-fly",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-db-fly-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-db-fly-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "machinefly",
@@ -187,23 +123,7 @@ window.MOVEMENTS = [
       "三头",
       "三角前束"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-push-up-peak.webp",
-    "thumb": "movements/repdb-push-up-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "push-up",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-push-up-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-push-up-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "knee-push-up-fz",
@@ -215,23 +135,7 @@ window.MOVEMENTS = [
       "三头",
       "三角前束"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-knee-push-ups-peak.webp",
-    "thumb": "movements/repdb-knee-push-ups-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "knee-push-ups",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-knee-push-ups-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-knee-push-ups-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "pulldown",
@@ -265,23 +169,7 @@ window.MOVEMENTS = [
     "parts": [
       "背"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-barbell-row-peak.webp",
-    "thumb": "movements/repdb-barbell-row-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "barbell-row",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-barbell-row-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-barbell-row-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "dumbellrowbench",
@@ -291,23 +179,7 @@ window.MOVEMENTS = [
     "parts": [
       "背"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-single-arm-db-row-peak.webp",
-    "thumb": "movements/repdb-single-arm-db-row-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "single-arm-db-row",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-single-arm-db-row-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-single-arm-db-row-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "sit_cable_row",
@@ -317,23 +189,7 @@ window.MOVEMENTS = [
     "parts": [
       "背"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-seated-cable-row-peak.webp",
-    "thumb": "movements/repdb-seated-cable-row-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "seated-cable-row",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-seated-cable-row-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-seated-cable-row-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "machine_pulldown",
@@ -373,23 +229,7 @@ window.MOVEMENTS = [
     "parts": [
       "背"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-pull-up-peak.webp",
-    "thumb": "movements/repdb-pull-up-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "pull-up",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-pull-up-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-pull-up-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "weight_reverse_pullup",
@@ -433,23 +273,7 @@ window.MOVEMENTS = [
       "股四头",
       "臀部"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-squat-peak.webp",
-    "thumb": "movements/repdb-squat-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "squat",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-squat-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-squat-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "deadlift",
@@ -463,23 +287,7 @@ window.MOVEMENTS = [
       "臀部",
       "下背"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-deadlift-peak.webp",
-    "thumb": "movements/repdb-deadlift-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "deadlift",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-deadlift-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-deadlift-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "Sumo-Deadlift",
@@ -504,23 +312,7 @@ window.MOVEMENTS = [
       "腿",
       "股二头肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-romanian-deadlift-peak.webp",
-    "thumb": "movements/repdb-romanian-deadlift-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "romanian-deadlift",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-romanian-deadlift-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-romanian-deadlift-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "hackssssquat",
@@ -580,23 +372,7 @@ window.MOVEMENTS = [
       "臀部",
       "股二头肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-leg-curl-peak.webp",
-    "thumb": "movements/repdb-leg-curl-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "leg-curl",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-leg-curl-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-leg-curl-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "Lever-Seated-Leg",
@@ -618,23 +394,7 @@ window.MOVEMENTS = [
     "parts": [
       "股四头"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-leg-extension-peak.webp",
-    "thumb": "movements/repdb-leg-extension-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "leg-extension",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-leg-extension-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-leg-extension-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "legpress_machine",
@@ -646,23 +406,7 @@ window.MOVEMENTS = [
       "臀部",
       "股四头肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-leg-press-peak.webp",
-    "thumb": "movements/repdb-leg-press-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "leg-press",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-leg-press-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-leg-press-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "langes",
@@ -675,23 +419,7 @@ window.MOVEMENTS = [
       "臀部",
       "股二头肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-barbell-reverse-lunge-peak.webp",
-    "thumb": "movements/repdb-barbell-reverse-lunge-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "barbell-lunge",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-barbell-reverse-lunge-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-barbell-reverse-lunge-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "11971201-Squat-m_Thighs_small.mp4",
@@ -704,23 +432,7 @@ window.MOVEMENTS = [
       "臀部",
       "股二头肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-bodyweight-squat-peak.webp",
-    "thumb": "movements/repdb-bodyweight-squat-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "bodyweight-squat",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-bodyweight-squat-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-bodyweight-squat-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "hiptrust",
@@ -731,23 +443,7 @@ window.MOVEMENTS = [
       "臀部",
       "股二头肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-hip-thrust-peak.webp",
-    "thumb": "movements/repdb-hip-thrust-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "hip-thrust",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-hip-thrust-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-hip-thrust-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "smith_hiptrust",
@@ -806,23 +502,7 @@ window.MOVEMENTS = [
       "三角肌前束",
       "三角肌中束"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-seated-db-press-peak.webp",
-    "thumb": "movements/repdb-seated-db-press-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "seated-db-press",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-seated-db-press-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-seated-db-press-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "laderrow",
@@ -834,23 +514,7 @@ window.MOVEMENTS = [
       "三角肌前束",
       "三角肌中束"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-lateral-raise-peak.webp",
-    "thumb": "movements/repdb-lateral-raise-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "lateral-raise",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-lateral-raise-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-lateral-raise-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "frontraise",
@@ -862,23 +526,7 @@ window.MOVEMENTS = [
       "三角肌前束",
       "胸大肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-dumbbell-front-raise-peak.webp",
-    "thumb": "movements/repdb-dumbbell-front-raise-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "dumbbell-front-raise",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-dumbbell-front-raise-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-dumbbell-front-raise-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "sideladerrow",
@@ -961,23 +609,7 @@ window.MOVEMENTS = [
       "肱二头肌",
       "肱桡肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-bicep-curl-peak.webp",
-    "thumb": "movements/repdb-bicep-curl-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "bicep-curl",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-bicep-curl-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-bicep-curl-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "barbellcrul",
@@ -988,23 +620,7 @@ window.MOVEMENTS = [
       "二头",
       "小臂"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-barbell-curl-peak.webp",
-    "thumb": "movements/repdb-barbell-curl-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "barbell-curl",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-barbell-curl-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-barbell-curl-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "hammercurl",
@@ -1016,23 +632,7 @@ window.MOVEMENTS = [
       "肱二头肌",
       "肱桡肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-hammer-curl-peak.webp",
-    "thumb": "movements/repdb-hammer-curl-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "hammer-curl",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-hammer-curl-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-hammer-curl-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "prechercurl",
@@ -1076,23 +676,7 @@ window.MOVEMENTS = [
     "parts": [
       "三头"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-overhead-tricep-extension-peak.webp",
-    "thumb": "movements/repdb-overhead-tricep-extension-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "overhead-tricep-extension",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-overhead-tricep-extension-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-overhead-tricep-extension-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "cablepulldowntrp",
@@ -1153,23 +737,7 @@ window.MOVEMENTS = [
       "腓肠肌",
       "比目鱼肌"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-dumbbell-calf-raise-peak.webp",
-    "thumb": "movements/repdb-dumbbell-calf-raise-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "dumbbell-calf-raise",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-dumbbell-calf-raise-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-dumbbell-calf-raise-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "f_s_f212",
@@ -1179,23 +747,7 @@ window.MOVEMENTS = [
     "parts": [
       "小腿"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-bodyweight-calf-raise-peak.webp",
-    "thumb": "movements/repdb-bodyweight-calf-raise-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "bodyweight-calf-raise",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-bodyweight-calf-raise-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-bodyweight-calf-raise-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "Lever-Seated-Calf-Raise",
@@ -1217,23 +769,7 @@ window.MOVEMENTS = [
       "腹部",
       "核心"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-crunches-peak.webp",
-    "thumb": "movements/repdb-crunches-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "crunches",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-crunches-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-crunches-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "leg-rise",
@@ -1244,23 +780,7 @@ window.MOVEMENTS = [
       "腹部",
       "核心"
     ],
-    "mode": "weight",
-    "image": "movements/repdb-lying-leg-raise-peak.webp",
-    "thumb": "movements/repdb-lying-leg-raise-start.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "lying-leg-raise",
-      "poses": [
-        {
-          "label": "起始姿势",
-          "path": "movements/repdb-lying-leg-raise-start.webp"
-        },
-        {
-          "label": "动作姿势",
-          "path": "movements/repdb-lying-leg-raise-peak.webp"
-        }
-      ]
-    }
+    "mode": "weight"
   },
   {
     "id": "plank_recorder",
@@ -1270,19 +790,7 @@ window.MOVEMENTS = [
     "parts": [
       "计时动作"
     ],
-    "mode": "time",
-    "image": "movements/repdb-plank-main.webp",
-    "thumb": "movements/repdb-plank-main.webp",
-    "media": {
-      "source": "RepDB",
-      "referenceId": "plank",
-      "poses": [
-        {
-          "label": "保持姿势",
-          "path": "movements/repdb-plank-main.webp"
-        }
-      ]
-    }
+    "mode": "time"
   },
   {
     "id": "Cable-Kneeling-Crunch_Waist_small",

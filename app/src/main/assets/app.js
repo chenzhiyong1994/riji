@@ -89,7 +89,11 @@
   }
   const catalog = () => catalogView().all;
   const movement = (id) => catalogView().byId.get(id);
-  const animationFor = (e) => window.EXERCISE_ANIMATIONS?.[e?.id];
+  // Reuse the plank visual without changing the legacy ID or recording mode.
+  const animationFor = (e) =>
+    window.EXERCISE_ANIMATIONS?.[
+      e?.id === "plan-king" ? "plank_recorder" : e?.id
+    ];
   const customMovement = (id) => data.customExercises.find((e) => e.id === id);
   const categoryOptions = () => [
     "全部",
@@ -148,13 +152,9 @@
       modal.paused = !playing;
       return `<div class="motion-player"><img class="detail-image motion-image" src="${esc(playing ? motion.animation : motion.poster)}" alt="${esc(e.name)}动作动画"><div class="motion-controls">${btn("toggleMotion", playing ? "暂停动画" : "播放动画", "secondary", `aria-pressed="${playing}"`)}<span class="hint motion-state">${playing ? "3 秒循环 · 红色肌群高亮" : "已暂停 · 静态封面"}</span></div></div>`;
     }
-    if (detail && e?.media?.poses?.length)
-      return `<div class="exercise-poses">${e.media.poses.map((pose) => `<figure><img class="detail-image" src="${esc(pose.path)}" alt="${esc(e.name)} ${esc(pose.label)}"><figcaption>${esc(pose.label)}</figcaption></figure>`).join("")}</div>`;
-    return e?.image
-      ? `<img class="${detail ? "detail-image" : "thumb"}" src="${esc(detail ? e.image : e.thumb)}" alt="${esc(e.name)}${detail ? "动作演示" : ""}" loading="lazy">`
-      : detail
-        ? `<div class="media-empty">${icon("dumbbell")}<strong>暂无动作图片</strong><span>可以正常添加动作并记录训练</span></div>`
-        : `<div class="thumb thumb-placeholder">${icon("dumbbell")}</div>`;
+    return detail
+      ? `<div class="media-empty">${icon("dumbbell")}<strong>暂无动作图片</strong><span>可以正常添加动作并记录训练</span></div>`
+      : `<div class="thumb thumb-placeholder">${icon("dumbbell")}</div>`;
   }
   function setMotionPlaying(playing) {
     if (modal?.type !== "detail") return;
@@ -360,7 +360,7 @@
   function movementResults() {
     const entries = filteredCatalog();
     return (
-      `<div class="filter-counter">${entries.length} 个动作 · ${entries.filter((e) => animationFor(e) || e.image).length} 项配图</div>` +
+      `<div class="filter-counter">${entries.length} 个动作 · ${entries.filter((e) => animationFor(e)).length} 项配图</div>` +
       entries
         .slice(0, limit)
         .map(
@@ -447,7 +447,7 @@
       days = new Set(data.sessions.map((x) => x.date)).size;
     return (
       top("我的", "PERSONAL SPACE") +
-      `<div class="record-grid"><div class="record"><strong>${days}<small> 天</small></strong><span>累计训练</span></div><div class="record"><strong>${num(stats.reduce((n, s) => n + s.volume, 0))}<small> kg</small></strong><span>累计训练容量</span></div></div><div class="settings-group">${setting("stats", "chart", "训练统计", "容量 / 部位 / PR")}${setting("body", "scale", "身体数据", "体重 / 腰围")}${setting("showFavorites", "star", "我的收藏", data.favorites.length + " 个动作")}${setting("allPlans", "book", "个人模版", data.plans.length + " 个")}</div><div class="settings-group">${setting("theme", data.settings.theme === "dark" ? "moon" : "sun", "外观", data.settings.theme === "dark" ? "深色" : "浅色")}${setting("timerSettings", "clock", "组间休息", data.settings.restSeconds + " 秒")}${setting("weekGoal", "target", "每周训练目标", data.settings.weekGoal + " 天")}</div><div class="settings-group">${setting("export", "download", "导出备份", "JSON 文件")}${setting("import", "upload", "导入备份", "从本机文件恢复")}${setting("about", "shield", "关于与数据", "离线使用")}</div><div class="version">1.0.5 · ${builtin.length} 个内置动作</div>`
+      `<div class="record-grid"><div class="record"><strong>${days}<small> 天</small></strong><span>累计训练</span></div><div class="record"><strong>${num(stats.reduce((n, s) => n + s.volume, 0))}<small> kg</small></strong><span>累计训练容量</span></div></div><div class="settings-group">${setting("stats", "chart", "训练统计", "容量 / 部位 / PR")}${setting("body", "scale", "身体数据", "体重 / 腰围")}${setting("showFavorites", "star", "我的收藏", data.favorites.length + " 个动作")}${setting("allPlans", "book", "个人模版", data.plans.length + " 个")}</div><div class="settings-group">${setting("theme", data.settings.theme === "dark" ? "moon" : "sun", "外观", data.settings.theme === "dark" ? "深色" : "浅色")}${setting("timerSettings", "clock", "组间休息", data.settings.restSeconds + " 秒")}${setting("weekGoal", "target", "每周训练目标", data.settings.weekGoal + " 天")}</div><div class="settings-group">${setting("export", "download", "导出备份", "JSON 文件")}${setting("import", "upload", "导入备份", "从本机文件恢复")}${setting("about", "shield", "关于与数据", "离线使用")}</div><div class="version">1.0.6 · ${builtin.length} 个内置动作</div>`
     );
   }
   function renderTimer() {
@@ -546,10 +546,8 @@
             "",
           )}</div><div class="record-grid"><div class="record"><strong>${records.length}</strong><span>记录次数</span></div><div class="record"><strong>${num(best)}<small> ${e.mode === "time" ? "秒" : e.mode === "reps" ? "次" : "kg"}</small></strong><span>${e.mode === "time" ? "单组最长时间" : e.mode === "reps" ? "单组最多次数" : "历史最高重量"}</span></div></div>` +
         (animationFor(e)
-          ? '<p class="hint media-credit">动作与肌群示意 · 待检查<br>人体：MakeHuman CC0 · 动画：日跻制作</p>'
-          : e.image
-            ? '<p class="hint media-credit">静态参考图 · RepDB 免费授权素材<br>Exercise data by RepDB (repdb.co)</p>'
-            : `<p class="hint">${customMovement(e.id) ? "这是你的自定义动作。" : builtin.some((x) => x.id === e.id) ? "轻量版仅为部分常用动作配图。" : "此动作用于保留你的旧训练和模版。"}</p>`) +
+          ? '<p class="hint media-credit">动作与肌群示意 · 待检查</p>'
+          : `<p class="hint">${customMovement(e.id) ? "这是你的自定义动作。" : builtin.some((x) => x.id === e.id) ? "轻量版仅为部分常用动作配图。" : "此动作用于保留你的旧训练和模版。"}</p>`) +
         (e.notes
           ? `<div class="exercise-notes"><h3>动作说明</h3><p>${esc(e.notes)}</p></div>`
           : "") +
@@ -715,7 +713,7 @@
       footer = `<div class="sheet-actions">${btn("exportRaw", "导出原始数据", "secondary")}${btn("import", "导入备份", "primary")}</div>`;
     } else if (m.type === "about") {
       title = "关于日跻";
-      content = `<div class="row about-brand"><div class="brand-icon"><img src="brand-mark.svg" alt="" width="44" height="44"></div><div><h2>日跻 1.0.5</h2><small>力量训练记录</small></div></div><p>如月之恒，如日之升</p><p class="hint">——《诗经·小雅·天保》</p><p>参照训记的核心训练流程独立实现，无需账号即可记录和查看训练。</p><hr class="divider"><h3>你的数据</h3><p class="hint">训练、模版、收藏和身体记录均保存在本机。APP 不申请联网、通讯录、定位、相机或手机号权限。卸载会删除本地记录，请提前导出 JSON 备份。</p><h3>动作图片</h3><p class="hint">${builtin.filter((e) => animationFor(e)).length} 个动作已配备离线动画，红色高亮提示参与肌群。当前为待检查版本；自定义动作使用缺省图。不使用原版 APK 的图片和动画。</p><p class="hint media-credit">3D 人体：MakeHuman CC0 · 动画、器械与肌群材质：日跻制作。<br>兼容静态图：Exercise data by RepDB (repdb.co) · RepDB Free Tier License v1.0。</p><h3>当前范围</h3><p class="hint">支持训练记录、普通/热身/递减组、休息计时、个人模版、动作收藏与自定义动作新建/编辑/删除、历史、容量统计、身体数据和备份。未接入原版账号、AI、云端、社区、饮食服务及手表联动。</p>`;
+      content = `<div class="row about-brand"><div class="brand-icon"><img src="brand-mark.svg" alt="" width="44" height="44"></div><div><h2>日跻 1.0.6</h2><small>力量训练记录</small></div></div><p>如月之恒，如日之升</p><p class="hint">——《诗经·小雅·天保》</p><p>参照训记的核心训练流程独立实现，无需账号即可记录和查看训练。</p><hr class="divider"><h3>你的数据</h3><p class="hint">训练、模版、收藏和身体记录均保存在本机。APP 不申请联网、通讯录、定位、相机或手机号权限。卸载会删除本地记录，请提前导出 JSON 备份。</p><h3>动作图片</h3><p class="hint">${builtin.filter((e) => animationFor(e)).length} 个动作已配备离线动画，红色高亮提示参与肌群。当前为待检查版本；自定义动作使用缺省图。不使用原版 APK 的图片和动画。</p><h3>当前范围</h3><p class="hint">支持训练记录、普通/热身/递减组、休息计时、个人模版、动作收藏与自定义动作新建/编辑/删除、历史、容量统计、身体数据和备份。未接入原版账号、AI、云端、社区、饮食服务及手表联动。</p>`;
     }
     $("#overlay").innerHTML = modalFrame(title, content, footer);
   }

@@ -16,7 +16,10 @@ test("常用动作显示本地动画；自定义动作使用缺省图且可完�
   );
   await page.locator('[data-action="detail"][data-id="benchpress"]').click();
   await expect(page.locator(".detail-image")).toHaveCount(1);
-  await expect(page.locator(".media-credit")).toContainText("MakeHuman CC0");
+  await expect(page.locator(".media-credit")).toHaveText(
+    "动作与肌群示意 · 待检查",
+  );
+  await expect(page.getByRole("dialog")).not.toContainText(/RepDB|MakeHuman/i);
   await expect
     .poll(() =>
       page
@@ -57,8 +60,49 @@ test("常用动作显示本地动画；自定义动作使用缺省图且可完�
   await expect(page.getByRole("dialog")).toContainText(
     "80 个动作已配备离线动画",
   );
-  await expect(page.getByRole("dialog")).toContainText(
-    "RepDB Free Tier License v1.0",
-  );
+  await expect(page.getByRole("dialog")).not.toContainText(/RepDB|MakeHuman/i);
+  await page.screenshot({ path: "qa/remove-repdb/about-1.0.6.png" });
   expect(failures).toEqual([]);
+});
+
+test("旧平板支撑复用离线动画，收藏与重量记录保持兼容", async ({ page }) => {
+  const C = require("../../app/src/main/assets/core.js");
+  const state = C.initialState();
+  state.favorites = ["plan-king"];
+  const stored = JSON.stringify(state);
+  await page.addInitScript(
+    (value) => localStorage.setItem("jilian-state", value),
+    stored,
+  );
+  const failedRequests = [];
+  page.on("response", (response) => {
+    if (response.status() >= 400) failedRequests.push(response.url());
+  });
+  await page.goto("/");
+  await page.locator('[data-tab="me"]').click();
+  await page.locator('[data-action="showFavorites"]').click();
+  await page.locator('[data-action="detail"][data-id="plan-king"]').click();
+  await expect(page.locator(".motion-image")).toHaveCount(1);
+  const expected = await page.evaluate(
+    () => window.EXERCISE_ANIMATIONS.plank_recorder.animation,
+  );
+  await expect(page.locator(".motion-image")).toHaveAttribute("src", expected);
+  await expect
+    .poll(() =>
+      page
+        .locator(".motion-image")
+        .evaluate((image) => image.complete && image.naturalWidth === 768),
+    )
+    .toBe(true);
+  expect(await page.evaluate(() => localStorage.getItem("jilian-state"))).toBe(
+    stored,
+  );
+  await page.getByRole("dialog").locator('[data-action="quickAdd"]').click();
+  await expect(page.locator('[data-field="weight"]')).toHaveCount(3);
+  const saved = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem("jilian-state")),
+  );
+  expect(saved.favorites).toEqual(["plan-king"]);
+  expect(saved.active.exercises[0].exerciseId).toBe("plan-king");
+  expect(failedRequests).toEqual([]);
 });

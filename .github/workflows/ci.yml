@@ -16,7 +16,6 @@ jobs:
           node-version: "22"
           cache: npm
       - run: npm ci
-      - run: npm run prepare:media
       - run: npm test
       - run: npx playwright install --with-deps chromium
       - run: npx playwright test

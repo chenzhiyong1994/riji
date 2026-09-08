@@ -77,10 +77,7 @@ test("80 个现役动作逐一绑定原候选动图；安装包只包含登记�
     hash(fs.readFileSync(path.join(assets, manifest.licensePath))),
     manifest.licenseSha256,
   );
-  const expected = [
-    ...registered.keys(),
-    ...read(path.join(assets, "media-manifest.json")).files.map((f) => f.path),
-  ];
+  const expected = [...registered.keys()];
   const actual = [];
   function walk(dir) {
     for (const item of fs.readdirSync(dir, { withFileTypes: true })) {

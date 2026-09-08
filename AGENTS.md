@@ -7,6 +7,6 @@
 - 不提交签名密钥、密码、用户训练数据或本机配置。更新安装沿用同一签名，不卸载、不清数据。
 - `tests/android-smoke.cjs` 仅可用于空白测试安装。已有训练的设备只做只读检查；行为测试在隔离浏览器中进行。
 - 80 个动作动画仍待姿势复核。只修改涉及的动作，技术检查通过不等于动作姿势合格。
-- 保留 MakeHuman CC0 与 RepDB 许可、署名、来源和逐文件哈希；RepDB 图片仅作应用内使用，不作为数据集提交或用于生成式 AI。
-- 验证入口：`npm ci`、`npm run prepare:media`、`npm test`、`npx playwright install chromium`、`npx playwright test`、`./gradlew :app:assembleRelease :app:lintRelease`。
+- 保留人体资产的 CC0 许可、来源和逐文件哈希。App 与介绍页不展示上游署名，来源记录留在源码；不重新引入已移除的静态图库或原 APK 媒体。
+- 验证入口：`npm ci`、`npm test`、`npx playwright install chromium`、`npx playwright test`、`./gradlew :app:assembleRelease :app:lintRelease`。
 - 发布前查看完整 diff、运行适用检查并本地提交。公开推送须完成实际内容与凭证审计，精确发布预定分支。
