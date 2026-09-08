@@ -1,0 +1,67 @@
+{
+  "id": "arnold_shoulderpress",
+  "name": "阿诺德推肩",
+  "index": 51,
+  "slug": "51-overhead-arnold-dumbbells",
+  "muscles": {
+    "front_delts": 1.0,
+    "side_delts": 0.8,
+    "triceps": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 628940,
+    "sha256": "e1a72e71a42523c1e792bcb4884edd6acf4f0acff5d9b516cd42bd0d1886e3c0",
+    "redChecks": [
+      {
+        "pixels": 3093,
+        "meanRed": 235.80148315429688
+      },
+      {
+        "pixels": 2924,
+        "meanRed": 183.85601806640625
+      }
+    ],
+    "loopPixelDelta": 0.30647738017733134,
+    "largestPosePixelDelta": 4.385670979817708
+  },
+  "poster": {
+    "sha256": "87a6ef2081646b392caea2a788fe2d49465f1716d6453fe133e482f9e69bd062",
+    "bytes": 17528
+  },
+  "thumb": {
+    "sha256": "bf91b8444face4df4f16a33a56ad194e72735cd4180fa18c3d5152959c442911",
+    "bytes": 2066,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4799486420077248e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "e1a72e71a42523c1e792bcb4884edd6acf4f0acff5d9b516cd42bd0d1886e3c0",
+    "keyframesSha256": "d4fca778829da6632d9601916f66f4626497253f6202ceacdcf11345b25864d2",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

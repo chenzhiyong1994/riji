@@ -1,0 +1,68 @@
+{
+  "id": "deadlift",
+  "name": "硬拉",
+  "index": 26,
+  "slug": "26-hinge-deadlift-barbell",
+  "muscles": {
+    "glutes": 1.0,
+    "hamstrings": 0.8,
+    "quads": 0.65,
+    "erectors": 0.5
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 825280,
+    "sha256": "732ae2df01950b18e5abf32d294c29510cc4d4ec9a2514e1f68e590132a7a1d0",
+    "redChecks": [
+      {
+        "pixels": 8761,
+        "meanRed": 180.99246215820312
+      },
+      {
+        "pixels": 5900,
+        "meanRed": 157.5889892578125
+      }
+    ],
+    "loopPixelDelta": 0.40275694831969244,
+    "largestPosePixelDelta": 18.780915275452628
+  },
+  "poster": {
+    "sha256": "06135f25c2ca7ef36a26f1112703660f5317930dc5aea21b3a5419ed5f1357cf",
+    "bytes": 14508
+  },
+  "thumb": {
+    "sha256": "36ce0d95cdb3609529de603bba5e10da770b91280131493843b270715936b24d",
+    "bytes": 1766,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.555641928216858e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "732ae2df01950b18e5abf32d294c29510cc4d4ec9a2514e1f68e590132a7a1d0",
+    "keyframesSha256": "d84bd4fa6479fecd79926843c31b8e84fd5ed051dda46b3a681d49285f99c690",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

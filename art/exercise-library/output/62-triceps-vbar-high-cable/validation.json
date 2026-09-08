@@ -1,0 +1,65 @@
+{
+  "id": "vbar_pulldown",
+  "name": "V-Bar 绳索下压",
+  "index": 62,
+  "slug": "62-triceps-vbar-high-cable",
+  "muscles": {
+    "triceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 480030,
+    "sha256": "4cf515a75f15fdfe37aaafcc2df6d18e5d326ad49f26c8bb02475f3b1822c833",
+    "redChecks": [
+      {
+        "pixels": 2785,
+        "meanRed": 214.78707885742188
+      },
+      {
+        "pixels": 2635,
+        "meanRed": 152.66641235351562
+      }
+    ],
+    "loopPixelDelta": 0.23642500620039683,
+    "largestPosePixelDelta": 1.2274906218998016
+  },
+  "poster": {
+    "sha256": "5932b576346b2881f7050701c1320307cb0dfe7e122991e3ed497d71eb124be1",
+    "bytes": 15622
+  },
+  "thumb": {
+    "sha256": "fd66422f921835b503332a47616d534187258c7e477759bad4b41bf265d3ed80",
+    "bytes": 1816,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1696225078815464e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "4cf515a75f15fdfe37aaafcc2df6d18e5d326ad49f26c8bb02475f3b1822c833",
+    "keyframesSha256": "6166809285197f816d13a4699cd98cb2138717fe61b04b31e6727d4a3141b35f",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

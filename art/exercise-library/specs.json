@@ -1,0 +1,1865 @@
+[
+  {
+    "index": 1,
+    "id": "benchpress",
+    "name": "杠铃卧推",
+    "category": "胸",
+    "slug": "01-press-flat-barbell",
+    "family": "press",
+    "variant": "flat",
+    "apparatus": "barbell",
+    "muscles": {
+      "chest": 1.0,
+      "triceps": 0.55,
+      "front_delts": 0.45
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 2,
+    "id": "dumbellpress",
+    "name": "哑铃卧推",
+    "category": "胸",
+    "slug": "02-press-flat-dumbbells",
+    "family": "press",
+    "variant": "flat",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "chest": 1.0,
+      "triceps": 0.45,
+      "front_delts": 0.4
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 3,
+    "id": "upperdumbellpress",
+    "name": "上斜哑铃卧推",
+    "category": "胸",
+    "slug": "03-press-incline-dumbbells",
+    "family": "press",
+    "variant": "incline",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "chest": 1.0,
+      "front_delts": 0.65,
+      "triceps": 0.45
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 4,
+    "id": "incline-benchpress",
+    "name": "上斜杠铃卧推",
+    "category": "胸",
+    "slug": "04-press-incline-barbell",
+    "family": "press",
+    "variant": "incline",
+    "apparatus": "barbell",
+    "muscles": {
+      "chest": 1.0,
+      "front_delts": 0.65,
+      "triceps": 0.45
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 5,
+    "id": "machinepress",
+    "name": "器械推胸",
+    "category": "胸",
+    "slug": "05-press-seated-chest-machine",
+    "family": "press",
+    "variant": "seated",
+    "apparatus": "chest-machine",
+    "muscles": {
+      "chest": 1.0,
+      "triceps": 0.5,
+      "front_delts": 0.4
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 6,
+    "id": "smithpress",
+    "name": "史密斯机卧推",
+    "category": "胸",
+    "slug": "06-press-flat-smith",
+    "family": "press",
+    "variant": "flat",
+    "apparatus": "smith",
+    "muscles": {
+      "chest": 1.0,
+      "triceps": 0.55,
+      "front_delts": 0.4
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 7,
+    "id": "fly",
+    "name": "哑铃飞鸟",
+    "category": "胸",
+    "slug": "07-fly-supine-dumbbells",
+    "family": "fly",
+    "variant": "supine",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "chest": 1.0,
+      "front_delts": 0.35
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 8,
+    "id": "machinefly",
+    "name": "蝴蝶机夹胸",
+    "category": "胸",
+    "slug": "08-fly-seated-pec-deck",
+    "family": "fly",
+    "variant": "seated",
+    "apparatus": "pec-deck",
+    "muscles": {
+      "chest": 1.0,
+      "front_delts": 0.3
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 9,
+    "id": "cablefly",
+    "name": "绳索夹胸",
+    "category": "胸",
+    "slug": "09-fly-standing-dual-cable",
+    "family": "fly",
+    "variant": "standing",
+    "apparatus": "dual-cable",
+    "muscles": {
+      "chest": 1.0,
+      "front_delts": 0.3
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 10,
+    "id": "bardips",
+    "name": "双杠臂屈伸",
+    "category": "胸",
+    "slug": "10-dip-forward-dip-bars",
+    "family": "dip",
+    "variant": "forward",
+    "apparatus": "dip-bars",
+    "muscles": {
+      "chest": 1.0,
+      "triceps": 0.85,
+      "front_delts": 0.35
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 11,
+    "id": "pushup-xunji",
+    "name": "俯卧撑",
+    "category": "胸",
+    "slug": "11-pushup-full-mat",
+    "family": "pushup",
+    "variant": "full",
+    "apparatus": "mat",
+    "muscles": {
+      "chest": 1.0,
+      "triceps": 0.65,
+      "front_delts": 0.4,
+      "abs": 0.25
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 12,
+    "id": "knee-push-up-fz",
+    "name": "跪姿俯卧撑",
+    "category": "胸",
+    "slug": "12-pushup-knees-mat",
+    "family": "pushup",
+    "variant": "knees",
+    "apparatus": "mat",
+    "muscles": {
+      "chest": 1.0,
+      "triceps": 0.65,
+      "front_delts": 0.4
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 13,
+    "id": "pulldown",
+    "name": "宽距高位下拉",
+    "category": "背",
+    "slug": "13-pulldown-wide-lat-machine",
+    "family": "pulldown",
+    "variant": "wide",
+    "apparatus": "lat-machine",
+    "muscles": {
+      "lats": 1.0,
+      "biceps": 0.55,
+      "upper_back": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 14,
+    "id": "closepulldown",
+    "name": "窄距下拉",
+    "category": "背",
+    "slug": "14-pulldown-close-lat-machine",
+    "family": "pulldown",
+    "variant": "close",
+    "apparatus": "lat-machine",
+    "muscles": {
+      "lats": 1.0,
+      "biceps": 0.65,
+      "upper_back": 0.4
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 15,
+    "id": "barbellrow",
+    "name": "杠铃划船",
+    "category": "背",
+    "slug": "15-row-bent-barbell",
+    "family": "row",
+    "variant": "bent",
+    "apparatus": "barbell",
+    "muscles": {
+      "lats": 0.8,
+      "upper_back": 1.0,
+      "biceps": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 16,
+    "id": "dumbellrowbench",
+    "name": "哑铃划船",
+    "category": "背",
+    "slug": "16-row-single-dumbbell-bench",
+    "family": "row",
+    "variant": "single",
+    "apparatus": "dumbbell-bench",
+    "muscles": {
+      "lats": 1.0,
+      "upper_back": 0.7,
+      "biceps": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 17,
+    "id": "sit_cable_row",
+    "name": "坐姿划船",
+    "category": "背",
+    "slug": "17-row-seated-row-cable",
+    "family": "row",
+    "variant": "seated",
+    "apparatus": "row-cable",
+    "muscles": {
+      "lats": 1.0,
+      "upper_back": 0.8,
+      "biceps": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 18,
+    "id": "machine_pulldown",
+    "name": "器械下拉",
+    "category": "背",
+    "slug": "18-pulldown-neutral-lever-lat",
+    "family": "pulldown",
+    "variant": "neutral",
+    "apparatus": "lever-lat",
+    "muscles": {
+      "lats": 1.0,
+      "biceps": 0.55,
+      "upper_back": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 19,
+    "id": "machinerowling",
+    "name": "器械划船",
+    "category": "背",
+    "slug": "19-row-supported-row-machine",
+    "family": "row",
+    "variant": "supported",
+    "apparatus": "row-machine",
+    "muscles": {
+      "lats": 0.85,
+      "upper_back": 1.0,
+      "biceps": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 20,
+    "id": "tbar_row",
+    "name": "T 杆划船",
+    "category": "背",
+    "slug": "20-row-tbar-tbar",
+    "family": "row",
+    "variant": "tbar",
+    "apparatus": "tbar",
+    "muscles": {
+      "upper_back": 1.0,
+      "lats": 0.8,
+      "biceps": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 21,
+    "id": "weight_pullup",
+    "name": "引体向上",
+    "category": "背",
+    "slug": "21-pullup-wide-pullup-bar",
+    "family": "pullup",
+    "variant": "wide",
+    "apparatus": "pullup-bar",
+    "muscles": {
+      "lats": 1.0,
+      "biceps": 0.6,
+      "upper_back": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 22,
+    "id": "weight_reverse_pullup",
+    "name": "反手引体向上",
+    "category": "背",
+    "slug": "22-pullup-underhand-pullup-bar",
+    "family": "pullup",
+    "variant": "underhand",
+    "apparatus": "pullup-bar",
+    "muscles": {
+      "lats": 1.0,
+      "biceps": 0.8,
+      "upper_back": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 23,
+    "id": "weight_reverse_pullup_heping",
+    "name": "引体向上（辅助）",
+    "category": "背",
+    "slug": "23-pullup-assisted-assisted-pullup",
+    "family": "pullup",
+    "variant": "assisted",
+    "apparatus": "assisted-pullup",
+    "muscles": {
+      "lats": 1.0,
+      "biceps": 0.6,
+      "upper_back": 0.5
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 24,
+    "id": "rollpulldown",
+    "name": "绳索直臂下压",
+    "category": "背",
+    "slug": "24-straight_pull-standing-high-cable",
+    "family": "straight_pull",
+    "variant": "standing",
+    "apparatus": "high-cable",
+    "muscles": {
+      "lats": 1.0,
+      "triceps": 0.25
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 25,
+    "id": "squat",
+    "name": "杠铃深蹲",
+    "category": "腿",
+    "slug": "25-squat-back-barbell",
+    "family": "squat",
+    "variant": "back",
+    "apparatus": "barbell",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.85,
+      "erectors": 0.3
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 26,
+    "id": "deadlift",
+    "name": "硬拉",
+    "category": "腿",
+    "slug": "26-hinge-deadlift-barbell",
+    "family": "hinge",
+    "variant": "deadlift",
+    "apparatus": "barbell",
+    "muscles": {
+      "glutes": 1.0,
+      "hamstrings": 0.8,
+      "quads": 0.65,
+      "erectors": 0.5
+    },
+    "view": "back",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 27,
+    "id": "Sumo-Deadlift",
+    "name": "相扑硬拉",
+    "category": "腿",
+    "slug": "27-hinge-sumo-barbell",
+    "family": "hinge",
+    "variant": "sumo",
+    "apparatus": "barbell",
+    "muscles": {
+      "glutes": 1.0,
+      "adductors": 0.8,
+      "quads": 0.8,
+      "hamstrings": 0.45
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 28,
+    "id": "romaniadeadlift",
+    "name": "罗马尼亚硬拉",
+    "category": "腿",
+    "slug": "28-hinge-romanian-barbell",
+    "family": "hinge",
+    "variant": "romanian",
+    "apparatus": "barbell",
+    "muscles": {
+      "hamstrings": 1.0,
+      "glutes": 0.85,
+      "erectors": 0.35
+    },
+    "view": "back",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 29,
+    "id": "hackssssquat",
+    "name": "哈克机深蹲",
+    "category": "腿",
+    "slug": "29-squat-hack-hack-machine",
+    "family": "squat",
+    "variant": "hack",
+    "apparatus": "hack-machine",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.6
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 30,
+    "id": "smithsquat",
+    "name": "史密斯机深蹲",
+    "category": "腿",
+    "slug": "30-squat-smith-smith",
+    "family": "squat",
+    "variant": "smith",
+    "apparatus": "smith",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.8
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 31,
+    "id": "Barbell-Front-Squat",
+    "name": "前蹲",
+    "category": "腿",
+    "slug": "31-squat-front-barbell",
+    "family": "squat",
+    "variant": "front",
+    "apparatus": "barbell",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.65,
+      "abs": 0.25
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 32,
+    "id": "17601201-Dumbbell-Goblet-Squat_Thighs",
+    "name": "哑铃酒杯深蹲",
+    "category": "腿",
+    "slug": "32-squat-goblet-goblet",
+    "family": "squat",
+    "variant": "goblet",
+    "apparatus": "goblet",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.65
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 33,
+    "id": "leg_curl_linedown",
+    "name": "腿弯举",
+    "category": "腿",
+    "slug": "33-leg_curl-lying-lying-curl",
+    "family": "leg_curl",
+    "variant": "lying",
+    "apparatus": "lying-curl",
+    "muscles": {
+      "hamstrings": 1.0,
+      "calves": 0.35
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 34,
+    "id": "Lever-Seated-Leg",
+    "name": "坐姿腿弯举",
+    "category": "腿",
+    "slug": "34-leg_curl-seated-seated-curl",
+    "family": "leg_curl",
+    "variant": "seated",
+    "apparatus": "seated-curl",
+    "muscles": {
+      "hamstrings": 1.0,
+      "calves": 0.3
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 35,
+    "id": "legextendtion",
+    "name": "坐姿腿屈伸",
+    "category": "腿",
+    "slug": "35-leg_extension-seated-leg-extension",
+    "family": "leg_extension",
+    "variant": "seated",
+    "apparatus": "leg-extension",
+    "muscles": {
+      "quads": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 36,
+    "id": "legpress_machine",
+    "name": "腿举",
+    "category": "腿",
+    "slug": "36-leg_press-incline-leg-press",
+    "family": "leg_press",
+    "variant": "incline",
+    "apparatus": "leg-press",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.8
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 37,
+    "id": "langes",
+    "name": "杠铃箭步蹲",
+    "category": "腿",
+    "slug": "37-lunge-barbell-barbell",
+    "family": "lunge",
+    "variant": "barbell",
+    "apparatus": "barbell",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.85
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 38,
+    "id": "11971201-Squat-m_Thighs_small.mp4",
+    "name": "自重深蹲",
+    "category": "腿",
+    "slug": "38-squat-bodyweight-none",
+    "family": "squat",
+    "variant": "bodyweight",
+    "apparatus": "none",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.8
+    },
+    "view": "front",
+    "effortPhase": "return",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 39,
+    "id": "hiptrust",
+    "name": "杠铃臀冲",
+    "category": "臀部",
+    "slug": "39-bridge-bench-hip-barbell",
+    "family": "bridge",
+    "variant": "bench",
+    "apparatus": "hip-barbell",
+    "muscles": {
+      "glutes": 1.0,
+      "hamstrings": 0.4
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 40,
+    "id": "smith_hiptrust",
+    "name": "史密斯臀冲",
+    "category": "臀部",
+    "slug": "40-bridge-bench-hip-smith",
+    "family": "bridge",
+    "variant": "bench",
+    "apparatus": "hip-smith",
+    "muscles": {
+      "glutes": 1.0,
+      "hamstrings": 0.4
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 41,
+    "id": "leg_spred",
+    "name": "坐姿髋外展",
+    "category": "臀部",
+    "slug": "41-hip_machine-abduction-hip-machine",
+    "family": "hip_machine",
+    "variant": "abduction",
+    "apparatus": "hip-machine",
+    "muscles": {
+      "abductors": 1.0,
+      "glutes": 0.55
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 42,
+    "id": "leg_press_in",
+    "name": "坐姿髋内收",
+    "category": "臀部",
+    "slug": "42-hip_machine-adduction-hip-machine",
+    "family": "hip_machine",
+    "variant": "adduction",
+    "apparatus": "hip-machine",
+    "muscles": {
+      "adductors": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 43,
+    "id": "f_s_f294",
+    "name": "自重臀桥",
+    "category": "臀部",
+    "slug": "43-bridge-floor-mat",
+    "family": "bridge",
+    "variant": "floor",
+    "apparatus": "mat",
+    "muscles": {
+      "glutes": 1.0,
+      "hamstrings": 0.4
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 44,
+    "id": "shoulderpress",
+    "name": "哑铃推肩",
+    "category": "肩",
+    "slug": "44-overhead-seated-dumbbells",
+    "family": "overhead",
+    "variant": "seated",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "front_delts": 1.0,
+      "side_delts": 0.8,
+      "triceps": 0.55
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 45,
+    "id": "laderrow",
+    "name": "哑铃侧平举",
+    "category": "肩",
+    "slug": "45-raise-lateral-dumbbells",
+    "family": "raise",
+    "variant": "lateral",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "side_delts": 1.0,
+      "front_delts": 0.25
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 46,
+    "id": "frontraise",
+    "name": "哑铃前平举",
+    "category": "肩",
+    "slug": "46-raise-front-dumbbells",
+    "family": "raise",
+    "variant": "front",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "front_delts": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 47,
+    "id": "sideladerrow",
+    "name": "俯身哑铃飞鸟",
+    "category": "肩",
+    "slug": "47-raise-reverse-dumbbells",
+    "family": "raise",
+    "variant": "reverse",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "rear_delts": 1.0,
+      "upper_back": 0.65
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 48,
+    "id": "barbell_showlderpress",
+    "name": "站姿杠铃推举",
+    "category": "肩",
+    "slug": "48-overhead-standing-barbell",
+    "family": "overhead",
+    "variant": "standing",
+    "apparatus": "barbell",
+    "muscles": {
+      "front_delts": 1.0,
+      "side_delts": 0.7,
+      "triceps": 0.6
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 49,
+    "id": "machineshoulderpress",
+    "name": "器械坐姿推举",
+    "category": "肩",
+    "slug": "49-overhead-seated-shoulder-machine",
+    "family": "overhead",
+    "variant": "seated",
+    "apparatus": "shoulder-machine",
+    "muscles": {
+      "front_delts": 1.0,
+      "side_delts": 0.8,
+      "triceps": 0.6
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 50,
+    "id": "Lever-Seated-Reverse-Fly",
+    "name": "蝴蝶机反向飞鸟",
+    "category": "肩",
+    "slug": "50-raise-pec-reverse-reverse-deck",
+    "family": "raise",
+    "variant": "pec-reverse",
+    "apparatus": "reverse-deck",
+    "muscles": {
+      "rear_delts": 1.0,
+      "upper_back": 0.6
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 51,
+    "id": "arnold_shoulderpress",
+    "name": "阿诺德推肩",
+    "category": "肩",
+    "slug": "51-overhead-arnold-dumbbells",
+    "family": "overhead",
+    "variant": "arnold",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "front_delts": 1.0,
+      "side_delts": 0.8,
+      "triceps": 0.5
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 52,
+    "id": "face-pullingg",
+    "name": "面拉",
+    "category": "肩",
+    "slug": "52-face_pull-standing-high-cable",
+    "family": "face_pull",
+    "variant": "standing",
+    "apparatus": "high-cable",
+    "muscles": {
+      "rear_delts": 1.0,
+      "upper_back": 0.85
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 53,
+    "id": "dumbbellcurl",
+    "name": "哑铃弯举",
+    "category": "二头",
+    "slug": "53-curl-supinated-dumbbells",
+    "family": "curl",
+    "variant": "supinated",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "biceps": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 54,
+    "id": "barbellcrul",
+    "name": "杠铃弯举",
+    "category": "二头",
+    "slug": "54-curl-supinated-barbell",
+    "family": "curl",
+    "variant": "supinated",
+    "apparatus": "barbell",
+    "muscles": {
+      "biceps": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 55,
+    "id": "hammercurl",
+    "name": "锤式弯举",
+    "category": "二头",
+    "slug": "55-curl-hammer-dumbbells",
+    "family": "curl",
+    "variant": "hammer",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "biceps": 0.85,
+      "forearms": 0.65
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 56,
+    "id": "prechercurl",
+    "name": "牧师凳弯举",
+    "category": "二头",
+    "slug": "56-curl-preacher-preacher-bar",
+    "family": "curl",
+    "variant": "preacher",
+    "apparatus": "preacher-bar",
+    "muscles": {
+      "biceps": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 57,
+    "id": "cablecurl",
+    "name": "绳索弯举",
+    "category": "二头",
+    "slug": "57-curl-cable-low-cable",
+    "family": "curl",
+    "variant": "cable",
+    "apparatus": "low-cable",
+    "muscles": {
+      "biceps": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 58,
+    "id": "incline_dumbell_curl",
+    "name": "上斜哑铃弯举",
+    "category": "二头",
+    "slug": "58-curl-incline-dumbbells",
+    "family": "curl",
+    "variant": "incline",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "biceps": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 59,
+    "id": "dumbbellbackpull",
+    "name": "哑铃过头臂屈伸",
+    "category": "三头",
+    "slug": "59-triceps-overhead-single-dumbbell",
+    "family": "triceps",
+    "variant": "overhead",
+    "apparatus": "single-dumbbell",
+    "muscles": {
+      "triceps": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 60,
+    "id": "cablepulldowntrp",
+    "name": "绳索臂屈伸",
+    "category": "三头",
+    "slug": "60-triceps-rope-high-cable",
+    "family": "triceps",
+    "variant": "rope",
+    "apparatus": "high-cable",
+    "muscles": {
+      "triceps": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 61,
+    "id": "calble_overhead_pullup",
+    "name": "绳索过头臂屈伸",
+    "category": "三头",
+    "slug": "61-triceps-overhead-cable-high-cable",
+    "family": "triceps",
+    "variant": "overhead-cable",
+    "apparatus": "high-cable",
+    "muscles": {
+      "triceps": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 62,
+    "id": "vbar_pulldown",
+    "name": "V-Bar 绳索下压",
+    "category": "三头",
+    "slug": "62-triceps-vbar-high-cable",
+    "family": "triceps",
+    "variant": "vbar",
+    "apparatus": "high-cable",
+    "muscles": {
+      "triceps": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 63,
+    "id": "bar_scullcrash",
+    "name": "碎颅者",
+    "category": "三头",
+    "slug": "63-triceps-skull-barbell",
+    "family": "triceps",
+    "variant": "skull",
+    "apparatus": "barbell",
+    "muscles": {
+      "triceps": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 64,
+    "id": "closegrip_barbell_press",
+    "name": "窄距卧推(敞开式)",
+    "category": "三头",
+    "slug": "64-press-close-barbell",
+    "family": "press",
+    "variant": "close",
+    "apparatus": "barbell",
+    "muscles": {
+      "triceps": 1.0,
+      "chest": 0.65,
+      "front_delts": 0.35
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 65,
+    "id": "Dumbbell-Standing-Calf-Raise",
+    "name": "站姿哑铃提踵",
+    "category": "小腿",
+    "slug": "65-calf-standing-dumbbells",
+    "family": "calf",
+    "variant": "standing",
+    "apparatus": "dumbbells",
+    "muscles": {
+      "calves": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 66,
+    "id": "f_s_f212",
+    "name": "站姿自重提踵",
+    "category": "小腿",
+    "slug": "66-calf-standing-none",
+    "family": "calf",
+    "variant": "standing",
+    "apparatus": "none",
+    "muscles": {
+      "calves": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 67,
+    "id": "Lever-Seated-Calf-Raise",
+    "name": "坐姿器械提踵",
+    "category": "小腿",
+    "slug": "67-calf-seated-calf-machine",
+    "family": "calf",
+    "variant": "seated",
+    "apparatus": "calf-machine",
+    "muscles": {
+      "calves": 1.0
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 68,
+    "id": "abs-curl",
+    "name": "卷腹",
+    "category": "核心",
+    "slug": "68-core-crunch-mat",
+    "family": "core",
+    "variant": "crunch",
+    "apparatus": "mat",
+    "muscles": {
+      "abs": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 69,
+    "id": "leg-rise",
+    "name": "仰卧抬腿",
+    "category": "核心",
+    "slug": "69-core-leg-raise-mat",
+    "family": "core",
+    "variant": "leg-raise",
+    "apparatus": "mat",
+    "muscles": {
+      "abs": 1.0,
+      "hip_flexors": 0.55
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 70,
+    "id": "plank_recorder",
+    "name": "平板支撑",
+    "category": "核心",
+    "slug": "70-core-plank-mat",
+    "family": "core",
+    "variant": "plank",
+    "apparatus": "mat",
+    "muscles": {
+      "abs": 1.0,
+      "obliques": 0.5
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 71,
+    "id": "Cable-Kneeling-Crunch_Waist_small",
+    "name": "绳索跪姿卷腹",
+    "category": "核心",
+    "slug": "71-core-cable-crunch-high-cable",
+    "family": "core",
+    "variant": "cable-crunch",
+    "apparatus": "high-cable",
+    "muscles": {
+      "abs": 1.0
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 72,
+    "id": "04741201-Hanging-Straight-Leg-Hip-Raise_Waist",
+    "name": "悬挂抬腿",
+    "category": "核心",
+    "slug": "72-core-hanging-raise-pullup-bar",
+    "family": "core",
+    "variant": "hanging-raise",
+    "apparatus": "pullup-bar",
+    "muscles": {
+      "abs": 1.0,
+      "hip_flexors": 0.65
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 73,
+    "id": "02761201-Dead-Bug_Waist",
+    "name": "死虫",
+    "category": "核心",
+    "slug": "73-core-dead-bug-mat",
+    "family": "core",
+    "variant": "dead-bug",
+    "apparatus": "mat",
+    "muscles": {
+      "abs": 1.0,
+      "obliques": 0.35
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 74,
+    "id": "48111201",
+    "name": "侧平板支撑",
+    "category": "核心",
+    "slug": "74-core-side-plank-mat",
+    "family": "core",
+    "variant": "side-plank",
+    "apparatus": "mat",
+    "muscles": {
+      "obliques": 1.0,
+      "abductors": 0.4
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 75,
+    "id": "running",
+    "name": "跑步机跑步",
+    "category": "有氧",
+    "slug": "75-cardio-run-treadmill",
+    "family": "cardio",
+    "variant": "run",
+    "apparatus": "treadmill",
+    "muscles": {
+      "quads": 0.8,
+      "hamstrings": 0.7,
+      "calves": 1.0,
+      "glutes": 0.7
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 76,
+    "id": "bike",
+    "name": "动感单车",
+    "category": "有氧",
+    "slug": "76-cardio-cycle-bike",
+    "family": "cardio",
+    "variant": "cycle",
+    "apparatus": "bike",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.7,
+      "calves": 0.55
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 77,
+    "id": "22621301-Rowing-machine",
+    "name": "划船机",
+    "category": "有氧",
+    "slug": "77-cardio-row-rower",
+    "family": "cardio",
+    "variant": "row",
+    "apparatus": "rower",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.7,
+      "lats": 0.8,
+      "upper_back": 0.6
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 78,
+    "id": "21411301-Walk-Elliptical-Cross-Trainer_Cardio_180",
+    "name": "椭圆机",
+    "category": "有氧",
+    "slug": "78-cardio-elliptical-elliptical",
+    "family": "cardio",
+    "variant": "elliptical",
+    "apparatus": "elliptical",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 0.8,
+      "calves": 0.6
+    },
+    "view": "front",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 79,
+    "id": "23111201-Walking-on-Stepmill_Cardio_time",
+    "name": "爬楼梯",
+    "category": "有氧",
+    "slug": "79-cardio-stairs-stepmill",
+    "family": "cardio",
+    "variant": "stairs",
+    "apparatus": "stepmill",
+    "muscles": {
+      "quads": 1.0,
+      "glutes": 1.0,
+      "calves": 0.6
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  },
+  {
+    "index": 80,
+    "id": "36661201221",
+    "name": "爬坡走",
+    "category": "有氧",
+    "slug": "80-cardio-incline-walk-treadmill",
+    "family": "cardio",
+    "variant": "incline-walk",
+    "apparatus": "treadmill",
+    "muscles": {
+      "glutes": 1.0,
+      "calves": 0.9,
+      "quads": 0.65
+    },
+    "view": "back",
+    "effortPhase": "forward",
+    "frames": 72,
+    "fps": 24,
+    "durationMs": 3000,
+    "size": [
+      768,
+      896
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "Lever-Seated-Leg",
+  "name": "坐姿腿弯举",
+  "index": 34,
+  "slug": "34-leg_curl-seated-seated-curl",
+  "muscles": {
+    "hamstrings": 1.0,
+    "calves": 0.3
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 472864,
+    "sha256": "9726bbeb2a6ebb17adf425d770d4a0379c9afe177548c09eef787d7a469c63f1",
+    "redChecks": [
+      {
+        "pixels": 3527,
+        "meanRed": 148.02325439453125
+      },
+      {
+        "pixels": 2551,
+        "meanRed": 92.71344757080078
+      }
+    ],
+    "loopPixelDelta": 0.31073385571676587,
+    "largestPosePixelDelta": 3.085399324931796
+  },
+  "poster": {
+    "sha256": "d02a582abdfadf35daa034d20b213dc9f169dc23975b00a19212edd2ac8a1bfe",
+    "bytes": 16642
+  },
+  "thumb": {
+    "sha256": "a0c35da0a7b3d65a2cc46589afa5e6d50ef371d13d22de3cb4aa97edeaf995eb",
+    "bytes": 1772,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.08970832824707e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "9726bbeb2a6ebb17adf425d770d4a0379c9afe177548c09eef787d7a469c63f1",
+    "keyframesSha256": "197cccac42a99a9a1b7e6603594a9e1c66eca16933eedb11e653105c06e916c6",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

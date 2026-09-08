@@ -1,0 +1,67 @@
+{
+  "id": "incline-benchpress",
+  "name": "上斜杠铃卧推",
+  "index": 4,
+  "slug": "04-press-incline-barbell",
+  "muscles": {
+    "chest": 1.0,
+    "front_delts": 0.65,
+    "triceps": 0.45
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 827760,
+    "sha256": "66ef0ad55f58b70597431e8a0109167fc7c456389ad647f74ac9f22541287e40",
+    "redChecks": [
+      {
+        "pixels": 4526,
+        "meanRed": 238.22579956054688
+      },
+      {
+        "pixels": 4442,
+        "meanRed": 192.4196319580078
+      }
+    ],
+    "loopPixelDelta": 0.3131239149305555,
+    "largestPosePixelDelta": 9.991490924169147
+  },
+  "poster": {
+    "sha256": "e47fd1e7b8134dc4e9898b2aacdde24d811837aba954c1a699a271278462f0db",
+    "bytes": 18644
+  },
+  "thumb": {
+    "sha256": "13b9d6758c43870b104e7803bc289fb331c6ae0c5e86eff96109df1d279e4ad1",
+    "bytes": 2162,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.2930567949960611e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "66ef0ad55f58b70597431e8a0109167fc7c456389ad647f74ac9f22541287e40",
+    "keyframesSha256": "0e7af9b6a3b595aaef95e72a7ec96227a4546d296016f09f38d6af5f705db218",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

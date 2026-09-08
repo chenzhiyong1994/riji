@@ -1,0 +1,66 @@
+{
+  "id": "leg-rise",
+  "name": "仰卧抬腿",
+  "index": 69,
+  "slug": "69-core-leg-raise-mat",
+  "muscles": {
+    "abs": 1.0,
+    "hip_flexors": 0.55
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 563416,
+    "sha256": "c8dac983ba12df2f0737491d9bd1056114cd2d7d1ddf5507f01193a976961413",
+    "redChecks": [
+      {
+        "pixels": 2475,
+        "meanRed": 238.92242431640625
+      },
+      {
+        "pixels": 1953,
+        "meanRed": 204.8817138671875
+      }
+    ],
+    "loopPixelDelta": 0.3107149638826885,
+    "largestPosePixelDelta": 3.9582466246589783
+  },
+  "poster": {
+    "sha256": "3db5eb5f198908d2b5b07a69d38734a0a867c5ee3da5f99a5a1d14c06e2da0a5",
+    "bytes": 15408
+  },
+  "thumb": {
+    "sha256": "18f58374edf08656015c0e585f0753753b7ac554495378b401d81b38a61bd464",
+    "bytes": 1470,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.252079181536454e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "c8dac983ba12df2f0737491d9bd1056114cd2d7d1ddf5507f01193a976961413",
+    "keyframesSha256": "6389ae6c7f58010789b3be90bd8cd516173303b35484879ba7706afcd4390a1f",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

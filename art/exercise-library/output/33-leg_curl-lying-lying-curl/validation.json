@@ -1,0 +1,66 @@
+{
+  "id": "leg_curl_linedown",
+  "name": "腿弯举",
+  "index": 33,
+  "slug": "33-leg_curl-lying-lying-curl",
+  "muscles": {
+    "hamstrings": 1.0,
+    "calves": 0.35
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 705440,
+    "sha256": "852afe7cdbfa1d79079512b989134ffd8ca72af85ae1f5a652f7de692f511a17",
+    "redChecks": [
+      {
+        "pixels": 5679,
+        "meanRed": 247.5301971435547
+      },
+      {
+        "pixels": 5321,
+        "meanRed": 213.0689697265625
+      }
+    ],
+    "loopPixelDelta": 0.3054354228670635,
+    "largestPosePixelDelta": 3.4946758936321927
+  },
+  "poster": {
+    "sha256": "a45cb387a66fe8c30c42fd9891d483d72987942c64d5d1f9efe5da39ce53518d",
+    "bytes": 20486
+  },
+  "thumb": {
+    "sha256": "70dbd613db5eca640411dac00f3a1c944022a015c302a386d512e1fab82f9937",
+    "bytes": 2192,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.570444061357625e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "852afe7cdbfa1d79079512b989134ffd8ca72af85ae1f5a652f7de692f511a17",
+    "keyframesSha256": "4e2c8b69e7be40082f8e7b3cbab2f946476653827890b4864588b0629371e70f",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

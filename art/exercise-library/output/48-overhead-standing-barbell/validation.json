@@ -1,0 +1,67 @@
+{
+  "id": "barbell_showlderpress",
+  "name": "站姿杠铃推举",
+  "index": 48,
+  "slug": "48-overhead-standing-barbell",
+  "muscles": {
+    "front_delts": 1.0,
+    "side_delts": 0.7,
+    "triceps": 0.6
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 573912,
+    "sha256": "4d54636e99d164de71c986632ec30ac56741a056717fa60f92e0d5bffea1642a",
+    "redChecks": [
+      {
+        "pixels": 2239,
+        "meanRed": 235.18087768554688
+      },
+      {
+        "pixels": 2166,
+        "meanRed": 183.622802734375
+      }
+    ],
+    "loopPixelDelta": 0.2974751790364583,
+    "largestPosePixelDelta": 6.119492788163442
+  },
+  "poster": {
+    "sha256": "d4216145385ba4cbf9ef1fd1e5bca6db80c750b50abc2b7684c120cb6b34b287",
+    "bytes": 14402
+  },
+  "thumb": {
+    "sha256": "01cc9fc5602cf2d0c03d7a5268c9d826499962ef550a5d728a0c107f18d98330",
+    "bytes": 1732,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.8047176444506744e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "4d54636e99d164de71c986632ec30ac56741a056717fa60f92e0d5bffea1642a",
+    "keyframesSha256": "cef6614f594bb097fdf9f7fd7ae99ee4149724e95ace00b05113288efbe4b842",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

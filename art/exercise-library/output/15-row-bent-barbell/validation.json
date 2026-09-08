@@ -1,0 +1,67 @@
+{
+  "id": "barbellrow",
+  "name": "杠铃划船",
+  "index": 15,
+  "slug": "15-row-bent-barbell",
+  "muscles": {
+    "lats": 0.8,
+    "upper_back": 1.0,
+    "biceps": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 594968,
+    "sha256": "21287d0f235ed3fb374266953420834d7460922a06ad127d8c7ccf412ce767a6",
+    "redChecks": [
+      {
+        "pixels": 3536,
+        "meanRed": 247.544677734375
+      },
+      {
+        "pixels": 3385,
+        "meanRed": 212.05613708496094
+      }
+    ],
+    "loopPixelDelta": 0.25738622271825395,
+    "largestPosePixelDelta": 8.518821110801092
+  },
+  "poster": {
+    "sha256": "796fa3c39a68940a424d2d79298b4853b311b75e50285bbc3f249ca7fa8d424a",
+    "bytes": 13704
+  },
+  "thumb": {
+    "sha256": "4099c390497abbcc8034b1f0e77e6d558d99368520f4f740a98fcc24210f6d14",
+    "bytes": 1636,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.203983293019421e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "21287d0f235ed3fb374266953420834d7460922a06ad127d8c7ccf412ce767a6",
+    "keyframesSha256": "62081fbf4d2c90ff9aee428f76116b4c51348c59c2608f61a1e778732c93ad4e",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

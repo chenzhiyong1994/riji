@@ -1,0 +1,67 @@
+{
+  "id": "36661201221",
+  "name": "爬坡走",
+  "index": 80,
+  "slug": "80-cardio-incline-walk-treadmill",
+  "muscles": {
+    "glutes": 1.0,
+    "calves": 0.9,
+    "quads": 0.65
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 887256,
+    "sha256": "e90c8e25e6d9e873d6df784d8ac6455dd89132a1bc2a1501baaba24b4e703ba0",
+    "redChecks": [
+      {
+        "pixels": 12763,
+        "meanRed": 208.8977508544922
+      },
+      {
+        "pixels": 10253,
+        "meanRed": 166.1759490966797
+      }
+    ],
+    "loopPixelDelta": 0.47638326977926587,
+    "largestPosePixelDelta": 6.572883727058532
+  },
+  "poster": {
+    "sha256": "e9425ae59cc422b0a11f6c89e7971a4773ebe19c6424df1160b30057431a2dc9",
+    "bytes": 20872
+  },
+  "thumb": {
+    "sha256": "cbce2fc222c6703a72a51445e6441a5b7fde3633a783556653990831bd4fcbb9",
+    "bytes": 2568,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.588632343678252e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "e90c8e25e6d9e873d6df784d8ac6455dd89132a1bc2a1501baaba24b4e703ba0",
+    "keyframesSha256": "ebb1c237a7468fda259501bb223d55e4396ab186cbf3001be30c0859af1f8cf0",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

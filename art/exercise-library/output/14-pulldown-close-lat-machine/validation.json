@@ -1,0 +1,67 @@
+{
+  "id": "closepulldown",
+  "name": "窄距下拉",
+  "index": 14,
+  "slug": "14-pulldown-close-lat-machine",
+  "muscles": {
+    "lats": 1.0,
+    "biceps": 0.65,
+    "upper_back": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 812782,
+    "sha256": "2617d920bf74aa4cda18e810d6e4a5b829fa18a3adae17608e4f4a7861e7e680",
+    "redChecks": [
+      {
+        "pixels": 5257,
+        "meanRed": 191.0989227294922
+      },
+      {
+        "pixels": 4764,
+        "meanRed": 125.63980102539062
+      }
+    ],
+    "loopPixelDelta": 0.38937717013888884,
+    "largestPosePixelDelta": 2.5029824877542164
+  },
+  "poster": {
+    "sha256": "3b0904be3367c00923a8e7ac851b2d5f595ea3cf5f6330f1ce4f754afcb278c9",
+    "bytes": 22530
+  },
+  "thumb": {
+    "sha256": "8f510b83a5f990b9b1d5a2ab4c9307962b27d15655bad6ded4484441513c97dc",
+    "bytes": 2524,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4700884802403323e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "2617d920bf74aa4cda18e810d6e4a5b829fa18a3adae17608e4f4a7861e7e680",
+    "keyframesSha256": "81efe06f459c0cfefc4897c15ac745bc501f532e29ab831cfa990812a0459274",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

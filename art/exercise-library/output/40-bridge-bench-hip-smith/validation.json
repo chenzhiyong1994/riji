@@ -1,0 +1,66 @@
+{
+  "id": "smith_hiptrust",
+  "name": "史密斯臀冲",
+  "index": 40,
+  "slug": "40-bridge-bench-hip-smith",
+  "muscles": {
+    "glutes": 1.0,
+    "hamstrings": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 763134,
+    "sha256": "0cf3c470464ac81fe91b531ef6a2aa0b3d7b987053598e2ba01af1f8d7587a21",
+    "redChecks": [
+      {
+        "pixels": 4167,
+        "meanRed": 123.04031372070312
+      },
+      {
+        "pixels": 1560,
+        "meanRed": 86.1602554321289
+      }
+    ],
+    "loopPixelDelta": 0.36798967633928575,
+    "largestPosePixelDelta": 7.821865505642362
+  },
+  "poster": {
+    "sha256": "7d3f1f2189efe6b355f40f9415ab7ab3357e4028e2dc7bc0967c10618d954462",
+    "bytes": 16074
+  },
+  "thumb": {
+    "sha256": "9770fd728cbd1b228421e9a010c98e7f0dc3aae0964c27d70ebfced9cdaf88f2",
+    "bytes": 1812,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.773038879552454e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "0cf3c470464ac81fe91b531ef6a2aa0b3d7b987053598e2ba01af1f8d7587a21",
+    "keyframesSha256": "1b9f667e0130963669df0670cfa22c2947704890c4df634f30820a5a78a3106d",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

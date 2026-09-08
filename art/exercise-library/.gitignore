@@ -1,0 +1,7 @@
+renders/
+cache/
+*.log
+__pycache__/
+*.blend1
+output/**/animation.pending.webp
+*.pending

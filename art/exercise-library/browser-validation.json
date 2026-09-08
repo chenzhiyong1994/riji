@@ -1,0 +1,14 @@
+{
+  "items": 80,
+  "encodedAtVerification": 80,
+  "realPlayback": true,
+  "singleActiveAnimation": true,
+  "pauseStable": true,
+  "search": true,
+  "viewport320NoOverflow": true,
+  "reviewPersisted": true,
+  "reviewFilter": true,
+  "reviewExport": true,
+  "replacementRequiresNewReview": true,
+  "pageErrors": []
+}

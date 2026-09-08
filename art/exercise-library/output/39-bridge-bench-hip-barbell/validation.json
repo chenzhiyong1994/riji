@@ -1,0 +1,66 @@
+{
+  "id": "hiptrust",
+  "name": "杠铃臀冲",
+  "index": 39,
+  "slug": "39-bridge-bench-hip-barbell",
+  "muscles": {
+    "glutes": 1.0,
+    "hamstrings": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 650414,
+    "sha256": "d619f16654c69b23a410e86e5f9930c69729e0e7dc86c66e74525e1698110270",
+    "redChecks": [
+      {
+        "pixels": 4174,
+        "meanRed": 123.03665924072266
+      },
+      {
+        "pixels": 1593,
+        "meanRed": 85.78907775878906
+      }
+    ],
+    "loopPixelDelta": 0.26717267717633925,
+    "largestPosePixelDelta": 7.786967928447421
+  },
+  "poster": {
+    "sha256": "2d68b3146434101f40fd8e53cb17771b507be77fd43026861f0f549ba4c95dd6",
+    "bytes": 12344
+  },
+  "thumb": {
+    "sha256": "d35e1d62b71292866e29c3f9341ed57f3c480d976e4f4204f0f45f6f096b9a6a",
+    "bytes": 1396,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.773038879552454e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "d619f16654c69b23a410e86e5f9930c69729e0e7dc86c66e74525e1698110270",
+    "keyframesSha256": "a10f9b0715f6d9ce0d7a05802688b574d7e2199fbadc66bb0e865d82f3bea864",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "legpress_machine",
+  "name": "腿举",
+  "index": 36,
+  "slug": "36-leg_press-incline-leg-press",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.8
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 963342,
+    "sha256": "dd79519a1829a29afae952efad9eae889357291084875e5c57c12185da037cf4",
+    "redChecks": [
+      {
+        "pixels": 7382,
+        "meanRed": 167.6881561279297
+      },
+      {
+        "pixels": 6282,
+        "meanRed": 117.50621032714844
+      }
+    ],
+    "loopPixelDelta": 0.3654155428447421,
+    "largestPosePixelDelta": 12.807160392640128
+  },
+  "poster": {
+    "sha256": "932cca57968c01bdb96a623d66bbc6501ce6394d9c9210a17a2fedc15e3429d2",
+    "bytes": 27244
+  },
+  "thumb": {
+    "sha256": "93860dcda0ee45a37c7dd9dbc517221589f0a79e2e6c63ae2e36b6367c88e740",
+    "bytes": 3110,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4478684729965014e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "dd79519a1829a29afae952efad9eae889357291084875e5c57c12185da037cf4",
+    "keyframesSha256": "8e575f0e91c16b6d2b7c71219ca1ca354e8fd94669c9809c3dc332061cf5ee0f",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

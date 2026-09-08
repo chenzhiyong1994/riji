@@ -1,0 +1,65 @@
+{
+  "id": "leg_press_in",
+  "name": "坐姿髋内收",
+  "index": 42,
+  "slug": "42-hip_machine-adduction-hip-machine",
+  "muscles": {
+    "adductors": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 728108,
+    "sha256": "5f2a2177856762fc9c1d2fd03cdf8d8af779403913095da8e3609de50fa47dba",
+    "redChecks": [
+      {
+        "pixels": 4239,
+        "meanRed": 193.83721923828125
+      },
+      {
+        "pixels": 3792,
+        "meanRed": 129.22073364257812
+      }
+    ],
+    "loopPixelDelta": 0.3013155498201885,
+    "largestPosePixelDelta": 6.309878879123264
+  },
+  "poster": {
+    "sha256": "605cb4ce52d8765c7d3bef4236fbc658b357393512d2935a0f8daaaa04ac092e",
+    "bytes": 21074
+  },
+  "thumb": {
+    "sha256": "e9befc63a74557437be08b4f424c769b78dc6baf9abe0f54ea3d9c2f836fba16",
+    "bytes": 2448,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 6.703866648198362e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5f2a2177856762fc9c1d2fd03cdf8d8af779403913095da8e3609de50fa47dba",
+    "keyframesSha256": "081c9f0ace6b315ca8f71bb42cac8d2531ce2acf09bb988cb98d540168d27f80",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

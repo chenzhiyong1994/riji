@@ -1,0 +1,66 @@
+{
+  "id": "11971201-Squat-m_Thighs_small.mp4",
+  "name": "自重深蹲",
+  "index": 38,
+  "slug": "38-squat-bodyweight-none",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.8
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 803274,
+    "sha256": "2923aa8bb2918e891b23c6e771d631c8edbfd3b266f89843d6492f8d86653c92",
+    "redChecks": [
+      {
+        "pixels": 14785,
+        "meanRed": 218.7542724609375
+      },
+      {
+        "pixels": 14108,
+        "meanRed": 162.3293914794922
+      }
+    ],
+    "loopPixelDelta": 0.569886222718254,
+    "largestPosePixelDelta": 8.900604732452877
+  },
+  "poster": {
+    "sha256": "05139cf610496f5ac3312cd9efcd678c70f863e560a2c533d8355da613b40049",
+    "bytes": 15042
+  },
+  "thumb": {
+    "sha256": "a813ca58a411d07b39b4c490dd6cbc12511da9425380940a6c2196937d40efdf",
+    "bytes": 1618,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0062422165950616e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "2923aa8bb2918e891b23c6e771d631c8edbfd3b266f89843d6492f8d86653c92",
+    "keyframesSha256": "a877277ea8bbd323bc68cc03cc4e146797fd42eec45a78c2fa0580614797b611",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

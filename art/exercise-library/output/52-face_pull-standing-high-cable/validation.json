@@ -1,0 +1,66 @@
+{
+  "id": "face-pullingg",
+  "name": "面拉",
+  "index": 52,
+  "slug": "52-face_pull-standing-high-cable",
+  "muscles": {
+    "rear_delts": 1.0,
+    "upper_back": 0.85
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 542512,
+    "sha256": "8ba603b32196e9ba1e62e294161da00f8396a74f978dc1eaa7d87e459de0d07a",
+    "redChecks": [
+      {
+        "pixels": 8303,
+        "meanRed": 233.43453979492188
+      },
+      {
+        "pixels": 6697,
+        "meanRed": 189.40988159179688
+      }
+    ],
+    "loopPixelDelta": 0.30075170123387895,
+    "largestPosePixelDelta": 2.0719183058965776
+  },
+  "poster": {
+    "sha256": "774a00f41cd23c2d005dceb4195f27331717587ec1dc5b01f801ed2c7fd52bf8",
+    "bytes": 16452
+  },
+  "thumb": {
+    "sha256": "8a38f7d282b81dafed37dd157af7f2b091deb0514ba87534fb0ed7d2c69c5804",
+    "bytes": 1934,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.365063487362717e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "8ba603b32196e9ba1e62e294161da00f8396a74f978dc1eaa7d87e459de0d07a",
+    "keyframesSha256": "a5fe67ed9072f8583b3762874477d8cad08f374e8bcd56c4a05a24901fe07aad",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

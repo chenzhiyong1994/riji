@@ -1,0 +1,65 @@
+{
+  "id": "bar_scullcrash",
+  "name": "碎颅者",
+  "index": 63,
+  "slug": "63-triceps-skull-barbell",
+  "muscles": {
+    "triceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 728892,
+    "sha256": "db7858c39e5f712d3e4b39a5561d2aba1d379215c1d1b511926dfd60a919f987",
+    "redChecks": [
+      {
+        "pixels": 493,
+        "meanRed": 218.68154907226562
+      },
+      {
+        "pixels": 439,
+        "meanRed": 167.04100036621094
+      }
+    ],
+    "loopPixelDelta": 0.35337950691344244,
+    "largestPosePixelDelta": 10.046319870721726
+  },
+  "poster": {
+    "sha256": "eab4eb9bc85c845490f6acd429e0bef91ea2ffea157e00b5cb38a855de3154ad",
+    "bytes": 17040
+  },
+  "thumb": {
+    "sha256": "7dadd789cb4bccea8f8fd04a61ad3c74e622ad9a5c7751c5e2cc826a91cb9ce0",
+    "bytes": 1856,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 6.978135987501201e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "db7858c39e5f712d3e4b39a5561d2aba1d379215c1d1b511926dfd60a919f987",
+    "keyframesSha256": "b66fef0ad6bb1e92403b65ba9c96c1a67cfcce2a112c7f600def7de218c4e094",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

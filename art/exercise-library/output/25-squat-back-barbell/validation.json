@@ -1,0 +1,67 @@
+{
+  "id": "squat",
+  "name": "杠铃深蹲",
+  "index": 25,
+  "slug": "25-squat-back-barbell",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.85,
+    "erectors": 0.3
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 834972,
+    "sha256": "ae94562a2b798f86df207e90e37ffef9990d6a42970396bfc93fbd0fa0e68edf",
+    "redChecks": [
+      {
+        "pixels": 10224,
+        "meanRed": 221.4105987548828
+      },
+      {
+        "pixels": 9792,
+        "meanRed": 165.5995635986328
+      }
+    ],
+    "loopPixelDelta": 0.4559161473834325,
+    "largestPosePixelDelta": 12.613466293092756
+  },
+  "poster": {
+    "sha256": "b25846bba8fc060b6592f68f3b5c7f7262c2eb360e443b9fa410517bf949c693",
+    "bytes": 15546
+  },
+  "thumb": {
+    "sha256": "96ae51663a5055aac7623d309e278be37c60e576dcc0bb5aae67aaf01a595157",
+    "bytes": 1750,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.94450615438794e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "ae94562a2b798f86df207e90e37ffef9990d6a42970396bfc93fbd0fa0e68edf",
+    "keyframesSha256": "9e7ca7713b8a4dba83593554c1a074b5fbe1c5a8002fa4748c69e8e9f09e1565",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

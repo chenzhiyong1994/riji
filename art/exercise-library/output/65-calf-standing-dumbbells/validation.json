@@ -1,0 +1,65 @@
+{
+  "id": "Dumbbell-Standing-Calf-Raise",
+  "name": "站姿哑铃提踵",
+  "index": 65,
+  "slug": "65-calf-standing-dumbbells",
+  "muscles": {
+    "calves": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 724442,
+    "sha256": "693f2c6cd5e928435277fd7d35fd2451d60c19e1620c16ee93ea10b3902283cb",
+    "redChecks": [
+      {
+        "pixels": 4829,
+        "meanRed": 206.36778259277344
+      },
+      {
+        "pixels": 4431,
+        "meanRed": 137.7307586669922
+      }
+    ],
+    "loopPixelDelta": 0.26492164248511907,
+    "largestPosePixelDelta": 5.721207391648065
+  },
+  "poster": {
+    "sha256": "2b2b826e54651a2137a478f4677ba26a47bca131c62e9f45f10848ffaf78e9b0",
+    "bytes": 12860
+  },
+  "thumb": {
+    "sha256": "1177c0cef87f4bf2f3e0cb172579204e167161a2ef899729e79be2ba8058a9da",
+    "bytes": 1496,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.292599962935762e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "693f2c6cd5e928435277fd7d35fd2451d60c19e1620c16ee93ea10b3902283cb",
+    "keyframesSha256": "a60485dd5566c13084eba9608f8c4679f006c52152e9702cff64534ca96daee9",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

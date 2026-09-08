@@ -1,0 +1,67 @@
+{
+  "id": "Barbell-Front-Squat",
+  "name": "前蹲",
+  "index": 31,
+  "slug": "31-squat-front-barbell",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.65,
+    "abs": 0.25
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 866140,
+    "sha256": "4256b30c5738101d5ec566d5dd018548abc69bb966be65b1cfc39936b83f7031",
+    "redChecks": [
+      {
+        "pixels": 10212,
+        "meanRed": 221.83499145507812
+      },
+      {
+        "pixels": 9783,
+        "meanRed": 166.1367645263672
+      }
+    ],
+    "loopPixelDelta": 0.4740619962177579,
+    "largestPosePixelDelta": 12.619963630797372
+  },
+  "poster": {
+    "sha256": "2fb66b435720b6dcdee42c251ab4cc29d334a1f1588a226f7069281ae8566626",
+    "bytes": 16338
+  },
+  "thumb": {
+    "sha256": "98974cb09795775ff0702cdbfbe77ea478e0a457bb9477b96108e006da8fcbe1",
+    "bytes": 1824,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.073323307071217e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "4256b30c5738101d5ec566d5dd018548abc69bb966be65b1cfc39936b83f7031",
+    "keyframesSha256": "a1d12416c3b4de94e1ed6cf4c76c0c93d1db0e6fa23000435e4fd42e6a113c6a",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

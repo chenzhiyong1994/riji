@@ -1,0 +1,65 @@
+{
+  "id": "cablecurl",
+  "name": "绳索弯举",
+  "index": 57,
+  "slug": "57-curl-cable-low-cable",
+  "muscles": {
+    "biceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 690272,
+    "sha256": "1d9490287927c7c1467c28bdc55155f290a88dd1c0ff65d956b6440f2379c1d9",
+    "redChecks": [
+      {
+        "pixels": 2837,
+        "meanRed": 216.17306518554688
+      },
+      {
+        "pixels": 2740,
+        "meanRed": 154.0470733642578
+      }
+    ],
+    "loopPixelDelta": 0.2867363823784722,
+    "largestPosePixelDelta": 2.3483116513206848
+  },
+  "poster": {
+    "sha256": "79a046534953df0b4f9d745f2ca872b707423e1e8bbf6dffb30f82c1d2d2d407",
+    "bytes": 19420
+  },
+  "thumb": {
+    "sha256": "88a2e55b5774a5d2fd72d57f0ea530c96edc2316ec6e14337994b0bf6693c65c",
+    "bytes": 2190,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1504815904472838e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "1d9490287927c7c1467c28bdc55155f290a88dd1c0ff65d956b6440f2379c1d9",
+    "keyframesSha256": "ce0e6b915b7a7654dad1690e0bd7e13bda468a55b7b8ad405236eccb28a629e9",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

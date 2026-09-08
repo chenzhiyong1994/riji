@@ -1,0 +1,35 @@
+{
+  "status": "awaiting_user_visual_approval",
+  "app_integration": false,
+  "gif": {
+    "frames": 72,
+    "unique_frames": 72,
+    "size": [
+      768,
+      896
+    ],
+    "duration_ms": 3000,
+    "loop": 0,
+    "bytes": 13205648,
+    "sha256": "b3bcb4863f0d6edf531158edca61340932b0cdd949405695f96d1634e5e0786e"
+  },
+  "webp": {
+    "frames": 72,
+    "unique_frames": 72,
+    "size": [
+      768,
+      896
+    ],
+    "duration_ms": 3000,
+    "loop": 0,
+    "bytes": 516774,
+    "sha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015"
+  },
+  "rendered_red_luminance_delta": 42.868495881798175,
+  "loop_edge_mean_pixel_delta": 0.03695291186135913,
+  "opposite_pose_mean_pixel_delta": 3.9218086363777283,
+  "limb_or_grip_distance_drift_m": 9.661703616326012e-08,
+  "loop_joint_error_m": 0.0,
+  "verified_source_assets": 10,
+  "upstream_commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482"
+}

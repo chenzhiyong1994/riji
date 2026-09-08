@@ -1,0 +1,68 @@
+{
+  "id": "running",
+  "name": "跑步机跑步",
+  "index": 75,
+  "slug": "75-cardio-run-treadmill",
+  "muscles": {
+    "quads": 0.8,
+    "hamstrings": 0.7,
+    "calves": 1.0,
+    "glutes": 0.7
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 985002,
+    "sha256": "e22707ce4e45ec28a56cec1f7fc2c98290a9adf723487d530f74ce560c066008",
+    "redChecks": [
+      {
+        "pixels": 14296,
+        "meanRed": 198.4265594482422
+      },
+      {
+        "pixels": 12533,
+        "meanRed": 142.03973388671875
+      }
+    ],
+    "loopPixelDelta": 1.0763104151165674,
+    "largestPosePixelDelta": 7.08721197219122
+  },
+  "poster": {
+    "sha256": "bb79d9fb33f4d2de5b45115ae8c6f5f67f043374a52b7a9d5708802537898c63",
+    "bytes": 21936
+  },
+  "thumb": {
+    "sha256": "ae0595511b9592152acf8f4ae1f372666bbfe85309ff0655b3e0446fcec59ba7",
+    "bytes": 2624,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.911232679078513e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "e22707ce4e45ec28a56cec1f7fc2c98290a9adf723487d530f74ce560c066008",
+    "keyframesSha256": "33f2425afe42085a1c69893cb62279b8eeecb9d061d88c10c6ddb4835e7ce7a7",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

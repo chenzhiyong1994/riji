@@ -1,0 +1,65 @@
+{
+  "id": "frontraise",
+  "name": "哑铃前平举",
+  "index": 46,
+  "slug": "46-raise-front-dumbbells",
+  "muscles": {
+    "front_delts": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 596928,
+    "sha256": "9e26f26aadf88193c3ae5f157f22b8ae373733a8f846381d40edd62d9df6bb19",
+    "redChecks": [
+      {
+        "pixels": 1849,
+        "meanRed": 246.51109313964844
+      },
+      {
+        "pixels": 1845,
+        "meanRed": 204.65745544433594
+      }
+    ],
+    "loopPixelDelta": 0.2990824381510417,
+    "largestPosePixelDelta": 4.915834457155258
+  },
+  "poster": {
+    "sha256": "78874a9c5068179d0e274dff25085df5f9b5701f43b93414ede72a1d6a7c83c8",
+    "bytes": 14128
+  },
+  "thumb": {
+    "sha256": "430c3fb2d3c31d365f9953e06bd5063343a037db4a481e93cb9943295ecd65f3",
+    "bytes": 1646,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4685772869130276e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "9e26f26aadf88193c3ae5f157f22b8ae373733a8f846381d40edd62d9df6bb19",
+    "keyframesSha256": "accc7daf4dfb7c1005affef7002f2581c74c86c736971468ee5b85713a723ea5",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

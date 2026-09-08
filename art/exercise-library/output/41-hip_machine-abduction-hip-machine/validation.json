@@ -1,0 +1,66 @@
+{
+  "id": "leg_spred",
+  "name": "坐姿髋外展",
+  "index": 41,
+  "slug": "41-hip_machine-abduction-hip-machine",
+  "muscles": {
+    "abductors": 1.0,
+    "glutes": 0.55
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 668170,
+    "sha256": "c418f98966e2a515b839fe2ba2031c8ac6360f08968a3d78626e669a2af52458",
+    "redChecks": [
+      {
+        "pixels": 2326,
+        "meanRed": 180.71624755859375
+      },
+      {
+        "pixels": 2098,
+        "meanRed": 126.6849365234375
+      }
+    ],
+    "loopPixelDelta": 0.28364684089781744,
+    "largestPosePixelDelta": 3.5063946436321927
+  },
+  "poster": {
+    "sha256": "af56fad9cd6cec105a8f7fb08a22f7d7f73175b8566cd33e76d28d74fcb716da",
+    "bytes": 18674
+  },
+  "thumb": {
+    "sha256": "23e5b64a40f29ebe9c6078010f847ed865845a40696f8cb19a371534418639cb",
+    "bytes": 1972,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 6.703866648198362e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "c418f98966e2a515b839fe2ba2031c8ac6360f08968a3d78626e669a2af52458",
+    "keyframesSha256": "b642d04f44167c471ac7ccc65de471e13cdf7415f8802e61daba693842450b53",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

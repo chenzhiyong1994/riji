@@ -1,0 +1,67 @@
+{
+  "id": "machinerowling",
+  "name": "器械划船",
+  "index": 19,
+  "slug": "19-row-supported-row-machine",
+  "muscles": {
+    "lats": 0.85,
+    "upper_back": 1.0,
+    "biceps": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 639340,
+    "sha256": "5ce29e3930912fdd269a9724b69a6599923ff69560eec715806da97b9ef0112c",
+    "redChecks": [
+      {
+        "pixels": 10309,
+        "meanRed": 227.9795379638672
+      },
+      {
+        "pixels": 9855,
+        "meanRed": 179.53790283203125
+      }
+    ],
+    "loopPixelDelta": 0.41879950629340285,
+    "largestPosePixelDelta": 3.116451202876984
+  },
+  "poster": {
+    "sha256": "40efbac0926a31d4fc6dd913c987c525c505d0f6404d33e8770d23c2e445d3b0",
+    "bytes": 18044
+  },
+  "thumb": {
+    "sha256": "b99cf9c0c70dfb5746e44f5574937a71e05ad8dc15d7e682f76d04c3505897a9",
+    "bytes": 2266,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.784341506128894e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5ce29e3930912fdd269a9724b69a6599923ff69560eec715806da97b9ef0112c",
+    "keyframesSha256": "4d7880e75eb6a118b78258660a695dcc17c1fb76b369939d185a325bedc8c5d6",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

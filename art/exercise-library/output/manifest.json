@@ -1,0 +1,5382 @@
+{
+  "expected": 80,
+  "encoded": 80,
+  "integrated": true,
+  "poseAcceptance": "pending_user_review",
+  "items": [
+    {
+      "id": "benchpress",
+      "name": "杠铃卧推",
+      "index": 1,
+      "slug": "01-press-flat-barbell",
+      "muscles": {
+        "chest": 1.0,
+        "triceps": 0.55,
+        "front_delts": 0.45
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 841814,
+        "sha256": "a363d0b62d320e18d9840cc41f8a80da1c2430b9e255163188836a2be1dab294",
+        "redChecks": [
+          {
+            "pixels": 4005,
+            "meanRed": 242.86566162109375
+          },
+          {
+            "pixels": 3953,
+            "meanRed": 199.65545654296875
+          }
+        ],
+        "loopPixelDelta": 0.33766828264508925,
+        "largestPosePixelDelta": 11.03258308531746
+      },
+      "poster": {
+        "sha256": "8bbc9e271240ed07d9d520280d825f76c39aebbaacc389974c5ab96586ada1e9",
+        "bytes": 18774
+      },
+      "thumb": {
+        "sha256": "27bc5ed32e313d339c032f097d4908dca35a82784a88b77e27adadf05762e58e",
+        "bytes": 2134,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.491232597407209e-07
+      },
+      "styleRevision": 2,
+      "supersededVisualReview": {
+        "animationSha256": "a363d0b62d320e18d9840cc41f8a80da1c2430b9e255163188836a2be1dab294",
+        "keyframesSha256": "4adc53bd9c9719cd1bdc4d129c85712f536970c254fb6c3851c69439dfd827c2",
+        "checks": [
+          "recognizable_exercise_and_equipment",
+          "body_and_support_visible",
+          "continuous_anatomical_style",
+          "major_muscles_visible",
+          "key_pose_sequence"
+        ]
+      },
+      "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "a363d0b62d320e18d9840cc41f8a80da1c2430b9e255163188836a2be1dab294",
+        "keyframesSha256": "4adc53bd9c9719cd1bdc4d129c85712f536970c254fb6c3851c69439dfd827c2",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "dumbellpress",
+      "name": "哑铃卧推",
+      "index": 2,
+      "slug": "02-press-flat-dumbbells",
+      "muscles": {
+        "chest": 1.0,
+        "triceps": 0.45,
+        "front_delts": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 890972,
+        "sha256": "b21f843ace29340a374a878c996d688ac5edcb2417e5aeb1b37a801b995d9119",
+        "redChecks": [
+          {
+            "pixels": 7186,
+            "meanRed": 242.70108032226562
+          },
+          {
+            "pixels": 7086,
+            "meanRed": 197.56138610839844
+          }
+        ],
+        "loopPixelDelta": 0.3600313701326885,
+        "largestPosePixelDelta": 7.520552862258184
+      },
+      "poster": {
+        "sha256": "24dbd8d4a4d6b8adcc99b5b61423bd08957bd5ba2208884fd91ebd8bcd737371",
+        "bytes": 22556
+      },
+      "thumb": {
+        "sha256": "0e0b73e054c62cddb7c6be142b4b922818726c232b8bed4e195413b0107c2818",
+        "bytes": 2686,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.491232597407209e-07
+      },
+      "styleRevision": 2,
+      "supersededVisualReview": {
+        "animationSha256": "b21f843ace29340a374a878c996d688ac5edcb2417e5aeb1b37a801b995d9119",
+        "keyframesSha256": "802fe69e9a93b59fab8cc105e59eeb44d99cde00ba852c3ebc26ea8fdf66bd9b",
+        "checks": [
+          "recognizable_exercise_and_equipment",
+          "body_and_support_visible",
+          "continuous_anatomical_style",
+          "major_muscles_visible",
+          "key_pose_sequence"
+        ]
+      },
+      "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "b21f843ace29340a374a878c996d688ac5edcb2417e5aeb1b37a801b995d9119",
+        "keyframesSha256": "802fe69e9a93b59fab8cc105e59eeb44d99cde00ba852c3ebc26ea8fdf66bd9b",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "upperdumbellpress",
+      "name": "上斜哑铃卧推",
+      "index": 3,
+      "slug": "03-press-incline-dumbbells",
+      "muscles": {
+        "chest": 1.0,
+        "front_delts": 0.65,
+        "triceps": 0.45
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 969098,
+        "sha256": "0ef6e6c93e9049b71ece24d0371c32cc20c908c2567aac28e096e911e310e1ac",
+        "redChecks": [
+          {
+            "pixels": 8110,
+            "meanRed": 237.57102966308594
+          },
+          {
+            "pixels": 7947,
+            "meanRed": 190.95167541503906
+          }
+        ],
+        "loopPixelDelta": 0.4320557609437004,
+        "largestPosePixelDelta": 7.163228352864583
+      },
+      "poster": {
+        "sha256": "f2dfe7738fcf46654cd9f4ac0e62a48fdba66ad211bb6bbb4ffd3419b24c7d39",
+        "bytes": 22698
+      },
+      "thumb": {
+        "sha256": "e07a51e329f2482fba4b4df5ad718c5890e189824907c6a378dc75f628d68868",
+        "bytes": 2778,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.2930567949960611e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "0ef6e6c93e9049b71ece24d0371c32cc20c908c2567aac28e096e911e310e1ac",
+        "keyframesSha256": "783c93cc84004dfd7eed0ce7503e190bab921796a0f0aeea7eab9191b933db79",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "incline-benchpress",
+      "name": "上斜杠铃卧推",
+      "index": 4,
+      "slug": "04-press-incline-barbell",
+      "muscles": {
+        "chest": 1.0,
+        "front_delts": 0.65,
+        "triceps": 0.45
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 827760,
+        "sha256": "66ef0ad55f58b70597431e8a0109167fc7c456389ad647f74ac9f22541287e40",
+        "redChecks": [
+          {
+            "pixels": 4526,
+            "meanRed": 238.22579956054688
+          },
+          {
+            "pixels": 4442,
+            "meanRed": 192.4196319580078
+          }
+        ],
+        "loopPixelDelta": 0.3131239149305555,
+        "largestPosePixelDelta": 9.991490924169147
+      },
+      "poster": {
+        "sha256": "e47fd1e7b8134dc4e9898b2aacdde24d811837aba954c1a699a271278462f0db",
+        "bytes": 18644
+      },
+      "thumb": {
+        "sha256": "13b9d6758c43870b104e7803bc289fb331c6ae0c5e86eff96109df1d279e4ad1",
+        "bytes": 2162,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.2930567949960611e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "66ef0ad55f58b70597431e8a0109167fc7c456389ad647f74ac9f22541287e40",
+        "keyframesSha256": "0e7af9b6a3b595aaef95e72a7ec96227a4546d296016f09f38d6af5f705db218",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "machinepress",
+      "name": "器械推胸",
+      "index": 5,
+      "slug": "05-press-seated-chest-machine",
+      "muscles": {
+        "chest": 1.0,
+        "triceps": 0.5,
+        "front_delts": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 966418,
+        "sha256": "1c50e64ae39cbbf31601247737d9f9ca9bf9a8b9cfebebc6212e998c9263d1e7",
+        "redChecks": [
+          {
+            "pixels": 7691,
+            "meanRed": 221.33831787109375
+          },
+          {
+            "pixels": 7345,
+            "meanRed": 168.289306640625
+          }
+        ],
+        "loopPixelDelta": 0.40323166620163686,
+        "largestPosePixelDelta": 4.4283146933903765
+      },
+      "poster": {
+        "sha256": "7a2771deecc3d80bbe7fe7f1de634d5ad6ef56bbe948b55bb24c7c063caaec36",
+        "bytes": 22468
+      },
+      "thumb": {
+        "sha256": "e415afcf584aa7ad0ed94a7089697ba2ccf7048968d0c4a2c194d95274be3a99",
+        "bytes": 2650,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0749512193722386e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "1c50e64ae39cbbf31601247737d9f9ca9bf9a8b9cfebebc6212e998c9263d1e7",
+        "keyframesSha256": "6d973ba77d9212359b07941c22c4a1088bdfb85b32ef4e0d10c011732cb6c65a",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "smithpress",
+      "name": "史密斯机卧推",
+      "index": 6,
+      "slug": "06-press-flat-smith",
+      "muscles": {
+        "chest": 1.0,
+        "triceps": 0.55,
+        "front_delts": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 957744,
+        "sha256": "e520839bfdeaca4c0f4cb77a7524984819da84cddcd9d2108b356ca9b2496a26",
+        "redChecks": [
+          {
+            "pixels": 4013,
+            "meanRed": 242.98779296875
+          },
+          {
+            "pixels": 3948,
+            "meanRed": 199.54052734375
+          }
+        ],
+        "loopPixelDelta": 0.36935570126488093,
+        "largestPosePixelDelta": 9.06997341579861
+      },
+      "poster": {
+        "sha256": "5c883e53cc0ce49fb48d101253747518fb6b0b535caf6713b379a452029b9b56",
+        "bytes": 22966
+      },
+      "thumb": {
+        "sha256": "099947dded18be9998bfdcb52dd8da9844bf583cd042a61cb112ccdee6dd6867",
+        "bytes": 2762,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.832002587757971e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "e520839bfdeaca4c0f4cb77a7524984819da84cddcd9d2108b356ca9b2496a26",
+        "keyframesSha256": "ae9c35a13e0a1dd6cff285cea9b8947802bf5434dee5d783acd1e264f216e859",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "fly",
+      "name": "哑铃飞鸟",
+      "index": 7,
+      "slug": "07-fly-supine-dumbbells",
+      "muscles": {
+        "chest": 1.0,
+        "front_delts": 0.35
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 804698,
+        "sha256": "c2ae5a4e2a1efbd99103519769c16e3abdc3b2649c89df2fd324b0b39d121e04",
+        "redChecks": [
+          {
+            "pixels": 6679,
+            "meanRed": 239.88485717773438
+          },
+          {
+            "pixels": 6532,
+            "meanRed": 196.33236694335938
+          }
+        ],
+        "loopPixelDelta": 0.3943805997333829,
+        "largestPosePixelDelta": 7.424149770585317
+      },
+      "poster": {
+        "sha256": "f646444d81d2b031b65eededd265ccf6192a56557514425c6e35d6a4ae87471d",
+        "bytes": 20748
+      },
+      "thumb": {
+        "sha256": "31eb09eb0f6b9916a2d6d8adb9782277c433061606295140340ef980dedaa7e5",
+        "bytes": 2484,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0554609338620175e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "c2ae5a4e2a1efbd99103519769c16e3abdc3b2649c89df2fd324b0b39d121e04",
+        "keyframesSha256": "8e0587b58059343d042e41c394b6960126d341f9f9a7c500d36fec2234f208cc",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "machinefly",
+      "name": "蝴蝶机夹胸",
+      "index": 8,
+      "slug": "08-fly-seated-pec-deck",
+      "muscles": {
+        "chest": 1.0,
+        "front_delts": 0.3
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 904896,
+        "sha256": "d6a23ffc39d01c19ee5c0bffabe1e6eeadde9e356c0a741e7c80a36088a310c1",
+        "redChecks": [
+          {
+            "pixels": 10818,
+            "meanRed": 215.04225158691406
+          },
+          {
+            "pixels": 10527,
+            "meanRed": 156.30596923828125
+          }
+        ],
+        "loopPixelDelta": 0.39577811104910715,
+        "largestPosePixelDelta": 4.690879216269841
+      },
+      "poster": {
+        "sha256": "3598ce59be833e61fd69c07067d502402beb9d99cf5d5b4728a189f9948bf267",
+        "bytes": 21296
+      },
+      "thumb": {
+        "sha256": "52417d1e8b55511f49462219f4717b663c10a28293335dc7679c1858c72afb0f",
+        "bytes": 2652,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.2160662271441916e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "d6a23ffc39d01c19ee5c0bffabe1e6eeadde9e356c0a741e7c80a36088a310c1",
+        "keyframesSha256": "f114ee4879d330d8262875f9a09d50b84d28e9938c7dbc897d02bc7f0f9ffbed",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "cablefly",
+      "name": "绳索夹胸",
+      "index": 9,
+      "slug": "09-fly-standing-dual-cable",
+      "muscles": {
+        "chest": 1.0,
+        "front_delts": 0.3
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 731440,
+        "sha256": "01f396b8a14f173a8e3a4ac4a016d4cb4e5104125f05fc45aed108705a66ddb0",
+        "redChecks": [
+          {
+            "pixels": 10655,
+            "meanRed": 220.68202209472656
+          },
+          {
+            "pixels": 10395,
+            "meanRed": 163.5099639892578
+          }
+        ],
+        "loopPixelDelta": 0.32820395817832343,
+        "largestPosePixelDelta": 2.2012731158544145
+      },
+      "poster": {
+        "sha256": "727cc154971914227c3572e7cd359582087527b56d5b03f95bb23a02ad48f1b0",
+        "bytes": 21740
+      },
+      "thumb": {
+        "sha256": "8ee0cc2e8a5e95613868a983adf8d550ce093194046c9e14dc1fbc6b4c5ff0ec",
+        "bytes": 2902,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.750236375334981e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "01f396b8a14f173a8e3a4ac4a016d4cb4e5104125f05fc45aed108705a66ddb0",
+        "keyframesSha256": "398748f794fd09e2749c8a5aaffa03bfca6cd4f7d2374e5584e026ed187e76a6",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "bardips",
+      "name": "双杠臂屈伸",
+      "index": 10,
+      "slug": "10-dip-forward-dip-bars",
+      "muscles": {
+        "chest": 1.0,
+        "triceps": 0.85,
+        "front_delts": 0.35
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 829790,
+        "sha256": "590639afbbf4cfffb661e5cd8c46c8c41aa0a56dbf09ed4067f761c36fff9f16",
+        "redChecks": [
+          {
+            "pixels": 9755,
+            "meanRed": 215.44253540039062
+          },
+          {
+            "pixels": 9467,
+            "meanRed": 153.93260192871094
+          }
+        ],
+        "loopPixelDelta": 0.38897705078125,
+        "largestPosePixelDelta": 10.146334693545386
+      },
+      "poster": {
+        "sha256": "449d9a926f299a7edb4db91a180cdaca29cb41ce815620a136763b71a6291d72",
+        "bytes": 18638
+      },
+      "thumb": {
+        "sha256": "9a90539f653e690a7cc4e2614e684d92046df3cb961d52fc906928257807b255",
+        "bytes": 2336,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.653606615510892e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "590639afbbf4cfffb661e5cd8c46c8c41aa0a56dbf09ed4067f761c36fff9f16",
+        "keyframesSha256": "a7300402cb77ad00a4c9243e046cf324b9edbb65e2751f9430ca5f711bc7ccc4",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "pushup-xunji",
+      "name": "俯卧撑",
+      "index": 11,
+      "slug": "11-pushup-full-mat",
+      "muscles": {
+        "chest": 1.0,
+        "triceps": 0.65,
+        "front_delts": 0.4,
+        "abs": 0.25
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 603660,
+        "sha256": "39cab7403a900a7da995aa054869abbe534c1eefbb6b64d9d59692659788dfce",
+        "redChecks": [
+          {
+            "pixels": 3942,
+            "meanRed": 162.9188232421875
+          },
+          {
+            "pixels": 3141,
+            "meanRed": 99.9519271850586
+          }
+        ],
+        "loopPixelDelta": 0.23479449559771826,
+        "largestPosePixelDelta": 6.873953683035714
+      },
+      "poster": {
+        "sha256": "2e81dd5b40187d20f0a97772ad39fc98097aed7795c43700de53783938fad7bd",
+        "bytes": 11884
+      },
+      "thumb": {
+        "sha256": "f73c3d092ce21fbb1d25bcc28bcab1db0a61b29a1f22c1f3bd35075998b04725",
+        "bytes": 1292,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0951086298628525e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "39cab7403a900a7da995aa054869abbe534c1eefbb6b64d9d59692659788dfce",
+        "keyframesSha256": "7a8e7a9fbb39cfd30371a81c6819bbff53ccbf9913b22fb12549ea95c880a555",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "knee-push-up-fz",
+      "name": "跪姿俯卧撑",
+      "index": 12,
+      "slug": "12-pushup-knees-mat",
+      "muscles": {
+        "chest": 1.0,
+        "triceps": 0.65,
+        "front_delts": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 599772,
+        "sha256": "38883ec8848a4d806bad08ca945e59c79c38b5525f1a31e199eff2dcb9156b22",
+        "redChecks": [
+          {
+            "pixels": 4634,
+            "meanRed": 169.84310913085938
+          },
+          {
+            "pixels": 4065,
+            "meanRed": 103.5515365600586
+          }
+        ],
+        "loopPixelDelta": 0.22075059678819445,
+        "largestPosePixelDelta": 6.268027653769841
+      },
+      "poster": {
+        "sha256": "4b4a1b07a6fa3845bbcbb6e77418eb0c71954dab87931ceafab3295fcab28992",
+        "bytes": 12714
+      },
+      "thumb": {
+        "sha256": "b7f7fde6fabb4fcbf1c2b7fe6f52fda32ddd9c1ffdcc2937efedc28471cf91de",
+        "bytes": 1382,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0979436051719574e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "38883ec8848a4d806bad08ca945e59c79c38b5525f1a31e199eff2dcb9156b22",
+        "keyframesSha256": "8f1d047a2e54c180c4242cfc9133c7265b36ef72841d3a548df14425b3c9796c",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "pulldown",
+      "name": "宽距高位下拉",
+      "index": 13,
+      "slug": "13-pulldown-wide-lat-machine",
+      "muscles": {
+        "lats": 1.0,
+        "biceps": 0.55,
+        "upper_back": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 911038,
+        "sha256": "7e850e3b74e7467517dbdc7b0f65d195ee2c881565f4d36e664688f7a9aa742c",
+        "redChecks": [
+          {
+            "pixels": 5014,
+            "meanRed": 192.60769653320312
+          },
+          {
+            "pixels": 4526,
+            "meanRed": 126.48387145996094
+          }
+        ],
+        "loopPixelDelta": 0.3829403831845238,
+        "largestPosePixelDelta": 3.0192749992249506
+      },
+      "poster": {
+        "sha256": "032ebc1ef8ee26065543577e52d3faee23bd6982ca6ae04af45c42a2a4387ef6",
+        "bytes": 22712
+      },
+      "thumb": {
+        "sha256": "92bfcbec9160f1be08dc9b2a91331baf7a9c19fde6c29cda21690b53f70249a7",
+        "bytes": 2494,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 2.0228840856963114e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "7e850e3b74e7467517dbdc7b0f65d195ee2c881565f4d36e664688f7a9aa742c",
+        "keyframesSha256": "fecc7f2a634e0182e103da2e977ce4b10455cc046aaba647b43df7828e139c34",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "closepulldown",
+      "name": "窄距下拉",
+      "index": 14,
+      "slug": "14-pulldown-close-lat-machine",
+      "muscles": {
+        "lats": 1.0,
+        "biceps": 0.65,
+        "upper_back": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 812782,
+        "sha256": "2617d920bf74aa4cda18e810d6e4a5b829fa18a3adae17608e4f4a7861e7e680",
+        "redChecks": [
+          {
+            "pixels": 5257,
+            "meanRed": 191.0989227294922
+          },
+          {
+            "pixels": 4764,
+            "meanRed": 125.63980102539062
+          }
+        ],
+        "loopPixelDelta": 0.38937717013888884,
+        "largestPosePixelDelta": 2.5029824877542164
+      },
+      "poster": {
+        "sha256": "3b0904be3367c00923a8e7ac851b2d5f595ea3cf5f6330f1ce4f754afcb278c9",
+        "bytes": 22530
+      },
+      "thumb": {
+        "sha256": "8f510b83a5f990b9b1d5a2ab4c9307962b27d15655bad6ded4484441513c97dc",
+        "bytes": 2524,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4700884802403323e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "2617d920bf74aa4cda18e810d6e4a5b829fa18a3adae17608e4f4a7861e7e680",
+        "keyframesSha256": "81efe06f459c0cfefc4897c15ac745bc501f532e29ab831cfa990812a0459274",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "barbellrow",
+      "name": "杠铃划船",
+      "index": 15,
+      "slug": "15-row-bent-barbell",
+      "muscles": {
+        "lats": 0.8,
+        "upper_back": 1.0,
+        "biceps": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 594968,
+        "sha256": "21287d0f235ed3fb374266953420834d7460922a06ad127d8c7ccf412ce767a6",
+        "redChecks": [
+          {
+            "pixels": 3536,
+            "meanRed": 247.544677734375
+          },
+          {
+            "pixels": 3385,
+            "meanRed": 212.05613708496094
+          }
+        ],
+        "loopPixelDelta": 0.25738622271825395,
+        "largestPosePixelDelta": 8.518821110801092
+      },
+      "poster": {
+        "sha256": "796fa3c39a68940a424d2d79298b4853b311b75e50285bbc3f249ca7fa8d424a",
+        "bytes": 13704
+      },
+      "thumb": {
+        "sha256": "4099c390497abbcc8034b1f0e77e6d558d99368520f4f740a98fcc24210f6d14",
+        "bytes": 1636,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.203983293019421e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "21287d0f235ed3fb374266953420834d7460922a06ad127d8c7ccf412ce767a6",
+        "keyframesSha256": "62081fbf4d2c90ff9aee428f76116b4c51348c59c2608f61a1e778732c93ad4e",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "dumbellrowbench",
+      "name": "哑铃划船",
+      "index": 16,
+      "slug": "16-row-single-dumbbell-bench",
+      "muscles": {
+        "lats": 1.0,
+        "upper_back": 0.7,
+        "biceps": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 523288,
+        "sha256": "b43246bb5f075ee2e29e6c078fbec60272493f79962788db3328fe38dbb38242",
+        "redChecks": [
+          {
+            "pixels": 4072,
+            "meanRed": 245.4445037841797
+          },
+          {
+            "pixels": 3883,
+            "meanRed": 207.9356231689453
+          }
+        ],
+        "loopPixelDelta": 0.29694523887028773,
+        "largestPosePixelDelta": 2.7792261517237105
+      },
+      "poster": {
+        "sha256": "f2506995c68f6020ed911d18c15df865632f4b6aad1d122dd49aa8414c56828f",
+        "bytes": 18850
+      },
+      "thumb": {
+        "sha256": "6426ad5410a88c59f17d633ac98601b0a6a8271fba2e9c36fcbce581fce24ed1",
+        "bytes": 2218,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.134450950596441e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "b43246bb5f075ee2e29e6c078fbec60272493f79962788db3328fe38dbb38242",
+        "keyframesSha256": "d5d534ad31505d36aec0f7729ac9904162eb2608834c36f1306db8cb6c6658f7",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "sit_cable_row",
+      "name": "坐姿划船",
+      "index": 17,
+      "slug": "17-row-seated-row-cable",
+      "muscles": {
+        "lats": 1.0,
+        "upper_back": 0.8,
+        "biceps": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 729478,
+        "sha256": "5cc1b0534de7b61b42490755f5dbb8fe57c97fec44279a20c0784efb7106422d",
+        "redChecks": [
+          {
+            "pixels": 8416,
+            "meanRed": 218.13343811035156
+          },
+          {
+            "pixels": 5802,
+            "meanRed": 156.38986206054688
+          }
+        ],
+        "loopPixelDelta": 0.32138933454241075,
+        "largestPosePixelDelta": 2.5133473229786705
+      },
+      "poster": {
+        "sha256": "b853de5435b5e310b9542c9bf4815cff9413fcf9c5b66fd0e2fe4d573b779a0e",
+        "bytes": 20640
+      },
+      "thumb": {
+        "sha256": "b572390e49f2bf7f80695380146755e82d30cd68eaf8b4d01307dbb80bb7f1a1",
+        "bytes": 2494,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.784341506128894e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5cc1b0534de7b61b42490755f5dbb8fe57c97fec44279a20c0784efb7106422d",
+        "keyframesSha256": "c9880cf069daba58966e918252a5e6dadc1c8489a94c3956bb44d18d405b4e3e",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "machine_pulldown",
+      "name": "器械下拉",
+      "index": 18,
+      "slug": "18-pulldown-neutral-lever-lat",
+      "muscles": {
+        "lats": 1.0,
+        "biceps": 0.55,
+        "upper_back": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 1024522,
+        "sha256": "5b7c731f59a2ecfdaba097f50ea074368497ad918c9752986ee4e2cbfe41263a",
+        "redChecks": [
+          {
+            "pixels": 5334,
+            "meanRed": 191.87588500976562
+          },
+          {
+            "pixels": 4790,
+            "meanRed": 125.49164581298828
+          }
+        ],
+        "loopPixelDelta": 0.4792630634610615,
+        "largestPosePixelDelta": 3.719726078093998
+      },
+      "poster": {
+        "sha256": "8ea163dbe1ae2c91ac460912fc5982a0376b6e6dc862ab88184f0f7db8b5a0bc",
+        "bytes": 26888
+      },
+      "thumb": {
+        "sha256": "826c7609b478250bf6b373c82ce7f8e5ecdf05cc2b9d042c547c8b45a62a670f",
+        "bytes": 3094,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4700884802403323e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5b7c731f59a2ecfdaba097f50ea074368497ad918c9752986ee4e2cbfe41263a",
+        "keyframesSha256": "5288a42e11e2cd5c2dc7746b040eca00f790dc3354a0cbec6ee6990a056ccc3f",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "machinerowling",
+      "name": "器械划船",
+      "index": 19,
+      "slug": "19-row-supported-row-machine",
+      "muscles": {
+        "lats": 0.85,
+        "upper_back": 1.0,
+        "biceps": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 639340,
+        "sha256": "5ce29e3930912fdd269a9724b69a6599923ff69560eec715806da97b9ef0112c",
+        "redChecks": [
+          {
+            "pixels": 10309,
+            "meanRed": 227.9795379638672
+          },
+          {
+            "pixels": 9855,
+            "meanRed": 179.53790283203125
+          }
+        ],
+        "loopPixelDelta": 0.41879950629340285,
+        "largestPosePixelDelta": 3.116451202876984
+      },
+      "poster": {
+        "sha256": "40efbac0926a31d4fc6dd913c987c525c505d0f6404d33e8770d23c2e445d3b0",
+        "bytes": 18044
+      },
+      "thumb": {
+        "sha256": "b99cf9c0c70dfb5746e44f5574937a71e05ad8dc15d7e682f76d04c3505897a9",
+        "bytes": 2266,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.784341506128894e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5ce29e3930912fdd269a9724b69a6599923ff69560eec715806da97b9ef0112c",
+        "keyframesSha256": "4d7880e75eb6a118b78258660a695dcc17c1fb76b369939d185a325bedc8c5d6",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "tbar_row",
+      "name": "T 杆划船",
+      "index": 20,
+      "slug": "20-row-tbar-tbar",
+      "muscles": {
+        "upper_back": 1.0,
+        "lats": 0.8,
+        "biceps": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 635054,
+        "sha256": "cdfa087e6a9c2d9f52b22272fa94d4ef11eab08543d14c6a9ffb9fdeff16e99f",
+        "redChecks": [
+          {
+            "pixels": 5351,
+            "meanRed": 248.13717651367188
+          },
+          {
+            "pixels": 5114,
+            "meanRed": 212.4820098876953
+          }
+        ],
+        "loopPixelDelta": 0.3141382610987103,
+        "largestPosePixelDelta": 4.852193196614583
+      },
+      "poster": {
+        "sha256": "890e5987f7db8e12e36a46f2aae60c94f2ce480814849d542a0bfe01122674f6",
+        "bytes": 14554
+      },
+      "thumb": {
+        "sha256": "253229bd7b6337de4575ba3a5ebf066b546ab6e5d9d920678d600dc799e122b0",
+        "bytes": 1728,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.203983293019421e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "cdfa087e6a9c2d9f52b22272fa94d4ef11eab08543d14c6a9ffb9fdeff16e99f",
+        "keyframesSha256": "e30f050a59b7af9d3958b7fccfd61af89d1aabe252c24512173a138504ea29e8",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "weight_pullup",
+      "name": "引体向上",
+      "index": 21,
+      "slug": "21-pullup-wide-pullup-bar",
+      "muscles": {
+        "lats": 1.0,
+        "biceps": 0.6,
+        "upper_back": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 668490,
+        "sha256": "e69c6945c9259705b479ae6704f38f941392d893ce80473f94cad24d16ce4c9c",
+        "redChecks": [
+          {
+            "pixels": 3633,
+            "meanRed": 230.041015625
+          },
+          {
+            "pixels": 3380,
+            "meanRed": 175.25088500976562
+          }
+        ],
+        "loopPixelDelta": 0.4270077659970238,
+        "largestPosePixelDelta": 7.0939825148809526
+      },
+      "poster": {
+        "sha256": "55ed4764ddf4cc3c9d6f2eea11896e7811a95c1d51b7d67f56e7d62e094e0f2e",
+        "bytes": 14168
+      },
+      "thumb": {
+        "sha256": "a8eae39c0219a731e360fcc8b85930b3273337088548f7c76fa2e4a1454f9ea8",
+        "bytes": 1808,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4908796083020233e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "e69c6945c9259705b479ae6704f38f941392d893ce80473f94cad24d16ce4c9c",
+        "keyframesSha256": "3b03cb0e54c986907c9f0b467a7f1b5f7d34d2bc3b9b07abda3b4b65624a6fe9",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "weight_reverse_pullup",
+      "name": "反手引体向上",
+      "index": 22,
+      "slug": "22-pullup-underhand-pullup-bar",
+      "muscles": {
+        "lats": 1.0,
+        "biceps": 0.8,
+        "upper_back": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 658028,
+        "sha256": "653e8b76367f9116e204c00f479530f6575e0783f24f27bf4af7a906f7343ac1",
+        "redChecks": [
+          {
+            "pixels": 3704,
+            "meanRed": 228.4217071533203
+          },
+          {
+            "pixels": 3440,
+            "meanRed": 173.00320434570312
+          }
+        ],
+        "loopPixelDelta": 0.35778711712549605,
+        "largestPosePixelDelta": 7.251978314112104
+      },
+      "poster": {
+        "sha256": "49f0e9935d719e41ace900afa3aaa3585ff886298d2c90424789a62869c2fcc6",
+        "bytes": 14494
+      },
+      "thumb": {
+        "sha256": "392ccb81fa2309c5ab182217615d90fd7b739385816113c2f462f7b078f2c796",
+        "bytes": 1846,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4753842798509523e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "653e8b76367f9116e204c00f479530f6575e0783f24f27bf4af7a906f7343ac1",
+        "keyframesSha256": "e4ab7ae44687a692a19aedd637b999e98bf2cbc9b6420f8a7d8992cbf74100da",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "weight_reverse_pullup_heping",
+      "name": "引体向上（辅助）",
+      "index": 23,
+      "slug": "23-pullup-assisted-assisted-pullup",
+      "muscles": {
+        "lats": 1.0,
+        "biceps": 0.6,
+        "upper_back": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 838996,
+        "sha256": "6ab2ab2c4bf431c21cd68c88b699839b0a50e68502bd636906dd87bd89638948",
+        "redChecks": [
+          {
+            "pixels": 5317,
+            "meanRed": 229.03912353515625
+          },
+          {
+            "pixels": 4935,
+            "meanRed": 173.0622100830078
+          }
+        ],
+        "loopPixelDelta": 0.47580585782490076,
+        "largestPosePixelDelta": 10.869579012431794
+      },
+      "poster": {
+        "sha256": "2744abe129faf1060083c668d780cc3dd7c86b86dfedce39e751cf04dc2780b7",
+        "bytes": 16558
+      },
+      "thumb": {
+        "sha256": "74f52c599bb9d02fd698006052011070cea9cdc17b6eb97c8cede0687aa03d06",
+        "bytes": 2168,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4753842798509523e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "6ab2ab2c4bf431c21cd68c88b699839b0a50e68502bd636906dd87bd89638948",
+        "keyframesSha256": "7e1a6292beb6d6a4b193960281bb720c6759341b59f5c98969dd4c75c5f41b68",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "rollpulldown",
+      "name": "绳索直臂下压",
+      "index": 24,
+      "slug": "24-straight_pull-standing-high-cable",
+      "muscles": {
+        "lats": 1.0,
+        "triceps": 0.25
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 513440,
+        "sha256": "30ef204a1344bb8f7d90481a529981aa485ff6d6bf421e8c462de92c03976bc8",
+        "redChecks": [
+          {
+            "pixels": 4924,
+            "meanRed": 232.00730895996094
+          },
+          {
+            "pixels": 4661,
+            "meanRed": 180.56468200683594
+          }
+        ],
+        "loopPixelDelta": 0.2820836627294147,
+        "largestPosePixelDelta": 1.6703946552579365
+      },
+      "poster": {
+        "sha256": "80209795efd838b2d31a8c877c0a50d11759111a9396f15a70a0905d6c8e6050",
+        "bytes": 15778
+      },
+      "thumb": {
+        "sha256": "642209d781a6ed8d1d3417781eb0bec970d02ecb5a8e1eddb2deab0e3108f81a",
+        "bytes": 1912,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.662802718206331e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "30ef204a1344bb8f7d90481a529981aa485ff6d6bf421e8c462de92c03976bc8",
+        "keyframesSha256": "300eac71cc67550015348b682c28d6ff9425cd59f413f7ccf62bb3f379af55f2",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "squat",
+      "name": "杠铃深蹲",
+      "index": 25,
+      "slug": "25-squat-back-barbell",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.85,
+        "erectors": 0.3
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 834972,
+        "sha256": "ae94562a2b798f86df207e90e37ffef9990d6a42970396bfc93fbd0fa0e68edf",
+        "redChecks": [
+          {
+            "pixels": 10224,
+            "meanRed": 221.4105987548828
+          },
+          {
+            "pixels": 9792,
+            "meanRed": 165.5995635986328
+          }
+        ],
+        "loopPixelDelta": 0.4559161473834325,
+        "largestPosePixelDelta": 12.613466293092756
+      },
+      "poster": {
+        "sha256": "b25846bba8fc060b6592f68f3b5c7f7262c2eb360e443b9fa410517bf949c693",
+        "bytes": 15546
+      },
+      "thumb": {
+        "sha256": "96ae51663a5055aac7623d309e278be37c60e576dcc0bb5aae67aaf01a595157",
+        "bytes": 1750,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.94450615438794e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "ae94562a2b798f86df207e90e37ffef9990d6a42970396bfc93fbd0fa0e68edf",
+        "keyframesSha256": "9e7ca7713b8a4dba83593554c1a074b5fbe1c5a8002fa4748c69e8e9f09e1565",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "deadlift",
+      "name": "硬拉",
+      "index": 26,
+      "slug": "26-hinge-deadlift-barbell",
+      "muscles": {
+        "glutes": 1.0,
+        "hamstrings": 0.8,
+        "quads": 0.65,
+        "erectors": 0.5
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 825280,
+        "sha256": "732ae2df01950b18e5abf32d294c29510cc4d4ec9a2514e1f68e590132a7a1d0",
+        "redChecks": [
+          {
+            "pixels": 8761,
+            "meanRed": 180.99246215820312
+          },
+          {
+            "pixels": 5900,
+            "meanRed": 157.5889892578125
+          }
+        ],
+        "loopPixelDelta": 0.40275694831969244,
+        "largestPosePixelDelta": 18.780915275452628
+      },
+      "poster": {
+        "sha256": "06135f25c2ca7ef36a26f1112703660f5317930dc5aea21b3a5419ed5f1357cf",
+        "bytes": 14508
+      },
+      "thumb": {
+        "sha256": "36ce0d95cdb3609529de603bba5e10da770b91280131493843b270715936b24d",
+        "bytes": 1766,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.555641928216858e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "732ae2df01950b18e5abf32d294c29510cc4d4ec9a2514e1f68e590132a7a1d0",
+        "keyframesSha256": "d84bd4fa6479fecd79926843c31b8e84fd5ed051dda46b3a681d49285f99c690",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "Sumo-Deadlift",
+      "name": "相扑硬拉",
+      "index": 27,
+      "slug": "27-hinge-sumo-barbell",
+      "muscles": {
+        "glutes": 1.0,
+        "adductors": 0.8,
+        "quads": 0.8,
+        "hamstrings": 0.45
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 882912,
+        "sha256": "6ab677a4b93abf385b9df8b00e8a18b05709f6b2dcbbe081c9b3b9152a63b4f2",
+        "redChecks": [
+          {
+            "pixels": 8005,
+            "meanRed": 205.1357879638672
+          },
+          {
+            "pixels": 6632,
+            "meanRed": 154.05186462402344
+          }
+        ],
+        "loopPixelDelta": 0.5194450257316469,
+        "largestPosePixelDelta": 18.38515363420759
+      },
+      "poster": {
+        "sha256": "7595302dbb8a394fb8dc593b8f3462703295ddd7e09593b936fd079a168194a7",
+        "bytes": 15728
+      },
+      "thumb": {
+        "sha256": "f09ed471e6d446c439a9690b45af29f485288c7cc054d0d3cef925b0036a1303",
+        "bytes": 1856,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.057359828798545e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "6ab677a4b93abf385b9df8b00e8a18b05709f6b2dcbbe081c9b3b9152a63b4f2",
+        "keyframesSha256": "62eb01300e887b389f4a133d99c2b924dd3226e28fb5e50a5eb8d9c87612a8d2",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "romaniadeadlift",
+      "name": "罗马尼亚硬拉",
+      "index": 28,
+      "slug": "28-hinge-romanian-barbell",
+      "muscles": {
+        "hamstrings": 1.0,
+        "glutes": 0.85,
+        "erectors": 0.35
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 787186,
+        "sha256": "a71f750d8e852f884b6fb945538e8e044defba4e129991900df03246554537d2",
+        "redChecks": [
+          {
+            "pixels": 8727,
+            "meanRed": 177.54176330566406
+          },
+          {
+            "pixels": 6431,
+            "meanRed": 142.72103881835938
+          }
+        ],
+        "loopPixelDelta": 0.34785388764880953,
+        "largestPosePixelDelta": 14.783603244357641
+      },
+      "poster": {
+        "sha256": "f59d97233e52b8d06b82fcb81658e0174ea8564a9c2cb890d6434c467cc2db2f",
+        "bytes": 14154
+      },
+      "thumb": {
+        "sha256": "85d3aa7fd606872fd0a9dfabc07f1682e7ee5940fcae5e87bd6c10f9663f212a",
+        "bytes": 1714,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.555641928216858e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "a71f750d8e852f884b6fb945538e8e044defba4e129991900df03246554537d2",
+        "keyframesSha256": "6e1bd96bc999ce4916c0e85eee30ca868214b8c286cee975fe9e0b6a05d75f25",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "hackssssquat",
+      "name": "哈克机深蹲",
+      "index": 29,
+      "slug": "29-squat-hack-hack-machine",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.6
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 1245696,
+        "sha256": "ab0979b8dfa2410f1babfb2a1cb962e513947e0026bd7e7033cc445eaa1a1732",
+        "redChecks": [
+          {
+            "pixels": 13669,
+            "meanRed": 228.1678924560547
+          },
+          {
+            "pixels": 12982,
+            "meanRed": 175.6737060546875
+          }
+        ],
+        "loopPixelDelta": 0.6268785264756944,
+        "largestPosePixelDelta": 10.972708565848215
+      },
+      "poster": {
+        "sha256": "c760a3bb341ab69d8c5be4f03bf210adaca12e73a59ec91d11f1c6ec66b1ad40",
+        "bytes": 26578
+      },
+      "thumb": {
+        "sha256": "3b98d129cf92ce4de2d6a0c45c5f154122f2c92f7185528710ed970038f10d2e",
+        "bytes": 3184,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.3686373833662313e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "ab0979b8dfa2410f1babfb2a1cb962e513947e0026bd7e7033cc445eaa1a1732",
+        "keyframesSha256": "1ffc88f7d17a02ecb97fe0d5bfc85aa5638e1666429e20ab262566636c106bf9",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "smithsquat",
+      "name": "史密斯机深蹲",
+      "index": 30,
+      "slug": "30-squat-smith-smith",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.8
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 1001262,
+        "sha256": "c55e3bf6f276b6d9ab0482437bf2e55f193bbbff70c3c852e247b1a0e8c56118",
+        "redChecks": [
+          {
+            "pixels": 9610,
+            "meanRed": 221.5968780517578
+          },
+          {
+            "pixels": 9173,
+            "meanRed": 166.39910888671875
+          }
+        ],
+        "loopPixelDelta": 0.5274009099082341,
+        "largestPosePixelDelta": 10.900575668092758
+      },
+      "poster": {
+        "sha256": "7049c13d817f2c50f81f725b6af193e9250e0148f0159852b5fc7f8c47b3c649",
+        "bytes": 21640
+      },
+      "thumb": {
+        "sha256": "96a58678a20989fa941e3358384489a06351451a111a316485264b829558dcb7",
+        "bytes": 2686,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4469480225074155e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "c55e3bf6f276b6d9ab0482437bf2e55f193bbbff70c3c852e247b1a0e8c56118",
+        "keyframesSha256": "ae575bb78b716c1f013f2174583a134ab7c0f03d6c6a5a3bc91d5e6712daa831",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "Barbell-Front-Squat",
+      "name": "前蹲",
+      "index": 31,
+      "slug": "31-squat-front-barbell",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.65,
+        "abs": 0.25
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 866140,
+        "sha256": "4256b30c5738101d5ec566d5dd018548abc69bb966be65b1cfc39936b83f7031",
+        "redChecks": [
+          {
+            "pixels": 10212,
+            "meanRed": 221.83499145507812
+          },
+          {
+            "pixels": 9783,
+            "meanRed": 166.1367645263672
+          }
+        ],
+        "loopPixelDelta": 0.4740619962177579,
+        "largestPosePixelDelta": 12.619963630797372
+      },
+      "poster": {
+        "sha256": "2fb66b435720b6dcdee42c251ab4cc29d334a1f1588a226f7069281ae8566626",
+        "bytes": 16338
+      },
+      "thumb": {
+        "sha256": "98974cb09795775ff0702cdbfbe77ea478e0a457bb9477b96108e006da8fcbe1",
+        "bytes": 1824,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.073323307071217e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "4256b30c5738101d5ec566d5dd018548abc69bb966be65b1cfc39936b83f7031",
+        "keyframesSha256": "a1d12416c3b4de94e1ed6cf4c76c0c93d1db0e6fa23000435e4fd42e6a113c6a",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "17601201-Dumbbell-Goblet-Squat_Thighs",
+      "name": "哑铃酒杯深蹲",
+      "index": 32,
+      "slug": "32-squat-goblet-goblet",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.65
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 797592,
+        "sha256": "2a372b81b78b32442bc25dc169079fa4335e72b330fed0d18480bf5b295884ca",
+        "redChecks": [
+          {
+            "pixels": 15086,
+            "meanRed": 220.08352661132812
+          },
+          {
+            "pixels": 14415,
+            "meanRed": 163.0283660888672
+          }
+        ],
+        "loopPixelDelta": 0.5562254890562995,
+        "largestPosePixelDelta": 9.169731987847223
+      },
+      "poster": {
+        "sha256": "71330454d72a50471e498ac85542c3b761917164760c737cd448ed66dcb07bd8",
+        "bytes": 14952
+      },
+      "thumb": {
+        "sha256": "ba83c42ac9e8b82b845a9c09b131cc70ae03c1c87c714a162fce7201a2e342d9",
+        "bytes": 1638,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.104658265615317e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "2a372b81b78b32442bc25dc169079fa4335e72b330fed0d18480bf5b295884ca",
+        "keyframesSha256": "58f38db7128aa891835dc8e5d783f6621f3505757ad6da0523debf4b9eef79b7",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "leg_curl_linedown",
+      "name": "腿弯举",
+      "index": 33,
+      "slug": "33-leg_curl-lying-lying-curl",
+      "muscles": {
+        "hamstrings": 1.0,
+        "calves": 0.35
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 705440,
+        "sha256": "852afe7cdbfa1d79079512b989134ffd8ca72af85ae1f5a652f7de692f511a17",
+        "redChecks": [
+          {
+            "pixels": 5679,
+            "meanRed": 247.5301971435547
+          },
+          {
+            "pixels": 5321,
+            "meanRed": 213.0689697265625
+          }
+        ],
+        "loopPixelDelta": 0.3054354228670635,
+        "largestPosePixelDelta": 3.4946758936321927
+      },
+      "poster": {
+        "sha256": "a45cb387a66fe8c30c42fd9891d483d72987942c64d5d1f9efe5da39ce53518d",
+        "bytes": 20486
+      },
+      "thumb": {
+        "sha256": "70dbd613db5eca640411dac00f3a1c944022a015c302a386d512e1fab82f9937",
+        "bytes": 2192,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.570444061357625e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "852afe7cdbfa1d79079512b989134ffd8ca72af85ae1f5a652f7de692f511a17",
+        "keyframesSha256": "4e2c8b69e7be40082f8e7b3cbab2f946476653827890b4864588b0629371e70f",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "Lever-Seated-Leg",
+      "name": "坐姿腿弯举",
+      "index": 34,
+      "slug": "34-leg_curl-seated-seated-curl",
+      "muscles": {
+        "hamstrings": 1.0,
+        "calves": 0.3
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 472864,
+        "sha256": "9726bbeb2a6ebb17adf425d770d4a0379c9afe177548c09eef787d7a469c63f1",
+        "redChecks": [
+          {
+            "pixels": 3527,
+            "meanRed": 148.02325439453125
+          },
+          {
+            "pixels": 2551,
+            "meanRed": 92.71344757080078
+          }
+        ],
+        "loopPixelDelta": 0.31073385571676587,
+        "largestPosePixelDelta": 3.085399324931796
+      },
+      "poster": {
+        "sha256": "d02a582abdfadf35daa034d20b213dc9f169dc23975b00a19212edd2ac8a1bfe",
+        "bytes": 16642
+      },
+      "thumb": {
+        "sha256": "a0c35da0a7b3d65a2cc46589afa5e6d50ef371d13d22de3cb4aa97edeaf995eb",
+        "bytes": 1772,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.08970832824707e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "9726bbeb2a6ebb17adf425d770d4a0379c9afe177548c09eef787d7a469c63f1",
+        "keyframesSha256": "197cccac42a99a9a1b7e6603594a9e1c66eca16933eedb11e653105c06e916c6",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "legextendtion",
+      "name": "坐姿腿屈伸",
+      "index": 35,
+      "slug": "35-leg_extension-seated-leg-extension",
+      "muscles": {
+        "quads": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 747818,
+        "sha256": "25ae1f3df88cd837d934eaef56a210a5ecc117d3ef2608530bb22d3aabf433eb",
+        "redChecks": [
+          {
+            "pixels": 10242,
+            "meanRed": 219.54501342773438
+          },
+          {
+            "pixels": 9643,
+            "meanRed": 165.42445373535156
+          }
+        ],
+        "loopPixelDelta": 0.26274520631820436,
+        "largestPosePixelDelta": 5.306046258835566
+      },
+      "poster": {
+        "sha256": "293e4d85167a179cc51f0028f7bdc00116555a67f5dbdce33d3b442a4b23bd01",
+        "bytes": 21904
+      },
+      "thumb": {
+        "sha256": "a1bd6d3c646e0b476892a7fe240a67b064856eeedc1cb556e9769f70b3eb0787",
+        "bytes": 2526,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.509929946427852e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "25ae1f3df88cd837d934eaef56a210a5ecc117d3ef2608530bb22d3aabf433eb",
+        "keyframesSha256": "17d9f041b2a1310eaaf6b839dd208f40f4d4933eccf368d3e6c6c91771fce462",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "legpress_machine",
+      "name": "腿举",
+      "index": 36,
+      "slug": "36-leg_press-incline-leg-press",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.8
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 963342,
+        "sha256": "dd79519a1829a29afae952efad9eae889357291084875e5c57c12185da037cf4",
+        "redChecks": [
+          {
+            "pixels": 7382,
+            "meanRed": 167.6881561279297
+          },
+          {
+            "pixels": 6282,
+            "meanRed": 117.50621032714844
+          }
+        ],
+        "loopPixelDelta": 0.3654155428447421,
+        "largestPosePixelDelta": 12.807160392640128
+      },
+      "poster": {
+        "sha256": "932cca57968c01bdb96a623d66bbc6501ce6394d9c9210a17a2fedc15e3429d2",
+        "bytes": 27244
+      },
+      "thumb": {
+        "sha256": "93860dcda0ee45a37c7dd9dbc517221589f0a79e2e6c63ae2e36b6367c88e740",
+        "bytes": 3110,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4478684729965014e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "dd79519a1829a29afae952efad9eae889357291084875e5c57c12185da037cf4",
+        "keyframesSha256": "8e575f0e91c16b6d2b7c71219ca1ca354e8fd94669c9809c3dc332061cf5ee0f",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "langes",
+      "name": "杠铃箭步蹲",
+      "index": 37,
+      "slug": "37-lunge-barbell-barbell",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.85
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 808796,
+        "sha256": "dff47ddc2718bfb4075f29e93d4e17bb2ecd7b506d2498a939f4c0ee4b6e7303",
+        "redChecks": [
+          {
+            "pixels": 6796,
+            "meanRed": 216.87802124023438
+          },
+          {
+            "pixels": 6422,
+            "meanRed": 159.6446533203125
+          }
+        ],
+        "loopPixelDelta": 0.4071398538256448,
+        "largestPosePixelDelta": 11.397077287946429
+      },
+      "poster": {
+        "sha256": "94b29616616a88b93b37f761543dda35f6a8cb1cba6d86a1c86ae3c9c2c4d2f7",
+        "bytes": 14328
+      },
+      "thumb": {
+        "sha256": "fb5794cacb92f42d751caa116fa4e8a290432d8ee981f4bddc3414435dab25a5",
+        "bytes": 1630,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.993553105490919e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "dff47ddc2718bfb4075f29e93d4e17bb2ecd7b506d2498a939f4c0ee4b6e7303",
+        "keyframesSha256": "cd45823ff3dbc21fb896f74c474aeaf636f7936b38232415717940472859a7bd",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "11971201-Squat-m_Thighs_small.mp4",
+      "name": "自重深蹲",
+      "index": 38,
+      "slug": "38-squat-bodyweight-none",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.8
+      },
+      "effortPhase": "return",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 803274,
+        "sha256": "2923aa8bb2918e891b23c6e771d631c8edbfd3b266f89843d6492f8d86653c92",
+        "redChecks": [
+          {
+            "pixels": 14785,
+            "meanRed": 218.7542724609375
+          },
+          {
+            "pixels": 14108,
+            "meanRed": 162.3293914794922
+          }
+        ],
+        "loopPixelDelta": 0.569886222718254,
+        "largestPosePixelDelta": 8.900604732452877
+      },
+      "poster": {
+        "sha256": "05139cf610496f5ac3312cd9efcd678c70f863e560a2c533d8355da613b40049",
+        "bytes": 15042
+      },
+      "thumb": {
+        "sha256": "a813ca58a411d07b39b4c490dd6cbc12511da9425380940a6c2196937d40efdf",
+        "bytes": 1618,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0062422165950616e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "2923aa8bb2918e891b23c6e771d631c8edbfd3b266f89843d6492f8d86653c92",
+        "keyframesSha256": "a877277ea8bbd323bc68cc03cc4e146797fd42eec45a78c2fa0580614797b611",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "hiptrust",
+      "name": "杠铃臀冲",
+      "index": 39,
+      "slug": "39-bridge-bench-hip-barbell",
+      "muscles": {
+        "glutes": 1.0,
+        "hamstrings": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 650414,
+        "sha256": "d619f16654c69b23a410e86e5f9930c69729e0e7dc86c66e74525e1698110270",
+        "redChecks": [
+          {
+            "pixels": 4174,
+            "meanRed": 123.03665924072266
+          },
+          {
+            "pixels": 1593,
+            "meanRed": 85.78907775878906
+          }
+        ],
+        "loopPixelDelta": 0.26717267717633925,
+        "largestPosePixelDelta": 7.786967928447421
+      },
+      "poster": {
+        "sha256": "2d68b3146434101f40fd8e53cb17771b507be77fd43026861f0f549ba4c95dd6",
+        "bytes": 12344
+      },
+      "thumb": {
+        "sha256": "d35e1d62b71292866e29c3f9341ed57f3c480d976e4f4204f0f45f6f096b9a6a",
+        "bytes": 1396,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.773038879552454e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "d619f16654c69b23a410e86e5f9930c69729e0e7dc86c66e74525e1698110270",
+        "keyframesSha256": "a10f9b0715f6d9ce0d7a05802688b574d7e2199fbadc66bb0e865d82f3bea864",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "smith_hiptrust",
+      "name": "史密斯臀冲",
+      "index": 40,
+      "slug": "40-bridge-bench-hip-smith",
+      "muscles": {
+        "glutes": 1.0,
+        "hamstrings": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 763134,
+        "sha256": "0cf3c470464ac81fe91b531ef6a2aa0b3d7b987053598e2ba01af1f8d7587a21",
+        "redChecks": [
+          {
+            "pixels": 4167,
+            "meanRed": 123.04031372070312
+          },
+          {
+            "pixels": 1560,
+            "meanRed": 86.1602554321289
+          }
+        ],
+        "loopPixelDelta": 0.36798967633928575,
+        "largestPosePixelDelta": 7.821865505642362
+      },
+      "poster": {
+        "sha256": "7d3f1f2189efe6b355f40f9415ab7ab3357e4028e2dc7bc0967c10618d954462",
+        "bytes": 16074
+      },
+      "thumb": {
+        "sha256": "9770fd728cbd1b228421e9a010c98e7f0dc3aae0964c27d70ebfced9cdaf88f2",
+        "bytes": 1812,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.773038879552454e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "0cf3c470464ac81fe91b531ef6a2aa0b3d7b987053598e2ba01af1f8d7587a21",
+        "keyframesSha256": "1b9f667e0130963669df0670cfa22c2947704890c4df634f30820a5a78a3106d",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "leg_spred",
+      "name": "坐姿髋外展",
+      "index": 41,
+      "slug": "41-hip_machine-abduction-hip-machine",
+      "muscles": {
+        "abductors": 1.0,
+        "glutes": 0.55
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 668170,
+        "sha256": "c418f98966e2a515b839fe2ba2031c8ac6360f08968a3d78626e669a2af52458",
+        "redChecks": [
+          {
+            "pixels": 2326,
+            "meanRed": 180.71624755859375
+          },
+          {
+            "pixels": 2098,
+            "meanRed": 126.6849365234375
+          }
+        ],
+        "loopPixelDelta": 0.28364684089781744,
+        "largestPosePixelDelta": 3.5063946436321927
+      },
+      "poster": {
+        "sha256": "af56fad9cd6cec105a8f7fb08a22f7d7f73175b8566cd33e76d28d74fcb716da",
+        "bytes": 18674
+      },
+      "thumb": {
+        "sha256": "23e5b64a40f29ebe9c6078010f847ed865845a40696f8cb19a371534418639cb",
+        "bytes": 1972,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 6.703866648198362e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "c418f98966e2a515b839fe2ba2031c8ac6360f08968a3d78626e669a2af52458",
+        "keyframesSha256": "b642d04f44167c471ac7ccc65de471e13cdf7415f8802e61daba693842450b53",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "leg_press_in",
+      "name": "坐姿髋内收",
+      "index": 42,
+      "slug": "42-hip_machine-adduction-hip-machine",
+      "muscles": {
+        "adductors": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 728108,
+        "sha256": "5f2a2177856762fc9c1d2fd03cdf8d8af779403913095da8e3609de50fa47dba",
+        "redChecks": [
+          {
+            "pixels": 4239,
+            "meanRed": 193.83721923828125
+          },
+          {
+            "pixels": 3792,
+            "meanRed": 129.22073364257812
+          }
+        ],
+        "loopPixelDelta": 0.3013155498201885,
+        "largestPosePixelDelta": 6.309878879123264
+      },
+      "poster": {
+        "sha256": "605cb4ce52d8765c7d3bef4236fbc658b357393512d2935a0f8daaaa04ac092e",
+        "bytes": 21074
+      },
+      "thumb": {
+        "sha256": "e9befc63a74557437be08b4f424c769b78dc6baf9abe0f54ea3d9c2f836fba16",
+        "bytes": 2448,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 6.703866648198362e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5f2a2177856762fc9c1d2fd03cdf8d8af779403913095da8e3609de50fa47dba",
+        "keyframesSha256": "081c9f0ace6b315ca8f71bb42cac8d2531ce2acf09bb988cb98d540168d27f80",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "f_s_f294",
+      "name": "自重臀桥",
+      "index": 43,
+      "slug": "43-bridge-floor-mat",
+      "muscles": {
+        "glutes": 1.0,
+        "hamstrings": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 793414,
+        "sha256": "38cca5b431ac0da80bddccdc201eeaeca6ac6523351e808581dac98ffecdfb7b",
+        "redChecks": [
+          {
+            "pixels": 10182,
+            "meanRed": 131.41612243652344
+          },
+          {
+            "pixels": 4966,
+            "meanRed": 88.29480743408203
+          }
+        ],
+        "loopPixelDelta": 0.30660284133184523,
+        "largestPosePixelDelta": 9.000102209666418
+      },
+      "poster": {
+        "sha256": "2914c20d64cae6c62e6b4dcca1789c47cf343f6fabed28ec0b16b7bd92e7a165",
+        "bytes": 14324
+      },
+      "thumb": {
+        "sha256": "19c07f24899ef043c0fdb2b7b1748a6a919bbabd548be8481dea08968453bec1",
+        "bytes": 1646,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0077857028788874e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "38cca5b431ac0da80bddccdc201eeaeca6ac6523351e808581dac98ffecdfb7b",
+        "keyframesSha256": "dac0a7344602f27b80bb25169868e9c983148eb472008a623b9ed68312acfa6b",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "shoulderpress",
+      "name": "哑铃推肩",
+      "index": 44,
+      "slug": "44-overhead-seated-dumbbells",
+      "muscles": {
+        "front_delts": 1.0,
+        "side_delts": 0.8,
+        "triceps": 0.55
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 708172,
+        "sha256": "c8f386db83290d6f5ac18af43dfacbe9ff000e3e3d5c3ec1c7effcc49e4f34e8",
+        "redChecks": [
+          {
+            "pixels": 3289,
+            "meanRed": 235.11158752441406
+          },
+          {
+            "pixels": 3113,
+            "meanRed": 182.99517822265625
+          }
+        ],
+        "loopPixelDelta": 0.3348509773375496,
+        "largestPosePixelDelta": 5.1694757370721724
+      },
+      "poster": {
+        "sha256": "6dd55ae539448f6929f8a76341f7137bb9c27bd5a4808943a37375348f71b2ac",
+        "bytes": 18100
+      },
+      "thumb": {
+        "sha256": "5f3e82a0c5fd15fd2ac551184136a56ebeb2b8be10b820eeb7095be6329c1006",
+        "bytes": 2166,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.2731557704981462e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "c8f386db83290d6f5ac18af43dfacbe9ff000e3e3d5c3ec1c7effcc49e4f34e8",
+        "keyframesSha256": "9564da2808b6f8807e215dec24747a8d14d741ec2403e02899eb6e0457603ab0",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "laderrow",
+      "name": "哑铃侧平举",
+      "index": 45,
+      "slug": "45-raise-lateral-dumbbells",
+      "muscles": {
+        "side_delts": 1.0,
+        "front_delts": 0.25
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 518874,
+        "sha256": "5846cd3206647ddc87f5cb75c6bddf508f5d220e45c3b01e5ece7c94c9fbefd0",
+        "redChecks": [
+          {
+            "pixels": 925,
+            "meanRed": 243.72000122070312
+          },
+          {
+            "pixels": 904,
+            "meanRed": 204.91592407226562
+          }
+        ],
+        "loopPixelDelta": 0.31280275375124006,
+        "largestPosePixelDelta": 5.550687275235615
+      },
+      "poster": {
+        "sha256": "b5fa96fdbae47f92695977279e542cb298130c1f46abfa51795e2b170852c9c9",
+        "bytes": 14114
+      },
+      "thumb": {
+        "sha256": "59f23ead3ec075b5323c936f42b4a51e1a2cf335c403dfc6e6e9f456e25bd8f2",
+        "bytes": 1700,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.5608744076281969e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5846cd3206647ddc87f5cb75c6bddf508f5d220e45c3b01e5ece7c94c9fbefd0",
+        "keyframesSha256": "9f6ed0337aa077a5814bac6b73368a792fba17a73337b0964c1e6178dfb301ec",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "frontraise",
+      "name": "哑铃前平举",
+      "index": 46,
+      "slug": "46-raise-front-dumbbells",
+      "muscles": {
+        "front_delts": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 596928,
+        "sha256": "9e26f26aadf88193c3ae5f157f22b8ae373733a8f846381d40edd62d9df6bb19",
+        "redChecks": [
+          {
+            "pixels": 1849,
+            "meanRed": 246.51109313964844
+          },
+          {
+            "pixels": 1845,
+            "meanRed": 204.65745544433594
+          }
+        ],
+        "loopPixelDelta": 0.2990824381510417,
+        "largestPosePixelDelta": 4.915834457155258
+      },
+      "poster": {
+        "sha256": "78874a9c5068179d0e274dff25085df5f9b5701f43b93414ede72a1d6a7c83c8",
+        "bytes": 14128
+      },
+      "thumb": {
+        "sha256": "430c3fb2d3c31d365f9953e06bd5063343a037db4a481e93cb9943295ecd65f3",
+        "bytes": 1646,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4685772869130276e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "9e26f26aadf88193c3ae5f157f22b8ae373733a8f846381d40edd62d9df6bb19",
+        "keyframesSha256": "accc7daf4dfb7c1005affef7002f2581c74c86c736971468ee5b85713a723ea5",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "sideladerrow",
+      "name": "俯身哑铃飞鸟",
+      "index": 47,
+      "slug": "47-raise-reverse-dumbbells",
+      "muscles": {
+        "rear_delts": 1.0,
+        "upper_back": 0.65
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 526238,
+        "sha256": "f0ee959e3e65effb9cebe86c6d0ad5323c294cd7d2b8a236824fa17cc304eaa7",
+        "redChecks": [
+          {
+            "pixels": 2310,
+            "meanRed": 246.32208251953125
+          },
+          {
+            "pixels": 2266,
+            "meanRed": 206.71755981445312
+          }
+        ],
+        "loopPixelDelta": 0.27727641756572424,
+        "largestPosePixelDelta": 5.37423124767485
+      },
+      "poster": {
+        "sha256": "2ab77a588c6d86cc8a9d9ce5ac12237810b931ab6b999127eaa2e9b9d5b917f1",
+        "bytes": 13356
+      },
+      "thumb": {
+        "sha256": "c0217457e6884e37ee3af4d0734176bbc31fc1f346f732ab51e31960030633c8",
+        "bytes": 1560,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.3918035541576882e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "f0ee959e3e65effb9cebe86c6d0ad5323c294cd7d2b8a236824fa17cc304eaa7",
+        "keyframesSha256": "6036b9acc0473c2c80d594a44598b6c5f2e3af5bcf2496d03b847e7dbafeb6ac",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "barbell_showlderpress",
+      "name": "站姿杠铃推举",
+      "index": 48,
+      "slug": "48-overhead-standing-barbell",
+      "muscles": {
+        "front_delts": 1.0,
+        "side_delts": 0.7,
+        "triceps": 0.6
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 573912,
+        "sha256": "4d54636e99d164de71c986632ec30ac56741a056717fa60f92e0d5bffea1642a",
+        "redChecks": [
+          {
+            "pixels": 2239,
+            "meanRed": 235.18087768554688
+          },
+          {
+            "pixels": 2166,
+            "meanRed": 183.622802734375
+          }
+        ],
+        "loopPixelDelta": 0.2974751790364583,
+        "largestPosePixelDelta": 6.119492788163442
+      },
+      "poster": {
+        "sha256": "d4216145385ba4cbf9ef1fd1e5bca6db80c750b50abc2b7684c120cb6b34b287",
+        "bytes": 14402
+      },
+      "thumb": {
+        "sha256": "01cc9fc5602cf2d0c03d7a5268c9d826499962ef550a5d728a0c107f18d98330",
+        "bytes": 1732,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.8047176444506744e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "4d54636e99d164de71c986632ec30ac56741a056717fa60f92e0d5bffea1642a",
+        "keyframesSha256": "cef6614f594bb097fdf9f7fd7ae99ee4149724e95ace00b05113288efbe4b842",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "machineshoulderpress",
+      "name": "器械坐姿推举",
+      "index": 49,
+      "slug": "49-overhead-seated-shoulder-machine",
+      "muscles": {
+        "front_delts": 1.0,
+        "side_delts": 0.8,
+        "triceps": 0.6
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 743402,
+        "sha256": "bb1e826de1077fd6d3965ac1149f0555978f5bcf8ddc513d2bff42b98439d6c5",
+        "redChecks": [
+          {
+            "pixels": 3290,
+            "meanRed": 234.81398010253906
+          },
+          {
+            "pixels": 3096,
+            "meanRed": 182.71286010742188
+          }
+        ],
+        "loopPixelDelta": 0.45148964533730157,
+        "largestPosePixelDelta": 3.2087310306609624
+      },
+      "poster": {
+        "sha256": "ae9d5323b4e07191cc045088a3f58f9f1409f70688b865b2ef3b71e7d175cdef",
+        "bytes": 20460
+      },
+      "thumb": {
+        "sha256": "7602008631348df5d8eea709cd34eb1f0a291114f39788573b253e68c561a1fb",
+        "bytes": 2594,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.2731557704981462e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "bb1e826de1077fd6d3965ac1149f0555978f5bcf8ddc513d2bff42b98439d6c5",
+        "keyframesSha256": "5b139bb0da32b6c09a25c5e4211adeea8139ea7a762efb05cf08caee4f7d539b",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "Lever-Seated-Reverse-Fly",
+      "name": "蝴蝶机反向飞鸟",
+      "index": 50,
+      "slug": "50-raise-pec-reverse-reverse-deck",
+      "muscles": {
+        "rear_delts": 1.0,
+        "upper_back": 0.6
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 799818,
+        "sha256": "aae74af5b6025b4e504d208237dffcde3125663055b4db153d17d78b659a96f5",
+        "redChecks": [
+          {
+            "pixels": 3508,
+            "meanRed": 225.25656127929688
+          },
+          {
+            "pixels": 2713,
+            "meanRed": 192.91006469726562
+          }
+        ],
+        "loopPixelDelta": 0.38086276584201384,
+        "largestPosePixelDelta": 3.6342298719618054
+      },
+      "poster": {
+        "sha256": "ce1e1cde6c423d4a48134f7782ad76de571d2ef2e2276f0144d6c5efecfd50e2",
+        "bytes": 20118
+      },
+      "thumb": {
+        "sha256": "08da16e813713691fe4c6cb6010990eac085129fdc9eee6baa6262c00a345e01",
+        "bytes": 2352,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0062422165950616e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "aae74af5b6025b4e504d208237dffcde3125663055b4db153d17d78b659a96f5",
+        "keyframesSha256": "cce715e5e2ce4e568f7b07c61808cac839589d4c050fd46522648a6a0b3342b4",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "arnold_shoulderpress",
+      "name": "阿诺德推肩",
+      "index": 51,
+      "slug": "51-overhead-arnold-dumbbells",
+      "muscles": {
+        "front_delts": 1.0,
+        "side_delts": 0.8,
+        "triceps": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 628940,
+        "sha256": "e1a72e71a42523c1e792bcb4884edd6acf4f0acff5d9b516cd42bd0d1886e3c0",
+        "redChecks": [
+          {
+            "pixels": 3093,
+            "meanRed": 235.80148315429688
+          },
+          {
+            "pixels": 2924,
+            "meanRed": 183.85601806640625
+          }
+        ],
+        "loopPixelDelta": 0.30647738017733134,
+        "largestPosePixelDelta": 4.385670979817708
+      },
+      "poster": {
+        "sha256": "87a6ef2081646b392caea2a788fe2d49465f1716d6453fe133e482f9e69bd062",
+        "bytes": 17528
+      },
+      "thumb": {
+        "sha256": "bf91b8444face4df4f16a33a56ad194e72735cd4180fa18c3d5152959c442911",
+        "bytes": 2066,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.4799486420077248e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "e1a72e71a42523c1e792bcb4884edd6acf4f0acff5d9b516cd42bd0d1886e3c0",
+        "keyframesSha256": "d4fca778829da6632d9601916f66f4626497253f6202ceacdcf11345b25864d2",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "face-pullingg",
+      "name": "面拉",
+      "index": 52,
+      "slug": "52-face_pull-standing-high-cable",
+      "muscles": {
+        "rear_delts": 1.0,
+        "upper_back": 0.85
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 542512,
+        "sha256": "8ba603b32196e9ba1e62e294161da00f8396a74f978dc1eaa7d87e459de0d07a",
+        "redChecks": [
+          {
+            "pixels": 8303,
+            "meanRed": 233.43453979492188
+          },
+          {
+            "pixels": 6697,
+            "meanRed": 189.40988159179688
+          }
+        ],
+        "loopPixelDelta": 0.30075170123387895,
+        "largestPosePixelDelta": 2.0719183058965776
+      },
+      "poster": {
+        "sha256": "774a00f41cd23c2d005dceb4195f27331717587ec1dc5b01f801ed2c7fd52bf8",
+        "bytes": 16452
+      },
+      "thumb": {
+        "sha256": "8a38f7d282b81dafed37dd157af7f2b091deb0514ba87534fb0ed7d2c69c5804",
+        "bytes": 1934,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.365063487362717e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "8ba603b32196e9ba1e62e294161da00f8396a74f978dc1eaa7d87e459de0d07a",
+        "keyframesSha256": "a5fe67ed9072f8583b3762874477d8cad08f374e8bcd56c4a05a24901fe07aad",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "dumbbellcurl",
+      "name": "哑铃弯举",
+      "index": 53,
+      "slug": "53-curl-supinated-dumbbells",
+      "muscles": {
+        "biceps": 1.0
+      },
+      "status": "user_approved_reference",
+      "sourceApprovedSample": "../muscle-preview/refined-curl",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 516774,
+        "sha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015",
+        "redChecks": [
+          {
+            "pixels": 3337,
+            "meanRed": 218.07791137695312
+          },
+          {
+            "pixels": 3213,
+            "meanRed": 148.4571990966797
+          }
+        ],
+        "loopPixelDelta": 0.25839911566840273,
+        "largestPosePixelDelta": 4.16621810670883
+      },
+      "poster": {
+        "sha256": "96c17c1055f6cc3eec21d0f37421969c1322e1f905510574261d5fd29371dd25",
+        "bytes": 14446
+      },
+      "motion": {
+        "projectionMaxM": 0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.960398058336021e-07
+      },
+      "thumb": {
+        "sha256": "67170ea9f744ae661a2a1cb4dc18784b5bf1a508e4a6dc64947dac28aca03ed5",
+        "bytes": 1798,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "supersededVisualReview": {
+        "animationSha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015",
+        "keyframesSha256": "59fe931cf3131ae4668e7ee8a8e64f990d671f5758200b282be5893fe0baebf8",
+        "checks": [
+          "recognizable_exercise_and_equipment",
+          "body_and_support_visible",
+          "continuous_anatomical_style",
+          "major_muscles_visible",
+          "key_pose_sequence"
+        ]
+      },
+      "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015",
+        "keyframesSha256": "59fe931cf3131ae4668e7ee8a8e64f990d671f5758200b282be5893fe0baebf8",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "barbellcrul",
+      "name": "杠铃弯举",
+      "index": 54,
+      "slug": "54-curl-supinated-barbell",
+      "muscles": {
+        "biceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 655056,
+        "sha256": "514cf79fbeeb95e9187638df2ef9828708007b1342c565ebbb13afd425c4b0b0",
+        "redChecks": [
+          {
+            "pixels": 1951,
+            "meanRed": 215.33059692382812
+          },
+          {
+            "pixels": 1876,
+            "meanRed": 153.73667907714844
+          }
+        ],
+        "loopPixelDelta": 0.2705601283482143,
+        "largestPosePixelDelta": 8.397507440476192
+      },
+      "poster": {
+        "sha256": "e8108ff6613a7d68c400f345f00ae15e31bd831c9fbb38bfb06a3ce422ba0922",
+        "bytes": 14668
+      },
+      "thumb": {
+        "sha256": "b09d45dad8067d2b507ba9f65a1beb806bdedcb97c1f7618ccd41a803c1d1010",
+        "bytes": 1686,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1504815904472838e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "514cf79fbeeb95e9187638df2ef9828708007b1342c565ebbb13afd425c4b0b0",
+        "keyframesSha256": "ac7f735206874a99480c7ad4f8a4f994fe33bbcf6b67318d7f271b20930aa8af",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "hammercurl",
+      "name": "锤式弯举",
+      "index": 55,
+      "slug": "55-curl-hammer-dumbbells",
+      "muscles": {
+        "biceps": 0.85,
+        "forearms": 0.65
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 525424,
+        "sha256": "5763ba36d5a107551f977ccf382fa91495f227fb98d3e78e1d96bba973cc7aec",
+        "redChecks": [
+          {
+            "pixels": 2924,
+            "meanRed": 207.5006866455078
+          },
+          {
+            "pixels": 2479,
+            "meanRed": 160.551025390625
+          }
+        ],
+        "loopPixelDelta": 0.2521943591889881,
+        "largestPosePixelDelta": 4.195877317398313
+      },
+      "poster": {
+        "sha256": "7e0e406977e20ab02b6c129a60e0e6c70c7e272693eba7ea60ee606bd1f9b095",
+        "bytes": 13974
+      },
+      "thumb": {
+        "sha256": "51a6db0a8a89043bc9e827df9e411fff4652bf8ba64a7d676dbf3aa4088f5a49",
+        "bytes": 1648,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1504815904472838e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5763ba36d5a107551f977ccf382fa91495f227fb98d3e78e1d96bba973cc7aec",
+        "keyframesSha256": "017885ff2bccad9974204fc812fad8437e52a6dd9089f04089976a912a25632a",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "prechercurl",
+      "name": "牧师凳弯举",
+      "index": 56,
+      "slug": "56-curl-preacher-preacher-bar",
+      "muscles": {
+        "biceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 775280,
+        "sha256": "5afd3289a44af445e998c0fb8b8c9a4043f764432d919b80cb9626a3d88af11b",
+        "redChecks": [
+          {
+            "pixels": 1520,
+            "meanRed": 229.711181640625
+          },
+          {
+            "pixels": 1468,
+            "meanRed": 179.71185302734375
+          }
+        ],
+        "loopPixelDelta": 0.36200823102678575,
+        "largestPosePixelDelta": 11.275433737134177
+      },
+      "poster": {
+        "sha256": "a24336795dba44cdb0bad4ce9961c971141faf4cd70806a0f26f66fc446ddac0",
+        "bytes": 18952
+      },
+      "thumb": {
+        "sha256": "fdae86df4e090dbf8d73b79203520f3c345923a426a6f40161eed59499951370",
+        "bytes": 2188,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1052001500599777e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "5afd3289a44af445e998c0fb8b8c9a4043f764432d919b80cb9626a3d88af11b",
+        "keyframesSha256": "ac717c28414164d478c6b2b8b72b771375cc899f897bd54700279f3987b24349",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "cablecurl",
+      "name": "绳索弯举",
+      "index": 57,
+      "slug": "57-curl-cable-low-cable",
+      "muscles": {
+        "biceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 690272,
+        "sha256": "1d9490287927c7c1467c28bdc55155f290a88dd1c0ff65d956b6440f2379c1d9",
+        "redChecks": [
+          {
+            "pixels": 2837,
+            "meanRed": 216.17306518554688
+          },
+          {
+            "pixels": 2740,
+            "meanRed": 154.0470733642578
+          }
+        ],
+        "loopPixelDelta": 0.2867363823784722,
+        "largestPosePixelDelta": 2.3483116513206848
+      },
+      "poster": {
+        "sha256": "79a046534953df0b4f9d745f2ca872b707423e1e8bbf6dffb30f82c1d2d2d407",
+        "bytes": 19420
+      },
+      "thumb": {
+        "sha256": "88a2e55b5774a5d2fd72d57f0ea530c96edc2316ec6e14337994b0bf6693c65c",
+        "bytes": 2190,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1504815904472838e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "1d9490287927c7c1467c28bdc55155f290a88dd1c0ff65d956b6440f2379c1d9",
+        "keyframesSha256": "ce0e6b915b7a7654dad1690e0bd7e13bda468a55b7b8ad405236eccb28a629e9",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "incline_dumbell_curl",
+      "name": "上斜哑铃弯举",
+      "index": 58,
+      "slug": "58-curl-incline-dumbbells",
+      "muscles": {
+        "biceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 601136,
+        "sha256": "0f9d701d9092d0c468e4b36890262fdb3769fd83e68a82ddaef1a8a06f15c7d5",
+        "redChecks": [
+          {
+            "pixels": 2676,
+            "meanRed": 212.44021606445312
+          },
+          {
+            "pixels": 2590,
+            "meanRed": 150.98995971679688
+          }
+        ],
+        "loopPixelDelta": 0.21069771902901788,
+        "largestPosePixelDelta": 4.318094404916915
+      },
+      "poster": {
+        "sha256": "bffd9c2c5bae17fe26c1803abf90afdb897fc19214bf942f548cc54a21ddca66",
+        "bytes": 17204
+      },
+      "thumb": {
+        "sha256": "2c60f1f8fb2366f717ed84d41287cfad0315d6dca54f63442a4fa517dbc786e0",
+        "bytes": 1944,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.2731557704981462e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "0f9d701d9092d0c468e4b36890262fdb3769fd83e68a82ddaef1a8a06f15c7d5",
+        "keyframesSha256": "98c0fc3ecfc6d48b6daa813b094659fd8de6fc02ce3c5314d8071dbd9e5a642f",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "dumbbellbackpull",
+      "name": "哑铃过头臂屈伸",
+      "index": 59,
+      "slug": "59-triceps-overhead-single-dumbbell",
+      "muscles": {
+        "triceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 379776,
+        "sha256": "9a232a6d6ff589adee4ea0b43ad4205231e3701434fbe0c13ea7a3a93e8cffb7",
+        "redChecks": [
+          {
+            "pixels": 3251,
+            "meanRed": 231.96124267578125
+          },
+          {
+            "pixels": 3078,
+            "meanRed": 184.4438018798828
+          }
+        ],
+        "loopPixelDelta": 0.2295047820560516,
+        "largestPosePixelDelta": 1.9931529211619543
+      },
+      "poster": {
+        "sha256": "91a2585668f67e54fb9cf465755a30d459c6172f6970091c856f9ef06e9822e5",
+        "bytes": 12824
+      },
+      "thumb": {
+        "sha256": "2692c4b4a39ad7655bb326698ee7e8efb2915718c3bc6d1ed825c3e6d7e5613f",
+        "bytes": 1456,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1689578686627857e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "9a232a6d6ff589adee4ea0b43ad4205231e3701434fbe0c13ea7a3a93e8cffb7",
+        "keyframesSha256": "d27b413cb9a12e6d91a78145b23552c23664816c7988fbd0d196c4d949861474",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "cablepulldowntrp",
+      "name": "绳索臂屈伸",
+      "index": 60,
+      "slug": "60-triceps-rope-high-cable",
+      "muscles": {
+        "triceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 504154,
+        "sha256": "324fd1ff187a13dc7e58d9ac5ed7e38eab9213ab5378b2ab998fa4eaadc8bd94",
+        "redChecks": [
+          {
+            "pixels": 2789,
+            "meanRed": 214.131591796875
+          },
+          {
+            "pixels": 2608,
+            "meanRed": 152.0717010498047
+          }
+        ],
+        "loopPixelDelta": 0.2237175835503472,
+        "largestPosePixelDelta": 1.590701633029514
+      },
+      "poster": {
+        "sha256": "d6854f816d7815a09cf1535bf953e316a904eb77510d2c77e9f7766a99d08895",
+        "bytes": 16082
+      },
+      "thumb": {
+        "sha256": "09fe53a2384f357224f89c4f62e33d149af0671811b6d40554f410fe60d2a96f",
+        "bytes": 1880,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1095112841717175e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "324fd1ff187a13dc7e58d9ac5ed7e38eab9213ab5378b2ab998fa4eaadc8bd94",
+        "keyframesSha256": "62b7725ef6929de439ed85154c69ea6c402386fd29c8d99e188d603f0c8c9369",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "calble_overhead_pullup",
+      "name": "绳索过头臂屈伸",
+      "index": 61,
+      "slug": "61-triceps-overhead-cable-high-cable",
+      "muscles": {
+        "triceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 470302,
+        "sha256": "adb911889f6915e9124d8d48f97ffec3a17c2b20e5b36a3fa82b5e59abd0c27c",
+        "redChecks": [
+          {
+            "pixels": 3351,
+            "meanRed": 245.8328857421875
+          },
+          {
+            "pixels": 3242,
+            "meanRed": 205.8229522705078
+          }
+        ],
+        "loopPixelDelta": 0.27692037915426587,
+        "largestPosePixelDelta": 1.6219138493613592
+      },
+      "poster": {
+        "sha256": "6c218fea281cd0e686325a414030c0213838924cdf7511f36efe62e616300dd0",
+        "bytes": 18124
+      },
+      "thumb": {
+        "sha256": "b9349ee3de55bd97afb8723b61134cf089033a704428f678c96809f4384ebfc2",
+        "bytes": 2092,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.6008175365855368e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "adb911889f6915e9124d8d48f97ffec3a17c2b20e5b36a3fa82b5e59abd0c27c",
+        "keyframesSha256": "8c06eb0423b2c325f4caebcb8cad23524a28961470e59937fb10f90b3f378ee3",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "vbar_pulldown",
+      "name": "V-Bar 绳索下压",
+      "index": 62,
+      "slug": "62-triceps-vbar-high-cable",
+      "muscles": {
+        "triceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 480030,
+        "sha256": "4cf515a75f15fdfe37aaafcc2df6d18e5d326ad49f26c8bb02475f3b1822c833",
+        "redChecks": [
+          {
+            "pixels": 2785,
+            "meanRed": 214.78707885742188
+          },
+          {
+            "pixels": 2635,
+            "meanRed": 152.66641235351562
+          }
+        ],
+        "loopPixelDelta": 0.23642500620039683,
+        "largestPosePixelDelta": 1.2274906218998016
+      },
+      "poster": {
+        "sha256": "5932b576346b2881f7050701c1320307cb0dfe7e122991e3ed497d71eb124be1",
+        "bytes": 15622
+      },
+      "thumb": {
+        "sha256": "fd66422f921835b503332a47616d534187258c7e477759bad4b41bf265d3ed80",
+        "bytes": 1816,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1696225078815464e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "4cf515a75f15fdfe37aaafcc2df6d18e5d326ad49f26c8bb02475f3b1822c833",
+        "keyframesSha256": "6166809285197f816d13a4699cd98cb2138717fe61b04b31e6727d4a3141b35f",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "bar_scullcrash",
+      "name": "碎颅者",
+      "index": 63,
+      "slug": "63-triceps-skull-barbell",
+      "muscles": {
+        "triceps": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 728892,
+        "sha256": "db7858c39e5f712d3e4b39a5561d2aba1d379215c1d1b511926dfd60a919f987",
+        "redChecks": [
+          {
+            "pixels": 493,
+            "meanRed": 218.68154907226562
+          },
+          {
+            "pixels": 439,
+            "meanRed": 167.04100036621094
+          }
+        ],
+        "loopPixelDelta": 0.35337950691344244,
+        "largestPosePixelDelta": 10.046319870721726
+      },
+      "poster": {
+        "sha256": "eab4eb9bc85c845490f6acd429e0bef91ea2ffea157e00b5cb38a855de3154ad",
+        "bytes": 17040
+      },
+      "thumb": {
+        "sha256": "7dadd789cb4bccea8f8fd04a61ad3c74e622ad9a5c7751c5e2cc826a91cb9ce0",
+        "bytes": 1856,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 6.978135987501201e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "db7858c39e5f712d3e4b39a5561d2aba1d379215c1d1b511926dfd60a919f987",
+        "keyframesSha256": "b66fef0ad6bb1e92403b65ba9c96c1a67cfcce2a112c7f600def7de218c4e094",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "closegrip_barbell_press",
+      "name": "窄距卧推(敞开式)",
+      "index": 64,
+      "slug": "64-press-close-barbell",
+      "muscles": {
+        "triceps": 1.0,
+        "chest": 0.65,
+        "front_delts": 0.35
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 739928,
+        "sha256": "99e1039d7a35918f3b5b3f77af27e144331b357cb626bfdadaccbda93d3a1fd2",
+        "redChecks": [
+          {
+            "pixels": 1485,
+            "meanRed": 233.79595947265625
+          },
+          {
+            "pixels": 1400,
+            "meanRed": 190.9307098388672
+          }
+        ],
+        "loopPixelDelta": 0.32542492094494047,
+        "largestPosePixelDelta": 9.772318037729415
+      },
+      "poster": {
+        "sha256": "f799575287feb74f96625d46342a0ec9b39efed754bafcbb5d47f2babc5ef412",
+        "bytes": 16390
+      },
+      "thumb": {
+        "sha256": "f17b35d805f34c8b21b95db124a1d6944b0f70bfdffedc6163b7e847edbd2fff",
+        "bytes": 1774,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.615579727233456e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "99e1039d7a35918f3b5b3f77af27e144331b357cb626bfdadaccbda93d3a1fd2",
+        "keyframesSha256": "f777c26db28f23980563396279cd4e28c7b23fe943007a52ceaf3b4fb1478c44",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "Dumbbell-Standing-Calf-Raise",
+      "name": "站姿哑铃提踵",
+      "index": 65,
+      "slug": "65-calf-standing-dumbbells",
+      "muscles": {
+        "calves": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 724442,
+        "sha256": "693f2c6cd5e928435277fd7d35fd2451d60c19e1620c16ee93ea10b3902283cb",
+        "redChecks": [
+          {
+            "pixels": 4829,
+            "meanRed": 206.36778259277344
+          },
+          {
+            "pixels": 4431,
+            "meanRed": 137.7307586669922
+          }
+        ],
+        "loopPixelDelta": 0.26492164248511907,
+        "largestPosePixelDelta": 5.721207391648065
+      },
+      "poster": {
+        "sha256": "2b2b826e54651a2137a478f4677ba26a47bca131c62e9f45f10848ffaf78e9b0",
+        "bytes": 12860
+      },
+      "thumb": {
+        "sha256": "1177c0cef87f4bf2f3e0cb172579204e167161a2ef899729e79be2ba8058a9da",
+        "bytes": 1496,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.292599962935762e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "693f2c6cd5e928435277fd7d35fd2451d60c19e1620c16ee93ea10b3902283cb",
+        "keyframesSha256": "a60485dd5566c13084eba9608f8c4679f006c52152e9702cff64534ca96daee9",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "f_s_f212",
+      "name": "站姿自重提踵",
+      "index": 66,
+      "slug": "66-calf-standing-none",
+      "muscles": {
+        "calves": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 627848,
+        "sha256": "22158cf50eaaa9adbf1ad2365e41943df07d0efb6b31919867e65defd4d76798",
+        "redChecks": [
+          {
+            "pixels": 4813,
+            "meanRed": 206.2073516845703
+          },
+          {
+            "pixels": 4428,
+            "meanRed": 137.7434539794922
+          }
+        ],
+        "loopPixelDelta": 0.255858890593998,
+        "largestPosePixelDelta": 4.751187763516865
+      },
+      "poster": {
+        "sha256": "358702d5e42572b0dc87baf7ed1d1b04cbd20336bb6492a38acaafe90b7e3e5d",
+        "bytes": 11982
+      },
+      "thumb": {
+        "sha256": "658dcdaa4acc00d36d7cc18bf203eb16bbd2767fae4de1dc01bac3b94051207f",
+        "bytes": 1358,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.292599962935762e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "22158cf50eaaa9adbf1ad2365e41943df07d0efb6b31919867e65defd4d76798",
+        "keyframesSha256": "da6445ccbc7814dedaf0e2d72ce26746616ef997c303cde52108c2e9f8e3b97f",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "Lever-Seated-Calf-Raise",
+      "name": "坐姿器械提踵",
+      "index": 67,
+      "slug": "67-calf-seated-calf-machine",
+      "muscles": {
+        "calves": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 604440,
+        "sha256": "250f67f15af723e32b208e6337498e8ef8a468c2491209a357d8a93e55e92335",
+        "redChecks": [
+          {
+            "pixels": 2365,
+            "meanRed": 168.4807586669922
+          },
+          {
+            "pixels": 1886,
+            "meanRed": 108.51219177246094
+          }
+        ],
+        "loopPixelDelta": 0.2537149096292163,
+        "largestPosePixelDelta": 2.4159129309275795
+      },
+      "poster": {
+        "sha256": "e29fb818e6efb447d1c0338c846cc4fae266363eb693a832db3b5d73fc774923",
+        "bytes": 19646
+      },
+      "thumb": {
+        "sha256": "6d837602860e858858757eeafaab2137502bec60dac8b475025224375c013564",
+        "bytes": 2294,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.755764531894389e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "250f67f15af723e32b208e6337498e8ef8a468c2491209a357d8a93e55e92335",
+        "keyframesSha256": "4183bf1aff9bca004d80fa4aee57fdf73323d1d6621c117cbf506ed1bf34e0a2",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "abs-curl",
+      "name": "卷腹",
+      "index": 68,
+      "slug": "68-core-crunch-mat",
+      "muscles": {
+        "abs": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 708486,
+        "sha256": "e720db9a2b8e7e598031bc6783cdf2546d0483fd03650833088479a34b638968",
+        "redChecks": [
+          {
+            "pixels": 2528,
+            "meanRed": 242.60165405273438
+          },
+          {
+            "pixels": 2357,
+            "meanRed": 201.1302490234375
+          }
+        ],
+        "loopPixelDelta": 0.27093263656374006,
+        "largestPosePixelDelta": 3.9759753999255953
+      },
+      "poster": {
+        "sha256": "f88e633b190f5cbb4caea15b56bfc795c9e642705961760fae7513fb5ff9a1a3",
+        "bytes": 17094
+      },
+      "thumb": {
+        "sha256": "f44020400b33cc16db56fb0dff8f28a3335e618cdabb747e5816cc219f4e0399",
+        "bytes": 1590,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.755764531894389e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "e720db9a2b8e7e598031bc6783cdf2546d0483fd03650833088479a34b638968",
+        "keyframesSha256": "b2b2bb42a3f5e50b2f438e75e43aa240e7fa101079814e2fdc5c719ccefde732",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "leg-rise",
+      "name": "仰卧抬腿",
+      "index": 69,
+      "slug": "69-core-leg-raise-mat",
+      "muscles": {
+        "abs": 1.0,
+        "hip_flexors": 0.55
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 563416,
+        "sha256": "c8dac983ba12df2f0737491d9bd1056114cd2d7d1ddf5507f01193a976961413",
+        "redChecks": [
+          {
+            "pixels": 2475,
+            "meanRed": 238.92242431640625
+          },
+          {
+            "pixels": 1953,
+            "meanRed": 204.8817138671875
+          }
+        ],
+        "loopPixelDelta": 0.3107149638826885,
+        "largestPosePixelDelta": 3.9582466246589783
+      },
+      "poster": {
+        "sha256": "3db5eb5f198908d2b5b07a69d38734a0a867c5ee3da5f99a5a1d14c06e2da0a5",
+        "bytes": 15408
+      },
+      "thumb": {
+        "sha256": "18f58374edf08656015c0e585f0753753b7ac554495378b401d81b38a61bd464",
+        "bytes": 1470,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 7.252079181536454e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "c8dac983ba12df2f0737491d9bd1056114cd2d7d1ddf5507f01193a976961413",
+        "keyframesSha256": "6389ae6c7f58010789b3be90bd8cd516173303b35484879ba7706afcd4390a1f",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "plank_recorder",
+      "name": "平板支撑",
+      "index": 70,
+      "slug": "70-core-plank-mat",
+      "muscles": {
+        "abs": 1.0,
+        "obliques": 0.5
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 385710,
+        "sha256": "89cd8df9f8d65cc93edc45046a525ee56a4c96d8b6fe25f9cdb5f0ac820ca9a4",
+        "redChecks": [
+          {
+            "pixels": 3239,
+            "meanRed": 139.97869873046875
+          },
+          {
+            "pixels": 1959,
+            "meanRed": 87.22970581054688
+          }
+        ],
+        "loopPixelDelta": 0.1711406405009921,
+        "largestPosePixelDelta": 0.6104261610243056
+      },
+      "poster": {
+        "sha256": "b0bdf16aa641afca3e123da0a4106b4f7c98bdbf0b29554d6798068530737f97",
+        "bytes": 10974
+      },
+      "thumb": {
+        "sha256": "41c9f9cf8bd89cf3c59154b08639a6d922768c8f9651493b8a1e30ae3cb55bc9",
+        "bytes": 1126,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1019809183170987e-06
+      },
+      "styleRevision": 2,
+      "supersededVisualReview": {
+        "animationSha256": "89cd8df9f8d65cc93edc45046a525ee56a4c96d8b6fe25f9cdb5f0ac820ca9a4",
+        "keyframesSha256": "e1928190ef7897158bbb26feb613e538525d434c1f84d14b1b45da55b32a04f2",
+        "checks": [
+          "recognizable_exercise_and_equipment",
+          "body_and_support_visible",
+          "continuous_anatomical_style",
+          "major_muscles_visible",
+          "key_pose_sequence"
+        ]
+      },
+      "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "89cd8df9f8d65cc93edc45046a525ee56a4c96d8b6fe25f9cdb5f0ac820ca9a4",
+        "keyframesSha256": "e1928190ef7897158bbb26feb613e538525d434c1f84d14b1b45da55b32a04f2",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "Cable-Kneeling-Crunch_Waist_small",
+      "name": "绳索跪姿卷腹",
+      "index": 71,
+      "slug": "71-core-cable-crunch-high-cable",
+      "muscles": {
+        "abs": 1.0
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 830984,
+        "sha256": "299b033d3a01a4d7378d097247cb4ec20bbe181fd63e56d43a779b94b32e19d5",
+        "redChecks": [
+          {
+            "pixels": 1820,
+            "meanRed": 127.92142486572266
+          },
+          {
+            "pixels": 927,
+            "meanRed": 84.74002075195312
+          }
+        ],
+        "loopPixelDelta": 0.3908032614087302,
+        "largestPosePixelDelta": 6.5328790573846724
+      },
+      "poster": {
+        "sha256": "54e41b6a7fb6131183b1ef9327979b667e185c172872138913484cbce70288e8",
+        "bytes": 17946
+      },
+      "thumb": {
+        "sha256": "afee3911fa4d441a7b2c8a8fd76f106d0b6c027c518d77a0a70ed66dd7c85b19",
+        "bytes": 2020,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0811303345690402e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "299b033d3a01a4d7378d097247cb4ec20bbe181fd63e56d43a779b94b32e19d5",
+        "keyframesSha256": "c77552759150f5fd98038d9dc53dc3ba224086c89a4d1ea7819c9c1898ed927d",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "04741201-Hanging-Straight-Leg-Hip-Raise_Waist",
+      "name": "悬挂抬腿",
+      "index": 72,
+      "slug": "72-core-hanging-raise-pullup-bar",
+      "muscles": {
+        "abs": 1.0,
+        "hip_flexors": 0.65
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 564266,
+        "sha256": "20a4ef049152407947502a53b3b8a35ca792dccfa51c1828b097dd072dbc704b",
+        "redChecks": [
+          {
+            "pixels": 4580,
+            "meanRed": 212.02903747558594
+          },
+          {
+            "pixels": 4100,
+            "meanRed": 156.97048950195312
+          }
+        ],
+        "loopPixelDelta": 0.3027309841579861,
+        "largestPosePixelDelta": 4.423926943824405
+      },
+      "poster": {
+        "sha256": "83450c0f828c1adcf6a9e0d028d8f8f1258fe4f4de9ceb22e6062636ffab542f",
+        "bytes": 17278
+      },
+      "thumb": {
+        "sha256": "4cfc87c1d4e021c8d5a4d975394b475b7259756c5dc4fdb1d5abf6ef63f21657",
+        "bytes": 2138,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.3943737203041392e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "20a4ef049152407947502a53b3b8a35ca792dccfa51c1828b097dd072dbc704b",
+        "keyframesSha256": "5fc157b456aa0219481558b2c552fe0483fd47035d622520ad6f400ddd1964ec",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "02761201-Dead-Bug_Waist",
+      "name": "死虫",
+      "index": 73,
+      "slug": "73-core-dead-bug-mat",
+      "muscles": {
+        "abs": 1.0,
+        "obliques": 0.35
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 811750,
+        "sha256": "86f76667629a2dad9f114630f38b19e9f941db668e61ea309abbd8b06b32353d",
+        "redChecks": [
+          {
+            "pixels": 1430,
+            "meanRed": 241.37413024902344
+          },
+          {
+            "pixels": 1306,
+            "meanRed": 204.93797302246094
+          }
+        ],
+        "loopPixelDelta": 0.35946800595238093,
+        "largestPosePixelDelta": 4.662746853298612
+      },
+      "poster": {
+        "sha256": "22b7905fed6713eb5763705f5d706800bcf84c759c555ee5519fa46e0f97610d",
+        "bytes": 16692
+      },
+      "thumb": {
+        "sha256": "a311eecc9021d311e4e6d8789b3f1654a4b34f867c7b043cd11b2977ed4ce23c",
+        "bytes": 1622,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.1155984988358494e-06
+      },
+      "styleRevision": 2,
+      "supersededVisualReview": {
+        "animationSha256": "86f76667629a2dad9f114630f38b19e9f941db668e61ea309abbd8b06b32353d",
+        "keyframesSha256": "e2f097d9126a97bb0b4c2fb9e579cda85bec58a4a3c34d0a259d27a818b2c158",
+        "checks": [
+          "recognizable_exercise_and_equipment",
+          "body_and_support_visible",
+          "continuous_anatomical_style",
+          "major_muscles_visible",
+          "key_pose_sequence"
+        ]
+      },
+      "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "86f76667629a2dad9f114630f38b19e9f941db668e61ea309abbd8b06b32353d",
+        "keyframesSha256": "e2f097d9126a97bb0b4c2fb9e579cda85bec58a4a3c34d0a259d27a818b2c158",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "48111201",
+      "name": "侧平板支撑",
+      "index": 74,
+      "slug": "74-core-side-plank-mat",
+      "muscles": {
+        "obliques": 1.0,
+        "abductors": 0.4
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 653698,
+        "sha256": "75166f65444cd824c3bec12a28a620326b6524334dd3de7a2fa34c0e08523f33",
+        "redChecks": [
+          {
+            "pixels": 5908,
+            "meanRed": 205.81600952148438
+          },
+          {
+            "pixels": 3948,
+            "meanRed": 192.83206176757812
+          }
+        ],
+        "loopPixelDelta": 0.2409251379588294,
+        "largestPosePixelDelta": 1.218967982700893
+      },
+      "poster": {
+        "sha256": "9486bd04c322e15de6ccad237c8878758c6ac0e9b14db73798b65429e96b8406",
+        "bytes": 18960
+      },
+      "thumb": {
+        "sha256": "f429f5776d63b1f6a99db8e47de7cf85e609e7e97f5590e246c6846957a44433",
+        "bytes": 1888,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.592756774683538e-07
+      },
+      "styleRevision": 2,
+      "supersededVisualReview": {
+        "animationSha256": "75166f65444cd824c3bec12a28a620326b6524334dd3de7a2fa34c0e08523f33",
+        "keyframesSha256": "950ecf242ca44c9c56328ad32f37e1150a90dfc61bbaedc6cf020254ea20e06c",
+        "checks": [
+          "recognizable_exercise_and_equipment",
+          "body_and_support_visible",
+          "continuous_anatomical_style",
+          "major_muscles_visible",
+          "key_pose_sequence"
+        ]
+      },
+      "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "75166f65444cd824c3bec12a28a620326b6524334dd3de7a2fa34c0e08523f33",
+        "keyframesSha256": "950ecf242ca44c9c56328ad32f37e1150a90dfc61bbaedc6cf020254ea20e06c",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "running",
+      "name": "跑步机跑步",
+      "index": 75,
+      "slug": "75-cardio-run-treadmill",
+      "muscles": {
+        "quads": 0.8,
+        "hamstrings": 0.7,
+        "calves": 1.0,
+        "glutes": 0.7
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 985002,
+        "sha256": "e22707ce4e45ec28a56cec1f7fc2c98290a9adf723487d530f74ce560c066008",
+        "redChecks": [
+          {
+            "pixels": 14296,
+            "meanRed": 198.4265594482422
+          },
+          {
+            "pixels": 12533,
+            "meanRed": 142.03973388671875
+          }
+        ],
+        "loopPixelDelta": 1.0763104151165674,
+        "largestPosePixelDelta": 7.08721197219122
+      },
+      "poster": {
+        "sha256": "bb79d9fb33f4d2de5b45115ae8c6f5f67f043374a52b7a9d5708802537898c63",
+        "bytes": 21936
+      },
+      "thumb": {
+        "sha256": "ae0595511b9592152acf8f4ae1f372666bbfe85309ff0655b3e0446fcec59ba7",
+        "bytes": 2624,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 9.911232679078513e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "e22707ce4e45ec28a56cec1f7fc2c98290a9adf723487d530f74ce560c066008",
+        "keyframesSha256": "33f2425afe42085a1c69893cb62279b8eeecb9d061d88c10c6ddb4835e7ce7a7",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "bike",
+      "name": "动感单车",
+      "index": 76,
+      "slug": "76-cardio-cycle-bike",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.7,
+        "calves": 0.55
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 751150,
+        "sha256": "e722370c661e4c9727d6541d621bd48025c7ab9b48d55a329856ffa7573eac95",
+        "redChecks": [
+          {
+            "pixels": 6372,
+            "meanRed": 209.081298828125
+          },
+          {
+            "pixels": 11055,
+            "meanRed": 158.8353729248047
+          }
+        ],
+        "loopPixelDelta": 0.9256829155815972,
+        "largestPosePixelDelta": 3.621095687624008
+      },
+      "poster": {
+        "sha256": "672a1c3ecd204bf12a2ab459caed496d41e718a611072b464fd8b7ab5de32560",
+        "bytes": 17072
+      },
+      "thumb": {
+        "sha256": "a7219ffa11af5271364316d21d51f008237a061e570eaf3992b9c02caa41d668",
+        "bytes": 1984,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.156259169223314e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "e722370c661e4c9727d6541d621bd48025c7ab9b48d55a329856ffa7573eac95",
+        "keyframesSha256": "5060954f1303ff4bddbb9edd45591e45204ecc1056d5915bc6533c9b85ed4eda",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "22621301-Rowing-machine",
+      "name": "划船机",
+      "index": 77,
+      "slug": "77-cardio-row-rower",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.7,
+        "lats": 0.8,
+        "upper_back": 0.6
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 1006310,
+        "sha256": "55e6b5624f14e715f21327d6d0e64e1467e89e33e08f1b3e816d4f69665a6462",
+        "redChecks": [
+          {
+            "pixels": 13819,
+            "meanRed": 200.362548828125
+          },
+          {
+            "pixels": 11651,
+            "meanRed": 152.33970642089844
+          }
+        ],
+        "loopPixelDelta": 0.36820329938616075,
+        "largestPosePixelDelta": 11.869471474299354
+      },
+      "poster": {
+        "sha256": "279d7590763668d74bdeb8c5bbe836fd93bb69716d1d27d5efcc09987158ae90",
+        "bytes": 19024
+      },
+      "thumb": {
+        "sha256": "917b2e9e7628cc171b042d61ee96494a69799bf27a9ad886b5a10b3d5d7f1f21",
+        "bytes": 2196,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.5434035511283937e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "55e6b5624f14e715f21327d6d0e64e1467e89e33e08f1b3e816d4f69665a6462",
+        "keyframesSha256": "298c35f88b82e9a2864917ee1f18134cebfc57d39333d7e8d08006057f955068",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "21411301-Walk-Elliptical-Cross-Trainer_Cardio_180",
+      "name": "椭圆机",
+      "index": 78,
+      "slug": "78-cardio-elliptical-elliptical",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 0.8,
+        "calves": 0.6
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 1162218,
+        "sha256": "6c551496a314d2066b91a0ec192bc9e4e2f5d5f0598259b8e65c88860bb64553",
+        "redChecks": [
+          {
+            "pixels": 14245,
+            "meanRed": 208.7887725830078
+          },
+          {
+            "pixels": 14251,
+            "meanRed": 157.52810668945312
+          }
+        ],
+        "loopPixelDelta": 1.3663804796006944,
+        "largestPosePixelDelta": 10.230812193855407
+      },
+      "poster": {
+        "sha256": "ab3db634504b409a4e3a045dc0764c27b48fa99fb3c7392ba26871a036af7cef",
+        "bytes": 20304
+      },
+      "thumb": {
+        "sha256": "775b8c1355baae1527be039f625b986835bcfc0c953576c355ba3918eff7a939",
+        "bytes": 2314,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.286083302934362e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "6c551496a314d2066b91a0ec192bc9e4e2f5d5f0598259b8e65c88860bb64553",
+        "keyframesSha256": "616cc2a7f8b5a9c30fd2332377e6b105dc84d329507fd86428deb273c7719183",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "23111201-Walking-on-Stepmill_Cardio_time",
+      "name": "爬楼梯",
+      "index": 79,
+      "slug": "79-cardio-stairs-stepmill",
+      "muscles": {
+        "quads": 1.0,
+        "glutes": 1.0,
+        "calves": 0.6
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 1089988,
+        "sha256": "1f6fac3160e706e2ec2a30aaa5b44e0b63cef73146389f38e0eebb78287271bd",
+        "redChecks": [
+          {
+            "pixels": 8192,
+            "meanRed": 210.2076416015625
+          },
+          {
+            "pixels": 7368,
+            "meanRed": 156.63246154785156
+          }
+        ],
+        "loopPixelDelta": 4.4711817181299605,
+        "largestPosePixelDelta": 13.662596203031995
+      },
+      "poster": {
+        "sha256": "af006867e1b198d1283c4860e5dc237145e163704c0e63c0b2072acd409d3097",
+        "bytes": 19330
+      },
+      "thumb": {
+        "sha256": "50c10cdfc91ca44d45f6f8025715f513f0a9d51e6fae0b8bdc2ea98aab0f57ad",
+        "bytes": 2480,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 1.0396697248525864e-06
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "1f6fac3160e706e2ec2a30aaa5b44e0b63cef73146389f38e0eebb78287271bd",
+        "keyframesSha256": "377805bb6e53c3ce09a272da4ad629f51c60926906b09edbef5eab90d89a33b6",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    },
+    {
+      "id": "36661201221",
+      "name": "爬坡走",
+      "index": 80,
+      "slug": "80-cardio-incline-walk-treadmill",
+      "muscles": {
+        "glutes": 1.0,
+        "calves": 0.9,
+        "quads": 0.65
+      },
+      "effortPhase": "forward",
+      "status": "render_visual_checked",
+      "animation": {
+        "frames": 72,
+        "uniqueFrames": 72,
+        "durationMs": 3000,
+        "loop": 0,
+        "size": [
+          768,
+          896
+        ],
+        "bytes": 887256,
+        "sha256": "e90c8e25e6d9e873d6df784d8ac6455dd89132a1bc2a1501baaba24b4e703ba0",
+        "redChecks": [
+          {
+            "pixels": 12763,
+            "meanRed": 208.8977508544922
+          },
+          {
+            "pixels": 10253,
+            "meanRed": 166.1759490966797
+          }
+        ],
+        "loopPixelDelta": 0.47638326977926587,
+        "largestPosePixelDelta": 6.572883727058532
+      },
+      "poster": {
+        "sha256": "e9425ae59cc422b0a11f6c89e7971a4773ebe19c6424df1160b30057431a2dc9",
+        "bytes": 20872
+      },
+      "thumb": {
+        "sha256": "cbce2fc222c6703a72a51445e6441a5b7fde3633a783556653990831bd4fcbb9",
+        "bytes": 2568,
+        "size": [
+          160,
+          186
+        ]
+      },
+      "motion": {
+        "projectionMaxM": 0.0,
+        "loopJointErrorM": 0.0,
+        "actualJointErrorM": 8.588632343678252e-07
+      },
+      "styleRevision": 2,
+      "userReview": "pending",
+      "visualReview": {
+        "animationSha256": "e90c8e25e6d9e873d6df784d8ac6455dd89132a1bc2a1501baaba24b4e703ba0",
+        "keyframesSha256": "ebb1c237a7468fda259501bb223d55e4396ab186cbf3001be30c0859af1f8cf0",
+        "scope": "render appearance only; joint orientation and exercise form require user review",
+        "checks": [
+          "body_and_equipment_rendered",
+          "continuous_anatomical_style",
+          "highlight_visible",
+          "keyframes_available"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "Sumo-Deadlift",
+  "name": "相扑硬拉",
+  "index": 27,
+  "slug": "27-hinge-sumo-barbell",
+  "muscles": {
+    "glutes": 1.0,
+    "adductors": 0.8,
+    "quads": 0.8,
+    "hamstrings": 0.45
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 882912,
+    "sha256": "6ab677a4b93abf385b9df8b00e8a18b05709f6b2dcbbe081c9b3b9152a63b4f2",
+    "redChecks": [
+      {
+        "pixels": 8005,
+        "meanRed": 205.1357879638672
+      },
+      {
+        "pixels": 6632,
+        "meanRed": 154.05186462402344
+      }
+    ],
+    "loopPixelDelta": 0.5194450257316469,
+    "largestPosePixelDelta": 18.38515363420759
+  },
+  "poster": {
+    "sha256": "7595302dbb8a394fb8dc593b8f3462703295ddd7e09593b936fd079a168194a7",
+    "bytes": 15728
+  },
+  "thumb": {
+    "sha256": "f09ed471e6d446c439a9690b45af29f485288c7cc054d0d3cef925b0036a1303",
+    "bytes": 1856,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.057359828798545e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "6ab677a4b93abf385b9df8b00e8a18b05709f6b2dcbbe081c9b3b9152a63b4f2",
+    "keyframesSha256": "62eb01300e887b389f4a133d99c2b924dd3226e28fb5e50a5eb8d9c87612a8d2",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

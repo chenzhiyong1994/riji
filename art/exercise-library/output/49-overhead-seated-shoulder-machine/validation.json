@@ -1,0 +1,67 @@
+{
+  "id": "machineshoulderpress",
+  "name": "器械坐姿推举",
+  "index": 49,
+  "slug": "49-overhead-seated-shoulder-machine",
+  "muscles": {
+    "front_delts": 1.0,
+    "side_delts": 0.8,
+    "triceps": 0.6
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 743402,
+    "sha256": "bb1e826de1077fd6d3965ac1149f0555978f5bcf8ddc513d2bff42b98439d6c5",
+    "redChecks": [
+      {
+        "pixels": 3290,
+        "meanRed": 234.81398010253906
+      },
+      {
+        "pixels": 3096,
+        "meanRed": 182.71286010742188
+      }
+    ],
+    "loopPixelDelta": 0.45148964533730157,
+    "largestPosePixelDelta": 3.2087310306609624
+  },
+  "poster": {
+    "sha256": "ae9d5323b4e07191cc045088a3f58f9f1409f70688b865b2ef3b71e7d175cdef",
+    "bytes": 20460
+  },
+  "thumb": {
+    "sha256": "7602008631348df5d8eea709cd34eb1f0a291114f39788573b253e68c561a1fb",
+    "bytes": 2594,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.2731557704981462e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "bb1e826de1077fd6d3965ac1149f0555978f5bcf8ddc513d2bff42b98439d6c5",
+    "keyframesSha256": "5b139bb0da32b6c09a25c5e4211adeea8139ea7a762efb05cf08caee4f7d539b",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

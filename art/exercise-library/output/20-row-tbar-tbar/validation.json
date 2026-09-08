@@ -1,0 +1,67 @@
+{
+  "id": "tbar_row",
+  "name": "T 杆划船",
+  "index": 20,
+  "slug": "20-row-tbar-tbar",
+  "muscles": {
+    "upper_back": 1.0,
+    "lats": 0.8,
+    "biceps": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 635054,
+    "sha256": "cdfa087e6a9c2d9f52b22272fa94d4ef11eab08543d14c6a9ffb9fdeff16e99f",
+    "redChecks": [
+      {
+        "pixels": 5351,
+        "meanRed": 248.13717651367188
+      },
+      {
+        "pixels": 5114,
+        "meanRed": 212.4820098876953
+      }
+    ],
+    "loopPixelDelta": 0.3141382610987103,
+    "largestPosePixelDelta": 4.852193196614583
+  },
+  "poster": {
+    "sha256": "890e5987f7db8e12e36a46f2aae60c94f2ce480814849d542a0bfe01122674f6",
+    "bytes": 14554
+  },
+  "thumb": {
+    "sha256": "253229bd7b6337de4575ba3a5ebf066b546ab6e5d9d920678d600dc799e122b0",
+    "bytes": 1728,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.203983293019421e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "cdfa087e6a9c2d9f52b22272fa94d4ef11eab08543d14c6a9ffb9fdeff16e99f",
+    "keyframesSha256": "e30f050a59b7af9d3958b7fccfd61af89d1aabe252c24512173a138504ea29e8",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

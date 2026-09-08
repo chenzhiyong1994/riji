@@ -1,0 +1,65 @@
+{
+  "id": "calble_overhead_pullup",
+  "name": "绳索过头臂屈伸",
+  "index": 61,
+  "slug": "61-triceps-overhead-cable-high-cable",
+  "muscles": {
+    "triceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 470302,
+    "sha256": "adb911889f6915e9124d8d48f97ffec3a17c2b20e5b36a3fa82b5e59abd0c27c",
+    "redChecks": [
+      {
+        "pixels": 3351,
+        "meanRed": 245.8328857421875
+      },
+      {
+        "pixels": 3242,
+        "meanRed": 205.8229522705078
+      }
+    ],
+    "loopPixelDelta": 0.27692037915426587,
+    "largestPosePixelDelta": 1.6219138493613592
+  },
+  "poster": {
+    "sha256": "6c218fea281cd0e686325a414030c0213838924cdf7511f36efe62e616300dd0",
+    "bytes": 18124
+  },
+  "thumb": {
+    "sha256": "b9349ee3de55bd97afb8723b61134cf089033a704428f678c96809f4384ebfc2",
+    "bytes": 2092,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.6008175365855368e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "adb911889f6915e9124d8d48f97ffec3a17c2b20e5b36a3fa82b5e59abd0c27c",
+    "keyframesSha256": "8c06eb0423b2c325f4caebcb8cad23524a28961470e59937fb10f90b3f378ee3",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

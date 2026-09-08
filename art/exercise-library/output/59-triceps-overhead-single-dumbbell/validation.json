@@ -1,0 +1,65 @@
+{
+  "id": "dumbbellbackpull",
+  "name": "哑铃过头臂屈伸",
+  "index": 59,
+  "slug": "59-triceps-overhead-single-dumbbell",
+  "muscles": {
+    "triceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 379776,
+    "sha256": "9a232a6d6ff589adee4ea0b43ad4205231e3701434fbe0c13ea7a3a93e8cffb7",
+    "redChecks": [
+      {
+        "pixels": 3251,
+        "meanRed": 231.96124267578125
+      },
+      {
+        "pixels": 3078,
+        "meanRed": 184.4438018798828
+      }
+    ],
+    "loopPixelDelta": 0.2295047820560516,
+    "largestPosePixelDelta": 1.9931529211619543
+  },
+  "poster": {
+    "sha256": "91a2585668f67e54fb9cf465755a30d459c6172f6970091c856f9ef06e9822e5",
+    "bytes": 12824
+  },
+  "thumb": {
+    "sha256": "2692c4b4a39ad7655bb326698ee7e8efb2915718c3bc6d1ed825c3e6d7e5613f",
+    "bytes": 1456,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1689578686627857e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "9a232a6d6ff589adee4ea0b43ad4205231e3701434fbe0c13ea7a3a93e8cffb7",
+    "keyframesSha256": "d27b413cb9a12e6d91a78145b23552c23664816c7988fbd0d196c4d949861474",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

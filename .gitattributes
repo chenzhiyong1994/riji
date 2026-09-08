@@ -1,0 +1,3 @@
+# 来源许可按原始字节保留，保证与素材清单中的 SHA-256 一致。
+app/src/main/assets/licenses/*.md -text
+app/src/main/assets/licenses/makehuman-cc0.txt -text

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="theme-color" content="#28272c" />
+    <title>日跻 · 力量训练记录</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="welcoming">
+    <button
+      id="welcome"
+      class="welcome"
+      type="button"
+      aria-label="日跻，如月之恒，如日之升，进入训练"
+    >
+      <span class="welcome-main">
+        <span class="welcome-emblem"
+          ><img src="brand-mark.svg" width="144" height="144" alt=""
+        /></span>
+        <span class="welcome-name">日跻</span>
+        <span class="welcome-rule"></span>
+        <span class="welcome-verse">如月之恒，如日之升</span>
+      </span>
+      <span class="welcome-footer">轻触进入训练</span>
+    </button>
+    <div id="app" inert></div>
+    <div id="overlay" inert></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <input
+      id="import-file"
+      type="file"
+      accept="application/json,.json"
+      hidden
+    />
+    <script src="catalog.js"></script>
+    <script src="legacy-catalog.js"></script>
+    <script src="animation-catalog.js"></script>
+    <script src="core.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

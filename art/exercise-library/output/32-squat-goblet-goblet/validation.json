@@ -1,0 +1,66 @@
+{
+  "id": "17601201-Dumbbell-Goblet-Squat_Thighs",
+  "name": "哑铃酒杯深蹲",
+  "index": 32,
+  "slug": "32-squat-goblet-goblet",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.65
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 797592,
+    "sha256": "2a372b81b78b32442bc25dc169079fa4335e72b330fed0d18480bf5b295884ca",
+    "redChecks": [
+      {
+        "pixels": 15086,
+        "meanRed": 220.08352661132812
+      },
+      {
+        "pixels": 14415,
+        "meanRed": 163.0283660888672
+      }
+    ],
+    "loopPixelDelta": 0.5562254890562995,
+    "largestPosePixelDelta": 9.169731987847223
+  },
+  "poster": {
+    "sha256": "71330454d72a50471e498ac85542c3b761917164760c737cd448ed66dcb07bd8",
+    "bytes": 14952
+  },
+  "thumb": {
+    "sha256": "ba83c42ac9e8b82b845a9c09b131cc70ae03c1c87c714a162fce7201a2e342d9",
+    "bytes": 1638,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.104658265615317e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "2a372b81b78b32442bc25dc169079fa4335e72b330fed0d18480bf5b295884ca",
+    "keyframesSha256": "58f38db7128aa891835dc8e5d783f6621f3505757ad6da0523debf4b9eef79b7",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

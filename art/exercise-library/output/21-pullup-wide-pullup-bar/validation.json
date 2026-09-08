@@ -1,0 +1,67 @@
+{
+  "id": "weight_pullup",
+  "name": "引体向上",
+  "index": 21,
+  "slug": "21-pullup-wide-pullup-bar",
+  "muscles": {
+    "lats": 1.0,
+    "biceps": 0.6,
+    "upper_back": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 668490,
+    "sha256": "e69c6945c9259705b479ae6704f38f941392d893ce80473f94cad24d16ce4c9c",
+    "redChecks": [
+      {
+        "pixels": 3633,
+        "meanRed": 230.041015625
+      },
+      {
+        "pixels": 3380,
+        "meanRed": 175.25088500976562
+      }
+    ],
+    "loopPixelDelta": 0.4270077659970238,
+    "largestPosePixelDelta": 7.0939825148809526
+  },
+  "poster": {
+    "sha256": "55ed4764ddf4cc3c9d6f2eea11896e7811a95c1d51b7d67f56e7d62e094e0f2e",
+    "bytes": 14168
+  },
+  "thumb": {
+    "sha256": "a8eae39c0219a731e360fcc8b85930b3273337088548f7c76fa2e4a1454f9ea8",
+    "bytes": 1808,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4908796083020233e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "e69c6945c9259705b479ae6704f38f941392d893ce80473f94cad24d16ce4c9c",
+    "keyframesSha256": "3b03cb0e54c986907c9f0b467a7f1b5f7d34d2bc3b9b07abda3b4b65624a6fe9",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

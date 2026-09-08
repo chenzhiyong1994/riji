@@ -1,0 +1,65 @@
+{
+  "id": "prechercurl",
+  "name": "牧师凳弯举",
+  "index": 56,
+  "slug": "56-curl-preacher-preacher-bar",
+  "muscles": {
+    "biceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 775280,
+    "sha256": "5afd3289a44af445e998c0fb8b8c9a4043f764432d919b80cb9626a3d88af11b",
+    "redChecks": [
+      {
+        "pixels": 1520,
+        "meanRed": 229.711181640625
+      },
+      {
+        "pixels": 1468,
+        "meanRed": 179.71185302734375
+      }
+    ],
+    "loopPixelDelta": 0.36200823102678575,
+    "largestPosePixelDelta": 11.275433737134177
+  },
+  "poster": {
+    "sha256": "a24336795dba44cdb0bad4ce9961c971141faf4cd70806a0f26f66fc446ddac0",
+    "bytes": 18952
+  },
+  "thumb": {
+    "sha256": "fdae86df4e090dbf8d73b79203520f3c345923a426a6f40161eed59499951370",
+    "bytes": 2188,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1052001500599777e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5afd3289a44af445e998c0fb8b8c9a4043f764432d919b80cb9626a3d88af11b",
+    "keyframesSha256": "ac717c28414164d478c6b2b8b72b771375cc899f897bd54700279f3987b24349",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

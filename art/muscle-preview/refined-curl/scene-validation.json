@@ -1,0 +1,14 @@
+{
+  "bones": 163,
+  "body_vertices_before_final_subdivision": 214050,
+  "all_body_vertices_weighted": true,
+  "subtle_contraction_shape_key": true,
+  "actual_scene_joint_error_m": 9.960398058336021e-07,
+  "actual_dumbbell_grip_error_m": 0.0,
+  "finger_tip_distance_to_grip_axis_m": [
+    0.022519920338257147,
+    0.024618452905355682
+  ],
+  "evaluated_surface_loop_error_m": 0.0,
+  "surface_vertices_checked_for_loop": 3412
+}

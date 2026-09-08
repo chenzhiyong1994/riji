@@ -1,0 +1,67 @@
+{
+  "id": "smithpress",
+  "name": "史密斯机卧推",
+  "index": 6,
+  "slug": "06-press-flat-smith",
+  "muscles": {
+    "chest": 1.0,
+    "triceps": 0.55,
+    "front_delts": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 957744,
+    "sha256": "e520839bfdeaca4c0f4cb77a7524984819da84cddcd9d2108b356ca9b2496a26",
+    "redChecks": [
+      {
+        "pixels": 4013,
+        "meanRed": 242.98779296875
+      },
+      {
+        "pixels": 3948,
+        "meanRed": 199.54052734375
+      }
+    ],
+    "loopPixelDelta": 0.36935570126488093,
+    "largestPosePixelDelta": 9.06997341579861
+  },
+  "poster": {
+    "sha256": "5c883e53cc0ce49fb48d101253747518fb6b0b535caf6713b379a452029b9b56",
+    "bytes": 22966
+  },
+  "thumb": {
+    "sha256": "099947dded18be9998bfdcb52dd8da9844bf583cd042a61cb112ccdee6dd6867",
+    "bytes": 2762,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.832002587757971e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "e520839bfdeaca4c0f4cb77a7524984819da84cddcd9d2108b356ca9b2496a26",
+    "keyframesSha256": "ae9c35a13e0a1dd6cff285cea9b8947802bf5434dee5d783acd1e264f216e859",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

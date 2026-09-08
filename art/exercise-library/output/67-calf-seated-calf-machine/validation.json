@@ -1,0 +1,65 @@
+{
+  "id": "Lever-Seated-Calf-Raise",
+  "name": "坐姿器械提踵",
+  "index": 67,
+  "slug": "67-calf-seated-calf-machine",
+  "muscles": {
+    "calves": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 604440,
+    "sha256": "250f67f15af723e32b208e6337498e8ef8a468c2491209a357d8a93e55e92335",
+    "redChecks": [
+      {
+        "pixels": 2365,
+        "meanRed": 168.4807586669922
+      },
+      {
+        "pixels": 1886,
+        "meanRed": 108.51219177246094
+      }
+    ],
+    "loopPixelDelta": 0.2537149096292163,
+    "largestPosePixelDelta": 2.4159129309275795
+  },
+  "poster": {
+    "sha256": "e29fb818e6efb447d1c0338c846cc4fae266363eb693a832db3b5d73fc774923",
+    "bytes": 19646
+  },
+  "thumb": {
+    "sha256": "6d837602860e858858757eeafaab2137502bec60dac8b475025224375c013564",
+    "bytes": 2294,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.755764531894389e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "250f67f15af723e32b208e6337498e8ef8a468c2491209a357d8a93e55e92335",
+    "keyframesSha256": "4183bf1aff9bca004d80fa4aee57fdf73323d1d6621c117cbf506ed1bf34e0a2",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

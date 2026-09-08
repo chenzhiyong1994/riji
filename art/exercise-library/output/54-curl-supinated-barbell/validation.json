@@ -1,0 +1,65 @@
+{
+  "id": "barbellcrul",
+  "name": "杠铃弯举",
+  "index": 54,
+  "slug": "54-curl-supinated-barbell",
+  "muscles": {
+    "biceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 655056,
+    "sha256": "514cf79fbeeb95e9187638df2ef9828708007b1342c565ebbb13afd425c4b0b0",
+    "redChecks": [
+      {
+        "pixels": 1951,
+        "meanRed": 215.33059692382812
+      },
+      {
+        "pixels": 1876,
+        "meanRed": 153.73667907714844
+      }
+    ],
+    "loopPixelDelta": 0.2705601283482143,
+    "largestPosePixelDelta": 8.397507440476192
+  },
+  "poster": {
+    "sha256": "e8108ff6613a7d68c400f345f00ae15e31bd831c9fbb38bfb06a3ce422ba0922",
+    "bytes": 14668
+  },
+  "thumb": {
+    "sha256": "b09d45dad8067d2b507ba9f65a1beb806bdedcb97c1f7618ccd41a803c1d1010",
+    "bytes": 1686,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1504815904472838e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "514cf79fbeeb95e9187638df2ef9828708007b1342c565ebbb13afd425c4b0b0",
+    "keyframesSha256": "ac7f735206874a99480c7ad4f8a4f994fe33bbcf6b67318d7f271b20930aa8af",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

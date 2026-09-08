@@ -1,0 +1,65 @@
+{
+  "id": "legextendtion",
+  "name": "坐姿腿屈伸",
+  "index": 35,
+  "slug": "35-leg_extension-seated-leg-extension",
+  "muscles": {
+    "quads": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 747818,
+    "sha256": "25ae1f3df88cd837d934eaef56a210a5ecc117d3ef2608530bb22d3aabf433eb",
+    "redChecks": [
+      {
+        "pixels": 10242,
+        "meanRed": 219.54501342773438
+      },
+      {
+        "pixels": 9643,
+        "meanRed": 165.42445373535156
+      }
+    ],
+    "loopPixelDelta": 0.26274520631820436,
+    "largestPosePixelDelta": 5.306046258835566
+  },
+  "poster": {
+    "sha256": "293e4d85167a179cc51f0028f7bdc00116555a67f5dbdce33d3b442a4b23bd01",
+    "bytes": 21904
+  },
+  "thumb": {
+    "sha256": "a1bd6d3c646e0b476892a7fe240a67b064856eeedc1cb556e9769f70b3eb0787",
+    "bytes": 2526,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.509929946427852e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "25ae1f3df88cd837d934eaef56a210a5ecc117d3ef2608530bb22d3aabf433eb",
+    "keyframesSha256": "17d9f041b2a1310eaaf6b839dd208f40f4d4933eccf368d3e6c6c91771fce462",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "langes",
+  "name": "杠铃箭步蹲",
+  "index": 37,
+  "slug": "37-lunge-barbell-barbell",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.85
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 808796,
+    "sha256": "dff47ddc2718bfb4075f29e93d4e17bb2ecd7b506d2498a939f4c0ee4b6e7303",
+    "redChecks": [
+      {
+        "pixels": 6796,
+        "meanRed": 216.87802124023438
+      },
+      {
+        "pixels": 6422,
+        "meanRed": 159.6446533203125
+      }
+    ],
+    "loopPixelDelta": 0.4071398538256448,
+    "largestPosePixelDelta": 11.397077287946429
+  },
+  "poster": {
+    "sha256": "94b29616616a88b93b37f761543dda35f6a8cb1cba6d86a1c86ae3c9c2c4d2f7",
+    "bytes": 14328
+  },
+  "thumb": {
+    "sha256": "fb5794cacb92f42d751caa116fa4e8a290432d8ee981f4bddc3414435dab25a5",
+    "bytes": 1630,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.993553105490919e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "dff47ddc2718bfb4075f29e93d4e17bb2ecd7b506d2498a939f4c0ee4b6e7303",
+    "keyframesSha256": "cd45823ff3dbc21fb896f74c474aeaf636f7936b38232415717940472859a7bd",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

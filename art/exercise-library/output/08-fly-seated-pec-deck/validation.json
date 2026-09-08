@@ -1,0 +1,66 @@
+{
+  "id": "machinefly",
+  "name": "蝴蝶机夹胸",
+  "index": 8,
+  "slug": "08-fly-seated-pec-deck",
+  "muscles": {
+    "chest": 1.0,
+    "front_delts": 0.3
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 904896,
+    "sha256": "d6a23ffc39d01c19ee5c0bffabe1e6eeadde9e356c0a741e7c80a36088a310c1",
+    "redChecks": [
+      {
+        "pixels": 10818,
+        "meanRed": 215.04225158691406
+      },
+      {
+        "pixels": 10527,
+        "meanRed": 156.30596923828125
+      }
+    ],
+    "loopPixelDelta": 0.39577811104910715,
+    "largestPosePixelDelta": 4.690879216269841
+  },
+  "poster": {
+    "sha256": "3598ce59be833e61fd69c07067d502402beb9d99cf5d5b4728a189f9948bf267",
+    "bytes": 21296
+  },
+  "thumb": {
+    "sha256": "52417d1e8b55511f49462219f4717b663c10a28293335dc7679c1858c72afb0f",
+    "bytes": 2652,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.2160662271441916e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "d6a23ffc39d01c19ee5c0bffabe1e6eeadde9e356c0a741e7c80a36088a310c1",
+    "keyframesSha256": "f114ee4879d330d8262875f9a09d50b84d28e9938c7dbc897d02bc7f0f9ffbed",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

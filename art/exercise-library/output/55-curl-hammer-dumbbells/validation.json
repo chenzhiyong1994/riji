@@ -1,0 +1,66 @@
+{
+  "id": "hammercurl",
+  "name": "锤式弯举",
+  "index": 55,
+  "slug": "55-curl-hammer-dumbbells",
+  "muscles": {
+    "biceps": 0.85,
+    "forearms": 0.65
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 525424,
+    "sha256": "5763ba36d5a107551f977ccf382fa91495f227fb98d3e78e1d96bba973cc7aec",
+    "redChecks": [
+      {
+        "pixels": 2924,
+        "meanRed": 207.5006866455078
+      },
+      {
+        "pixels": 2479,
+        "meanRed": 160.551025390625
+      }
+    ],
+    "loopPixelDelta": 0.2521943591889881,
+    "largestPosePixelDelta": 4.195877317398313
+  },
+  "poster": {
+    "sha256": "7e0e406977e20ab02b6c129a60e0e6c70c7e272693eba7ea60ee606bd1f9b095",
+    "bytes": 13974
+  },
+  "thumb": {
+    "sha256": "51a6db0a8a89043bc9e827df9e411fff4652bf8ba64a7d676dbf3aa4088f5a49",
+    "bytes": 1648,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1504815904472838e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5763ba36d5a107551f977ccf382fa91495f227fb98d3e78e1d96bba973cc7aec",
+    "keyframesSha256": "017885ff2bccad9974204fc812fad8437e52a6dd9089f04089976a912a25632a",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

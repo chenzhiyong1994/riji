@@ -1,0 +1,67 @@
+{
+  "id": "knee-push-up-fz",
+  "name": "跪姿俯卧撑",
+  "index": 12,
+  "slug": "12-pushup-knees-mat",
+  "muscles": {
+    "chest": 1.0,
+    "triceps": 0.65,
+    "front_delts": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 599772,
+    "sha256": "38883ec8848a4d806bad08ca945e59c79c38b5525f1a31e199eff2dcb9156b22",
+    "redChecks": [
+      {
+        "pixels": 4634,
+        "meanRed": 169.84310913085938
+      },
+      {
+        "pixels": 4065,
+        "meanRed": 103.5515365600586
+      }
+    ],
+    "loopPixelDelta": 0.22075059678819445,
+    "largestPosePixelDelta": 6.268027653769841
+  },
+  "poster": {
+    "sha256": "4b4a1b07a6fa3845bbcbb6e77418eb0c71954dab87931ceafab3295fcab28992",
+    "bytes": 12714
+  },
+  "thumb": {
+    "sha256": "b7f7fde6fabb4fcbf1c2b7fe6f52fda32ddd9c1ffdcc2937efedc28471cf91de",
+    "bytes": 1382,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0979436051719574e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "38883ec8848a4d806bad08ca945e59c79c38b5525f1a31e199eff2dcb9156b22",
+    "keyframesSha256": "8f1d047a2e54c180c4242cfc9133c7265b36ef72841d3a548df14425b3c9796c",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

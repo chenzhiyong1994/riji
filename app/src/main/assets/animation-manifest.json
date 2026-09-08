@@ -1,0 +1,1692 @@
+{
+  "version": 1,
+  "count": 80,
+  "poseAcceptance": "pending_user_review",
+  "sourceRevision": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "sourceManifestSha256": "41092face0d071bec94119a6880d8118b901eb6161ce9656982d2bec6bad9d0f",
+  "license": "CC0-1.0 (MakeHuman core graphics assets)",
+  "licensePath": "licenses/makehuman-cc0.txt",
+  "licenseSha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+  "files": [
+    {
+      "path": "animations/01-press-flat-barbell/animation.webp",
+      "exerciseId": "benchpress",
+      "kind": "animation",
+      "sha256": "a363d0b62d320e18d9840cc41f8a80da1c2430b9e255163188836a2be1dab294",
+      "size": 841814
+    },
+    {
+      "path": "animations/01-press-flat-barbell/poster.webp",
+      "exerciseId": "benchpress",
+      "kind": "poster",
+      "sha256": "8bbc9e271240ed07d9d520280d825f76c39aebbaacc389974c5ab96586ada1e9",
+      "size": 18774
+    },
+    {
+      "path": "animations/01-press-flat-barbell/thumb.webp",
+      "exerciseId": "benchpress",
+      "kind": "thumb",
+      "sha256": "27bc5ed32e313d339c032f097d4908dca35a82784a88b77e27adadf05762e58e",
+      "size": 2134
+    },
+    {
+      "path": "animations/02-press-flat-dumbbells/animation.webp",
+      "exerciseId": "dumbellpress",
+      "kind": "animation",
+      "sha256": "b21f843ace29340a374a878c996d688ac5edcb2417e5aeb1b37a801b995d9119",
+      "size": 890972
+    },
+    {
+      "path": "animations/02-press-flat-dumbbells/poster.webp",
+      "exerciseId": "dumbellpress",
+      "kind": "poster",
+      "sha256": "24dbd8d4a4d6b8adcc99b5b61423bd08957bd5ba2208884fd91ebd8bcd737371",
+      "size": 22556
+    },
+    {
+      "path": "animations/02-press-flat-dumbbells/thumb.webp",
+      "exerciseId": "dumbellpress",
+      "kind": "thumb",
+      "sha256": "0e0b73e054c62cddb7c6be142b4b922818726c232b8bed4e195413b0107c2818",
+      "size": 2686
+    },
+    {
+      "path": "animations/03-press-incline-dumbbells/animation.webp",
+      "exerciseId": "upperdumbellpress",
+      "kind": "animation",
+      "sha256": "0ef6e6c93e9049b71ece24d0371c32cc20c908c2567aac28e096e911e310e1ac",
+      "size": 969098
+    },
+    {
+      "path": "animations/03-press-incline-dumbbells/poster.webp",
+      "exerciseId": "upperdumbellpress",
+      "kind": "poster",
+      "sha256": "f2dfe7738fcf46654cd9f4ac0e62a48fdba66ad211bb6bbb4ffd3419b24c7d39",
+      "size": 22698
+    },
+    {
+      "path": "animations/03-press-incline-dumbbells/thumb.webp",
+      "exerciseId": "upperdumbellpress",
+      "kind": "thumb",
+      "sha256": "e07a51e329f2482fba4b4df5ad718c5890e189824907c6a378dc75f628d68868",
+      "size": 2778
+    },
+    {
+      "path": "animations/04-press-incline-barbell/animation.webp",
+      "exerciseId": "incline-benchpress",
+      "kind": "animation",
+      "sha256": "66ef0ad55f58b70597431e8a0109167fc7c456389ad647f74ac9f22541287e40",
+      "size": 827760
+    },
+    {
+      "path": "animations/04-press-incline-barbell/poster.webp",
+      "exerciseId": "incline-benchpress",
+      "kind": "poster",
+      "sha256": "e47fd1e7b8134dc4e9898b2aacdde24d811837aba954c1a699a271278462f0db",
+      "size": 18644
+    },
+    {
+      "path": "animations/04-press-incline-barbell/thumb.webp",
+      "exerciseId": "incline-benchpress",
+      "kind": "thumb",
+      "sha256": "13b9d6758c43870b104e7803bc289fb331c6ae0c5e86eff96109df1d279e4ad1",
+      "size": 2162
+    },
+    {
+      "path": "animations/05-press-seated-chest-machine/animation.webp",
+      "exerciseId": "machinepress",
+      "kind": "animation",
+      "sha256": "1c50e64ae39cbbf31601247737d9f9ca9bf9a8b9cfebebc6212e998c9263d1e7",
+      "size": 966418
+    },
+    {
+      "path": "animations/05-press-seated-chest-machine/poster.webp",
+      "exerciseId": "machinepress",
+      "kind": "poster",
+      "sha256": "7a2771deecc3d80bbe7fe7f1de634d5ad6ef56bbe948b55bb24c7c063caaec36",
+      "size": 22468
+    },
+    {
+      "path": "animations/05-press-seated-chest-machine/thumb.webp",
+      "exerciseId": "machinepress",
+      "kind": "thumb",
+      "sha256": "e415afcf584aa7ad0ed94a7089697ba2ccf7048968d0c4a2c194d95274be3a99",
+      "size": 2650
+    },
+    {
+      "path": "animations/06-press-flat-smith/animation.webp",
+      "exerciseId": "smithpress",
+      "kind": "animation",
+      "sha256": "e520839bfdeaca4c0f4cb77a7524984819da84cddcd9d2108b356ca9b2496a26",
+      "size": 957744
+    },
+    {
+      "path": "animations/06-press-flat-smith/poster.webp",
+      "exerciseId": "smithpress",
+      "kind": "poster",
+      "sha256": "5c883e53cc0ce49fb48d101253747518fb6b0b535caf6713b379a452029b9b56",
+      "size": 22966
+    },
+    {
+      "path": "animations/06-press-flat-smith/thumb.webp",
+      "exerciseId": "smithpress",
+      "kind": "thumb",
+      "sha256": "099947dded18be9998bfdcb52dd8da9844bf583cd042a61cb112ccdee6dd6867",
+      "size": 2762
+    },
+    {
+      "path": "animations/07-fly-supine-dumbbells/animation.webp",
+      "exerciseId": "fly",
+      "kind": "animation",
+      "sha256": "c2ae5a4e2a1efbd99103519769c16e3abdc3b2649c89df2fd324b0b39d121e04",
+      "size": 804698
+    },
+    {
+      "path": "animations/07-fly-supine-dumbbells/poster.webp",
+      "exerciseId": "fly",
+      "kind": "poster",
+      "sha256": "f646444d81d2b031b65eededd265ccf6192a56557514425c6e35d6a4ae87471d",
+      "size": 20748
+    },
+    {
+      "path": "animations/07-fly-supine-dumbbells/thumb.webp",
+      "exerciseId": "fly",
+      "kind": "thumb",
+      "sha256": "31eb09eb0f6b9916a2d6d8adb9782277c433061606295140340ef980dedaa7e5",
+      "size": 2484
+    },
+    {
+      "path": "animations/08-fly-seated-pec-deck/animation.webp",
+      "exerciseId": "machinefly",
+      "kind": "animation",
+      "sha256": "d6a23ffc39d01c19ee5c0bffabe1e6eeadde9e356c0a741e7c80a36088a310c1",
+      "size": 904896
+    },
+    {
+      "path": "animations/08-fly-seated-pec-deck/poster.webp",
+      "exerciseId": "machinefly",
+      "kind": "poster",
+      "sha256": "3598ce59be833e61fd69c07067d502402beb9d99cf5d5b4728a189f9948bf267",
+      "size": 21296
+    },
+    {
+      "path": "animations/08-fly-seated-pec-deck/thumb.webp",
+      "exerciseId": "machinefly",
+      "kind": "thumb",
+      "sha256": "52417d1e8b55511f49462219f4717b663c10a28293335dc7679c1858c72afb0f",
+      "size": 2652
+    },
+    {
+      "path": "animations/09-fly-standing-dual-cable/animation.webp",
+      "exerciseId": "cablefly",
+      "kind": "animation",
+      "sha256": "01f396b8a14f173a8e3a4ac4a016d4cb4e5104125f05fc45aed108705a66ddb0",
+      "size": 731440
+    },
+    {
+      "path": "animations/09-fly-standing-dual-cable/poster.webp",
+      "exerciseId": "cablefly",
+      "kind": "poster",
+      "sha256": "727cc154971914227c3572e7cd359582087527b56d5b03f95bb23a02ad48f1b0",
+      "size": 21740
+    },
+    {
+      "path": "animations/09-fly-standing-dual-cable/thumb.webp",
+      "exerciseId": "cablefly",
+      "kind": "thumb",
+      "sha256": "8ee0cc2e8a5e95613868a983adf8d550ce093194046c9e14dc1fbc6b4c5ff0ec",
+      "size": 2902
+    },
+    {
+      "path": "animations/10-dip-forward-dip-bars/animation.webp",
+      "exerciseId": "bardips",
+      "kind": "animation",
+      "sha256": "590639afbbf4cfffb661e5cd8c46c8c41aa0a56dbf09ed4067f761c36fff9f16",
+      "size": 829790
+    },
+    {
+      "path": "animations/10-dip-forward-dip-bars/poster.webp",
+      "exerciseId": "bardips",
+      "kind": "poster",
+      "sha256": "449d9a926f299a7edb4db91a180cdaca29cb41ce815620a136763b71a6291d72",
+      "size": 18638
+    },
+    {
+      "path": "animations/10-dip-forward-dip-bars/thumb.webp",
+      "exerciseId": "bardips",
+      "kind": "thumb",
+      "sha256": "9a90539f653e690a7cc4e2614e684d92046df3cb961d52fc906928257807b255",
+      "size": 2336
+    },
+    {
+      "path": "animations/11-pushup-full-mat/animation.webp",
+      "exerciseId": "pushup-xunji",
+      "kind": "animation",
+      "sha256": "39cab7403a900a7da995aa054869abbe534c1eefbb6b64d9d59692659788dfce",
+      "size": 603660
+    },
+    {
+      "path": "animations/11-pushup-full-mat/poster.webp",
+      "exerciseId": "pushup-xunji",
+      "kind": "poster",
+      "sha256": "2e81dd5b40187d20f0a97772ad39fc98097aed7795c43700de53783938fad7bd",
+      "size": 11884
+    },
+    {
+      "path": "animations/11-pushup-full-mat/thumb.webp",
+      "exerciseId": "pushup-xunji",
+      "kind": "thumb",
+      "sha256": "f73c3d092ce21fbb1d25bcc28bcab1db0a61b29a1f22c1f3bd35075998b04725",
+      "size": 1292
+    },
+    {
+      "path": "animations/12-pushup-knees-mat/animation.webp",
+      "exerciseId": "knee-push-up-fz",
+      "kind": "animation",
+      "sha256": "38883ec8848a4d806bad08ca945e59c79c38b5525f1a31e199eff2dcb9156b22",
+      "size": 599772
+    },
+    {
+      "path": "animations/12-pushup-knees-mat/poster.webp",
+      "exerciseId": "knee-push-up-fz",
+      "kind": "poster",
+      "sha256": "4b4a1b07a6fa3845bbcbb6e77418eb0c71954dab87931ceafab3295fcab28992",
+      "size": 12714
+    },
+    {
+      "path": "animations/12-pushup-knees-mat/thumb.webp",
+      "exerciseId": "knee-push-up-fz",
+      "kind": "thumb",
+      "sha256": "b7f7fde6fabb4fcbf1c2b7fe6f52fda32ddd9c1ffdcc2937efedc28471cf91de",
+      "size": 1382
+    },
+    {
+      "path": "animations/13-pulldown-wide-lat-machine/animation.webp",
+      "exerciseId": "pulldown",
+      "kind": "animation",
+      "sha256": "7e850e3b74e7467517dbdc7b0f65d195ee2c881565f4d36e664688f7a9aa742c",
+      "size": 911038
+    },
+    {
+      "path": "animations/13-pulldown-wide-lat-machine/poster.webp",
+      "exerciseId": "pulldown",
+      "kind": "poster",
+      "sha256": "032ebc1ef8ee26065543577e52d3faee23bd6982ca6ae04af45c42a2a4387ef6",
+      "size": 22712
+    },
+    {
+      "path": "animations/13-pulldown-wide-lat-machine/thumb.webp",
+      "exerciseId": "pulldown",
+      "kind": "thumb",
+      "sha256": "92bfcbec9160f1be08dc9b2a91331baf7a9c19fde6c29cda21690b53f70249a7",
+      "size": 2494
+    },
+    {
+      "path": "animations/14-pulldown-close-lat-machine/animation.webp",
+      "exerciseId": "closepulldown",
+      "kind": "animation",
+      "sha256": "2617d920bf74aa4cda18e810d6e4a5b829fa18a3adae17608e4f4a7861e7e680",
+      "size": 812782
+    },
+    {
+      "path": "animations/14-pulldown-close-lat-machine/poster.webp",
+      "exerciseId": "closepulldown",
+      "kind": "poster",
+      "sha256": "3b0904be3367c00923a8e7ac851b2d5f595ea3cf5f6330f1ce4f754afcb278c9",
+      "size": 22530
+    },
+    {
+      "path": "animations/14-pulldown-close-lat-machine/thumb.webp",
+      "exerciseId": "closepulldown",
+      "kind": "thumb",
+      "sha256": "8f510b83a5f990b9b1d5a2ab4c9307962b27d15655bad6ded4484441513c97dc",
+      "size": 2524
+    },
+    {
+      "path": "animations/15-row-bent-barbell/animation.webp",
+      "exerciseId": "barbellrow",
+      "kind": "animation",
+      "sha256": "21287d0f235ed3fb374266953420834d7460922a06ad127d8c7ccf412ce767a6",
+      "size": 594968
+    },
+    {
+      "path": "animations/15-row-bent-barbell/poster.webp",
+      "exerciseId": "barbellrow",
+      "kind": "poster",
+      "sha256": "796fa3c39a68940a424d2d79298b4853b311b75e50285bbc3f249ca7fa8d424a",
+      "size": 13704
+    },
+    {
+      "path": "animations/15-row-bent-barbell/thumb.webp",
+      "exerciseId": "barbellrow",
+      "kind": "thumb",
+      "sha256": "4099c390497abbcc8034b1f0e77e6d558d99368520f4f740a98fcc24210f6d14",
+      "size": 1636
+    },
+    {
+      "path": "animations/16-row-single-dumbbell-bench/animation.webp",
+      "exerciseId": "dumbellrowbench",
+      "kind": "animation",
+      "sha256": "b43246bb5f075ee2e29e6c078fbec60272493f79962788db3328fe38dbb38242",
+      "size": 523288
+    },
+    {
+      "path": "animations/16-row-single-dumbbell-bench/poster.webp",
+      "exerciseId": "dumbellrowbench",
+      "kind": "poster",
+      "sha256": "f2506995c68f6020ed911d18c15df865632f4b6aad1d122dd49aa8414c56828f",
+      "size": 18850
+    },
+    {
+      "path": "animations/16-row-single-dumbbell-bench/thumb.webp",
+      "exerciseId": "dumbellrowbench",
+      "kind": "thumb",
+      "sha256": "6426ad5410a88c59f17d633ac98601b0a6a8271fba2e9c36fcbce581fce24ed1",
+      "size": 2218
+    },
+    {
+      "path": "animations/17-row-seated-row-cable/animation.webp",
+      "exerciseId": "sit_cable_row",
+      "kind": "animation",
+      "sha256": "5cc1b0534de7b61b42490755f5dbb8fe57c97fec44279a20c0784efb7106422d",
+      "size": 729478
+    },
+    {
+      "path": "animations/17-row-seated-row-cable/poster.webp",
+      "exerciseId": "sit_cable_row",
+      "kind": "poster",
+      "sha256": "b853de5435b5e310b9542c9bf4815cff9413fcf9c5b66fd0e2fe4d573b779a0e",
+      "size": 20640
+    },
+    {
+      "path": "animations/17-row-seated-row-cable/thumb.webp",
+      "exerciseId": "sit_cable_row",
+      "kind": "thumb",
+      "sha256": "b572390e49f2bf7f80695380146755e82d30cd68eaf8b4d01307dbb80bb7f1a1",
+      "size": 2494
+    },
+    {
+      "path": "animations/18-pulldown-neutral-lever-lat/animation.webp",
+      "exerciseId": "machine_pulldown",
+      "kind": "animation",
+      "sha256": "5b7c731f59a2ecfdaba097f50ea074368497ad918c9752986ee4e2cbfe41263a",
+      "size": 1024522
+    },
+    {
+      "path": "animations/18-pulldown-neutral-lever-lat/poster.webp",
+      "exerciseId": "machine_pulldown",
+      "kind": "poster",
+      "sha256": "8ea163dbe1ae2c91ac460912fc5982a0376b6e6dc862ab88184f0f7db8b5a0bc",
+      "size": 26888
+    },
+    {
+      "path": "animations/18-pulldown-neutral-lever-lat/thumb.webp",
+      "exerciseId": "machine_pulldown",
+      "kind": "thumb",
+      "sha256": "826c7609b478250bf6b373c82ce7f8e5ecdf05cc2b9d042c547c8b45a62a670f",
+      "size": 3094
+    },
+    {
+      "path": "animations/19-row-supported-row-machine/animation.webp",
+      "exerciseId": "machinerowling",
+      "kind": "animation",
+      "sha256": "5ce29e3930912fdd269a9724b69a6599923ff69560eec715806da97b9ef0112c",
+      "size": 639340
+    },
+    {
+      "path": "animations/19-row-supported-row-machine/poster.webp",
+      "exerciseId": "machinerowling",
+      "kind": "poster",
+      "sha256": "40efbac0926a31d4fc6dd913c987c525c505d0f6404d33e8770d23c2e445d3b0",
+      "size": 18044
+    },
+    {
+      "path": "animations/19-row-supported-row-machine/thumb.webp",
+      "exerciseId": "machinerowling",
+      "kind": "thumb",
+      "sha256": "b99cf9c0c70dfb5746e44f5574937a71e05ad8dc15d7e682f76d04c3505897a9",
+      "size": 2266
+    },
+    {
+      "path": "animations/20-row-tbar-tbar/animation.webp",
+      "exerciseId": "tbar_row",
+      "kind": "animation",
+      "sha256": "cdfa087e6a9c2d9f52b22272fa94d4ef11eab08543d14c6a9ffb9fdeff16e99f",
+      "size": 635054
+    },
+    {
+      "path": "animations/20-row-tbar-tbar/poster.webp",
+      "exerciseId": "tbar_row",
+      "kind": "poster",
+      "sha256": "890e5987f7db8e12e36a46f2aae60c94f2ce480814849d542a0bfe01122674f6",
+      "size": 14554
+    },
+    {
+      "path": "animations/20-row-tbar-tbar/thumb.webp",
+      "exerciseId": "tbar_row",
+      "kind": "thumb",
+      "sha256": "253229bd7b6337de4575ba3a5ebf066b546ab6e5d9d920678d600dc799e122b0",
+      "size": 1728
+    },
+    {
+      "path": "animations/21-pullup-wide-pullup-bar/animation.webp",
+      "exerciseId": "weight_pullup",
+      "kind": "animation",
+      "sha256": "e69c6945c9259705b479ae6704f38f941392d893ce80473f94cad24d16ce4c9c",
+      "size": 668490
+    },
+    {
+      "path": "animations/21-pullup-wide-pullup-bar/poster.webp",
+      "exerciseId": "weight_pullup",
+      "kind": "poster",
+      "sha256": "55ed4764ddf4cc3c9d6f2eea11896e7811a95c1d51b7d67f56e7d62e094e0f2e",
+      "size": 14168
+    },
+    {
+      "path": "animations/21-pullup-wide-pullup-bar/thumb.webp",
+      "exerciseId": "weight_pullup",
+      "kind": "thumb",
+      "sha256": "a8eae39c0219a731e360fcc8b85930b3273337088548f7c76fa2e4a1454f9ea8",
+      "size": 1808
+    },
+    {
+      "path": "animations/22-pullup-underhand-pullup-bar/animation.webp",
+      "exerciseId": "weight_reverse_pullup",
+      "kind": "animation",
+      "sha256": "653e8b76367f9116e204c00f479530f6575e0783f24f27bf4af7a906f7343ac1",
+      "size": 658028
+    },
+    {
+      "path": "animations/22-pullup-underhand-pullup-bar/poster.webp",
+      "exerciseId": "weight_reverse_pullup",
+      "kind": "poster",
+      "sha256": "49f0e9935d719e41ace900afa3aaa3585ff886298d2c90424789a62869c2fcc6",
+      "size": 14494
+    },
+    {
+      "path": "animations/22-pullup-underhand-pullup-bar/thumb.webp",
+      "exerciseId": "weight_reverse_pullup",
+      "kind": "thumb",
+      "sha256": "392ccb81fa2309c5ab182217615d90fd7b739385816113c2f462f7b078f2c796",
+      "size": 1846
+    },
+    {
+      "path": "animations/23-pullup-assisted-assisted-pullup/animation.webp",
+      "exerciseId": "weight_reverse_pullup_heping",
+      "kind": "animation",
+      "sha256": "6ab2ab2c4bf431c21cd68c88b699839b0a50e68502bd636906dd87bd89638948",
+      "size": 838996
+    },
+    {
+      "path": "animations/23-pullup-assisted-assisted-pullup/poster.webp",
+      "exerciseId": "weight_reverse_pullup_heping",
+      "kind": "poster",
+      "sha256": "2744abe129faf1060083c668d780cc3dd7c86b86dfedce39e751cf04dc2780b7",
+      "size": 16558
+    },
+    {
+      "path": "animations/23-pullup-assisted-assisted-pullup/thumb.webp",
+      "exerciseId": "weight_reverse_pullup_heping",
+      "kind": "thumb",
+      "sha256": "74f52c599bb9d02fd698006052011070cea9cdc17b6eb97c8cede0687aa03d06",
+      "size": 2168
+    },
+    {
+      "path": "animations/24-straight_pull-standing-high-cable/animation.webp",
+      "exerciseId": "rollpulldown",
+      "kind": "animation",
+      "sha256": "30ef204a1344bb8f7d90481a529981aa485ff6d6bf421e8c462de92c03976bc8",
+      "size": 513440
+    },
+    {
+      "path": "animations/24-straight_pull-standing-high-cable/poster.webp",
+      "exerciseId": "rollpulldown",
+      "kind": "poster",
+      "sha256": "80209795efd838b2d31a8c877c0a50d11759111a9396f15a70a0905d6c8e6050",
+      "size": 15778
+    },
+    {
+      "path": "animations/24-straight_pull-standing-high-cable/thumb.webp",
+      "exerciseId": "rollpulldown",
+      "kind": "thumb",
+      "sha256": "642209d781a6ed8d1d3417781eb0bec970d02ecb5a8e1eddb2deab0e3108f81a",
+      "size": 1912
+    },
+    {
+      "path": "animations/25-squat-back-barbell/animation.webp",
+      "exerciseId": "squat",
+      "kind": "animation",
+      "sha256": "ae94562a2b798f86df207e90e37ffef9990d6a42970396bfc93fbd0fa0e68edf",
+      "size": 834972
+    },
+    {
+      "path": "animations/25-squat-back-barbell/poster.webp",
+      "exerciseId": "squat",
+      "kind": "poster",
+      "sha256": "b25846bba8fc060b6592f68f3b5c7f7262c2eb360e443b9fa410517bf949c693",
+      "size": 15546
+    },
+    {
+      "path": "animations/25-squat-back-barbell/thumb.webp",
+      "exerciseId": "squat",
+      "kind": "thumb",
+      "sha256": "96ae51663a5055aac7623d309e278be37c60e576dcc0bb5aae67aaf01a595157",
+      "size": 1750
+    },
+    {
+      "path": "animations/26-hinge-deadlift-barbell/animation.webp",
+      "exerciseId": "deadlift",
+      "kind": "animation",
+      "sha256": "732ae2df01950b18e5abf32d294c29510cc4d4ec9a2514e1f68e590132a7a1d0",
+      "size": 825280
+    },
+    {
+      "path": "animations/26-hinge-deadlift-barbell/poster.webp",
+      "exerciseId": "deadlift",
+      "kind": "poster",
+      "sha256": "06135f25c2ca7ef36a26f1112703660f5317930dc5aea21b3a5419ed5f1357cf",
+      "size": 14508
+    },
+    {
+      "path": "animations/26-hinge-deadlift-barbell/thumb.webp",
+      "exerciseId": "deadlift",
+      "kind": "thumb",
+      "sha256": "36ce0d95cdb3609529de603bba5e10da770b91280131493843b270715936b24d",
+      "size": 1766
+    },
+    {
+      "path": "animations/27-hinge-sumo-barbell/animation.webp",
+      "exerciseId": "Sumo-Deadlift",
+      "kind": "animation",
+      "sha256": "6ab677a4b93abf385b9df8b00e8a18b05709f6b2dcbbe081c9b3b9152a63b4f2",
+      "size": 882912
+    },
+    {
+      "path": "animations/27-hinge-sumo-barbell/poster.webp",
+      "exerciseId": "Sumo-Deadlift",
+      "kind": "poster",
+      "sha256": "7595302dbb8a394fb8dc593b8f3462703295ddd7e09593b936fd079a168194a7",
+      "size": 15728
+    },
+    {
+      "path": "animations/27-hinge-sumo-barbell/thumb.webp",
+      "exerciseId": "Sumo-Deadlift",
+      "kind": "thumb",
+      "sha256": "f09ed471e6d446c439a9690b45af29f485288c7cc054d0d3cef925b0036a1303",
+      "size": 1856
+    },
+    {
+      "path": "animations/28-hinge-romanian-barbell/animation.webp",
+      "exerciseId": "romaniadeadlift",
+      "kind": "animation",
+      "sha256": "a71f750d8e852f884b6fb945538e8e044defba4e129991900df03246554537d2",
+      "size": 787186
+    },
+    {
+      "path": "animations/28-hinge-romanian-barbell/poster.webp",
+      "exerciseId": "romaniadeadlift",
+      "kind": "poster",
+      "sha256": "f59d97233e52b8d06b82fcb81658e0174ea8564a9c2cb890d6434c467cc2db2f",
+      "size": 14154
+    },
+    {
+      "path": "animations/28-hinge-romanian-barbell/thumb.webp",
+      "exerciseId": "romaniadeadlift",
+      "kind": "thumb",
+      "sha256": "85d3aa7fd606872fd0a9dfabc07f1682e7ee5940fcae5e87bd6c10f9663f212a",
+      "size": 1714
+    },
+    {
+      "path": "animations/29-squat-hack-hack-machine/animation.webp",
+      "exerciseId": "hackssssquat",
+      "kind": "animation",
+      "sha256": "ab0979b8dfa2410f1babfb2a1cb962e513947e0026bd7e7033cc445eaa1a1732",
+      "size": 1245696
+    },
+    {
+      "path": "animations/29-squat-hack-hack-machine/poster.webp",
+      "exerciseId": "hackssssquat",
+      "kind": "poster",
+      "sha256": "c760a3bb341ab69d8c5be4f03bf210adaca12e73a59ec91d11f1c6ec66b1ad40",
+      "size": 26578
+    },
+    {
+      "path": "animations/29-squat-hack-hack-machine/thumb.webp",
+      "exerciseId": "hackssssquat",
+      "kind": "thumb",
+      "sha256": "3b98d129cf92ce4de2d6a0c45c5f154122f2c92f7185528710ed970038f10d2e",
+      "size": 3184
+    },
+    {
+      "path": "animations/30-squat-smith-smith/animation.webp",
+      "exerciseId": "smithsquat",
+      "kind": "animation",
+      "sha256": "c55e3bf6f276b6d9ab0482437bf2e55f193bbbff70c3c852e247b1a0e8c56118",
+      "size": 1001262
+    },
+    {
+      "path": "animations/30-squat-smith-smith/poster.webp",
+      "exerciseId": "smithsquat",
+      "kind": "poster",
+      "sha256": "7049c13d817f2c50f81f725b6af193e9250e0148f0159852b5fc7f8c47b3c649",
+      "size": 21640
+    },
+    {
+      "path": "animations/30-squat-smith-smith/thumb.webp",
+      "exerciseId": "smithsquat",
+      "kind": "thumb",
+      "sha256": "96a58678a20989fa941e3358384489a06351451a111a316485264b829558dcb7",
+      "size": 2686
+    },
+    {
+      "path": "animations/31-squat-front-barbell/animation.webp",
+      "exerciseId": "Barbell-Front-Squat",
+      "kind": "animation",
+      "sha256": "4256b30c5738101d5ec566d5dd018548abc69bb966be65b1cfc39936b83f7031",
+      "size": 866140
+    },
+    {
+      "path": "animations/31-squat-front-barbell/poster.webp",
+      "exerciseId": "Barbell-Front-Squat",
+      "kind": "poster",
+      "sha256": "2fb66b435720b6dcdee42c251ab4cc29d334a1f1588a226f7069281ae8566626",
+      "size": 16338
+    },
+    {
+      "path": "animations/31-squat-front-barbell/thumb.webp",
+      "exerciseId": "Barbell-Front-Squat",
+      "kind": "thumb",
+      "sha256": "98974cb09795775ff0702cdbfbe77ea478e0a457bb9477b96108e006da8fcbe1",
+      "size": 1824
+    },
+    {
+      "path": "animations/32-squat-goblet-goblet/animation.webp",
+      "exerciseId": "17601201-Dumbbell-Goblet-Squat_Thighs",
+      "kind": "animation",
+      "sha256": "2a372b81b78b32442bc25dc169079fa4335e72b330fed0d18480bf5b295884ca",
+      "size": 797592
+    },
+    {
+      "path": "animations/32-squat-goblet-goblet/poster.webp",
+      "exerciseId": "17601201-Dumbbell-Goblet-Squat_Thighs",
+      "kind": "poster",
+      "sha256": "71330454d72a50471e498ac85542c3b761917164760c737cd448ed66dcb07bd8",
+      "size": 14952
+    },
+    {
+      "path": "animations/32-squat-goblet-goblet/thumb.webp",
+      "exerciseId": "17601201-Dumbbell-Goblet-Squat_Thighs",
+      "kind": "thumb",
+      "sha256": "ba83c42ac9e8b82b845a9c09b131cc70ae03c1c87c714a162fce7201a2e342d9",
+      "size": 1638
+    },
+    {
+      "path": "animations/33-leg_curl-lying-lying-curl/animation.webp",
+      "exerciseId": "leg_curl_linedown",
+      "kind": "animation",
+      "sha256": "852afe7cdbfa1d79079512b989134ffd8ca72af85ae1f5a652f7de692f511a17",
+      "size": 705440
+    },
+    {
+      "path": "animations/33-leg_curl-lying-lying-curl/poster.webp",
+      "exerciseId": "leg_curl_linedown",
+      "kind": "poster",
+      "sha256": "a45cb387a66fe8c30c42fd9891d483d72987942c64d5d1f9efe5da39ce53518d",
+      "size": 20486
+    },
+    {
+      "path": "animations/33-leg_curl-lying-lying-curl/thumb.webp",
+      "exerciseId": "leg_curl_linedown",
+      "kind": "thumb",
+      "sha256": "70dbd613db5eca640411dac00f3a1c944022a015c302a386d512e1fab82f9937",
+      "size": 2192
+    },
+    {
+      "path": "animations/34-leg_curl-seated-seated-curl/animation.webp",
+      "exerciseId": "Lever-Seated-Leg",
+      "kind": "animation",
+      "sha256": "9726bbeb2a6ebb17adf425d770d4a0379c9afe177548c09eef787d7a469c63f1",
+      "size": 472864
+    },
+    {
+      "path": "animations/34-leg_curl-seated-seated-curl/poster.webp",
+      "exerciseId": "Lever-Seated-Leg",
+      "kind": "poster",
+      "sha256": "d02a582abdfadf35daa034d20b213dc9f169dc23975b00a19212edd2ac8a1bfe",
+      "size": 16642
+    },
+    {
+      "path": "animations/34-leg_curl-seated-seated-curl/thumb.webp",
+      "exerciseId": "Lever-Seated-Leg",
+      "kind": "thumb",
+      "sha256": "a0c35da0a7b3d65a2cc46589afa5e6d50ef371d13d22de3cb4aa97edeaf995eb",
+      "size": 1772
+    },
+    {
+      "path": "animations/35-leg_extension-seated-leg-extension/animation.webp",
+      "exerciseId": "legextendtion",
+      "kind": "animation",
+      "sha256": "25ae1f3df88cd837d934eaef56a210a5ecc117d3ef2608530bb22d3aabf433eb",
+      "size": 747818
+    },
+    {
+      "path": "animations/35-leg_extension-seated-leg-extension/poster.webp",
+      "exerciseId": "legextendtion",
+      "kind": "poster",
+      "sha256": "293e4d85167a179cc51f0028f7bdc00116555a67f5dbdce33d3b442a4b23bd01",
+      "size": 21904
+    },
+    {
+      "path": "animations/35-leg_extension-seated-leg-extension/thumb.webp",
+      "exerciseId": "legextendtion",
+      "kind": "thumb",
+      "sha256": "a1bd6d3c646e0b476892a7fe240a67b064856eeedc1cb556e9769f70b3eb0787",
+      "size": 2526
+    },
+    {
+      "path": "animations/36-leg_press-incline-leg-press/animation.webp",
+      "exerciseId": "legpress_machine",
+      "kind": "animation",
+      "sha256": "dd79519a1829a29afae952efad9eae889357291084875e5c57c12185da037cf4",
+      "size": 963342
+    },
+    {
+      "path": "animations/36-leg_press-incline-leg-press/poster.webp",
+      "exerciseId": "legpress_machine",
+      "kind": "poster",
+      "sha256": "932cca57968c01bdb96a623d66bbc6501ce6394d9c9210a17a2fedc15e3429d2",
+      "size": 27244
+    },
+    {
+      "path": "animations/36-leg_press-incline-leg-press/thumb.webp",
+      "exerciseId": "legpress_machine",
+      "kind": "thumb",
+      "sha256": "93860dcda0ee45a37c7dd9dbc517221589f0a79e2e6c63ae2e36b6367c88e740",
+      "size": 3110
+    },
+    {
+      "path": "animations/37-lunge-barbell-barbell/animation.webp",
+      "exerciseId": "langes",
+      "kind": "animation",
+      "sha256": "dff47ddc2718bfb4075f29e93d4e17bb2ecd7b506d2498a939f4c0ee4b6e7303",
+      "size": 808796
+    },
+    {
+      "path": "animations/37-lunge-barbell-barbell/poster.webp",
+      "exerciseId": "langes",
+      "kind": "poster",
+      "sha256": "94b29616616a88b93b37f761543dda35f6a8cb1cba6d86a1c86ae3c9c2c4d2f7",
+      "size": 14328
+    },
+    {
+      "path": "animations/37-lunge-barbell-barbell/thumb.webp",
+      "exerciseId": "langes",
+      "kind": "thumb",
+      "sha256": "fb5794cacb92f42d751caa116fa4e8a290432d8ee981f4bddc3414435dab25a5",
+      "size": 1630
+    },
+    {
+      "path": "animations/38-squat-bodyweight-none/animation.webp",
+      "exerciseId": "11971201-Squat-m_Thighs_small.mp4",
+      "kind": "animation",
+      "sha256": "2923aa8bb2918e891b23c6e771d631c8edbfd3b266f89843d6492f8d86653c92",
+      "size": 803274
+    },
+    {
+      "path": "animations/38-squat-bodyweight-none/poster.webp",
+      "exerciseId": "11971201-Squat-m_Thighs_small.mp4",
+      "kind": "poster",
+      "sha256": "05139cf610496f5ac3312cd9efcd678c70f863e560a2c533d8355da613b40049",
+      "size": 15042
+    },
+    {
+      "path": "animations/38-squat-bodyweight-none/thumb.webp",
+      "exerciseId": "11971201-Squat-m_Thighs_small.mp4",
+      "kind": "thumb",
+      "sha256": "a813ca58a411d07b39b4c490dd6cbc12511da9425380940a6c2196937d40efdf",
+      "size": 1618
+    },
+    {
+      "path": "animations/39-bridge-bench-hip-barbell/animation.webp",
+      "exerciseId": "hiptrust",
+      "kind": "animation",
+      "sha256": "d619f16654c69b23a410e86e5f9930c69729e0e7dc86c66e74525e1698110270",
+      "size": 650414
+    },
+    {
+      "path": "animations/39-bridge-bench-hip-barbell/poster.webp",
+      "exerciseId": "hiptrust",
+      "kind": "poster",
+      "sha256": "2d68b3146434101f40fd8e53cb17771b507be77fd43026861f0f549ba4c95dd6",
+      "size": 12344
+    },
+    {
+      "path": "animations/39-bridge-bench-hip-barbell/thumb.webp",
+      "exerciseId": "hiptrust",
+      "kind": "thumb",
+      "sha256": "d35e1d62b71292866e29c3f9341ed57f3c480d976e4f4204f0f45f6f096b9a6a",
+      "size": 1396
+    },
+    {
+      "path": "animations/40-bridge-bench-hip-smith/animation.webp",
+      "exerciseId": "smith_hiptrust",
+      "kind": "animation",
+      "sha256": "0cf3c470464ac81fe91b531ef6a2aa0b3d7b987053598e2ba01af1f8d7587a21",
+      "size": 763134
+    },
+    {
+      "path": "animations/40-bridge-bench-hip-smith/poster.webp",
+      "exerciseId": "smith_hiptrust",
+      "kind": "poster",
+      "sha256": "7d3f1f2189efe6b355f40f9415ab7ab3357e4028e2dc7bc0967c10618d954462",
+      "size": 16074
+    },
+    {
+      "path": "animations/40-bridge-bench-hip-smith/thumb.webp",
+      "exerciseId": "smith_hiptrust",
+      "kind": "thumb",
+      "sha256": "9770fd728cbd1b228421e9a010c98e7f0dc3aae0964c27d70ebfced9cdaf88f2",
+      "size": 1812
+    },
+    {
+      "path": "animations/41-hip_machine-abduction-hip-machine/animation.webp",
+      "exerciseId": "leg_spred",
+      "kind": "animation",
+      "sha256": "c418f98966e2a515b839fe2ba2031c8ac6360f08968a3d78626e669a2af52458",
+      "size": 668170
+    },
+    {
+      "path": "animations/41-hip_machine-abduction-hip-machine/poster.webp",
+      "exerciseId": "leg_spred",
+      "kind": "poster",
+      "sha256": "af56fad9cd6cec105a8f7fb08a22f7d7f73175b8566cd33e76d28d74fcb716da",
+      "size": 18674
+    },
+    {
+      "path": "animations/41-hip_machine-abduction-hip-machine/thumb.webp",
+      "exerciseId": "leg_spred",
+      "kind": "thumb",
+      "sha256": "23e5b64a40f29ebe9c6078010f847ed865845a40696f8cb19a371534418639cb",
+      "size": 1972
+    },
+    {
+      "path": "animations/42-hip_machine-adduction-hip-machine/animation.webp",
+      "exerciseId": "leg_press_in",
+      "kind": "animation",
+      "sha256": "5f2a2177856762fc9c1d2fd03cdf8d8af779403913095da8e3609de50fa47dba",
+      "size": 728108
+    },
+    {
+      "path": "animations/42-hip_machine-adduction-hip-machine/poster.webp",
+      "exerciseId": "leg_press_in",
+      "kind": "poster",
+      "sha256": "605cb4ce52d8765c7d3bef4236fbc658b357393512d2935a0f8daaaa04ac092e",
+      "size": 21074
+    },
+    {
+      "path": "animations/42-hip_machine-adduction-hip-machine/thumb.webp",
+      "exerciseId": "leg_press_in",
+      "kind": "thumb",
+      "sha256": "e9befc63a74557437be08b4f424c769b78dc6baf9abe0f54ea3d9c2f836fba16",
+      "size": 2448
+    },
+    {
+      "path": "animations/43-bridge-floor-mat/animation.webp",
+      "exerciseId": "f_s_f294",
+      "kind": "animation",
+      "sha256": "38cca5b431ac0da80bddccdc201eeaeca6ac6523351e808581dac98ffecdfb7b",
+      "size": 793414
+    },
+    {
+      "path": "animations/43-bridge-floor-mat/poster.webp",
+      "exerciseId": "f_s_f294",
+      "kind": "poster",
+      "sha256": "2914c20d64cae6c62e6b4dcca1789c47cf343f6fabed28ec0b16b7bd92e7a165",
+      "size": 14324
+    },
+    {
+      "path": "animations/43-bridge-floor-mat/thumb.webp",
+      "exerciseId": "f_s_f294",
+      "kind": "thumb",
+      "sha256": "19c07f24899ef043c0fdb2b7b1748a6a919bbabd548be8481dea08968453bec1",
+      "size": 1646
+    },
+    {
+      "path": "animations/44-overhead-seated-dumbbells/animation.webp",
+      "exerciseId": "shoulderpress",
+      "kind": "animation",
+      "sha256": "c8f386db83290d6f5ac18af43dfacbe9ff000e3e3d5c3ec1c7effcc49e4f34e8",
+      "size": 708172
+    },
+    {
+      "path": "animations/44-overhead-seated-dumbbells/poster.webp",
+      "exerciseId": "shoulderpress",
+      "kind": "poster",
+      "sha256": "6dd55ae539448f6929f8a76341f7137bb9c27bd5a4808943a37375348f71b2ac",
+      "size": 18100
+    },
+    {
+      "path": "animations/44-overhead-seated-dumbbells/thumb.webp",
+      "exerciseId": "shoulderpress",
+      "kind": "thumb",
+      "sha256": "5f3e82a0c5fd15fd2ac551184136a56ebeb2b8be10b820eeb7095be6329c1006",
+      "size": 2166
+    },
+    {
+      "path": "animations/45-raise-lateral-dumbbells/animation.webp",
+      "exerciseId": "laderrow",
+      "kind": "animation",
+      "sha256": "5846cd3206647ddc87f5cb75c6bddf508f5d220e45c3b01e5ece7c94c9fbefd0",
+      "size": 518874
+    },
+    {
+      "path": "animations/45-raise-lateral-dumbbells/poster.webp",
+      "exerciseId": "laderrow",
+      "kind": "poster",
+      "sha256": "b5fa96fdbae47f92695977279e542cb298130c1f46abfa51795e2b170852c9c9",
+      "size": 14114
+    },
+    {
+      "path": "animations/45-raise-lateral-dumbbells/thumb.webp",
+      "exerciseId": "laderrow",
+      "kind": "thumb",
+      "sha256": "59f23ead3ec075b5323c936f42b4a51e1a2cf335c403dfc6e6e9f456e25bd8f2",
+      "size": 1700
+    },
+    {
+      "path": "animations/46-raise-front-dumbbells/animation.webp",
+      "exerciseId": "frontraise",
+      "kind": "animation",
+      "sha256": "9e26f26aadf88193c3ae5f157f22b8ae373733a8f846381d40edd62d9df6bb19",
+      "size": 596928
+    },
+    {
+      "path": "animations/46-raise-front-dumbbells/poster.webp",
+      "exerciseId": "frontraise",
+      "kind": "poster",
+      "sha256": "78874a9c5068179d0e274dff25085df5f9b5701f43b93414ede72a1d6a7c83c8",
+      "size": 14128
+    },
+    {
+      "path": "animations/46-raise-front-dumbbells/thumb.webp",
+      "exerciseId": "frontraise",
+      "kind": "thumb",
+      "sha256": "430c3fb2d3c31d365f9953e06bd5063343a037db4a481e93cb9943295ecd65f3",
+      "size": 1646
+    },
+    {
+      "path": "animations/47-raise-reverse-dumbbells/animation.webp",
+      "exerciseId": "sideladerrow",
+      "kind": "animation",
+      "sha256": "f0ee959e3e65effb9cebe86c6d0ad5323c294cd7d2b8a236824fa17cc304eaa7",
+      "size": 526238
+    },
+    {
+      "path": "animations/47-raise-reverse-dumbbells/poster.webp",
+      "exerciseId": "sideladerrow",
+      "kind": "poster",
+      "sha256": "2ab77a588c6d86cc8a9d9ce5ac12237810b931ab6b999127eaa2e9b9d5b917f1",
+      "size": 13356
+    },
+    {
+      "path": "animations/47-raise-reverse-dumbbells/thumb.webp",
+      "exerciseId": "sideladerrow",
+      "kind": "thumb",
+      "sha256": "c0217457e6884e37ee3af4d0734176bbc31fc1f346f732ab51e31960030633c8",
+      "size": 1560
+    },
+    {
+      "path": "animations/48-overhead-standing-barbell/animation.webp",
+      "exerciseId": "barbell_showlderpress",
+      "kind": "animation",
+      "sha256": "4d54636e99d164de71c986632ec30ac56741a056717fa60f92e0d5bffea1642a",
+      "size": 573912
+    },
+    {
+      "path": "animations/48-overhead-standing-barbell/poster.webp",
+      "exerciseId": "barbell_showlderpress",
+      "kind": "poster",
+      "sha256": "d4216145385ba4cbf9ef1fd1e5bca6db80c750b50abc2b7684c120cb6b34b287",
+      "size": 14402
+    },
+    {
+      "path": "animations/48-overhead-standing-barbell/thumb.webp",
+      "exerciseId": "barbell_showlderpress",
+      "kind": "thumb",
+      "sha256": "01cc9fc5602cf2d0c03d7a5268c9d826499962ef550a5d728a0c107f18d98330",
+      "size": 1732
+    },
+    {
+      "path": "animations/49-overhead-seated-shoulder-machine/animation.webp",
+      "exerciseId": "machineshoulderpress",
+      "kind": "animation",
+      "sha256": "bb1e826de1077fd6d3965ac1149f0555978f5bcf8ddc513d2bff42b98439d6c5",
+      "size": 743402
+    },
+    {
+      "path": "animations/49-overhead-seated-shoulder-machine/poster.webp",
+      "exerciseId": "machineshoulderpress",
+      "kind": "poster",
+      "sha256": "ae9d5323b4e07191cc045088a3f58f9f1409f70688b865b2ef3b71e7d175cdef",
+      "size": 20460
+    },
+    {
+      "path": "animations/49-overhead-seated-shoulder-machine/thumb.webp",
+      "exerciseId": "machineshoulderpress",
+      "kind": "thumb",
+      "sha256": "7602008631348df5d8eea709cd34eb1f0a291114f39788573b253e68c561a1fb",
+      "size": 2594
+    },
+    {
+      "path": "animations/50-raise-pec-reverse-reverse-deck/animation.webp",
+      "exerciseId": "Lever-Seated-Reverse-Fly",
+      "kind": "animation",
+      "sha256": "aae74af5b6025b4e504d208237dffcde3125663055b4db153d17d78b659a96f5",
+      "size": 799818
+    },
+    {
+      "path": "animations/50-raise-pec-reverse-reverse-deck/poster.webp",
+      "exerciseId": "Lever-Seated-Reverse-Fly",
+      "kind": "poster",
+      "sha256": "ce1e1cde6c423d4a48134f7782ad76de571d2ef2e2276f0144d6c5efecfd50e2",
+      "size": 20118
+    },
+    {
+      "path": "animations/50-raise-pec-reverse-reverse-deck/thumb.webp",
+      "exerciseId": "Lever-Seated-Reverse-Fly",
+      "kind": "thumb",
+      "sha256": "08da16e813713691fe4c6cb6010990eac085129fdc9eee6baa6262c00a345e01",
+      "size": 2352
+    },
+    {
+      "path": "animations/51-overhead-arnold-dumbbells/animation.webp",
+      "exerciseId": "arnold_shoulderpress",
+      "kind": "animation",
+      "sha256": "e1a72e71a42523c1e792bcb4884edd6acf4f0acff5d9b516cd42bd0d1886e3c0",
+      "size": 628940
+    },
+    {
+      "path": "animations/51-overhead-arnold-dumbbells/poster.webp",
+      "exerciseId": "arnold_shoulderpress",
+      "kind": "poster",
+      "sha256": "87a6ef2081646b392caea2a788fe2d49465f1716d6453fe133e482f9e69bd062",
+      "size": 17528
+    },
+    {
+      "path": "animations/51-overhead-arnold-dumbbells/thumb.webp",
+      "exerciseId": "arnold_shoulderpress",
+      "kind": "thumb",
+      "sha256": "bf91b8444face4df4f16a33a56ad194e72735cd4180fa18c3d5152959c442911",
+      "size": 2066
+    },
+    {
+      "path": "animations/52-face_pull-standing-high-cable/animation.webp",
+      "exerciseId": "face-pullingg",
+      "kind": "animation",
+      "sha256": "8ba603b32196e9ba1e62e294161da00f8396a74f978dc1eaa7d87e459de0d07a",
+      "size": 542512
+    },
+    {
+      "path": "animations/52-face_pull-standing-high-cable/poster.webp",
+      "exerciseId": "face-pullingg",
+      "kind": "poster",
+      "sha256": "774a00f41cd23c2d005dceb4195f27331717587ec1dc5b01f801ed2c7fd52bf8",
+      "size": 16452
+    },
+    {
+      "path": "animations/52-face_pull-standing-high-cable/thumb.webp",
+      "exerciseId": "face-pullingg",
+      "kind": "thumb",
+      "sha256": "8a38f7d282b81dafed37dd157af7f2b091deb0514ba87534fb0ed7d2c69c5804",
+      "size": 1934
+    },
+    {
+      "path": "animations/53-curl-supinated-dumbbells/animation.webp",
+      "exerciseId": "dumbbellcurl",
+      "kind": "animation",
+      "sha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015",
+      "size": 516774
+    },
+    {
+      "path": "animations/53-curl-supinated-dumbbells/poster.webp",
+      "exerciseId": "dumbbellcurl",
+      "kind": "poster",
+      "sha256": "96c17c1055f6cc3eec21d0f37421969c1322e1f905510574261d5fd29371dd25",
+      "size": 14446
+    },
+    {
+      "path": "animations/53-curl-supinated-dumbbells/thumb.webp",
+      "exerciseId": "dumbbellcurl",
+      "kind": "thumb",
+      "sha256": "67170ea9f744ae661a2a1cb4dc18784b5bf1a508e4a6dc64947dac28aca03ed5",
+      "size": 1798
+    },
+    {
+      "path": "animations/54-curl-supinated-barbell/animation.webp",
+      "exerciseId": "barbellcrul",
+      "kind": "animation",
+      "sha256": "514cf79fbeeb95e9187638df2ef9828708007b1342c565ebbb13afd425c4b0b0",
+      "size": 655056
+    },
+    {
+      "path": "animations/54-curl-supinated-barbell/poster.webp",
+      "exerciseId": "barbellcrul",
+      "kind": "poster",
+      "sha256": "e8108ff6613a7d68c400f345f00ae15e31bd831c9fbb38bfb06a3ce422ba0922",
+      "size": 14668
+    },
+    {
+      "path": "animations/54-curl-supinated-barbell/thumb.webp",
+      "exerciseId": "barbellcrul",
+      "kind": "thumb",
+      "sha256": "b09d45dad8067d2b507ba9f65a1beb806bdedcb97c1f7618ccd41a803c1d1010",
+      "size": 1686
+    },
+    {
+      "path": "animations/55-curl-hammer-dumbbells/animation.webp",
+      "exerciseId": "hammercurl",
+      "kind": "animation",
+      "sha256": "5763ba36d5a107551f977ccf382fa91495f227fb98d3e78e1d96bba973cc7aec",
+      "size": 525424
+    },
+    {
+      "path": "animations/55-curl-hammer-dumbbells/poster.webp",
+      "exerciseId": "hammercurl",
+      "kind": "poster",
+      "sha256": "7e0e406977e20ab02b6c129a60e0e6c70c7e272693eba7ea60ee606bd1f9b095",
+      "size": 13974
+    },
+    {
+      "path": "animations/55-curl-hammer-dumbbells/thumb.webp",
+      "exerciseId": "hammercurl",
+      "kind": "thumb",
+      "sha256": "51a6db0a8a89043bc9e827df9e411fff4652bf8ba64a7d676dbf3aa4088f5a49",
+      "size": 1648
+    },
+    {
+      "path": "animations/56-curl-preacher-preacher-bar/animation.webp",
+      "exerciseId": "prechercurl",
+      "kind": "animation",
+      "sha256": "5afd3289a44af445e998c0fb8b8c9a4043f764432d919b80cb9626a3d88af11b",
+      "size": 775280
+    },
+    {
+      "path": "animations/56-curl-preacher-preacher-bar/poster.webp",
+      "exerciseId": "prechercurl",
+      "kind": "poster",
+      "sha256": "a24336795dba44cdb0bad4ce9961c971141faf4cd70806a0f26f66fc446ddac0",
+      "size": 18952
+    },
+    {
+      "path": "animations/56-curl-preacher-preacher-bar/thumb.webp",
+      "exerciseId": "prechercurl",
+      "kind": "thumb",
+      "sha256": "fdae86df4e090dbf8d73b79203520f3c345923a426a6f40161eed59499951370",
+      "size": 2188
+    },
+    {
+      "path": "animations/57-curl-cable-low-cable/animation.webp",
+      "exerciseId": "cablecurl",
+      "kind": "animation",
+      "sha256": "1d9490287927c7c1467c28bdc55155f290a88dd1c0ff65d956b6440f2379c1d9",
+      "size": 690272
+    },
+    {
+      "path": "animations/57-curl-cable-low-cable/poster.webp",
+      "exerciseId": "cablecurl",
+      "kind": "poster",
+      "sha256": "79a046534953df0b4f9d745f2ca872b707423e1e8bbf6dffb30f82c1d2d2d407",
+      "size": 19420
+    },
+    {
+      "path": "animations/57-curl-cable-low-cable/thumb.webp",
+      "exerciseId": "cablecurl",
+      "kind": "thumb",
+      "sha256": "88a2e55b5774a5d2fd72d57f0ea530c96edc2316ec6e14337994b0bf6693c65c",
+      "size": 2190
+    },
+    {
+      "path": "animations/58-curl-incline-dumbbells/animation.webp",
+      "exerciseId": "incline_dumbell_curl",
+      "kind": "animation",
+      "sha256": "0f9d701d9092d0c468e4b36890262fdb3769fd83e68a82ddaef1a8a06f15c7d5",
+      "size": 601136
+    },
+    {
+      "path": "animations/58-curl-incline-dumbbells/poster.webp",
+      "exerciseId": "incline_dumbell_curl",
+      "kind": "poster",
+      "sha256": "bffd9c2c5bae17fe26c1803abf90afdb897fc19214bf942f548cc54a21ddca66",
+      "size": 17204
+    },
+    {
+      "path": "animations/58-curl-incline-dumbbells/thumb.webp",
+      "exerciseId": "incline_dumbell_curl",
+      "kind": "thumb",
+      "sha256": "2c60f1f8fb2366f717ed84d41287cfad0315d6dca54f63442a4fa517dbc786e0",
+      "size": 1944
+    },
+    {
+      "path": "animations/59-triceps-overhead-single-dumbbell/animation.webp",
+      "exerciseId": "dumbbellbackpull",
+      "kind": "animation",
+      "sha256": "9a232a6d6ff589adee4ea0b43ad4205231e3701434fbe0c13ea7a3a93e8cffb7",
+      "size": 379776
+    },
+    {
+      "path": "animations/59-triceps-overhead-single-dumbbell/poster.webp",
+      "exerciseId": "dumbbellbackpull",
+      "kind": "poster",
+      "sha256": "91a2585668f67e54fb9cf465755a30d459c6172f6970091c856f9ef06e9822e5",
+      "size": 12824
+    },
+    {
+      "path": "animations/59-triceps-overhead-single-dumbbell/thumb.webp",
+      "exerciseId": "dumbbellbackpull",
+      "kind": "thumb",
+      "sha256": "2692c4b4a39ad7655bb326698ee7e8efb2915718c3bc6d1ed825c3e6d7e5613f",
+      "size": 1456
+    },
+    {
+      "path": "animations/60-triceps-rope-high-cable/animation.webp",
+      "exerciseId": "cablepulldowntrp",
+      "kind": "animation",
+      "sha256": "324fd1ff187a13dc7e58d9ac5ed7e38eab9213ab5378b2ab998fa4eaadc8bd94",
+      "size": 504154
+    },
+    {
+      "path": "animations/60-triceps-rope-high-cable/poster.webp",
+      "exerciseId": "cablepulldowntrp",
+      "kind": "poster",
+      "sha256": "d6854f816d7815a09cf1535bf953e316a904eb77510d2c77e9f7766a99d08895",
+      "size": 16082
+    },
+    {
+      "path": "animations/60-triceps-rope-high-cable/thumb.webp",
+      "exerciseId": "cablepulldowntrp",
+      "kind": "thumb",
+      "sha256": "09fe53a2384f357224f89c4f62e33d149af0671811b6d40554f410fe60d2a96f",
+      "size": 1880
+    },
+    {
+      "path": "animations/61-triceps-overhead-cable-high-cable/animation.webp",
+      "exerciseId": "calble_overhead_pullup",
+      "kind": "animation",
+      "sha256": "adb911889f6915e9124d8d48f97ffec3a17c2b20e5b36a3fa82b5e59abd0c27c",
+      "size": 470302
+    },
+    {
+      "path": "animations/61-triceps-overhead-cable-high-cable/poster.webp",
+      "exerciseId": "calble_overhead_pullup",
+      "kind": "poster",
+      "sha256": "6c218fea281cd0e686325a414030c0213838924cdf7511f36efe62e616300dd0",
+      "size": 18124
+    },
+    {
+      "path": "animations/61-triceps-overhead-cable-high-cable/thumb.webp",
+      "exerciseId": "calble_overhead_pullup",
+      "kind": "thumb",
+      "sha256": "b9349ee3de55bd97afb8723b61134cf089033a704428f678c96809f4384ebfc2",
+      "size": 2092
+    },
+    {
+      "path": "animations/62-triceps-vbar-high-cable/animation.webp",
+      "exerciseId": "vbar_pulldown",
+      "kind": "animation",
+      "sha256": "4cf515a75f15fdfe37aaafcc2df6d18e5d326ad49f26c8bb02475f3b1822c833",
+      "size": 480030
+    },
+    {
+      "path": "animations/62-triceps-vbar-high-cable/poster.webp",
+      "exerciseId": "vbar_pulldown",
+      "kind": "poster",
+      "sha256": "5932b576346b2881f7050701c1320307cb0dfe7e122991e3ed497d71eb124be1",
+      "size": 15622
+    },
+    {
+      "path": "animations/62-triceps-vbar-high-cable/thumb.webp",
+      "exerciseId": "vbar_pulldown",
+      "kind": "thumb",
+      "sha256": "fd66422f921835b503332a47616d534187258c7e477759bad4b41bf265d3ed80",
+      "size": 1816
+    },
+    {
+      "path": "animations/63-triceps-skull-barbell/animation.webp",
+      "exerciseId": "bar_scullcrash",
+      "kind": "animation",
+      "sha256": "db7858c39e5f712d3e4b39a5561d2aba1d379215c1d1b511926dfd60a919f987",
+      "size": 728892
+    },
+    {
+      "path": "animations/63-triceps-skull-barbell/poster.webp",
+      "exerciseId": "bar_scullcrash",
+      "kind": "poster",
+      "sha256": "eab4eb9bc85c845490f6acd429e0bef91ea2ffea157e00b5cb38a855de3154ad",
+      "size": 17040
+    },
+    {
+      "path": "animations/63-triceps-skull-barbell/thumb.webp",
+      "exerciseId": "bar_scullcrash",
+      "kind": "thumb",
+      "sha256": "7dadd789cb4bccea8f8fd04a61ad3c74e622ad9a5c7751c5e2cc826a91cb9ce0",
+      "size": 1856
+    },
+    {
+      "path": "animations/64-press-close-barbell/animation.webp",
+      "exerciseId": "closegrip_barbell_press",
+      "kind": "animation",
+      "sha256": "99e1039d7a35918f3b5b3f77af27e144331b357cb626bfdadaccbda93d3a1fd2",
+      "size": 739928
+    },
+    {
+      "path": "animations/64-press-close-barbell/poster.webp",
+      "exerciseId": "closegrip_barbell_press",
+      "kind": "poster",
+      "sha256": "f799575287feb74f96625d46342a0ec9b39efed754bafcbb5d47f2babc5ef412",
+      "size": 16390
+    },
+    {
+      "path": "animations/64-press-close-barbell/thumb.webp",
+      "exerciseId": "closegrip_barbell_press",
+      "kind": "thumb",
+      "sha256": "f17b35d805f34c8b21b95db124a1d6944b0f70bfdffedc6163b7e847edbd2fff",
+      "size": 1774
+    },
+    {
+      "path": "animations/65-calf-standing-dumbbells/animation.webp",
+      "exerciseId": "Dumbbell-Standing-Calf-Raise",
+      "kind": "animation",
+      "sha256": "693f2c6cd5e928435277fd7d35fd2451d60c19e1620c16ee93ea10b3902283cb",
+      "size": 724442
+    },
+    {
+      "path": "animations/65-calf-standing-dumbbells/poster.webp",
+      "exerciseId": "Dumbbell-Standing-Calf-Raise",
+      "kind": "poster",
+      "sha256": "2b2b826e54651a2137a478f4677ba26a47bca131c62e9f45f10848ffaf78e9b0",
+      "size": 12860
+    },
+    {
+      "path": "animations/65-calf-standing-dumbbells/thumb.webp",
+      "exerciseId": "Dumbbell-Standing-Calf-Raise",
+      "kind": "thumb",
+      "sha256": "1177c0cef87f4bf2f3e0cb172579204e167161a2ef899729e79be2ba8058a9da",
+      "size": 1496
+    },
+    {
+      "path": "animations/66-calf-standing-none/animation.webp",
+      "exerciseId": "f_s_f212",
+      "kind": "animation",
+      "sha256": "22158cf50eaaa9adbf1ad2365e41943df07d0efb6b31919867e65defd4d76798",
+      "size": 627848
+    },
+    {
+      "path": "animations/66-calf-standing-none/poster.webp",
+      "exerciseId": "f_s_f212",
+      "kind": "poster",
+      "sha256": "358702d5e42572b0dc87baf7ed1d1b04cbd20336bb6492a38acaafe90b7e3e5d",
+      "size": 11982
+    },
+    {
+      "path": "animations/66-calf-standing-none/thumb.webp",
+      "exerciseId": "f_s_f212",
+      "kind": "thumb",
+      "sha256": "658dcdaa4acc00d36d7cc18bf203eb16bbd2767fae4de1dc01bac3b94051207f",
+      "size": 1358
+    },
+    {
+      "path": "animations/67-calf-seated-calf-machine/animation.webp",
+      "exerciseId": "Lever-Seated-Calf-Raise",
+      "kind": "animation",
+      "sha256": "250f67f15af723e32b208e6337498e8ef8a468c2491209a357d8a93e55e92335",
+      "size": 604440
+    },
+    {
+      "path": "animations/67-calf-seated-calf-machine/poster.webp",
+      "exerciseId": "Lever-Seated-Calf-Raise",
+      "kind": "poster",
+      "sha256": "e29fb818e6efb447d1c0338c846cc4fae266363eb693a832db3b5d73fc774923",
+      "size": 19646
+    },
+    {
+      "path": "animations/67-calf-seated-calf-machine/thumb.webp",
+      "exerciseId": "Lever-Seated-Calf-Raise",
+      "kind": "thumb",
+      "sha256": "6d837602860e858858757eeafaab2137502bec60dac8b475025224375c013564",
+      "size": 2294
+    },
+    {
+      "path": "animations/68-core-crunch-mat/animation.webp",
+      "exerciseId": "abs-curl",
+      "kind": "animation",
+      "sha256": "e720db9a2b8e7e598031bc6783cdf2546d0483fd03650833088479a34b638968",
+      "size": 708486
+    },
+    {
+      "path": "animations/68-core-crunch-mat/poster.webp",
+      "exerciseId": "abs-curl",
+      "kind": "poster",
+      "sha256": "f88e633b190f5cbb4caea15b56bfc795c9e642705961760fae7513fb5ff9a1a3",
+      "size": 17094
+    },
+    {
+      "path": "animations/68-core-crunch-mat/thumb.webp",
+      "exerciseId": "abs-curl",
+      "kind": "thumb",
+      "sha256": "f44020400b33cc16db56fb0dff8f28a3335e618cdabb747e5816cc219f4e0399",
+      "size": 1590
+    },
+    {
+      "path": "animations/69-core-leg-raise-mat/animation.webp",
+      "exerciseId": "leg-rise",
+      "kind": "animation",
+      "sha256": "c8dac983ba12df2f0737491d9bd1056114cd2d7d1ddf5507f01193a976961413",
+      "size": 563416
+    },
+    {
+      "path": "animations/69-core-leg-raise-mat/poster.webp",
+      "exerciseId": "leg-rise",
+      "kind": "poster",
+      "sha256": "3db5eb5f198908d2b5b07a69d38734a0a867c5ee3da5f99a5a1d14c06e2da0a5",
+      "size": 15408
+    },
+    {
+      "path": "animations/69-core-leg-raise-mat/thumb.webp",
+      "exerciseId": "leg-rise",
+      "kind": "thumb",
+      "sha256": "18f58374edf08656015c0e585f0753753b7ac554495378b401d81b38a61bd464",
+      "size": 1470
+    },
+    {
+      "path": "animations/70-core-plank-mat/animation.webp",
+      "exerciseId": "plank_recorder",
+      "kind": "animation",
+      "sha256": "89cd8df9f8d65cc93edc45046a525ee56a4c96d8b6fe25f9cdb5f0ac820ca9a4",
+      "size": 385710
+    },
+    {
+      "path": "animations/70-core-plank-mat/poster.webp",
+      "exerciseId": "plank_recorder",
+      "kind": "poster",
+      "sha256": "b0bdf16aa641afca3e123da0a4106b4f7c98bdbf0b29554d6798068530737f97",
+      "size": 10974
+    },
+    {
+      "path": "animations/70-core-plank-mat/thumb.webp",
+      "exerciseId": "plank_recorder",
+      "kind": "thumb",
+      "sha256": "41c9f9cf8bd89cf3c59154b08639a6d922768c8f9651493b8a1e30ae3cb55bc9",
+      "size": 1126
+    },
+    {
+      "path": "animations/71-core-cable-crunch-high-cable/animation.webp",
+      "exerciseId": "Cable-Kneeling-Crunch_Waist_small",
+      "kind": "animation",
+      "sha256": "299b033d3a01a4d7378d097247cb4ec20bbe181fd63e56d43a779b94b32e19d5",
+      "size": 830984
+    },
+    {
+      "path": "animations/71-core-cable-crunch-high-cable/poster.webp",
+      "exerciseId": "Cable-Kneeling-Crunch_Waist_small",
+      "kind": "poster",
+      "sha256": "54e41b6a7fb6131183b1ef9327979b667e185c172872138913484cbce70288e8",
+      "size": 17946
+    },
+    {
+      "path": "animations/71-core-cable-crunch-high-cable/thumb.webp",
+      "exerciseId": "Cable-Kneeling-Crunch_Waist_small",
+      "kind": "thumb",
+      "sha256": "afee3911fa4d441a7b2c8a8fd76f106d0b6c027c518d77a0a70ed66dd7c85b19",
+      "size": 2020
+    },
+    {
+      "path": "animations/72-core-hanging-raise-pullup-bar/animation.webp",
+      "exerciseId": "04741201-Hanging-Straight-Leg-Hip-Raise_Waist",
+      "kind": "animation",
+      "sha256": "20a4ef049152407947502a53b3b8a35ca792dccfa51c1828b097dd072dbc704b",
+      "size": 564266
+    },
+    {
+      "path": "animations/72-core-hanging-raise-pullup-bar/poster.webp",
+      "exerciseId": "04741201-Hanging-Straight-Leg-Hip-Raise_Waist",
+      "kind": "poster",
+      "sha256": "83450c0f828c1adcf6a9e0d028d8f8f1258fe4f4de9ceb22e6062636ffab542f",
+      "size": 17278
+    },
+    {
+      "path": "animations/72-core-hanging-raise-pullup-bar/thumb.webp",
+      "exerciseId": "04741201-Hanging-Straight-Leg-Hip-Raise_Waist",
+      "kind": "thumb",
+      "sha256": "4cfc87c1d4e021c8d5a4d975394b475b7259756c5dc4fdb1d5abf6ef63f21657",
+      "size": 2138
+    },
+    {
+      "path": "animations/73-core-dead-bug-mat/animation.webp",
+      "exerciseId": "02761201-Dead-Bug_Waist",
+      "kind": "animation",
+      "sha256": "86f76667629a2dad9f114630f38b19e9f941db668e61ea309abbd8b06b32353d",
+      "size": 811750
+    },
+    {
+      "path": "animations/73-core-dead-bug-mat/poster.webp",
+      "exerciseId": "02761201-Dead-Bug_Waist",
+      "kind": "poster",
+      "sha256": "22b7905fed6713eb5763705f5d706800bcf84c759c555ee5519fa46e0f97610d",
+      "size": 16692
+    },
+    {
+      "path": "animations/73-core-dead-bug-mat/thumb.webp",
+      "exerciseId": "02761201-Dead-Bug_Waist",
+      "kind": "thumb",
+      "sha256": "a311eecc9021d311e4e6d8789b3f1654a4b34f867c7b043cd11b2977ed4ce23c",
+      "size": 1622
+    },
+    {
+      "path": "animations/74-core-side-plank-mat/animation.webp",
+      "exerciseId": "48111201",
+      "kind": "animation",
+      "sha256": "75166f65444cd824c3bec12a28a620326b6524334dd3de7a2fa34c0e08523f33",
+      "size": 653698
+    },
+    {
+      "path": "animations/74-core-side-plank-mat/poster.webp",
+      "exerciseId": "48111201",
+      "kind": "poster",
+      "sha256": "9486bd04c322e15de6ccad237c8878758c6ac0e9b14db73798b65429e96b8406",
+      "size": 18960
+    },
+    {
+      "path": "animations/74-core-side-plank-mat/thumb.webp",
+      "exerciseId": "48111201",
+      "kind": "thumb",
+      "sha256": "f429f5776d63b1f6a99db8e47de7cf85e609e7e97f5590e246c6846957a44433",
+      "size": 1888
+    },
+    {
+      "path": "animations/75-cardio-run-treadmill/animation.webp",
+      "exerciseId": "running",
+      "kind": "animation",
+      "sha256": "e22707ce4e45ec28a56cec1f7fc2c98290a9adf723487d530f74ce560c066008",
+      "size": 985002
+    },
+    {
+      "path": "animations/75-cardio-run-treadmill/poster.webp",
+      "exerciseId": "running",
+      "kind": "poster",
+      "sha256": "bb79d9fb33f4d2de5b45115ae8c6f5f67f043374a52b7a9d5708802537898c63",
+      "size": 21936
+    },
+    {
+      "path": "animations/75-cardio-run-treadmill/thumb.webp",
+      "exerciseId": "running",
+      "kind": "thumb",
+      "sha256": "ae0595511b9592152acf8f4ae1f372666bbfe85309ff0655b3e0446fcec59ba7",
+      "size": 2624
+    },
+    {
+      "path": "animations/76-cardio-cycle-bike/animation.webp",
+      "exerciseId": "bike",
+      "kind": "animation",
+      "sha256": "e722370c661e4c9727d6541d621bd48025c7ab9b48d55a329856ffa7573eac95",
+      "size": 751150
+    },
+    {
+      "path": "animations/76-cardio-cycle-bike/poster.webp",
+      "exerciseId": "bike",
+      "kind": "poster",
+      "sha256": "672a1c3ecd204bf12a2ab459caed496d41e718a611072b464fd8b7ab5de32560",
+      "size": 17072
+    },
+    {
+      "path": "animations/76-cardio-cycle-bike/thumb.webp",
+      "exerciseId": "bike",
+      "kind": "thumb",
+      "sha256": "a7219ffa11af5271364316d21d51f008237a061e570eaf3992b9c02caa41d668",
+      "size": 1984
+    },
+    {
+      "path": "animations/77-cardio-row-rower/animation.webp",
+      "exerciseId": "22621301-Rowing-machine",
+      "kind": "animation",
+      "sha256": "55e6b5624f14e715f21327d6d0e64e1467e89e33e08f1b3e816d4f69665a6462",
+      "size": 1006310
+    },
+    {
+      "path": "animations/77-cardio-row-rower/poster.webp",
+      "exerciseId": "22621301-Rowing-machine",
+      "kind": "poster",
+      "sha256": "279d7590763668d74bdeb8c5bbe836fd93bb69716d1d27d5efcc09987158ae90",
+      "size": 19024
+    },
+    {
+      "path": "animations/77-cardio-row-rower/thumb.webp",
+      "exerciseId": "22621301-Rowing-machine",
+      "kind": "thumb",
+      "sha256": "917b2e9e7628cc171b042d61ee96494a69799bf27a9ad886b5a10b3d5d7f1f21",
+      "size": 2196
+    },
+    {
+      "path": "animations/78-cardio-elliptical-elliptical/animation.webp",
+      "exerciseId": "21411301-Walk-Elliptical-Cross-Trainer_Cardio_180",
+      "kind": "animation",
+      "sha256": "6c551496a314d2066b91a0ec192bc9e4e2f5d5f0598259b8e65c88860bb64553",
+      "size": 1162218
+    },
+    {
+      "path": "animations/78-cardio-elliptical-elliptical/poster.webp",
+      "exerciseId": "21411301-Walk-Elliptical-Cross-Trainer_Cardio_180",
+      "kind": "poster",
+      "sha256": "ab3db634504b409a4e3a045dc0764c27b48fa99fb3c7392ba26871a036af7cef",
+      "size": 20304
+    },
+    {
+      "path": "animations/78-cardio-elliptical-elliptical/thumb.webp",
+      "exerciseId": "21411301-Walk-Elliptical-Cross-Trainer_Cardio_180",
+      "kind": "thumb",
+      "sha256": "775b8c1355baae1527be039f625b986835bcfc0c953576c355ba3918eff7a939",
+      "size": 2314
+    },
+    {
+      "path": "animations/79-cardio-stairs-stepmill/animation.webp",
+      "exerciseId": "23111201-Walking-on-Stepmill_Cardio_time",
+      "kind": "animation",
+      "sha256": "1f6fac3160e706e2ec2a30aaa5b44e0b63cef73146389f38e0eebb78287271bd",
+      "size": 1089988
+    },
+    {
+      "path": "animations/79-cardio-stairs-stepmill/poster.webp",
+      "exerciseId": "23111201-Walking-on-Stepmill_Cardio_time",
+      "kind": "poster",
+      "sha256": "af006867e1b198d1283c4860e5dc237145e163704c0e63c0b2072acd409d3097",
+      "size": 19330
+    },
+    {
+      "path": "animations/79-cardio-stairs-stepmill/thumb.webp",
+      "exerciseId": "23111201-Walking-on-Stepmill_Cardio_time",
+      "kind": "thumb",
+      "sha256": "50c10cdfc91ca44d45f6f8025715f513f0a9d51e6fae0b8bdc2ea98aab0f57ad",
+      "size": 2480
+    },
+    {
+      "path": "animations/80-cardio-incline-walk-treadmill/animation.webp",
+      "exerciseId": "36661201221",
+      "kind": "animation",
+      "sha256": "e90c8e25e6d9e873d6df784d8ac6455dd89132a1bc2a1501baaba24b4e703ba0",
+      "size": 887256
+    },
+    {
+      "path": "animations/80-cardio-incline-walk-treadmill/poster.webp",
+      "exerciseId": "36661201221",
+      "kind": "poster",
+      "sha256": "e9425ae59cc422b0a11f6c89e7971a4773ebe19c6424df1160b30057431a2dc9",
+      "size": 20872
+    },
+    {
+      "path": "animations/80-cardio-incline-walk-treadmill/thumb.webp",
+      "exerciseId": "36661201221",
+      "kind": "thumb",
+      "sha256": "cbce2fc222c6703a72a51445e6441a5b7fde3633a783556653990831bd4fcbb9",
+      "size": 2568
+    }
+  ]
+}

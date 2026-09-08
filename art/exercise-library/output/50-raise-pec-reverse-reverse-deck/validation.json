@@ -1,0 +1,66 @@
+{
+  "id": "Lever-Seated-Reverse-Fly",
+  "name": "蝴蝶机反向飞鸟",
+  "index": 50,
+  "slug": "50-raise-pec-reverse-reverse-deck",
+  "muscles": {
+    "rear_delts": 1.0,
+    "upper_back": 0.6
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 799818,
+    "sha256": "aae74af5b6025b4e504d208237dffcde3125663055b4db153d17d78b659a96f5",
+    "redChecks": [
+      {
+        "pixels": 3508,
+        "meanRed": 225.25656127929688
+      },
+      {
+        "pixels": 2713,
+        "meanRed": 192.91006469726562
+      }
+    ],
+    "loopPixelDelta": 0.38086276584201384,
+    "largestPosePixelDelta": 3.6342298719618054
+  },
+  "poster": {
+    "sha256": "ce1e1cde6c423d4a48134f7782ad76de571d2ef2e2276f0144d6c5efecfd50e2",
+    "bytes": 20118
+  },
+  "thumb": {
+    "sha256": "08da16e813713691fe4c6cb6010990eac085129fdc9eee6baa6262c00a345e01",
+    "bytes": 2352,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0062422165950616e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "aae74af5b6025b4e504d208237dffcde3125663055b4db153d17d78b659a96f5",
+    "keyframesSha256": "cce715e5e2ce4e568f7b07c61808cac839589d4c050fd46522648a6a0b3342b4",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

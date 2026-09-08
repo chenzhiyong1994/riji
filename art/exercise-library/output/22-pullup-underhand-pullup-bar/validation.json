@@ -1,0 +1,67 @@
+{
+  "id": "weight_reverse_pullup",
+  "name": "反手引体向上",
+  "index": 22,
+  "slug": "22-pullup-underhand-pullup-bar",
+  "muscles": {
+    "lats": 1.0,
+    "biceps": 0.8,
+    "upper_back": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 658028,
+    "sha256": "653e8b76367f9116e204c00f479530f6575e0783f24f27bf4af7a906f7343ac1",
+    "redChecks": [
+      {
+        "pixels": 3704,
+        "meanRed": 228.4217071533203
+      },
+      {
+        "pixels": 3440,
+        "meanRed": 173.00320434570312
+      }
+    ],
+    "loopPixelDelta": 0.35778711712549605,
+    "largestPosePixelDelta": 7.251978314112104
+  },
+  "poster": {
+    "sha256": "49f0e9935d719e41ace900afa3aaa3585ff886298d2c90424789a62869c2fcc6",
+    "bytes": 14494
+  },
+  "thumb": {
+    "sha256": "392ccb81fa2309c5ab182217615d90fd7b739385816113c2f462f7b078f2c796",
+    "bytes": 1846,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4753842798509523e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "653e8b76367f9116e204c00f479530f6575e0783f24f27bf4af7a906f7343ac1",
+    "keyframesSha256": "e4ab7ae44687a692a19aedd637b999e98bf2cbc9b6420f8a7d8992cbf74100da",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

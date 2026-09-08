@@ -1,0 +1,68 @@
+{
+  "id": "pushup-xunji",
+  "name": "俯卧撑",
+  "index": 11,
+  "slug": "11-pushup-full-mat",
+  "muscles": {
+    "chest": 1.0,
+    "triceps": 0.65,
+    "front_delts": 0.4,
+    "abs": 0.25
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 603660,
+    "sha256": "39cab7403a900a7da995aa054869abbe534c1eefbb6b64d9d59692659788dfce",
+    "redChecks": [
+      {
+        "pixels": 3942,
+        "meanRed": 162.9188232421875
+      },
+      {
+        "pixels": 3141,
+        "meanRed": 99.9519271850586
+      }
+    ],
+    "loopPixelDelta": 0.23479449559771826,
+    "largestPosePixelDelta": 6.873953683035714
+  },
+  "poster": {
+    "sha256": "2e81dd5b40187d20f0a97772ad39fc98097aed7795c43700de53783938fad7bd",
+    "bytes": 11884
+  },
+  "thumb": {
+    "sha256": "f73c3d092ce21fbb1d25bcc28bcab1db0a61b29a1f22c1f3bd35075998b04725",
+    "bytes": 1292,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0951086298628525e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "39cab7403a900a7da995aa054869abbe534c1eefbb6b64d9d59692659788dfce",
+    "keyframesSha256": "7a8e7a9fbb39cfd30371a81c6819bbff53ccbf9913b22fb12549ea95c880a555",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

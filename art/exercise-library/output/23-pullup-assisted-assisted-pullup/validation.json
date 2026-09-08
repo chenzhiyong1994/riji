@@ -1,0 +1,67 @@
+{
+  "id": "weight_reverse_pullup_heping",
+  "name": "引体向上（辅助）",
+  "index": 23,
+  "slug": "23-pullup-assisted-assisted-pullup",
+  "muscles": {
+    "lats": 1.0,
+    "biceps": 0.6,
+    "upper_back": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 838996,
+    "sha256": "6ab2ab2c4bf431c21cd68c88b699839b0a50e68502bd636906dd87bd89638948",
+    "redChecks": [
+      {
+        "pixels": 5317,
+        "meanRed": 229.03912353515625
+      },
+      {
+        "pixels": 4935,
+        "meanRed": 173.0622100830078
+      }
+    ],
+    "loopPixelDelta": 0.47580585782490076,
+    "largestPosePixelDelta": 10.869579012431794
+  },
+  "poster": {
+    "sha256": "2744abe129faf1060083c668d780cc3dd7c86b86dfedce39e751cf04dc2780b7",
+    "bytes": 16558
+  },
+  "thumb": {
+    "sha256": "74f52c599bb9d02fd698006052011070cea9cdc17b6eb97c8cede0687aa03d06",
+    "bytes": 2168,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4753842798509523e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "6ab2ab2c4bf431c21cd68c88b699839b0a50e68502bd636906dd87bd89638948",
+    "keyframesSha256": "7e1a6292beb6d6a4b193960281bb720c6759341b59f5c98969dd4c75c5f41b68",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

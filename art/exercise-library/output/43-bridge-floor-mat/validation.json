@@ -1,0 +1,66 @@
+{
+  "id": "f_s_f294",
+  "name": "自重臀桥",
+  "index": 43,
+  "slug": "43-bridge-floor-mat",
+  "muscles": {
+    "glutes": 1.0,
+    "hamstrings": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 793414,
+    "sha256": "38cca5b431ac0da80bddccdc201eeaeca6ac6523351e808581dac98ffecdfb7b",
+    "redChecks": [
+      {
+        "pixels": 10182,
+        "meanRed": 131.41612243652344
+      },
+      {
+        "pixels": 4966,
+        "meanRed": 88.29480743408203
+      }
+    ],
+    "loopPixelDelta": 0.30660284133184523,
+    "largestPosePixelDelta": 9.000102209666418
+  },
+  "poster": {
+    "sha256": "2914c20d64cae6c62e6b4dcca1789c47cf343f6fabed28ec0b16b7bd92e7a165",
+    "bytes": 14324
+  },
+  "thumb": {
+    "sha256": "19c07f24899ef043c0fdb2b7b1748a6a919bbabd548be8481dea08968453bec1",
+    "bytes": 1646,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0077857028788874e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "38cca5b431ac0da80bddccdc201eeaeca6ac6523351e808581dac98ffecdfb7b",
+    "keyframesSha256": "dac0a7344602f27b80bb25169868e9c983148eb472008a623b9ed68312acfa6b",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "riji",
+  "version": "1.0.5",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "dev": "node scripts/serve.cjs",
+    "prepare:media": "node scripts/prepare-media.cjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "acorn": "8.15.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-java": "^2.7.5"
+  }
+}

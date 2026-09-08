@@ -1,0 +1,76 @@
+{
+  "id": "dumbbellcurl",
+  "name": "哑铃弯举",
+  "index": 53,
+  "slug": "53-curl-supinated-dumbbells",
+  "muscles": {
+    "biceps": 1.0
+  },
+  "status": "user_approved_reference",
+  "sourceApprovedSample": "../muscle-preview/refined-curl",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 516774,
+    "sha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015",
+    "redChecks": [
+      {
+        "pixels": 3337,
+        "meanRed": 218.07791137695312
+      },
+      {
+        "pixels": 3213,
+        "meanRed": 148.4571990966797
+      }
+    ],
+    "loopPixelDelta": 0.25839911566840273,
+    "largestPosePixelDelta": 4.16621810670883
+  },
+  "poster": {
+    "sha256": "96c17c1055f6cc3eec21d0f37421969c1322e1f905510574261d5fd29371dd25",
+    "bytes": 14446
+  },
+  "motion": {
+    "projectionMaxM": 0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.960398058336021e-07
+  },
+  "thumb": {
+    "sha256": "67170ea9f744ae661a2a1cb4dc18784b5bf1a508e4a6dc64947dac28aca03ed5",
+    "bytes": 1798,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "supersededVisualReview": {
+    "animationSha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015",
+    "keyframesSha256": "59fe931cf3131ae4668e7ee8a8e64f990d671f5758200b282be5893fe0baebf8",
+    "checks": [
+      "recognizable_exercise_and_equipment",
+      "body_and_support_visible",
+      "continuous_anatomical_style",
+      "major_muscles_visible",
+      "key_pose_sequence"
+    ]
+  },
+  "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5cb945cabe015252322cd82b0e3db9483e48784c127b837b0b2b6f242c4bd015",
+    "keyframesSha256": "59fe931cf3131ae4668e7ee8a8e64f990d671f5758200b282be5893fe0baebf8",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

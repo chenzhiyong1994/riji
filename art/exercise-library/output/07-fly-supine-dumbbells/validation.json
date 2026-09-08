@@ -1,0 +1,66 @@
+{
+  "id": "fly",
+  "name": "哑铃飞鸟",
+  "index": 7,
+  "slug": "07-fly-supine-dumbbells",
+  "muscles": {
+    "chest": 1.0,
+    "front_delts": 0.35
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 804698,
+    "sha256": "c2ae5a4e2a1efbd99103519769c16e3abdc3b2649c89df2fd324b0b39d121e04",
+    "redChecks": [
+      {
+        "pixels": 6679,
+        "meanRed": 239.88485717773438
+      },
+      {
+        "pixels": 6532,
+        "meanRed": 196.33236694335938
+      }
+    ],
+    "loopPixelDelta": 0.3943805997333829,
+    "largestPosePixelDelta": 7.424149770585317
+  },
+  "poster": {
+    "sha256": "f646444d81d2b031b65eededd265ccf6192a56557514425c6e35d6a4ae87471d",
+    "bytes": 20748
+  },
+  "thumb": {
+    "sha256": "31eb09eb0f6b9916a2d6d8adb9782277c433061606295140340ef980dedaa7e5",
+    "bytes": 2484,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0554609338620175e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "c2ae5a4e2a1efbd99103519769c16e3abdc3b2649c89df2fd324b0b39d121e04",
+    "keyframesSha256": "8e0587b58059343d042e41c394b6960126d341f9f9a7c500d36fec2234f208cc",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

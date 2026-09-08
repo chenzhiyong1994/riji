@@ -1,0 +1,67 @@
+{
+  "id": "bardips",
+  "name": "双杠臂屈伸",
+  "index": 10,
+  "slug": "10-dip-forward-dip-bars",
+  "muscles": {
+    "chest": 1.0,
+    "triceps": 0.85,
+    "front_delts": 0.35
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 829790,
+    "sha256": "590639afbbf4cfffb661e5cd8c46c8c41aa0a56dbf09ed4067f761c36fff9f16",
+    "redChecks": [
+      {
+        "pixels": 9755,
+        "meanRed": 215.44253540039062
+      },
+      {
+        "pixels": 9467,
+        "meanRed": 153.93260192871094
+      }
+    ],
+    "loopPixelDelta": 0.38897705078125,
+    "largestPosePixelDelta": 10.146334693545386
+  },
+  "poster": {
+    "sha256": "449d9a926f299a7edb4db91a180cdaca29cb41ce815620a136763b71a6291d72",
+    "bytes": 18638
+  },
+  "thumb": {
+    "sha256": "9a90539f653e690a7cc4e2614e684d92046df3cb961d52fc906928257807b255",
+    "bytes": 2336,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.653606615510892e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "590639afbbf4cfffb661e5cd8c46c8c41aa0a56dbf09ed4067f761c36fff9f16",
+    "keyframesSha256": "a7300402cb77ad00a4c9243e046cf324b9edbb65e2751f9430ca5f711bc7ccc4",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

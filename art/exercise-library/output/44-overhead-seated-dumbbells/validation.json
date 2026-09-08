@@ -1,0 +1,67 @@
+{
+  "id": "shoulderpress",
+  "name": "哑铃推肩",
+  "index": 44,
+  "slug": "44-overhead-seated-dumbbells",
+  "muscles": {
+    "front_delts": 1.0,
+    "side_delts": 0.8,
+    "triceps": 0.55
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 708172,
+    "sha256": "c8f386db83290d6f5ac18af43dfacbe9ff000e3e3d5c3ec1c7effcc49e4f34e8",
+    "redChecks": [
+      {
+        "pixels": 3289,
+        "meanRed": 235.11158752441406
+      },
+      {
+        "pixels": 3113,
+        "meanRed": 182.99517822265625
+      }
+    ],
+    "loopPixelDelta": 0.3348509773375496,
+    "largestPosePixelDelta": 5.1694757370721724
+  },
+  "poster": {
+    "sha256": "6dd55ae539448f6929f8a76341f7137bb9c27bd5a4808943a37375348f71b2ac",
+    "bytes": 18100
+  },
+  "thumb": {
+    "sha256": "5f3e82a0c5fd15fd2ac551184136a56ebeb2b8be10b820eeb7095be6329c1006",
+    "bytes": 2166,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.2731557704981462e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "c8f386db83290d6f5ac18af43dfacbe9ff000e3e3d5c3ec1c7effcc49e4f34e8",
+    "keyframesSha256": "9564da2808b6f8807e215dec24747a8d14d741ec2403e02899eb6e0457603ab0",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

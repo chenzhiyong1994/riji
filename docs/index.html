@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#28272c" />
+    <meta
+      name="description"
+      content="日跻，一个开源、离线、无需账号的 Android 训练记录 App。记录每组重量与次数，回看训练历史，数据保存在本机。"
+    />
+    <meta property="og:title" content="日跻 · 离线训练记录" />
+    <meta
+      property="og:description"
+      content="如月之恒，如日之升。开源 Android App，下载即可开始训练记录。"
+    />
+    <meta
+      property="og:image"
+      content="https://chenzhiyong1994.github.io/riji/assets/cover.png"
+    />
+    <meta property="og:url" content="https://chenzhiyong1994.github.io/riji/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>日跻 · 如月之恒，如日之升</title>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳至正文</a>
+    <header class="site-header wrap">
+      <a class="wordmark" href="#" aria-label="日跻首页"
+        ><img src="assets/logo.svg" alt="" width="34" height="34" /><strong
+          >日跻</strong
+        ><span>RIJI</span></a
+      >
+      <nav aria-label="主导航">
+        <a href="#features">功能</a><a href="#preview">预览</a
+        ><a class="github-link" href="https://github.com/chenzhiyong1994/riji"
+          >GitHub <span aria-hidden="true">↗</span></a
+        >
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero wrap">
+        <div class="eyebrow">
+          <span class="status-dot"></span> OPEN SOURCE / ANDROID
+        </div>
+        <h1>日跻</h1>
+        <p class="slogan">如月之恒，如日之升</p>
+        <p class="hero-description">
+          一个专注于记录的离线训练 App<br />重量、次数、历史与模版，随手记下
+        </p>
+        <div class="actions">
+          <a
+            class="button primary"
+            href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.5.apk"
+            ><svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.6"
+              aria-hidden="true"
+            >
+              <path d="M12 3v12m-5-5 5 5 5-5M5 16v5h14v-5" /></svg
+            >下载 Android 版</a
+          ><a
+            class="button secondary"
+            href="https://github.com/chenzhiyong1994/riji"
+            >查看源码 <span aria-hidden="true">↗</span></a
+          >
+        </div>
+        <p class="release-meta">
+          v1.0.5 <span>·</span> Android 8.0+ <span>·</span> 58.8 MiB
+        </p>
+        <div class="hero-screens" aria-label="日跻界面展示">
+          <div class="phone side left">
+            <img
+              src="assets/movements.png"
+              alt="动作库，按部位与器械选择常用动作"
+              width="780"
+              height="1688"
+            />
+          </div>
+          <div class="phone center">
+            <img
+              src="assets/training.png"
+              alt="训练界面，记录重量、次数与完成组"
+              width="780"
+              height="1688"
+            />
+          </div>
+          <div class="phone side right">
+            <img
+              src="assets/history.png"
+              alt="历史界面，通过日历回看训练"
+              width="780"
+              height="1688"
+            />
+          </div>
+        </div>
+        <div class="principles">
+          <span>无需账号</span><span>完整离线使用</span
+          ><span>数据留在本机</span>
+        </div>
+      </section>
+      <section class="features light-section" id="features">
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="eyebrow">BUILT FOR YOUR ROUTINE</p>
+            <h2>从今天的一组<br />到看得见的积累</h2>
+            <p>记录足够简单，才更容易成为习惯。</p>
+          </div>
+          <div class="feature-grid">
+            <article>
+              <span class="feature-index">01 / 记录</span>
+              <h3>跟上你的训练节奏</h3>
+              <p>
+                普通组、热身组、递减组，逐组记录重量和次数。休息计时、上次数据与自动保存，让你更专注当下。
+              </p>
+            </article>
+            <article>
+              <span class="feature-index">02 / 复用</span>
+              <h3>常练的，直接开始</h3>
+              <p>
+                80 个常用动作，配备离线 3D
+                演示。把熟悉的组合存为个人模版，也能创建自己的动作。
+              </p>
+            </article>
+            <article>
+              <span class="feature-index">03 / 回看</span>
+              <h3>让进步有迹可循</h3>
+              <p>
+                在日历里回看训练，通过容量、部位分布与动作 PR
+                了解积累。身体数据和 JSON 备份由你保管。
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="preview-section wrap" id="preview">
+        <div class="preview-copy">
+          <p class="eyebrow">A CLOSER LOOK</p>
+          <h2>打开，就是<br />自己的训练空间</h2>
+          <p>四个入口，把记录、动作、历史与个人工具放在顺手的位置。</p>
+          <div class="preview-tabs" role="tablist" aria-label="选择 App 页面">
+            <button
+              id="tab-training"
+              role="tab"
+              aria-selected="true"
+              aria-controls="app-preview"
+              data-screen="training"
+            >
+              训练 <span>逐组记录</span>
+            </button>
+            <button
+              id="tab-movements"
+              role="tab"
+              aria-selected="false"
+              aria-controls="app-preview"
+              data-screen="movements"
+              tabindex="-1"
+            >
+              动作 <span>常用与自定义</span>
+            </button>
+            <button
+              id="tab-history"
+              role="tab"
+              aria-selected="false"
+              aria-controls="app-preview"
+              data-screen="history"
+              tabindex="-1"
+            >
+              历史 <span>回看训练积累</span>
+            </button>
+            <button
+              id="tab-profile"
+              role="tab"
+              aria-selected="false"
+              aria-controls="app-preview"
+              data-screen="profile"
+              tabindex="-1"
+            >
+              我的 <span>统计与个人工具</span>
+            </button>
+          </div>
+          <p class="caption">界面预览使用虚构演示数据</p>
+        </div>
+        <div
+          class="preview-stage"
+          role="tabpanel"
+          id="app-preview"
+          aria-labelledby="tab-training"
+          tabindex="0"
+        >
+          <div class="phone">
+            <img
+              id="preview-image"
+              src="assets/training.png"
+              alt="训练页面：记录每组重量、次数与完成状态"
+              width="780"
+              height="1688"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="privacy-section light-section">
+        <div class="wrap privacy-grid">
+          <div>
+            <p class="eyebrow">LOCAL BY DESIGN</p>
+            <h2>你的记录<br />由你保管</h2>
+          </div>
+          <div>
+            <p class="lead">
+              无需注册，也没有云端账号。<br />训练记录和身体数据保存在本机。
+            </p>
+            <p>
+              App 不包含广告或分析统计
+              SDK，不申请网络权限。通过系统文件选择器导出
+              JSON，即可自行保存备份。
+            </p>
+            <p class="backup-note">
+              没有云同步，卸载会删除本地数据。请定期导出备份，更新时使用同签名安装包覆盖安装。
+            </p>
+            <a
+              class="text-link"
+              href="https://github.com/chenzhiyong1994/riji/blob/main/docs/privacy.md"
+              >阅读隐私说明 <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="download-section wrap" id="download">
+        <img
+          src="assets/logo.svg"
+          alt=""
+          width="70"
+          height="70"
+          loading="lazy"
+        />
+        <p class="eyebrow">READY WHEN YOU ARE</p>
+        <h2>开始记录今天的训练</h2>
+        <p>日跻 1.0.5 · 免费下载 · 开源代码</p>
+        <a
+          class="button primary"
+          href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.5.apk"
+          >下载 APK <span aria-hidden="true">↓</span></a
+        >
+        <p class="download-links">
+          <a
+            href="https://github.com/chenzhiyong1994/riji/blob/main/downloads/README.md"
+            >安装与校验</a
+          ><span>·</span
+          ><a
+            href="https://github.com/chenzhiyong1994/riji/blob/main/CHANGELOG.md"
+            >版本说明</a
+          >
+        </p>
+        <details>
+          <summary>当前版本的使用边界</summary>
+          <p>
+            最低 Android 8.0，已在 Android 16
+            模拟器验证；实体手机和所有旧系统仍需补充测试。请保持 Android System
+            WebView 更新。计时器暂不提供后台或锁屏提醒音。
+          </p>
+          <p>
+            80
+            份动作动画仍待姿势复核，部分关节、握持和器械接触需要修正，仅供视觉参考。欢迎在
+            GitHub 提交具体问题。
+          </p>
+        </details>
+      </section>
+    </main>
+    <footer class="wrap">
+      <div class="footer-top">
+        <a class="wordmark" href="#"
+          ><img src="assets/logo.svg" alt="" width="28" height="28" /><strong
+            >日跻</strong
+          ><span>RIJI</span></a
+        >
+        <div>
+          <a href="https://github.com/chenzhiyong1994/riji">GitHub ↗</a
+          ><a href="https://github.com/chenzhiyong1994/riji/issues">反馈问题</a
+          ><a href="https://github.com/chenzhiyong1994/riji/blob/main/LICENSE"
+            >MIT License</a
+          >
+        </div>
+      </div>
+      <p>
+        Exercise data by <a href="https://repdb.co">RepDB (repdb.co)</a> ·
+        MakeHuman graphics: CC0 ·
+        <a
+          href="https://github.com/chenzhiyong1994/riji/blob/main/THIRD_PARTY_NOTICES.md"
+          >素材许可</a
+        >
+      </p>
+      <p>© 2026 Riji contributors</p>
+    </footer>
+    <script src="site.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "id": "cablepulldowntrp",
+  "name": "绳索臂屈伸",
+  "index": 60,
+  "slug": "60-triceps-rope-high-cable",
+  "muscles": {
+    "triceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 504154,
+    "sha256": "324fd1ff187a13dc7e58d9ac5ed7e38eab9213ab5378b2ab998fa4eaadc8bd94",
+    "redChecks": [
+      {
+        "pixels": 2789,
+        "meanRed": 214.131591796875
+      },
+      {
+        "pixels": 2608,
+        "meanRed": 152.0717010498047
+      }
+    ],
+    "loopPixelDelta": 0.2237175835503472,
+    "largestPosePixelDelta": 1.590701633029514
+  },
+  "poster": {
+    "sha256": "d6854f816d7815a09cf1535bf953e316a904eb77510d2c77e9f7766a99d08895",
+    "bytes": 16082
+  },
+  "thumb": {
+    "sha256": "09fe53a2384f357224f89c4f62e33d149af0671811b6d40554f410fe60d2a96f",
+    "bytes": 1880,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1095112841717175e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "324fd1ff187a13dc7e58d9ac5ed7e38eab9213ab5378b2ab998fa4eaadc8bd94",
+    "keyframesSha256": "62b7725ef6929de439ed85154c69ea6c402386fd29c8d99e188d603f0c8c9369",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

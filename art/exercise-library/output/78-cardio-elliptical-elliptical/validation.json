@@ -1,0 +1,67 @@
+{
+  "id": "21411301-Walk-Elliptical-Cross-Trainer_Cardio_180",
+  "name": "椭圆机",
+  "index": 78,
+  "slug": "78-cardio-elliptical-elliptical",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.8,
+    "calves": 0.6
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 1162218,
+    "sha256": "6c551496a314d2066b91a0ec192bc9e4e2f5d5f0598259b8e65c88860bb64553",
+    "redChecks": [
+      {
+        "pixels": 14245,
+        "meanRed": 208.7887725830078
+      },
+      {
+        "pixels": 14251,
+        "meanRed": 157.52810668945312
+      }
+    ],
+    "loopPixelDelta": 1.3663804796006944,
+    "largestPosePixelDelta": 10.230812193855407
+  },
+  "poster": {
+    "sha256": "ab3db634504b409a4e3a045dc0764c27b48fa99fb3c7392ba26871a036af7cef",
+    "bytes": 20304
+  },
+  "thumb": {
+    "sha256": "775b8c1355baae1527be039f625b986835bcfc0c953576c355ba3918eff7a939",
+    "bytes": 2314,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.286083302934362e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "6c551496a314d2066b91a0ec192bc9e4e2f5d5f0598259b8e65c88860bb64553",
+    "keyframesSha256": "616cc2a7f8b5a9c30fd2332377e6b105dc84d329507fd86428deb273c7719183",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

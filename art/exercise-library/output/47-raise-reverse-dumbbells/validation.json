@@ -1,0 +1,66 @@
+{
+  "id": "sideladerrow",
+  "name": "俯身哑铃飞鸟",
+  "index": 47,
+  "slug": "47-raise-reverse-dumbbells",
+  "muscles": {
+    "rear_delts": 1.0,
+    "upper_back": 0.65
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 526238,
+    "sha256": "f0ee959e3e65effb9cebe86c6d0ad5323c294cd7d2b8a236824fa17cc304eaa7",
+    "redChecks": [
+      {
+        "pixels": 2310,
+        "meanRed": 246.32208251953125
+      },
+      {
+        "pixels": 2266,
+        "meanRed": 206.71755981445312
+      }
+    ],
+    "loopPixelDelta": 0.27727641756572424,
+    "largestPosePixelDelta": 5.37423124767485
+  },
+  "poster": {
+    "sha256": "2ab77a588c6d86cc8a9d9ce5ac12237810b931ab6b999127eaa2e9b9d5b917f1",
+    "bytes": 13356
+  },
+  "thumb": {
+    "sha256": "c0217457e6884e37ee3af4d0734176bbc31fc1f346f732ab51e31960030633c8",
+    "bytes": 1560,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.3918035541576882e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "f0ee959e3e65effb9cebe86c6d0ad5323c294cd7d2b8a236824fa17cc304eaa7",
+    "keyframesSha256": "6036b9acc0473c2c80d594a44598b6c5f2e3af5bcf2496d03b847e7dbafeb6ac",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

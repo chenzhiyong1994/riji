@@ -1,0 +1,66 @@
+{
+  "id": "cablefly",
+  "name": "绳索夹胸",
+  "index": 9,
+  "slug": "09-fly-standing-dual-cable",
+  "muscles": {
+    "chest": 1.0,
+    "front_delts": 0.3
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 731440,
+    "sha256": "01f396b8a14f173a8e3a4ac4a016d4cb4e5104125f05fc45aed108705a66ddb0",
+    "redChecks": [
+      {
+        "pixels": 10655,
+        "meanRed": 220.68202209472656
+      },
+      {
+        "pixels": 10395,
+        "meanRed": 163.5099639892578
+      }
+    ],
+    "loopPixelDelta": 0.32820395817832343,
+    "largestPosePixelDelta": 2.2012731158544145
+  },
+  "poster": {
+    "sha256": "727cc154971914227c3572e7cd359582087527b56d5b03f95bb23a02ad48f1b0",
+    "bytes": 21740
+  },
+  "thumb": {
+    "sha256": "8ee0cc2e8a5e95613868a983adf8d550ce093194046c9e14dc1fbc6b4c5ff0ec",
+    "bytes": 2902,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.750236375334981e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "01f396b8a14f173a8e3a4ac4a016d4cb4e5104125f05fc45aed108705a66ddb0",
+    "keyframesSha256": "398748f794fd09e2749c8a5aaffa03bfca6cd4f7d2374e5584e026ed187e76a6",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

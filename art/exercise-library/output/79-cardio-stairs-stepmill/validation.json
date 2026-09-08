@@ -1,0 +1,67 @@
+{
+  "id": "23111201-Walking-on-Stepmill_Cardio_time",
+  "name": "爬楼梯",
+  "index": 79,
+  "slug": "79-cardio-stairs-stepmill",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 1.0,
+    "calves": 0.6
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 1089988,
+    "sha256": "1f6fac3160e706e2ec2a30aaa5b44e0b63cef73146389f38e0eebb78287271bd",
+    "redChecks": [
+      {
+        "pixels": 8192,
+        "meanRed": 210.2076416015625
+      },
+      {
+        "pixels": 7368,
+        "meanRed": 156.63246154785156
+      }
+    ],
+    "loopPixelDelta": 4.4711817181299605,
+    "largestPosePixelDelta": 13.662596203031995
+  },
+  "poster": {
+    "sha256": "af006867e1b198d1283c4860e5dc237145e163704c0e63c0b2072acd409d3097",
+    "bytes": 19330
+  },
+  "thumb": {
+    "sha256": "50c10cdfc91ca44d45f6f8025715f513f0a9d51e6fae0b8bdc2ea98aab0f57ad",
+    "bytes": 2480,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0396697248525864e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "1f6fac3160e706e2ec2a30aaa5b44e0b63cef73146389f38e0eebb78287271bd",
+    "keyframesSha256": "377805bb6e53c3ce09a272da4ad629f51c60926906b09edbef5eab90d89a33b6",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

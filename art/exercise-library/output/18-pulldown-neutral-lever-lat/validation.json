@@ -1,0 +1,67 @@
+{
+  "id": "machine_pulldown",
+  "name": "器械下拉",
+  "index": 18,
+  "slug": "18-pulldown-neutral-lever-lat",
+  "muscles": {
+    "lats": 1.0,
+    "biceps": 0.55,
+    "upper_back": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 1024522,
+    "sha256": "5b7c731f59a2ecfdaba097f50ea074368497ad918c9752986ee4e2cbfe41263a",
+    "redChecks": [
+      {
+        "pixels": 5334,
+        "meanRed": 191.87588500976562
+      },
+      {
+        "pixels": 4790,
+        "meanRed": 125.49164581298828
+      }
+    ],
+    "loopPixelDelta": 0.4792630634610615,
+    "largestPosePixelDelta": 3.719726078093998
+  },
+  "poster": {
+    "sha256": "8ea163dbe1ae2c91ac460912fc5982a0376b6e6dc862ab88184f0f7db8b5a0bc",
+    "bytes": 26888
+  },
+  "thumb": {
+    "sha256": "826c7609b478250bf6b373c82ce7f8e5ecdf05cc2b9d042c547c8b45a62a670f",
+    "bytes": 3094,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4700884802403323e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5b7c731f59a2ecfdaba097f50ea074368497ad918c9752986ee4e2cbfe41263a",
+    "keyframesSha256": "5288a42e11e2cd5c2dc7746b040eca00f790dc3354a0cbec6ee6990a056ccc3f",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

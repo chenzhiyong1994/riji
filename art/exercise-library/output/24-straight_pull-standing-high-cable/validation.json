@@ -1,0 +1,66 @@
+{
+  "id": "rollpulldown",
+  "name": "绳索直臂下压",
+  "index": 24,
+  "slug": "24-straight_pull-standing-high-cable",
+  "muscles": {
+    "lats": 1.0,
+    "triceps": 0.25
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 513440,
+    "sha256": "30ef204a1344bb8f7d90481a529981aa485ff6d6bf421e8c462de92c03976bc8",
+    "redChecks": [
+      {
+        "pixels": 4924,
+        "meanRed": 232.00730895996094
+      },
+      {
+        "pixels": 4661,
+        "meanRed": 180.56468200683594
+      }
+    ],
+    "loopPixelDelta": 0.2820836627294147,
+    "largestPosePixelDelta": 1.6703946552579365
+  },
+  "poster": {
+    "sha256": "80209795efd838b2d31a8c877c0a50d11759111a9396f15a70a0905d6c8e6050",
+    "bytes": 15778
+  },
+  "thumb": {
+    "sha256": "642209d781a6ed8d1d3417781eb0bec970d02ecb5a8e1eddb2deab0e3108f81a",
+    "bytes": 1912,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.662802718206331e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "30ef204a1344bb8f7d90481a529981aa485ff6d6bf421e8c462de92c03976bc8",
+    "keyframesSha256": "300eac71cc67550015348b682c28d6ff9425cd59f413f7ccf62bb3f379af55f2",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

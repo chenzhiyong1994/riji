@@ -1,0 +1,65 @@
+{
+  "id": "incline_dumbell_curl",
+  "name": "上斜哑铃弯举",
+  "index": 58,
+  "slug": "58-curl-incline-dumbbells",
+  "muscles": {
+    "biceps": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 601136,
+    "sha256": "0f9d701d9092d0c468e4b36890262fdb3769fd83e68a82ddaef1a8a06f15c7d5",
+    "redChecks": [
+      {
+        "pixels": 2676,
+        "meanRed": 212.44021606445312
+      },
+      {
+        "pixels": 2590,
+        "meanRed": 150.98995971679688
+      }
+    ],
+    "loopPixelDelta": 0.21069771902901788,
+    "largestPosePixelDelta": 4.318094404916915
+  },
+  "poster": {
+    "sha256": "bffd9c2c5bae17fe26c1803abf90afdb897fc19214bf942f548cc54a21ddca66",
+    "bytes": 17204
+  },
+  "thumb": {
+    "sha256": "2c60f1f8fb2366f717ed84d41287cfad0315d6dca54f63442a4fa517dbc786e0",
+    "bytes": 1944,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.2731557704981462e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "0f9d701d9092d0c468e4b36890262fdb3769fd83e68a82ddaef1a8a06f15c7d5",
+    "keyframesSha256": "98c0fc3ecfc6d48b6daa813b094659fd8de6fc02ce3c5314d8071dbd9e5a642f",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "benchpress",
+  "name": "杠铃卧推",
+  "index": 1,
+  "slug": "01-press-flat-barbell",
+  "muscles": {
+    "chest": 1.0,
+    "triceps": 0.55,
+    "front_delts": 0.45
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 841814,
+    "sha256": "a363d0b62d320e18d9840cc41f8a80da1c2430b9e255163188836a2be1dab294",
+    "redChecks": [
+      {
+        "pixels": 4005,
+        "meanRed": 242.86566162109375
+      },
+      {
+        "pixels": 3953,
+        "meanRed": 199.65545654296875
+      }
+    ],
+    "loopPixelDelta": 0.33766828264508925,
+    "largestPosePixelDelta": 11.03258308531746
+  },
+  "poster": {
+    "sha256": "8bbc9e271240ed07d9d520280d825f76c39aebbaacc389974c5ab96586ada1e9",
+    "bytes": 18774
+  },
+  "thumb": {
+    "sha256": "27bc5ed32e313d339c032f097d4908dca35a82784a88b77e27adadf05762e58e",
+    "bytes": 2134,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.491232597407209e-07
+  },
+  "styleRevision": 2,
+  "supersededVisualReview": {
+    "animationSha256": "a363d0b62d320e18d9840cc41f8a80da1c2430b9e255163188836a2be1dab294",
+    "keyframesSha256": "4adc53bd9c9719cd1bdc4d129c85712f536970c254fb6c3851c69439dfd827c2",
+    "checks": [
+      "recognizable_exercise_and_equipment",
+      "body_and_support_visible",
+      "continuous_anatomical_style",
+      "major_muscles_visible",
+      "key_pose_sequence"
+    ]
+  },
+  "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "a363d0b62d320e18d9840cc41f8a80da1c2430b9e255163188836a2be1dab294",
+    "keyframesSha256": "4adc53bd9c9719cd1bdc4d129c85712f536970c254fb6c3851c69439dfd827c2",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

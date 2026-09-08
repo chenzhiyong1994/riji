@@ -1,0 +1,68 @@
+{
+  "id": "22621301-Rowing-machine",
+  "name": "划船机",
+  "index": 77,
+  "slug": "77-cardio-row-rower",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.7,
+    "lats": 0.8,
+    "upper_back": 0.6
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 1006310,
+    "sha256": "55e6b5624f14e715f21327d6d0e64e1467e89e33e08f1b3e816d4f69665a6462",
+    "redChecks": [
+      {
+        "pixels": 13819,
+        "meanRed": 200.362548828125
+      },
+      {
+        "pixels": 11651,
+        "meanRed": 152.33970642089844
+      }
+    ],
+    "loopPixelDelta": 0.36820329938616075,
+    "largestPosePixelDelta": 11.869471474299354
+  },
+  "poster": {
+    "sha256": "279d7590763668d74bdeb8c5bbe836fd93bb69716d1d27d5efcc09987158ae90",
+    "bytes": 19024
+  },
+  "thumb": {
+    "sha256": "917b2e9e7628cc171b042d61ee96494a69799bf27a9ad886b5a10b3d5d7f1f21",
+    "bytes": 2196,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.5434035511283937e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "55e6b5624f14e715f21327d6d0e64e1467e89e33e08f1b3e816d4f69665a6462",
+    "keyframesSha256": "298c35f88b82e9a2864917ee1f18134cebfc57d39333d7e8d08006057f955068",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "hackssssquat",
+  "name": "哈克机深蹲",
+  "index": 29,
+  "slug": "29-squat-hack-hack-machine",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.6
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 1245696,
+    "sha256": "ab0979b8dfa2410f1babfb2a1cb962e513947e0026bd7e7033cc445eaa1a1732",
+    "redChecks": [
+      {
+        "pixels": 13669,
+        "meanRed": 228.1678924560547
+      },
+      {
+        "pixels": 12982,
+        "meanRed": 175.6737060546875
+      }
+    ],
+    "loopPixelDelta": 0.6268785264756944,
+    "largestPosePixelDelta": 10.972708565848215
+  },
+  "poster": {
+    "sha256": "c760a3bb341ab69d8c5be4f03bf210adaca12e73a59ec91d11f1c6ec66b1ad40",
+    "bytes": 26578
+  },
+  "thumb": {
+    "sha256": "3b98d129cf92ce4de2d6a0c45c5f154122f2c92f7185528710ed970038f10d2e",
+    "bytes": 3184,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.3686373833662313e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "ab0979b8dfa2410f1babfb2a1cb962e513947e0026bd7e7033cc445eaa1a1732",
+    "keyframesSha256": "1ffc88f7d17a02ecb97fe0d5bfc85aa5638e1666429e20ab262566636c106bf9",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "closegrip_barbell_press",
+  "name": "窄距卧推(敞开式)",
+  "index": 64,
+  "slug": "64-press-close-barbell",
+  "muscles": {
+    "triceps": 1.0,
+    "chest": 0.65,
+    "front_delts": 0.35
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 739928,
+    "sha256": "99e1039d7a35918f3b5b3f77af27e144331b357cb626bfdadaccbda93d3a1fd2",
+    "redChecks": [
+      {
+        "pixels": 1485,
+        "meanRed": 233.79595947265625
+      },
+      {
+        "pixels": 1400,
+        "meanRed": 190.9307098388672
+      }
+    ],
+    "loopPixelDelta": 0.32542492094494047,
+    "largestPosePixelDelta": 9.772318037729415
+  },
+  "poster": {
+    "sha256": "f799575287feb74f96625d46342a0ec9b39efed754bafcbb5d47f2babc5ef412",
+    "bytes": 16390
+  },
+  "thumb": {
+    "sha256": "f17b35d805f34c8b21b95db124a1d6944b0f70bfdffedc6163b7e847edbd2fff",
+    "bytes": 1774,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.615579727233456e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "99e1039d7a35918f3b5b3f77af27e144331b357cb626bfdadaccbda93d3a1fd2",
+    "keyframesSha256": "f777c26db28f23980563396279cd4e28c7b23fe943007a52ceaf3b4fb1478c44",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

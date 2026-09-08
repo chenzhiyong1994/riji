@@ -1,0 +1,66 @@
+{
+  "id": "smithsquat",
+  "name": "史密斯机深蹲",
+  "index": 30,
+  "slug": "30-squat-smith-smith",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.8
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 1001262,
+    "sha256": "c55e3bf6f276b6d9ab0482437bf2e55f193bbbff70c3c852e247b1a0e8c56118",
+    "redChecks": [
+      {
+        "pixels": 9610,
+        "meanRed": 221.5968780517578
+      },
+      {
+        "pixels": 9173,
+        "meanRed": 166.39910888671875
+      }
+    ],
+    "loopPixelDelta": 0.5274009099082341,
+    "largestPosePixelDelta": 10.900575668092758
+  },
+  "poster": {
+    "sha256": "7049c13d817f2c50f81f725b6af193e9250e0148f0159852b5fc7f8c47b3c649",
+    "bytes": 21640
+  },
+  "thumb": {
+    "sha256": "96a58678a20989fa941e3358384489a06351451a111a316485264b829558dcb7",
+    "bytes": 2686,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.4469480225074155e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "c55e3bf6f276b6d9ab0482437bf2e55f193bbbff70c3c852e247b1a0e8c56118",
+    "keyframesSha256": "ae575bb78b716c1f013f2174583a134ab7c0f03d6c6a5a3bc91d5e6712daa831",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

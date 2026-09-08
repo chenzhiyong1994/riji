@@ -1,0 +1,67 @@
+{
+  "id": "upperdumbellpress",
+  "name": "上斜哑铃卧推",
+  "index": 3,
+  "slug": "03-press-incline-dumbbells",
+  "muscles": {
+    "chest": 1.0,
+    "front_delts": 0.65,
+    "triceps": 0.45
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 969098,
+    "sha256": "0ef6e6c93e9049b71ece24d0371c32cc20c908c2567aac28e096e911e310e1ac",
+    "redChecks": [
+      {
+        "pixels": 8110,
+        "meanRed": 237.57102966308594
+      },
+      {
+        "pixels": 7947,
+        "meanRed": 190.95167541503906
+      }
+    ],
+    "loopPixelDelta": 0.4320557609437004,
+    "largestPosePixelDelta": 7.163228352864583
+  },
+  "poster": {
+    "sha256": "f2dfe7738fcf46654cd9f4ac0e62a48fdba66ad211bb6bbb4ffd3419b24c7d39",
+    "bytes": 22698
+  },
+  "thumb": {
+    "sha256": "e07a51e329f2482fba4b4df5ad718c5890e189824907c6a378dc75f628d68868",
+    "bytes": 2778,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.2930567949960611e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "0ef6e6c93e9049b71ece24d0371c32cc20c908c2567aac28e096e911e310e1ac",
+    "keyframesSha256": "783c93cc84004dfd7eed0ce7503e190bab921796a0f0aeea7eab9191b933db79",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

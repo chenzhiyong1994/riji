@@ -1,0 +1,66 @@
+{
+  "id": "laderrow",
+  "name": "哑铃侧平举",
+  "index": 45,
+  "slug": "45-raise-lateral-dumbbells",
+  "muscles": {
+    "side_delts": 1.0,
+    "front_delts": 0.25
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 518874,
+    "sha256": "5846cd3206647ddc87f5cb75c6bddf508f5d220e45c3b01e5ece7c94c9fbefd0",
+    "redChecks": [
+      {
+        "pixels": 925,
+        "meanRed": 243.72000122070312
+      },
+      {
+        "pixels": 904,
+        "meanRed": 204.91592407226562
+      }
+    ],
+    "loopPixelDelta": 0.31280275375124006,
+    "largestPosePixelDelta": 5.550687275235615
+  },
+  "poster": {
+    "sha256": "b5fa96fdbae47f92695977279e542cb298130c1f46abfa51795e2b170852c9c9",
+    "bytes": 14114
+  },
+  "thumb": {
+    "sha256": "59f23ead3ec075b5323c936f42b4a51e1a2cf335c403dfc6e6e9f456e25bd8f2",
+    "bytes": 1700,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.5608744076281969e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5846cd3206647ddc87f5cb75c6bddf508f5d220e45c3b01e5ece7c94c9fbefd0",
+    "keyframesSha256": "9f6ed0337aa077a5814bac6b73368a792fba17a73337b0964c1e6178dfb301ec",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

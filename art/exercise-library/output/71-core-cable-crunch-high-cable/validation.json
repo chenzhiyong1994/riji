@@ -1,0 +1,65 @@
+{
+  "id": "Cable-Kneeling-Crunch_Waist_small",
+  "name": "绳索跪姿卷腹",
+  "index": 71,
+  "slug": "71-core-cable-crunch-high-cable",
+  "muscles": {
+    "abs": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 830984,
+    "sha256": "299b033d3a01a4d7378d097247cb4ec20bbe181fd63e56d43a779b94b32e19d5",
+    "redChecks": [
+      {
+        "pixels": 1820,
+        "meanRed": 127.92142486572266
+      },
+      {
+        "pixels": 927,
+        "meanRed": 84.74002075195312
+      }
+    ],
+    "loopPixelDelta": 0.3908032614087302,
+    "largestPosePixelDelta": 6.5328790573846724
+  },
+  "poster": {
+    "sha256": "54e41b6a7fb6131183b1ef9327979b667e185c172872138913484cbce70288e8",
+    "bytes": 17946
+  },
+  "thumb": {
+    "sha256": "afee3911fa4d441a7b2c8a8fd76f106d0b6c027c518d77a0a70ed66dd7c85b19",
+    "bytes": 2020,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0811303345690402e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "299b033d3a01a4d7378d097247cb4ec20bbe181fd63e56d43a779b94b32e19d5",
+    "keyframesSha256": "c77552759150f5fd98038d9dc53dc3ba224086c89a4d1ea7819c9c1898ed927d",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

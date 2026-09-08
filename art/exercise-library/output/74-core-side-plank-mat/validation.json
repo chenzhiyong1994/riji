@@ -1,0 +1,78 @@
+{
+  "id": "48111201",
+  "name": "侧平板支撑",
+  "index": 74,
+  "slug": "74-core-side-plank-mat",
+  "muscles": {
+    "obliques": 1.0,
+    "abductors": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 653698,
+    "sha256": "75166f65444cd824c3bec12a28a620326b6524334dd3de7a2fa34c0e08523f33",
+    "redChecks": [
+      {
+        "pixels": 5908,
+        "meanRed": 205.81600952148438
+      },
+      {
+        "pixels": 3948,
+        "meanRed": 192.83206176757812
+      }
+    ],
+    "loopPixelDelta": 0.2409251379588294,
+    "largestPosePixelDelta": 1.218967982700893
+  },
+  "poster": {
+    "sha256": "9486bd04c322e15de6ccad237c8878758c6ac0e9b14db73798b65429e96b8406",
+    "bytes": 18960
+  },
+  "thumb": {
+    "sha256": "f429f5776d63b1f6a99db8e47de7cf85e609e7e97f5590e246c6846957a44433",
+    "bytes": 1888,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.592756774683538e-07
+  },
+  "styleRevision": 2,
+  "supersededVisualReview": {
+    "animationSha256": "75166f65444cd824c3bec12a28a620326b6524334dd3de7a2fa34c0e08523f33",
+    "keyframesSha256": "950ecf242ca44c9c56328ad32f37e1150a90dfc61bbaedc6cf020254ea20e06c",
+    "checks": [
+      "recognizable_exercise_and_equipment",
+      "body_and_support_visible",
+      "continuous_anatomical_style",
+      "major_muscles_visible",
+      "key_pose_sequence"
+    ]
+  },
+  "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "75166f65444cd824c3bec12a28a620326b6524334dd3de7a2fa34c0e08523f33",
+    "keyframesSha256": "950ecf242ca44c9c56328ad32f37e1150a90dfc61bbaedc6cf020254ea20e06c",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

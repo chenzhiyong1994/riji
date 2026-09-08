@@ -1,0 +1,78 @@
+{
+  "id": "02761201-Dead-Bug_Waist",
+  "name": "死虫",
+  "index": 73,
+  "slug": "73-core-dead-bug-mat",
+  "muscles": {
+    "abs": 1.0,
+    "obliques": 0.35
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 811750,
+    "sha256": "86f76667629a2dad9f114630f38b19e9f941db668e61ea309abbd8b06b32353d",
+    "redChecks": [
+      {
+        "pixels": 1430,
+        "meanRed": 241.37413024902344
+      },
+      {
+        "pixels": 1306,
+        "meanRed": 204.93797302246094
+      }
+    ],
+    "loopPixelDelta": 0.35946800595238093,
+    "largestPosePixelDelta": 4.662746853298612
+  },
+  "poster": {
+    "sha256": "22b7905fed6713eb5763705f5d706800bcf84c759c555ee5519fa46e0f97610d",
+    "bytes": 16692
+  },
+  "thumb": {
+    "sha256": "a311eecc9021d311e4e6d8789b3f1654a4b34f867c7b043cd11b2977ed4ce23c",
+    "bytes": 1622,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.1155984988358494e-06
+  },
+  "styleRevision": 2,
+  "supersededVisualReview": {
+    "animationSha256": "86f76667629a2dad9f114630f38b19e9f941db668e61ea309abbd8b06b32353d",
+    "keyframesSha256": "e2f097d9126a97bb0b4c2fb9e579cda85bec58a4a3c34d0a259d27a818b2c158",
+    "checks": [
+      "recognizable_exercise_and_equipment",
+      "body_and_support_visible",
+      "continuous_anatomical_style",
+      "major_muscles_visible",
+      "key_pose_sequence"
+    ]
+  },
+  "supersededReviewReason": "User reported joint alignment and wrist orientation errors; previous visual check did not establish exercise form correctness.",
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "86f76667629a2dad9f114630f38b19e9f941db668e61ea309abbd8b06b32353d",
+    "keyframesSha256": "e2f097d9126a97bb0b4c2fb9e579cda85bec58a4a3c34d0a259d27a818b2c158",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

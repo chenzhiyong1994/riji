@@ -1,0 +1,67 @@
+{
+  "id": "bike",
+  "name": "动感单车",
+  "index": 76,
+  "slug": "76-cardio-cycle-bike",
+  "muscles": {
+    "quads": 1.0,
+    "glutes": 0.7,
+    "calves": 0.55
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 751150,
+    "sha256": "e722370c661e4c9727d6541d621bd48025c7ab9b48d55a329856ffa7573eac95",
+    "redChecks": [
+      {
+        "pixels": 6372,
+        "meanRed": 209.081298828125
+      },
+      {
+        "pixels": 11055,
+        "meanRed": 158.8353729248047
+      }
+    ],
+    "loopPixelDelta": 0.9256829155815972,
+    "largestPosePixelDelta": 3.621095687624008
+  },
+  "poster": {
+    "sha256": "672a1c3ecd204bf12a2ab459caed496d41e718a611072b464fd8b7ab5de32560",
+    "bytes": 17072
+  },
+  "thumb": {
+    "sha256": "a7219ffa11af5271364316d21d51f008237a061e570eaf3992b9c02caa41d668",
+    "bytes": 1984,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.156259169223314e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "e722370c661e4c9727d6541d621bd48025c7ab9b48d55a329856ffa7573eac95",
+    "keyframesSha256": "5060954f1303ff4bddbb9edd45591e45204ecc1056d5915bc6533c9b85ed4eda",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

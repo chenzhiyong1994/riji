@@ -1,0 +1,67 @@
+{
+  "id": "sit_cable_row",
+  "name": "坐姿划船",
+  "index": 17,
+  "slug": "17-row-seated-row-cable",
+  "muscles": {
+    "lats": 1.0,
+    "upper_back": 0.8,
+    "biceps": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 729478,
+    "sha256": "5cc1b0534de7b61b42490755f5dbb8fe57c97fec44279a20c0784efb7106422d",
+    "redChecks": [
+      {
+        "pixels": 8416,
+        "meanRed": 218.13343811035156
+      },
+      {
+        "pixels": 5802,
+        "meanRed": 156.38986206054688
+      }
+    ],
+    "loopPixelDelta": 0.32138933454241075,
+    "largestPosePixelDelta": 2.5133473229786705
+  },
+  "poster": {
+    "sha256": "b853de5435b5e310b9542c9bf4815cff9413fcf9c5b66fd0e2fe4d573b779a0e",
+    "bytes": 20640
+  },
+  "thumb": {
+    "sha256": "b572390e49f2bf7f80695380146755e82d30cd68eaf8b4d01307dbb80bb7f1a1",
+    "bytes": 2494,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.784341506128894e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "5cc1b0534de7b61b42490755f5dbb8fe57c97fec44279a20c0784efb7106422d",
+    "keyframesSha256": "c9880cf069daba58966e918252a5e6dadc1c8489a94c3956bb44d18d405b4e3e",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

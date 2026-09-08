@@ -1,0 +1,66 @@
+{
+  "id": "04741201-Hanging-Straight-Leg-Hip-Raise_Waist",
+  "name": "悬挂抬腿",
+  "index": 72,
+  "slug": "72-core-hanging-raise-pullup-bar",
+  "muscles": {
+    "abs": 1.0,
+    "hip_flexors": 0.65
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 564266,
+    "sha256": "20a4ef049152407947502a53b3b8a35ca792dccfa51c1828b097dd072dbc704b",
+    "redChecks": [
+      {
+        "pixels": 4580,
+        "meanRed": 212.02903747558594
+      },
+      {
+        "pixels": 4100,
+        "meanRed": 156.97048950195312
+      }
+    ],
+    "loopPixelDelta": 0.3027309841579861,
+    "largestPosePixelDelta": 4.423926943824405
+  },
+  "poster": {
+    "sha256": "83450c0f828c1adcf6a9e0d028d8f8f1258fe4f4de9ceb22e6062636ffab542f",
+    "bytes": 17278
+  },
+  "thumb": {
+    "sha256": "4cfc87c1d4e021c8d5a4d975394b475b7259756c5dc4fdb1d5abf6ef63f21657",
+    "bytes": 2138,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.3943737203041392e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "20a4ef049152407947502a53b3b8a35ca792dccfa51c1828b097dd072dbc704b",
+    "keyframesSha256": "5fc157b456aa0219481558b2c552fe0483fd47035d622520ad6f400ddd1964ec",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

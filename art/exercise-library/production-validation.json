@@ -1,0 +1,24 @@
+{
+  "complete": true,
+  "expected": 80,
+  "verified": 80,
+  "missing": [],
+  "renderVisuallyChecked": 80,
+  "poseAcceptance": "pending_user_review",
+  "integrated": true,
+  "animationBytes": 58886084,
+  "posterBytes": 1412408,
+  "thumbnailBytes": 164194,
+  "uniqueAnimations": 80,
+  "sourceManifestSha256": "41092face0d071bec94119a6880d8118b901eb6161ce9656982d2bec6bad9d0f",
+  "sourceRevision": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "generatorSources": {
+    "specs.py": "d959a1ce7ac109f256350a2c1945d5fb8b47f4d0dca7bfc998039331a88c3423",
+    "anatomy.py": "2de16a20f14c1f9ba5c267fc34b5842a8cfeb4229ec86d9fc695d9be06b0f7b6",
+    "motion.py": "48547bf4f0931eaee278ff45c3dbc9b24fa677640585738083bf03d649f4efc7",
+    "equipment.py": "deba9ec0be723d262ccfa5bccf9c352c77e1e126651c37c4c6ed6c668c41ef54",
+    "produce.py": "8664ff4642da1b403993721fef32b862842898aac4222ce49027a8d6c6f83a0b",
+    "export.py": "e53b42502d246b30b7fefe1ef8291a9f3b61abc4d6430e71164cafff59232ca0"
+  },
+  "checkedAt": "2026-09-07T14:02:08.048228+00:00"
+}

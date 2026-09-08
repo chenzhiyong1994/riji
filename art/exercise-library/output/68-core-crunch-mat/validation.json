@@ -1,0 +1,65 @@
+{
+  "id": "abs-curl",
+  "name": "卷腹",
+  "index": 68,
+  "slug": "68-core-crunch-mat",
+  "muscles": {
+    "abs": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 708486,
+    "sha256": "e720db9a2b8e7e598031bc6783cdf2546d0483fd03650833088479a34b638968",
+    "redChecks": [
+      {
+        "pixels": 2528,
+        "meanRed": 242.60165405273438
+      },
+      {
+        "pixels": 2357,
+        "meanRed": 201.1302490234375
+      }
+    ],
+    "loopPixelDelta": 0.27093263656374006,
+    "largestPosePixelDelta": 3.9759753999255953
+  },
+  "poster": {
+    "sha256": "f88e633b190f5cbb4caea15b56bfc795c9e642705961760fae7513fb5ff9a1a3",
+    "bytes": 17094
+  },
+  "thumb": {
+    "sha256": "f44020400b33cc16db56fb0dff8f28a3335e618cdabb747e5816cc219f4e0399",
+    "bytes": 1590,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 7.755764531894389e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "e720db9a2b8e7e598031bc6783cdf2546d0483fd03650833088479a34b638968",
+    "keyframesSha256": "b2b2bb42a3f5e50b2f438e75e43aa240e7fa101079814e2fdc5c719ccefde732",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

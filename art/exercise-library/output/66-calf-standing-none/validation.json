@@ -1,0 +1,65 @@
+{
+  "id": "f_s_f212",
+  "name": "站姿自重提踵",
+  "index": 66,
+  "slug": "66-calf-standing-none",
+  "muscles": {
+    "calves": 1.0
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 627848,
+    "sha256": "22158cf50eaaa9adbf1ad2365e41943df07d0efb6b31919867e65defd4d76798",
+    "redChecks": [
+      {
+        "pixels": 4813,
+        "meanRed": 206.2073516845703
+      },
+      {
+        "pixels": 4428,
+        "meanRed": 137.7434539794922
+      }
+    ],
+    "loopPixelDelta": 0.255858890593998,
+    "largestPosePixelDelta": 4.751187763516865
+  },
+  "poster": {
+    "sha256": "358702d5e42572b0dc87baf7ed1d1b04cbd20336bb6492a38acaafe90b7e3e5d",
+    "bytes": 11982
+  },
+  "thumb": {
+    "sha256": "658dcdaa4acc00d36d7cc18bf203eb16bbd2767fae4de1dc01bac3b94051207f",
+    "bytes": 1358,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.292599962935762e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "22158cf50eaaa9adbf1ad2365e41943df07d0efb6b31919867e65defd4d76798",
+    "keyframesSha256": "da6445ccbc7814dedaf0e2d72ce26746616ef997c303cde52108c2e9f8e3b97f",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

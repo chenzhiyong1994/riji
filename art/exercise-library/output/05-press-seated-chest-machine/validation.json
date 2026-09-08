@@ -1,0 +1,67 @@
+{
+  "id": "machinepress",
+  "name": "器械推胸",
+  "index": 5,
+  "slug": "05-press-seated-chest-machine",
+  "muscles": {
+    "chest": 1.0,
+    "triceps": 0.5,
+    "front_delts": 0.4
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 966418,
+    "sha256": "1c50e64ae39cbbf31601247737d9f9ca9bf9a8b9cfebebc6212e998c9263d1e7",
+    "redChecks": [
+      {
+        "pixels": 7691,
+        "meanRed": 221.33831787109375
+      },
+      {
+        "pixels": 7345,
+        "meanRed": 168.289306640625
+      }
+    ],
+    "loopPixelDelta": 0.40323166620163686,
+    "largestPosePixelDelta": 4.4283146933903765
+  },
+  "poster": {
+    "sha256": "7a2771deecc3d80bbe7fe7f1de634d5ad6ef56bbe948b55bb24c7c063caaec36",
+    "bytes": 22468
+  },
+  "thumb": {
+    "sha256": "e415afcf584aa7ad0ed94a7089697ba2ccf7048968d0c4a2c194d95274be3a99",
+    "bytes": 2650,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 1.0749512193722386e-06
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "1c50e64ae39cbbf31601247737d9f9ca9bf9a8b9cfebebc6212e998c9263d1e7",
+    "keyframesSha256": "6d973ba77d9212359b07941c22c4a1088bdfb85b32ef4e0d10c011732cb6c65a",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "dumbellrowbench",
+  "name": "哑铃划船",
+  "index": 16,
+  "slug": "16-row-single-dumbbell-bench",
+  "muscles": {
+    "lats": 1.0,
+    "upper_back": 0.7,
+    "biceps": 0.5
+  },
+  "effortPhase": "forward",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 523288,
+    "sha256": "b43246bb5f075ee2e29e6c078fbec60272493f79962788db3328fe38dbb38242",
+    "redChecks": [
+      {
+        "pixels": 4072,
+        "meanRed": 245.4445037841797
+      },
+      {
+        "pixels": 3883,
+        "meanRed": 207.9356231689453
+      }
+    ],
+    "loopPixelDelta": 0.29694523887028773,
+    "largestPosePixelDelta": 2.7792261517237105
+  },
+  "poster": {
+    "sha256": "f2506995c68f6020ed911d18c15df865632f4b6aad1d122dd49aa8414c56828f",
+    "bytes": 18850
+  },
+  "thumb": {
+    "sha256": "6426ad5410a88c59f17d633ac98601b0a6a8271fba2e9c36fcbce581fce24ed1",
+    "bytes": 2218,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 8.134450950596441e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "b43246bb5f075ee2e29e6c078fbec60272493f79962788db3328fe38dbb38242",
+    "keyframesSha256": "d5d534ad31505d36aec0f7729ac9904162eb2608834c36f1306db8cb6c6658f7",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}

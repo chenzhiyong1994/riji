@@ -1,0 +1,67 @@
+{
+  "id": "romaniadeadlift",
+  "name": "罗马尼亚硬拉",
+  "index": 28,
+  "slug": "28-hinge-romanian-barbell",
+  "muscles": {
+    "hamstrings": 1.0,
+    "glutes": 0.85,
+    "erectors": 0.35
+  },
+  "effortPhase": "return",
+  "status": "render_visual_checked",
+  "animation": {
+    "frames": 72,
+    "uniqueFrames": 72,
+    "durationMs": 3000,
+    "loop": 0,
+    "size": [
+      768,
+      896
+    ],
+    "bytes": 787186,
+    "sha256": "a71f750d8e852f884b6fb945538e8e044defba4e129991900df03246554537d2",
+    "redChecks": [
+      {
+        "pixels": 8727,
+        "meanRed": 177.54176330566406
+      },
+      {
+        "pixels": 6431,
+        "meanRed": 142.72103881835938
+      }
+    ],
+    "loopPixelDelta": 0.34785388764880953,
+    "largestPosePixelDelta": 14.783603244357641
+  },
+  "poster": {
+    "sha256": "f59d97233e52b8d06b82fcb81658e0174ea8564a9c2cb890d6434c467cc2db2f",
+    "bytes": 14154
+  },
+  "thumb": {
+    "sha256": "85d3aa7fd606872fd0a9dfabc07f1682e7ee5940fcae5e87bd6c10f9663f212a",
+    "bytes": 1714,
+    "size": [
+      160,
+      186
+    ]
+  },
+  "motion": {
+    "projectionMaxM": 0.0,
+    "loopJointErrorM": 0.0,
+    "actualJointErrorM": 9.555641928216858e-07
+  },
+  "styleRevision": 2,
+  "userReview": "pending",
+  "visualReview": {
+    "animationSha256": "a71f750d8e852f884b6fb945538e8e044defba4e129991900df03246554537d2",
+    "keyframesSha256": "6e1bd96bc999ce4916c0e85eee30ca868214b8c286cee975fe9e0b6a05d75f25",
+    "scope": "render appearance only; joint orientation and exercise form require user review",
+    "checks": [
+      "body_and_equipment_rendered",
+      "continuous_anatomical_style",
+      "highlight_visible",
+      "keyframes_available"
+    ]
+  }
+}
