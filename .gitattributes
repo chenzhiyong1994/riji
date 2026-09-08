@@ -1,3 +1,8 @@
 # 来源许可按原始字节保留，保证与素材清单中的 SHA-256 一致。
 app/src/main/assets/licenses/*.md -text
 app/src/main/assets/licenses/makehuman-cc0.txt -text
+# Keep hashed upstream text assets stable on Windows and Unix checkouts.
+art/muscle-preview/refined-curl/source/makehuman/* text eol=lf
+art/muscle-preview/refined-curl/source/manifest.json text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
