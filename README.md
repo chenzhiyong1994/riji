@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://chenzhiyong1994.github.io/riji/">项目主页</a> ·
-  <a href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.6.apk">下载 Android 安装包</a> ·
+  <a href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3.apk">下载 Android 安装包</a> ·
   <a href="CHANGELOG.md">版本说明</a> ·
   <a href="CONTRIBUTING.md">参与开发</a>
 </p>
@@ -11,13 +11,13 @@
 
 **如月之恒，如日之升**
 
-日跻（rì jī）是一个开源 Android 训练记录 App。打开就能记下一组训练，重量、次数、历史与个人模版都保存在本机。无需账号，无广告，无分析统计 SDK，运行时不联网。
+日跻（rì jī）是一个开源 Android 训练记录 App。打开就能记下一组训练，重量、次数、历史与个人计划都保存在本机。无需账号，无广告，无分析统计 SDK，运行时不联网。
 
 “日跻”取自《诗经·商颂·长发》“圣敬日跻”，寄意于持续训练、逐步精进。Slogan 出自《诗经·小雅·天保》。
 
 ## 下载与安装
 
-**[下载日跻 1.0.6 APK](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.0.6.apk)** · Android 8.0+ · 57.8 MiB · [SHA-256 校验](downloads/SHA256SUMS.txt)
+**[下载日跻 1.1.3 APK](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3.apk)** · Android 8.0+ · 57.8 MiB · [SHA-256 校验](downloads/SHA256SUMS.txt)
 
 下载后打开 APK，按系统提示允许当前下载工具安装应用。已有同签名日跻/迹练的用户可以覆盖更新；升级前建议导出备份，不要先卸载。包名保持 `local.jilian.app`，存储与旧版 JSON 备份继续兼容。
 
@@ -25,20 +25,20 @@
 
 | 训练                                                                          | 动作                                                                              | 历史                                                                           | 我的                                                                           |
 | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
-| <img src="docs/assets/training.png" width="210" alt="记录重量、次数与完成组"> | <img src="docs/assets/movements.png" width="210" alt="80 个常用动作与自定义动作"> | <img src="docs/assets/history.png" width="210" alt="训练日历、容量与历史记录"> | <img src="docs/assets/profile.png" width="210" alt="个人统计、模版与备份工具"> |
+| <img src="docs/assets/training.png" width="210" alt="记录重量、次数与完成组"> | <img src="docs/assets/movements.png" width="210" alt="80 个常用动作与自定义动作"> | <img src="docs/assets/history.png" width="210" alt="训练日历、容量与历史记录"> | <img src="docs/assets/profile.png" width="210" alt="个人统计、计划与备份工具"> |
 
 以上截图使用虚构演示数据，来自 App 界面的隔离浏览器预览。
 
 - **逐组记录**：重量、次数、计时，普通组 / 热身组 / 递减组，组间休息计时。进行中的训练自动保存，重新打开可继续。
-- **个人模版**：把常练的动作组合保存下来，下次直接开始；参考最近一次记录填写组数据。
+- **训练模板与个人计划**：8 个模板覆盖不同经验、目标和器械，共 16 份计划。添加为自己的计划后，可修改动作顺序、组数、次数或秒数、休息时间及说明。见 [使用说明](docs/training-templates.md)。
 - **80 个常用动作**：按部位、器械和名称筛选，收藏常练动作，也能创建、修改、删除和恢复自定义动作。
-- **离线 3D 动画**：80 份三秒循环演示与肌群高亮，支持暂停、后台暂停和减少动态效果。
+- **动作演示与要点**：80 份离线 3D 动画配套发力重点、动作步骤及常见误区；播放控制位于动画内，支持后台暂停和减少动态效果。见 [动作说明](docs/exercise-guidance.md)。
 - **回看进步**：训练日历、容量、时长、部位分布和动作 PR；可选记录体重、腰围。
-- **自己保管数据**：通过系统文件选择器导出 JSON 备份，或导入兼容备份；提供深色与浅色主题。
+- **自己保管数据**：通过系统文件选择器导出 JSON 备份，或导入兼容备份；提供共用绿色主题色的深色与浅色主题。
 
 ## 开始使用
 
-1. 在「训练」新建训练，或从个人模版开始。
+1. 在「训练」新建训练，或浏览「训练模板」，添加到「我的计划」后编辑并开始。
 2. 添加动作，记录每组重量与次数，完成一组后勾选。
 3. 点击「完成训练」保存。未勾选的组不会计入历史或训练容量。
 4. 在「历史」回看记录，在「我的 → 训练统计」查看进展。

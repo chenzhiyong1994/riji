@@ -233,7 +233,118 @@
   }
   function startPlan(state, plan, catalog, date = dateKey()) {
     let s = startWorkout(state, { title: plan.name, date }, catalog);
-    for (const id of plan.exerciseIds) s = addExercise(s, id, catalog);
+    s.active.notes = plan.notes || "";
+    for (const id of plan.exerciseIds) {
+      s = addExercise(s, id, catalog);
+      const target = plan.targets?.[id];
+      if (target) {
+        const e = s.active.exercises[s.active.exercises.length - 1],
+          previous = e.sets;
+        if (!(e.mode === "time" ? target.seconds > 0 : target.reps > 0))
+          throw Error("计划目标与动作记录方式不符，请编辑该动作的计划目标");
+        e.sets = Array.from({ length: target.sets }, (_, i) => ({
+          ...initialSet(e.mode),
+          weight:
+            e.mode === "weight"
+              ? (previous[i] || previous[previous.length - 1])?.weight || 0
+              : 0,
+          reps: e.mode === "time" ? 0 : target.reps,
+          seconds: e.mode === "time" ? target.seconds : 0,
+        }));
+        e.restSeconds = target.restSeconds;
+      }
+    }
+    return s;
+  }
+  function normalizePlan(p) {
+    const bad = () => {
+      throw Error("计划内容无效，请检查名称、动作和训练目标");
+    };
+    const text = (v, max) => {
+      if (typeof v !== "string" || v.length > max) bad();
+      return v;
+    };
+    if (
+      !p ||
+      typeof p !== "object" ||
+      !Array.isArray(p.exerciseIds) ||
+      p.exerciseIds.length > 200
+    )
+      bad();
+    const result = {
+      id: text(p.id, 200),
+      name: text(p.name, 200),
+      exerciseIds: p.exerciseIds.map((id) => text(id, 200)),
+    };
+    if (p.notes !== undefined) result.notes = text(p.notes, 2000);
+    if (p.targets !== undefined) {
+      if (
+        !p.targets ||
+        typeof p.targets !== "object" ||
+        Array.isArray(p.targets)
+      )
+        bad();
+      result.targets = Object.fromEntries(
+        Object.entries(p.targets).map(([id, t]) => {
+          if (!result.exerciseIds.includes(id) || !t || typeof t !== "object")
+            bad();
+          for (const [key, min, max] of [
+            ["sets", 1, 20],
+            ["reps", 0, 1000],
+            ["seconds", 0, 86400],
+            ["restSeconds", 0, 3600],
+          ]) {
+            if (!Number.isInteger(t[key]) || t[key] < min || t[key] > max)
+              bad();
+          }
+          if (!t.reps && !t.seconds) bad();
+          return [
+            id,
+            {
+              sets: t.sets,
+              reps: t.reps,
+              seconds: t.seconds,
+              restSeconds: t.restSeconds,
+            },
+          ];
+        }),
+      );
+    }
+    return result;
+  }
+  function savePlan(state, input) {
+    const p = normalizePlan(input);
+    p.name = p.name.trim();
+    if (!p.name || !p.exerciseIds.length)
+      throw Error("请填写计划名称并至少添加一个动作");
+    const s = clone(state),
+      index = s.plans.findIndex((x) => x.id === p.id);
+    if (index < 0) {
+      if (s.plans.length >= 500) throw Error("个人计划已达到 500 个上限");
+      s.plans.push(p);
+    } else s.plans[index] = p;
+    return s;
+  }
+  function addProgram(state, program, catalog) {
+    if (!program?.sessions?.length) throw Error("训练模板不存在");
+    let s = clone(state);
+    for (const session of program.sessions) {
+      if (session.exerciseIds.some((id) => !catalog.some((e) => e.id === id)))
+        throw Error("模板包含不可用动作");
+      const base = `${program.name} · ${session.name}`;
+      let name = base,
+        suffix = 2;
+      while (s.plans.some((p) => p.name === name))
+        name = `${base} (${suffix++})`;
+      s = savePlan(s, {
+        ...session,
+        id: uid(),
+        name,
+        notes: [program.schedule, program.guidance, session.notes]
+          .filter(Boolean)
+          .join("\n"),
+      });
+    }
     return s;
   }
   function restore(text) {
@@ -281,6 +392,9 @@
           name: str(e.name),
           category: str(e.category),
           mode: mode(e.mode),
+          ...(e.restSeconds !== undefined
+            ? { restSeconds: num(e.restSeconds, 3600) }
+            : {}),
           sets: arr(e.sets, 200).map((t) => {
             if (
               typeof t.done !== "boolean" ||
@@ -307,11 +421,13 @@
     if (s.sessions.some((w) => w.endedAt === null)) bad();
     s.active = v.active === null ? null : workout(v.active);
     if (s.active && s.active.endedAt !== null) bad();
-    s.plans = arr(v.plans, 500).map((p) => ({
-      id: str(p.id),
-      name: str(p.name),
-      exerciseIds: arr(p.exerciseIds, 200).map((x) => str(x)),
-    }));
+    s.plans = arr(v.plans, 500).map((p) => {
+      try {
+        return normalizePlan(p);
+      } catch {
+        return bad();
+      }
+    });
     s.customExercises = arr(v.customExercises, 1000).map((e) => {
       if (e.archived !== undefined && typeof e.archived !== "boolean") bad();
       return {
@@ -381,6 +497,8 @@
     archiveCustomExercise,
     startWorkout,
     startPlan,
+    savePlan,
+    addProgram,
     addExercise,
     updateSet,
     workoutStats,

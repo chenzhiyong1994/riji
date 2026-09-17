@@ -1,6 +1,8 @@
 (function () {
   "use strict";
   const C = window.TrainCore;
+  const programs = window.TRAINING_TEMPLATES;
+  let templateFilters = { level: "全部", goal: "全部", equipment: "全部" };
   const builtin = [...new Map(window.MOVEMENTS.map((e) => [e.id, e])).values()];
   const $ = (s) => document.querySelector(s);
   const esc = (s) =>
@@ -23,6 +25,8 @@
     chevron: "m9 5 7 7-7 7",
     back: "m15 5-7 7 7 7",
     close: "m6 6 12 12M6 18 18 6",
+    play: "M8 5v14l11-7z",
+    pause: "M7 5h3v14H7zM14 5h3v14h-3z",
     search: "M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0",
     dumbbell: "M5 5v14M2 8v8M19 5v14M22 8v8M5 10h14M5 14h14",
     calendar: "M4 5h16v16H4zM8 2v6M16 2v6M4 10h16M8 14h2M14 14h2M8 17h2",
@@ -150,7 +154,8 @@
         !document.hidden &&
         !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
       modal.paused = !playing;
-      return `<div class="motion-player"><img class="detail-image motion-image" src="${esc(playing ? motion.animation : motion.poster)}" alt="${esc(e.name)}动作动画"><div class="motion-controls">${btn("toggleMotion", playing ? "暂停动画" : "播放动画", "secondary", `aria-pressed="${playing}"`)}<span class="hint motion-state">${playing ? "3 秒循环 · 红色肌群高亮" : "已暂停 · 静态封面"}</span></div></div>`;
+      const label = playing ? "暂停动画" : "播放动画";
+      return `<div class="motion-player"><img class="detail-image motion-image" src="${esc(playing ? motion.animation : motion.poster)}" alt="${esc(e.name)}动作动画">${btn("toggleMotion", icon(playing ? "pause" : "play"), "motion-toggle", `aria-label="${label}" title="${label}" aria-pressed="${playing}"`)}</div>`;
     }
     return detail
       ? `<div class="media-empty">${icon("dumbbell")}<strong>暂无动作图片</strong><span>可以正常添加动作并记录训练</span></div>`
@@ -164,11 +169,27 @@
     modal.paused = !playing;
     image.src = playing ? motion.animation : motion.poster;
     const button = $('[data-action="toggleMotion"]');
-    button.textContent = playing ? "暂停动画" : "播放动画";
+    const label = playing ? "暂停动画" : "播放动画";
+    button.innerHTML = icon(playing ? "pause" : "play");
+    button.setAttribute("aria-label", label);
+    button.setAttribute("title", label);
     button.setAttribute("aria-pressed", String(playing));
-    $(".motion-state").textContent = playing
-      ? "3 秒循环 · 红色肌群高亮"
-      : "已暂停 · 静态封面";
+  }
+  function exerciseGuide(e) {
+    const guide =
+      window.EXERCISE_GUIDANCE?.[
+        e.id === "plan-king" ? "plank_recorder" : e.id
+      ];
+    if (!guide || customMovement(e.id)) return "";
+    const mistakes = guide.mistakes
+      .map((text) => {
+        const split = text.indexOf("：");
+        return split < 0
+          ? `<li>${esc(text)}</li>`
+          : `<li><strong>${esc(text.slice(0, split))}</strong><p>${esc(text.slice(split + 1))}</p></li>`;
+      })
+      .join("");
+    return `<section class="exercise-guide" aria-label="动作要点与误区"><div class="guide-focus"><h3>发力重点</h3><p>${esc(guide.focus)}</p></div><div class="guide-block"><h3>动作要点</h3><ol>${guide.steps.map((text) => `<li>${esc(text)}</li>`).join("")}</ol></div><div class="guide-block guide-mistakes"><h3>常见误区</h3><ul>${mistakes}</ul></div><p class="hint guide-reminder">先用可控负重练习；若出现关节疼痛，停止动作，不勉强完成。</p></section>`;
   }
   function top(title, sub, buttons = "") {
     return `<header class="topbar"><div><div class="eyebrow">${sub}</div><h1>${title}</h1></div><div class="actions">${buttons}</div></header>`;
@@ -218,40 +239,57 @@
       );
     }).join("")}</div>`;
   }
-  const presets = () =>
-    [
-      {
-        id: "preset-push",
-        name: "推 · 胸肩三头",
-        exerciseIds: [
-          "benchpress",
-          "incline-benchpress",
-          "shoulderpress",
-          "vbar_pulldown",
-        ],
-      },
-      {
-        id: "preset-pull",
-        name: "拉 · 背部二头",
-        exerciseIds: pickNames(["高位下拉", "坐姿划船", "哑铃弯举"]),
-      },
-      {
-        id: "preset-leg",
-        name: "腿 · 下肢训练",
-        exerciseIds: pickNames(["杠铃深蹲", "罗马尼亚硬拉", "坐姿腿屈伸"]),
-      },
-    ].map((p) => ({
-      ...p,
-      exerciseIds: p.exerciseIds.filter((id) => movement(id)),
-    }));
-  function pickNames(names) {
-    return names
+  function targetSummary(t, e) {
+    return t
+      ? `${t.sets} 组 × ${e?.mode === "time" ? t.seconds + " 秒" : t.reps + " 次"} · ${t.restSeconds ? "休息 " + t.restSeconds + " 秒" : "不自动计时"}`
+      : "沿用上次记录，无记录时默认 3 组";
+  }
+  function templateResults() {
+    const matches = programs.filter((p) =>
+      Object.entries(templateFilters).every(
+        ([key, value]) => value === "全部" || p[key] === value,
+      ),
+    );
+    return (
+      `<p class="hint" role="status">${matches.length} 个模板 · 添加后可自由修改</p>` +
+      (matches.length
+        ? matches
+            .map((p) =>
+              btn(
+                "program",
+                `<div class="program-meta"><span class="tag green">${esc(p.level)}</span><span>${esc(p.goal)} · ${esc(p.equipment)}</span></div><h3>${esc(p.name)}</h3><p>${esc(p.description)}</p><div class="program-meta"><span>${esc(p.frequency)} · ${esc(p.duration)}</span><span>${p.sessions.length} 份计划 ${icon("chevron")}</span></div>`,
+                "program-card",
+                `data-id="${p.id}"`,
+              ),
+            )
+            .join("")
+        : empty("没有符合条件的模板", "试试其他经验、目标或器械组合") +
+          btn("resetTemplateFilters", "重置筛选", "secondary wide"))
+    );
+  }
+  function planTargetEditor(id) {
+    const e = movement(id),
+      t = planDraft.targets?.[id];
+    if (!t)
+      return `<div class="plan-target-default"><small>沿用上次记录</small>${btn("setPlanTarget", "设置组数与次数", "text-btn", `data-id="${esc(id)}"`)}</div>`;
+    const metric = e?.mode === "time" ? "seconds" : "reps";
+    return `<div class="plan-target-fields">${[
+      ["sets", "组数", 1, 20],
+      [
+        metric,
+        metric === "seconds" ? "秒数" : "次数",
+        1,
+        metric === "seconds" ? 86400 : 1000,
+      ],
+      ["restSeconds", "休息秒数", 0, 3600],
+    ]
       .map(
-        (name) =>
-          builtin.find((e) => e.name === name)?.id ||
-          builtin.find((e) => e.name.includes(name))?.id,
+        ([key, label, min, max]) =>
+          `<label class="sheet-field"><span>${label}</span><input type="number" inputmode="numeric" min="${min}" max="${max}" step="1" value="${t[key]}" data-plan-id="${esc(id)}" data-target="${key}" aria-label="${esc(e?.name)} ${label}"></label>`,
       )
-      .filter(Boolean);
+      .join(
+        "",
+      )}</div>${btn("clearPlanTarget", "改为沿用上次记录", "text-btn", `data-id="${esc(id)}"`)}`;
   }
   function planCard(p, i) {
     return btn(
@@ -277,7 +315,7 @@
         w.exercises.map(exerciseCard).join("") ||
         empty("添加第一个动作", "从动作库中选择，开始记录今天的训练");
       html += btn("addMovements", icon("plus") + " 添加动作", "secondary wide");
-      html += `<label class="sheet-field workout-note"><span>训练备注</span><textarea id="workout-notes" maxlength="5000" placeholder="记录今天的状态、感受和进步…">${esc(w.notes)}</textarea></label><div class="between section">${btn("saveAsPlan", "存为训练模版", "text-btn")}${btn("discard", "放弃本次训练", "text-btn", `style="color:var(--muted)"`)}</div>`;
+      html += `<label class="sheet-field workout-note"><span>训练备注</span><textarea id="workout-notes" maxlength="5000" placeholder="记录今天的状态、感受和进步…">${esc(w.notes)}</textarea></label><div class="between section">${btn("saveAsPlan", "存为训练计划", "text-btn")}${btn("discard", "放弃本次训练", "text-btn", `style="color:var(--muted)"`)}</div>`;
     } else {
       html += `<div class="between section" style="margin-top:0"><h2>${selectedDay === C.dateKey() ? "今日训练" : selectedDay.slice(5).replace("-", " / ") + " 的训练"}</h2><span class="tag green">${daySessions.length ? "已完成 " + daySessions.length + " 次" : "准备就绪"}</span></div>`;
       html += daySessions.length
@@ -290,11 +328,11 @@
           "primary wide start",
         );
     }
-    html += `<div class="between section"><h2>个人模版</h2>${btn("newPlan", icon("plus") + " 新建", "text-btn")}</div>`;
+    html += `<div class="between section"><h2>我的计划</h2>${btn("newPlan", icon("plus") + " 新建", "text-btn")}</div>`;
     html += data.plans.length
       ? `<div class="template-grid">${data.plans.map(planCard).join("")}</div>`
-      : `<p class="hint">把常练的动作存成模版，下次直接开始。</p>`;
-    html += `<div class="between section"><h2>快速开始</h2><small>基础动作组合</small></div><div class="template-grid">${presets().map(planCard).join("")}</div><p class="hint">组合可按自己的习惯修改，重量由你填写。</p>`;
+      : `<p class="hint">把常练的动作存成计划，下次直接开始。</p>`;
+    html += `<div class="between section"><h2>训练模板</h2><small>${programs.length} 个典型场景</small></div>${btn("templates", `<span class="tag green">从适合自己的安排开始</span><h3>找到你的训练节奏 ${icon("arrow")}</h3><p>入门 · 增肌 · 力量 · 居家 · 碎片时间</p><span class="accent">浏览模板，添加为我的计划</span>`, "template-entry")}`;
     return html;
   }
   function exerciseCard(e) {
@@ -447,7 +485,7 @@
       days = new Set(data.sessions.map((x) => x.date)).size;
     return (
       top("我的", "PERSONAL SPACE") +
-      `<div class="record-grid"><div class="record"><strong>${days}<small> 天</small></strong><span>累计训练</span></div><div class="record"><strong>${num(stats.reduce((n, s) => n + s.volume, 0))}<small> kg</small></strong><span>累计训练容量</span></div></div><div class="settings-group">${setting("stats", "chart", "训练统计", "容量 / 部位 / PR")}${setting("body", "scale", "身体数据", "体重 / 腰围")}${setting("showFavorites", "star", "我的收藏", data.favorites.length + " 个动作")}${setting("allPlans", "book", "个人模版", data.plans.length + " 个")}</div><div class="settings-group">${setting("theme", data.settings.theme === "dark" ? "moon" : "sun", "外观", data.settings.theme === "dark" ? "深色" : "浅色")}${setting("timerSettings", "clock", "组间休息", data.settings.restSeconds + " 秒")}${setting("weekGoal", "target", "每周训练目标", data.settings.weekGoal + " 天")}</div><div class="settings-group">${setting("export", "download", "导出备份", "JSON 文件")}${setting("import", "upload", "导入备份", "从本机文件恢复")}${setting("about", "shield", "关于与数据", "离线使用")}</div><div class="version">1.0.6 · ${builtin.length} 个内置动作</div>`
+      `<div class="record-grid"><div class="record"><strong>${days}<small> 天</small></strong><span>累计训练</span></div><div class="record"><strong>${num(stats.reduce((n, s) => n + s.volume, 0))}<small> kg</small></strong><span>累计训练容量</span></div></div><div class="settings-group">${setting("stats", "chart", "训练统计", "容量 / 部位 / PR")}${setting("body", "scale", "身体数据", "体重 / 腰围")}${setting("showFavorites", "star", "我的收藏", data.favorites.length + " 个动作")}${setting("allPlans", "book", "我的计划", data.plans.length + " 个")}</div><div class="settings-group">${setting("theme", data.settings.theme === "dark" ? "moon" : "sun", "外观", data.settings.theme === "dark" ? "深色" : "浅色")}${setting("timerSettings", "clock", "组间休息", data.settings.restSeconds + " 秒")}${setting("weekGoal", "target", "每周训练目标", data.settings.weekGoal + " 天")}</div><div class="settings-group">${setting("export", "download", "导出备份", "JSON 文件")}${setting("import", "upload", "导入备份", "从本机文件恢复")}${setting("about", "shield", "关于与数据", "离线使用")}</div><div class="version">1.1.3 · ${builtin.length} 个内置动作</div>`
     );
   }
   function renderTimer() {
@@ -476,8 +514,12 @@
     modal = null;
     $("#overlay").innerHTML = "";
   }
-  function modalFrame(title, content, footer = "") {
-    return `<div class="sheet-backdrop" data-action="backdrop"><section class="sheet" role="dialog" aria-modal="true" aria-label="${esc(title)}"><div class="between sheet-header"><h2 class="sheet-title">${esc(title)}</h2>${ib("close", "close", "关闭")}</div>${content}${footer}</section></div>`;
+  function modalFrame(title, content, footer = "", type = "") {
+    const detail = type === "detail";
+    const body = detail
+      ? `<div class="detail-scroll" tabindex="0" aria-label="动作介绍内容"><div class="detail-content">${content}</div></div><div class="detail-footer">${footer}</div>`
+      : content + footer;
+    return `<div class="sheet-backdrop" data-action="backdrop"><section class="sheet${detail ? " detail-sheet" : ""}" role="dialog" aria-modal="true" aria-label="${esc(title)}"><div class="between sheet-header"><h2 class="sheet-title">${esc(title)}</h2>${ib("close", "close", "关闭")}</div>${body}</section></div>`;
   }
   function field(label, id, value = "", type = "text", extra = "") {
     return `<label class="sheet-field"><span>${label}</span><input id="${id}" type="${type}" value="${esc(value)}" ${extra}></label>`;
@@ -499,7 +541,33 @@
       content = "",
       footer = "";
     const m = modal;
-    if (m.type === "newWorkout") {
+    if (m.type === "templates") {
+      title = "训练模板";
+      content = `<p class="hint">按经验、目标和器械选择。每份计划对应一次训练，添加后可独立编辑。</p><div class="template-filters">${[
+        ["level", "训练经验"],
+        ["goal", "训练目标"],
+        ["equipment", "场地器械"],
+      ]
+        .map(([key, label]) =>
+          selectField(
+            label,
+            "template-" + key,
+            ["全部", ...new Set(programs.map((p) => p[key]))],
+            templateFilters[key],
+            `data-template-filter="${key}"`,
+          ),
+        )
+        .join("")}</div><div id="template-results">${templateResults()}</div>`;
+    } else if (m.type === "program") {
+      const p = programs.find((p) => p.id === m.id);
+      if (!p) return closeModal();
+      title = p.name;
+      content = `${btn("templates", "← 返回模板库", "text-btn")}<div class="program-intro"><span class="tag green">${p.level} · ${p.goal}</span><p>${esc(p.description)}</p><small>${p.equipment} · ${p.frequency} · ${p.duration}</small><h3>一周怎么练</h3><p>${esc(p.schedule)}</p><details><summary>训练与调整建议</summary><p class="plan-notes hint">${esc(p.guidance)}</p></details></div>${p.sessions.map((session, i) => `<section class="program-session"><div class="between"><h3>${String(i + 1).padStart(2, "0")} / ${esc(session.name)}</h3><small>${session.exerciseIds.length} 个动作</small></div>${session.notes ? `<p class="hint">${esc(session.notes)}</p>` : ""}${session.exerciseIds.map((id) => `<div class="move-row">${thumb(movement(id))}<div class="grow"><h3>${esc(movement(id)?.name)}</h3><small>${targetSummary(session.targets[id], movement(id))}</small></div></div>`).join("")}</section>`).join("")}<p class="hint">将添加 ${p.sessions.length} 份独立计划；可修改名称、动作、组数、次数与休息。添加不会开始训练。</p>`;
+      footer = `<div class="program-footer">${btn("addProgram", `添加到我的计划（${p.sessions.length} 份）`, "primary wide", `data-id="${p.id}"`)}</div>`;
+    } else if (m.type === "programAdded") {
+      title = "已添加到我的计划";
+      content = `<p class="hint">${m.ids.length} 份计划已保存。选择一份继续调整，也可关闭后从训练页开始。</p>${m.ids.map((id, i) => btn("editPlan", `编辑 ${esc(m.names[i])} ${icon("chevron")}`, "secondary wide added-plan", `data-id="${esc(id)}"`)).join("")}`;
+    } else if (m.type === "newWorkout") {
       title = "新建训练";
       content =
         field("训练名称", "new-title", "自由训练", "text", 'maxlength="100"') +
@@ -507,7 +575,7 @@
         '<p class="hint">每次填写和勾选都会自动保存在本机。</p>';
       footer = btn("startWorkout", "开始记录", "primary wide start");
     } else if (m.type === "picker") {
-      title = m.target === "plan" ? "选择模版动作" : "添加动作";
+      title = m.target === "plan" ? "选择计划动作" : "添加动作";
       content = `<div class="search">${icon("search")}<input id="picker-search" placeholder="搜索动作" value="${esc(m.query || "")}" aria-label="筛选动作"></div>${selectField("训练部位", "picker-category", categoryOptions(), m.category || "胸")}<div class="picker" id="picker-results" style="margin-top:18px">${pickerResults()}</div>`;
       footer =
         btn("customFromPicker", "＋ 新建自定义动作", "text-btn wide") +
@@ -538,59 +606,62 @@
           ),
         );
       content =
-        thumb(e, true) +
-        `<div class="detail-tags"><span class="tag green">${esc(e.category)}</span><span class="tag">${esc(e.equipment)}</span>${e.parts
+        `<div class="detail-overview"><div class="detail-tags"><span class="tag green">${esc(e.category)}</span><span class="tag">${esc(e.equipment)}</span>${e.parts
           .slice(0, 4)
           .map((p) => `<span class="tag">${esc(p)}</span>`)
-          .join(
-            "",
-          )}</div><div class="record-grid"><div class="record"><strong>${records.length}</strong><span>记录次数</span></div><div class="record"><strong>${num(best)}<small> ${e.mode === "time" ? "秒" : e.mode === "reps" ? "次" : "kg"}</small></strong><span>${e.mode === "time" ? "单组最长时间" : e.mode === "reps" ? "单组最多次数" : "历史最高重量"}</span></div></div>` +
+          .join("")}</div>` +
+        thumb(e, true) +
         (animationFor(e)
-          ? '<p class="hint media-credit">动作与肌群示意 · 待检查</p>'
-          : `<p class="hint">${customMovement(e.id) ? "这是你的自定义动作。" : builtin.some((x) => x.id === e.id) ? "轻量版仅为部分常用动作配图。" : "此动作用于保留你的旧训练和模版。"}</p>`) +
+          ? '<p class="hint media-credit"><strong>动画仅作示意，可能存在变形。</strong>请对照动作要点，不要模仿异常关节角度或器械位置。</p>'
+          : `<p class="hint">${customMovement(e.id) ? "这是你的自定义动作。" : builtin.some((x) => x.id === e.id) ? "轻量版仅为部分常用动作配图。" : "此动作用于保留你的旧训练和计划。"}</p>`) +
+        `</div>` +
+        exerciseGuide(e) +
         (e.notes
           ? `<div class="exercise-notes"><h3>动作说明</h3><p>${esc(e.notes)}</p></div>`
           : "") +
+        `<section class="detail-records" aria-label="训练记录"><h3>训练记录</h3><div class="record-grid"><div class="record"><strong>${records.length}</strong><span>记录次数</span></div><div class="record"><strong>${num(best)}<small> ${e.mode === "time" ? "秒" : e.mode === "reps" ? "次" : "kg"}</small></strong><span>${e.mode === "time" ? "单组最长时间" : e.mode === "reps" ? "单组最多次数" : "历史最高重量"}</span></div></div>` +
         (records.length
-          ? `<div class="section"><h3>最近记录</h3></div>${records.slice(0, 3).map(historyCard).join("")}`
-          : "");
+          ? `<div class="detail-history"><h3>最近记录</h3>${records.slice(0, 3).map(historyCard).join("")}</div>`
+          : "") +
+        `</section>`;
       footer = `<div class="sheet-actions">${btn("favorite", icon("star") + (data.favorites.includes(e.id) ? "已收藏" : "收藏"), "secondary", `data-id="${esc(e.id)}"`)}${btn("quickAdd", "加入训练", "primary", `data-id="${esc(e.id)}"`)}</div>`;
       if (customMovement(e.id))
         footer += `<div class="sheet-actions custom-management">${btn("editCustom", "编辑动作", "text-btn", `data-id="${esc(e.id)}"`)}${e.archived ? btn("restoreCustom", "恢复到动作库", "text-btn", `data-id="${esc(e.id)}"`) : btn("deleteCustom", "删除动作", "danger-btn", `data-id="${esc(e.id)}"`)}</div>`;
     } else if (m.type === "plan") {
-      const p = [...data.plans, ...presets()].find((x) => x.id === m.id);
+      const p = data.plans.find((x) => x.id === m.id);
       if (!p) return closeModal();
       title = p.name;
-      content = `<p class="hint">${p.exerciseIds.length} 个动作 · 开始时带入上次记录的组数与重量</p>${p.exerciseIds
+      content = `<p class="hint">${p.exerciseIds.length} 个动作 · 已设目标优先，重量沿用上次记录；可在训练中调整。</p>${p.notes ? `<p class="plan-notes hint">${esc(p.notes)}</p>` : ""}${p.exerciseIds
         .map((id) => {
           const e = movement(id);
           return e
-            ? `<div class="move-row">${thumb(e)}<div class="grow"><h3>${esc(e.name)}</h3><small>${esc(e.category)} · ${esc(e.equipment)}</small></div></div>`
+            ? `<div class="move-row">${thumb(e)}<div class="grow"><h3>${esc(e.name)}</h3><small>${targetSummary(p.targets?.[id], e)}</small></div></div>`
             : "";
         })
         .join("")}`;
-      footer = `<div class="sheet-actions">${btn("editPlan", "编辑模版", "secondary", `data-id="${esc(p.id)}"`)}${btn("startPlan", "用模版开始", "primary", `data-id="${esc(p.id)}"`)}</div>`;
+      footer = `<div class="sheet-actions">${btn("editPlan", "编辑计划", "secondary", `data-id="${esc(p.id)}"`)}${btn("startPlan", "用计划开始", "primary", `data-id="${esc(p.id)}"`)}</div>`;
     } else if (m.type === "planEdit") {
-      title = planDraft.isNew ? "新建模版" : "编辑模版";
+      title = planDraft.isNew ? "新建计划" : "编辑计划";
       content =
         field(
-          "模版名称",
+          "计划名称",
           "plan-name",
           planDraft.name,
           "text",
           'maxlength="100"',
         ) +
+        `<label class="sheet-field"><span>计划说明</span><textarea id="plan-notes" maxlength="2000" placeholder="记录每周安排与训练提示">${esc(planDraft.notes || "")}</textarea></label><p class="hint">设置每个动作的组数、次数或秒数和休息；未设置的动作沿用上次记录。重量在开始训练后填写。</p>` +
         `<div class="between section"><h3>动作顺序</h3>${btn("planPicker", icon("plus") + " 选择动作", "text-btn")}</div>` +
         planDraft.exerciseIds
           .map((id, i) => {
             const e = movement(id);
-            return `<div class="move-row">${thumb(e)}<div class="grow"><div class="move-name">${esc(e?.name || "未找到动作")}</div><small>第 ${i + 1} 个动作</small></div>${i ? btn("planUp", "↑", "mini-plus", `data-index="${i}" aria-label="上移动作"`) : ""}${btn("planRemove", "−", "mini-plus", `data-index="${i}" aria-label="移除动作"`)}</div>`;
+            return `<div class="plan-exercise"><div class="move-row">${thumb(e)}<div class="grow"><div class="move-name">${esc(e?.name || "未找到动作")}</div><small>第 ${i + 1} 个动作</small></div>${i ? btn("planUp", "↑", "mini-plus", `data-index="${i}" aria-label="上移动作"`) : ""}${btn("planRemove", "−", "mini-plus", `data-index="${i}" aria-label="移除动作"`)}</div>${planTargetEditor(id)}</div>`;
           })
           .join("") +
         (planDraft.exerciseIds.length
           ? ""
-          : empty("还没有动作", "点击“选择动作”建立自己的训练模版"));
-      footer = `<div class="sheet-actions">${!planDraft.isNew ? btn("deletePlan", "删除", "danger-btn") : ""}${btn("savePlan", "保存模版", "primary wide")}</div>`;
+          : empty("还没有动作", "点击“选择动作”建立自己的训练计划"));
+      footer = `<div class="sheet-actions">${!planDraft.isNew ? btn("deletePlan", "删除", "danger-btn") : ""}${btn("savePlan", "保存计划", "primary wide")}</div>`;
     } else if (m.type === "customExercise") {
       const e = m.id ? customMovement(m.id) : null;
       if (m.id && !e) return closeModal();
@@ -704,7 +775,7 @@
       footer = btn("saveGoal", "保存目标", "primary wide start");
     } else if (m.type === "importConfirm") {
       title = "导入备份";
-      content = `<p>备份包含 <strong>${m.data.sessions.length}</strong> 次训练、<strong>${m.data.plans.length}</strong> 个模版和 <strong>${m.data.bodyLogs.length}</strong> 条身体记录。</p><p class="hint">确认后会替换本机当前数据，建议先导出当前备份。</p>`;
+      content = `<p>备份包含 <strong>${m.data.sessions.length}</strong> 次训练、<strong>${m.data.plans.length}</strong> 个计划和 <strong>${m.data.bodyLogs.length}</strong> 条身体记录。</p><p class="hint">确认后会替换本机当前数据，建议先导出当前备份。</p>`;
       footer = `<div class="sheet-actions">${btn("close", "取消", "secondary")}${btn("applyImport", "确认替换", "primary")}</div>`;
     } else if (m.type === "storageError") {
       title = "本地数据读取失败";
@@ -713,9 +784,9 @@
       footer = `<div class="sheet-actions">${btn("exportRaw", "导出原始数据", "secondary")}${btn("import", "导入备份", "primary")}</div>`;
     } else if (m.type === "about") {
       title = "关于日跻";
-      content = `<div class="row about-brand"><div class="brand-icon"><img src="brand-mark.svg" alt="" width="44" height="44"></div><div><h2>日跻 1.0.6</h2><small>力量训练记录</small></div></div><p>如月之恒，如日之升</p><p class="hint">——《诗经·小雅·天保》</p><p>参照训记的核心训练流程独立实现，无需账号即可记录和查看训练。</p><hr class="divider"><h3>你的数据</h3><p class="hint">训练、模版、收藏和身体记录均保存在本机。APP 不申请联网、通讯录、定位、相机或手机号权限。卸载会删除本地记录，请提前导出 JSON 备份。</p><h3>动作图片</h3><p class="hint">${builtin.filter((e) => animationFor(e)).length} 个动作已配备离线动画，红色高亮提示参与肌群。当前为待检查版本；自定义动作使用缺省图。不使用原版 APK 的图片和动画。</p><h3>当前范围</h3><p class="hint">支持训练记录、普通/热身/递减组、休息计时、个人模版、动作收藏与自定义动作新建/编辑/删除、历史、容量统计、身体数据和备份。未接入原版账号、AI、云端、社区、饮食服务及手表联动。</p>`;
+      content = `<div class="row about-brand"><div class="brand-icon"><img src="brand-mark.svg" alt="" width="44" height="44"></div><div><h2>日跻 1.1.3</h2><small>力量训练记录</small></div></div><p>如月之恒，如日之升</p><p class="hint">——《诗经·小雅·天保》</p><p>参照训记的核心训练流程独立实现，无需账号即可记录和查看训练。</p><hr class="divider"><h3>你的数据</h3><p class="hint">训练、计划、收藏和身体记录均保存在本机。APP 不申请联网、通讯录、定位、相机或手机号权限。卸载会删除本地记录，请提前导出 JSON 备份。</p><h3>动作图片</h3><p class="hint">${builtin.filter((e) => animationFor(e)).length} 个动作已配备离线动画，红色高亮提示参与肌群。当前为待检查版本；自定义动作使用缺省图。不使用原版 APK 的图片和动画。</p><h3>当前范围</h3><p class="hint">支持训练记录、普通/热身/递减组、休息计时、我的计划、动作收藏与自定义动作新建/编辑/删除、历史、容量统计、身体数据和备份。未接入原版账号、AI、云端、社区、饮食服务及手表联动。</p>`;
     }
-    $("#overlay").innerHTML = modalFrame(title, content, footer);
+    $("#overlay").innerHTML = modalFrame(title, content, footer, m.type);
   }
   function pickerResults() {
     const m = modal,
@@ -808,8 +879,8 @@
       persist(C.startWorkout(data, { date: selectedDay }, catalog()));
   }
   function beginPlan(id) {
-    const plan = [...data.plans, ...presets()].find((p) => p.id === id);
-    if (!plan) throw Error("模版不存在");
+    const plan = data.plans.find((p) => p.id === id);
+    if (!plan) throw Error("计划不存在");
     persist(C.startPlan(data, plan, catalog(), selectedDay));
     tab = "training";
     closeModal();
@@ -982,8 +1053,8 @@
           e.mode === "time" ? "先填写有效的训练秒数" : "先填写有效的次数",
         );
       persist(C.updateSet(data, e.id, s.id, { done: !s.done }));
-      if (!s.done && data.settings.restSeconds)
-        startRestTimer(data.settings.restSeconds);
+      const restSeconds = e.restSeconds ?? data.settings.restSeconds;
+      if (!s.done && restSeconds) startRestTimer(restSeconds);
       render();
     },
     exerciseMenu(el) {
@@ -1035,6 +1106,42 @@
       planDraft = { id: C.uid(), name: "", exerciseIds: [], isNew: true };
       openModal("planEdit");
     },
+    templates() {
+      openModal("templates");
+    },
+    program(el) {
+      openModal("program", { id: el.dataset.id });
+    },
+    resetTemplateFilters() {
+      templateFilters = { level: "全部", goal: "全部", equipment: "全部" };
+      renderModal();
+    },
+    addProgram(el) {
+      const p = programs.find((p) => p.id === el.dataset.id),
+        count = data.plans.length;
+      persist(C.addProgram(data, p, catalog()));
+      tab = "training";
+      render();
+      openModal("programAdded", {
+        ids: data.plans.slice(count).map((p) => p.id),
+        names: p.sessions.map((p) => p.name),
+      });
+    },
+    setPlanTarget(el) {
+      planDraft.targets ||= {};
+      const timed = movement(el.dataset.id)?.mode === "time";
+      planDraft.targets[el.dataset.id] = {
+        sets: 3,
+        reps: timed ? 0 : 10,
+        seconds: timed ? 30 : 0,
+        restSeconds: data.settings.restSeconds,
+      };
+      renderModal();
+    },
+    clearPlanTarget(el) {
+      delete planDraft.targets[el.dataset.id];
+      renderModal();
+    },
     plan(el) {
       openModal("plan", { id: el.dataset.id });
     },
@@ -1042,12 +1149,9 @@
       beginPlan(el.dataset.id);
     },
     editPlan(el) {
-      const p = [...data.plans, ...presets()].find(
-        (p) => p.id === el.dataset.id,
-      );
-      if (!p) throw Error("模版不存在");
-      const isNew = p.id.startsWith("preset-");
-      planDraft = { ...C.clone(p), id: isNew ? C.uid() : p.id, isNew };
+      const p = data.plans.find((p) => p.id === el.dataset.id);
+      if (!p) throw Error("计划不存在");
+      planDraft = { ...C.clone(p), isNew: false };
       openModal("planEdit");
     },
     planPicker() {
@@ -1075,27 +1179,30 @@
     savePlan() {
       const name = validateName($("#plan-name").value);
       if (!planDraft.exerciseIds.length) throw Error("请至少添加一个动作");
-      mutate((s) => {
-        const p = {
-            id: planDraft.id,
-            name,
-            exerciseIds: planDraft.exerciseIds,
-          },
-          idx = s.plans.findIndex((x) => x.id === p.id);
-        if (idx < 0) s.plans.push(p);
-        else s.plans[idx] = p;
-      });
+      persist(
+        C.savePlan(data, {
+          id: planDraft.id,
+          name,
+          exerciseIds: planDraft.exerciseIds,
+          notes: planDraft.notes || "",
+          targets: Object.fromEntries(
+            Object.entries(planDraft.targets || {}).filter(([id]) =>
+              planDraft.exerciseIds.includes(id),
+            ),
+          ),
+        }),
+      );
       closeModal();
       render();
-      toast("模版已保存");
+      toast("计划已保存");
     },
     deletePlan() {
       openModal("confirm", {
-        title: "删除模版",
-        message: "只删除模版，不影响训练历史。",
+        title: "删除计划",
+        message: "只删除计划，不影响训练历史。",
         confirmAction: "confirmDeletePlan",
         id: planDraft.id,
-        confirmLabel: "删除模版",
+        confirmLabel: "删除计划",
       });
     },
     confirmDeletePlan(el) {
@@ -1106,7 +1213,7 @@
       render();
     },
     saveAsPlan() {
-      if (!data.active?.exercises.length) throw Error("先添加动作再保存模版");
+      if (!data.active?.exercises.length) throw Error("先添加动作再保存计划");
       planDraft = {
         id: C.uid(),
         name: data.active.title,
@@ -1165,7 +1272,7 @@
       openModal("confirm", {
         title: "删除自定义动作",
         message:
-          "从动作库和收藏中移除，已有训练、模版和历史记录保留。可在“已删除”分类中恢复。",
+          "从动作库和收藏中移除，已有训练、计划和历史记录保留。可在“已删除”分类中恢复。",
         confirmAction: "confirmDeleteCustom",
         confirmLabel: "删除动作",
         id: el.dataset.id,
@@ -1424,6 +1531,12 @@
       $("#picker-results").innerHTML = pickerResults();
     } else if (el.id === "plan-name") {
       planDraft.name = el.value;
+    } else if (el.id === "plan-notes") {
+      planDraft.notes = el.value;
+    } else if (el.dataset.target) {
+      planDraft.targets[el.dataset.planId][el.dataset.target] = Number(
+        el.value,
+      );
     } else if (el.id === "workout-notes") {
       safe(() =>
         mutate((s) => {
@@ -1434,7 +1547,10 @@
   });
   document.addEventListener("change", (event) => {
     const el = event.target;
-    if (el.dataset.field) {
+    if (el.dataset.templateFilter) {
+      templateFilters[el.dataset.templateFilter] = el.value;
+      $("#template-results").innerHTML = templateResults();
+    } else if (el.dataset.field) {
       safe(() =>
         persist(
           C.updateSet(data, el.dataset.e, el.dataset.s, {

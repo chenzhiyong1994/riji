@@ -17,7 +17,7 @@ test("常用动作显示本地动画；自定义动作使用缺省图且可完�
   await page.locator('[data-action="detail"][data-id="benchpress"]').click();
   await expect(page.locator(".detail-image")).toHaveCount(1);
   await expect(page.locator(".media-credit")).toHaveText(
-    "动作与肌群示意 · 待检查",
+    "动画仅作示意，可能存在变形。请对照动作要点，不要模仿异常关节角度或器械位置。",
   );
   await expect(page.getByRole("dialog")).not.toContainText(/RepDB|MakeHuman/i);
   await expect

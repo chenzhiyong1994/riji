@@ -17,6 +17,22 @@ test("列表只加载缩略图，详情动图真实播放、暂停并在关闭�
   const image = page.locator(".motion-image");
   await expect(image).toBeVisible();
   await expect(image).toHaveJSProperty("naturalWidth", 768);
+  const toggle = page.getByRole("button", { name: "暂停动画", exact: true });
+  const imageBox = await image.boundingBox();
+  const toggleBox = await toggle.boundingBox();
+  expect(toggleBox.width).toBeGreaterThanOrEqual(44);
+  expect(toggleBox.height).toBeGreaterThanOrEqual(44);
+  expect(toggleBox.x).toBeGreaterThanOrEqual(imageBox.x);
+  expect(toggleBox.y).toBeGreaterThanOrEqual(imageBox.y);
+  expect(toggleBox.x + toggleBox.width).toBeLessThanOrEqual(
+    imageBox.x + imageBox.width,
+  );
+  expect(toggleBox.y + toggleBox.height).toBeLessThanOrEqual(
+    imageBox.y + imageBox.height,
+  );
+  await expect(page.locator(".motion-player")).not.toContainText(
+    /3 秒循环|红色肌群高亮|静态封面/,
+  );
   const first = hash(await image.screenshot());
   await page.waitForTimeout(450);
   expect(hash(await image.screenshot())).not.toBe(first);
@@ -66,6 +82,12 @@ test("减少动态效果时显示封面，仍可手动播放；80 项均可打�
     await expect(image).toHaveAttribute("src", /animation\.webp$/);
     await expect(image).toHaveJSProperty("naturalWidth", 768);
     await expect(image).toHaveJSProperty("naturalHeight", 896);
+    const guide = page.getByRole("region", { name: "动作要点与误区" });
+    await expect(guide.locator("ol li")).toHaveCount(3);
+    await expect(guide.locator("ul li")).toHaveCount(2);
+    await expect(
+      guide.getByRole("heading", { name: "发力重点" }),
+    ).toBeAttached();
     await page.locator('[data-action="close"]').click();
   }
   expect(failures).toEqual([]);
