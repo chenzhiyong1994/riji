@@ -1,5 +1,6 @@
 import XCTest
 import WebKit
+import UIKit
 @testable import Riji
 
 @MainActor
@@ -71,7 +72,20 @@ final class RijiTests: XCTestCase {
         try await click("[data-action=confirmFinish]")
         let total = try await js("TrainCore.workoutStats(JSON.parse(NativeStore.load()).sessions[0]).volume") as? Int
         XCTAssertEqual(total, 600)
-        _ = try await js("window.testBackup = TrainCore.exportBackup(JSON.parse(NativeStore.load())); window.receiveImport(window.testBackup); true")
+        let backup = try await js("TrainCore.exportBackup(JSON.parse(NativeStore.load()))") as! String
+        let backupURL = folder.appendingPathComponent("roundtrip.json")
+        try Data(backup.utf8).write(to: backupURL)
+        try await click("[data-tab=me]")
+        try await click("[data-action=import]")
+        try await Task.sleep(nanoseconds: 500_000_000)
+        let picker = try XCTUnwrap(controller.presentedViewController as? UIDocumentPickerViewController)
+        // Exercise the production file-reading delegate and native-to-JS callback.
+        controller.documentPicker(picker, didPickDocumentsAt: [backupURL])
+        controller.dismiss(animated: false)
+        for _ in 0..<50 {
+            if (try await js("!!document.querySelector('[data-action=applyImport]')")) as? Bool == true { break }
+            try await Task.sleep(nanoseconds: 100_000_000)
+        }
         let confirm = try await js("document.querySelector('[role=dialog]').textContent.includes('导入备份')") as? Bool
         XCTAssertEqual(confirm, true)
         try await click("[data-action=applyImport]")

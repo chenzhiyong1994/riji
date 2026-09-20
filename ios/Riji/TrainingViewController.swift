@@ -50,7 +50,11 @@ final class TrainingViewController: UIViewController, WKUIDelegate, WKNavigation
                                                name: UIApplication.willResignActiveNotification, object: nil)
         // Defence in depth alongside the shared page CSP and navigation allowlist.
         let rules = """
-        [{"trigger":{"url-filter":"^https?://|^wss?://|^ftp://"},"action":{"type":"block"}}]
+        [
+          {"trigger":{"url-filter":"^https?://"},"action":{"type":"block"}},
+          {"trigger":{"url-filter":"^wss?://"},"action":{"type":"block"}},
+          {"trigger":{"url-filter":"^ftp://"},"action":{"type":"block"}}
+        ]
         """
         WKContentRuleListStore.default().compileContentRuleList(forIdentifier: "RijiOffline", encodedContentRuleList: rules) {
             [weak self] list, error in
