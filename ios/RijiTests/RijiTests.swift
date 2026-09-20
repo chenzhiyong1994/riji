@@ -8,16 +8,19 @@ final class RijiTests: XCTestCase {
     private var folder: URL!
     private var window: UIWindow!
     private var controller: TrainingViewController!
+    private var originalController: UIViewController?
 
     override func setUp() async throws {
         folder = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
-        window = UIWindow(frame: UIScreen.main.bounds)
+        window = try XCTUnwrap((UIApplication.shared.delegate as? AppDelegate)?.window)
+        originalController = window.rootViewController
         try await reopen()
     }
 
     override func tearDown() async throws {
-        window.isHidden = true
-        window.rootViewController = nil
+        await dismissPicker()
+        window.rootViewController = originalController
+        originalController = nil
         controller = nil
         window = nil
         try? FileManager.default.removeItem(at: folder)
@@ -51,6 +54,24 @@ final class RijiTests: XCTestCase {
         _ = try await js("document.querySelector('\(selector)').click(); true")
     }
 
+    private func waitForPicker() async throws -> UIDocumentPickerViewController {
+        for _ in 0..<100 {
+            if let picker = controller.presentedViewController as? UIDocumentPickerViewController,
+               !picker.isBeingPresented { return picker }
+            try await Task.sleep(nanoseconds: 100_000_000)
+        }
+        let message = try await js("document.querySelector('#toast').textContent")
+        XCTFail("File picker not presented. Presented: \(String(describing: controller.presentedViewController)); toast: \(String(describing: message))")
+        throw StateStore.StoreError.invalidData
+    }
+
+    private func dismissPicker() async {
+        guard controller?.presentedViewController != nil else { return }
+        await withCheckedContinuation { continuation in
+            controller.dismiss(animated: false) { continuation.resume() }
+        }
+    }
+
     func testWorkoutSurvivesNativeReopenAndBackupRoundTrip() async throws {
         try await click("[data-action=newWorkout]")
         _ = try await js("document.querySelector('#new-title').value = 'iOS 测试训练'")
@@ -77,11 +98,10 @@ final class RijiTests: XCTestCase {
         try Data(backup.utf8).write(to: backupURL)
         try await click("[data-tab=me]")
         try await click("[data-action=import]")
-        try await Task.sleep(nanoseconds: 500_000_000)
-        let picker = try XCTUnwrap(controller.presentedViewController as? UIDocumentPickerViewController)
+        let picker = try await waitForPicker()
         // Exercise the production file-reading delegate and native-to-JS callback.
         controller.documentPicker(picker, didPickDocumentsAt: [backupURL])
-        controller.dismiss(animated: false)
+        await dismissPicker()
         for _ in 0..<50 {
             if (try await js("!!document.querySelector('[data-action=applyImport]')")) as? Bool == true { break }
             try await Task.sleep(nanoseconds: 100_000_000)
@@ -128,13 +148,11 @@ final class RijiTests: XCTestCase {
         try await click("[data-action=close]")
         try await click("[data-tab=me]")
         try await click("[data-action=export]")
-        try await Task.sleep(nanoseconds: 500_000_000)
-        XCTAssertTrue(controller.presentedViewController is UIDocumentPickerViewController)
-        controller.dismiss(animated: false)
+        _ = try await waitForPicker()
+        await dismissPicker()
         try await click("[data-action=import]")
-        try await Task.sleep(nanoseconds: 500_000_000)
-        XCTAssertTrue(controller.presentedViewController is UIDocumentPickerViewController)
-        controller.dismiss(animated: false)
+        _ = try await waitForPicker()
+        await dismissPicker()
         let originalURL = controller.webView.url
         _ = try await js("window.location.href = 'https://example.com'; true")
         try await Task.sleep(nanoseconds: 300_000_000)
