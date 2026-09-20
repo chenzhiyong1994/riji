@@ -1,0 +1,36 @@
+name: iOS
+on:
+  push:
+    branches: [main]
+    paths: ['ios/**', 'app/src/main/assets/**', 'scripts/*ios*', '.github/workflows/ios.yml']
+  pull_request:
+    paths: ['ios/**', 'app/src/main/assets/**', 'scripts/*ios*', '.github/workflows/ios.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ios:
+    runs-on: macos-15
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Show build toolchain
+        run: xcodebuild -version
+      - name: Test offline app in iOS Simulator
+        run: bash scripts/test-ios.sh
+      - name: Build unsigned device IPA and verify contents
+        run: bash scripts/build-ios.sh
+      - name: Upload install package
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: Riji-iOS-unsigned
+          path: |
+            release/*ios-unsigned.ipa
+            release/*ios-unsigned.ipa.sha256
+          if-no-files-found: error
+      - name: Upload simulator evidence
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: Riji-iOS-validation
+          path: qa/ios-*

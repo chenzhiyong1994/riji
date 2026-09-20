@@ -1,0 +1,44 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+5F2EA2997C7EB214A3EECC26 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "AppDelegate.swift"; sourceTree = "<group>"; };
+8176F5D06F06781E91FEF34E = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "StateStore.swift"; sourceTree = "<group>"; };
+8FF12544A039CC655331AA38 = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "TrainingViewController.swift"; sourceTree = "<group>"; };
+B34A5FB8A13A447D9BBB94DB = { isa = PBXFileReference; lastKnownFileType = "sourcecode.javascript"; path = "native-bridge.js"; sourceTree = "<group>"; };
+6D123AE8AB04EEE632CC6C18 = { isa = PBXFileReference; lastKnownFileType = "text.xml"; path = "PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+795A02A63DC9C1E86758E98F = { isa = PBXFileReference; lastKnownFileType = "folder.assetcatalog"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+9AC3B5AD93CBC0305C62F78F = { isa = PBXFileReference; lastKnownFileType = "text.plist.xml"; path = "Info.plist"; sourceTree = "<group>"; };
+F4207501FFE4E2482ED81DEE = { isa = PBXFileReference; lastKnownFileType = "folder"; path = "../app/src/main/assets"; sourceTree = "SOURCE_ROOT"; };
+DEF93E8F8AC229A0D98BBEFA = { isa = PBXFileReference; lastKnownFileType = "wrapper.application"; path = "Riji.app"; sourceTree = "BUILT_PRODUCTS_DIR"; };
+970FB190220EDCE2E3BBCD1A = { isa = PBXFileReference; lastKnownFileType = "wrapper.cfbundle"; path = "RijiTests.xctest"; sourceTree = "BUILT_PRODUCTS_DIR"; };
+F18ABE134A7E8E681A9F31BF = { isa = PBXFileReference; lastKnownFileType = "sourcecode.swift"; path = "RijiTests.swift"; sourceTree = "<group>"; };
+9B51E605D6EEC918236A1115 = { isa = PBXGroup; children = (5F2EA2997C7EB214A3EECC26, 8176F5D06F06781E91FEF34E, 8FF12544A039CC655331AA38, B34A5FB8A13A447D9BBB94DB, 6D123AE8AB04EEE632CC6C18, 795A02A63DC9C1E86758E98F, 9AC3B5AD93CBC0305C62F78F,); sourceTree = "<group>"; path = Riji; };
+3A1926085471FC5F24CD7859 = { isa = PBXGroup; children = (F18ABE134A7E8E681A9F31BF,); sourceTree = "<group>"; path = RijiTests; };
+4EDC8BFAFC6BD936B849F38C = { isa = PBXGroup; children = (DEF93E8F8AC229A0D98BBEFA, 970FB190220EDCE2E3BBCD1A,); sourceTree = "<group>"; name = Products; };
+EB814BE3CA3B78C0734C5605 = { isa = PBXGroup; children = (9B51E605D6EEC918236A1115, 3A1926085471FC5F24CD7859, F4207501FFE4E2482ED81DEE, 4EDC8BFAFC6BD936B849F38C,); sourceTree = "<group>";  };
+4204BDA0A3F496C6115E1F3D = { isa = PBXBuildFile; fileRef = 5F2EA2997C7EB214A3EECC26; };
+44A17BF28758721F517E7C2B = { isa = PBXBuildFile; fileRef = 8176F5D06F06781E91FEF34E; };
+8B50E7A1A944C2CD99EC03DF = { isa = PBXBuildFile; fileRef = 8FF12544A039CC655331AA38; };
+CAF85B0888D78F1F83771A07 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (4204BDA0A3F496C6115E1F3D, 44A17BF28758721F517E7C2B, 8B50E7A1A944C2CD99EC03DF,); runOnlyForDeploymentPostprocessing = 0; };
+79956BAF206B401CFC9CF6C9 = { isa = PBXBuildFile; fileRef = B34A5FB8A13A447D9BBB94DB; };
+E0299771F4714654C42FFD9E = { isa = PBXBuildFile; fileRef = 6D123AE8AB04EEE632CC6C18; };
+3927C96AE25F1A7AF2577B27 = { isa = PBXBuildFile; fileRef = 795A02A63DC9C1E86758E98F; };
+AE8557E759F63FB555C3314A = { isa = PBXBuildFile; fileRef = F4207501FFE4E2482ED81DEE; };
+E89B30AA1DC30A6AD8C34610 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (79956BAF206B401CFC9CF6C9, E0299771F4714654C42FFD9E, 3927C96AE25F1A7AF2577B27, AE8557E759F63FB555C3314A,); runOnlyForDeploymentPostprocessing = 0; };
+CAFD6B725820BD8EFB592E21 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+363F6DC2B3E9EAD99EC299C6 = { isa = PBXBuildFile; fileRef = F18ABE134A7E8E681A9F31BF; };
+8B106BBDC2834359F62868BB = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (363F6DC2B3E9EAD99EC299C6,); runOnlyForDeploymentPostprocessing = 0; };
+433548979C024CC63B5F3B8D = { isa = XCBuildConfiguration; name = Debug; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; GCC_C_LANGUAGE_STANDARD = gnu17; DEBUG_INFORMATION_FORMAT = dwarf; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; ENABLE_TESTABILITY = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; ONLY_ACTIVE_ARCH = YES; }; };
+B800A40FDE6F0A0218D9BCD2 = { isa = XCBuildConfiguration; name = Release; buildSettings = { CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; GCC_C_LANGUAGE_STANDARD = gnu17; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_OPTIMIZATION_LEVEL = "-O";  }; };
+3C05BEEE7303EE3FA7B250FA = { isa = XCConfigurationList; buildConfigurations = (433548979C024CC63B5F3B8D, B800A40FDE6F0A0218D9BCD2,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+6CCC433D89988F3E2859E1DB = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = local.jilian.app; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = Riji/Info.plist; MARKETING_VERSION = 1.1.3; CURRENT_PROJECT_VERSION = 1; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; };
+60E450B27FD0D02DD5AA6B63 = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = local.jilian.app; PRODUCT_NAME = "$(TARGET_NAME)"; INFOPLIST_FILE = Riji/Info.plist; MARKETING_VERSION = 1.1.3; CURRENT_PROJECT_VERSION = 1; ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; }; };
+FC50051CCCB3E62BC1851582 = { isa = XCConfigurationList; buildConfigurations = (6CCC433D89988F3E2859E1DB, 60E450B27FD0D02DD5AA6B63,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+3870DFEA84F8012F0F9D68EA = { isa = XCBuildConfiguration; name = Debug; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = local.jilian.app.tests; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; CODE_SIGN_STYLE = Automatic; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riji.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Riji"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; };
+ED3479D84CD28BE8B1908518 = { isa = XCBuildConfiguration; name = Release; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = local.jilian.app.tests; PRODUCT_NAME = "$(TARGET_NAME)"; GENERATE_INFOPLIST_FILE = YES; CODE_SIGN_STYLE = Automatic; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riji.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Riji"; BUNDLE_LOADER = "$(TEST_HOST)"; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks"; }; };
+05FF884C3B5783C667E18274 = { isa = XCConfigurationList; buildConfigurations = (3870DFEA84F8012F0F9D68EA, ED3479D84CD28BE8B1908518,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+28842F0FBEF7D211F304ACBC = { isa = PBXNativeTarget; name = Riji; productName = Riji; productReference = DEF93E8F8AC229A0D98BBEFA; productType = "com.apple.product-type.application"; buildConfigurationList = FC50051CCCB3E62BC1851582; buildPhases = (CAF85B0888D78F1F83771A07, CAFD6B725820BD8EFB592E21, E89B30AA1DC30A6AD8C34610,); buildRules = (); dependencies = (); };
+0EA9EA0A0633EB7A283CC58E = { isa = PBXContainerItemProxy; containerPortal = 985959785319747668373CC6; proxyType = 1; remoteGlobalIDString = 28842F0FBEF7D211F304ACBC; remoteInfo = Riji; };
+19A7FBCA10A205FCAFD6F090 = { isa = PBXTargetDependency; target = 28842F0FBEF7D211F304ACBC; targetProxy = 0EA9EA0A0633EB7A283CC58E; };
+BD64E34F3B89E990E8D455E3 = { isa = PBXNativeTarget; name = RijiTests; productName = RijiTests; productReference = 970FB190220EDCE2E3BBCD1A; productType = "com.apple.product-type.bundle.unit-test"; buildConfigurationList = 05FF884C3B5783C667E18274; buildPhases = (8B106BBDC2834359F62868BB,); buildRules = (); dependencies = (19A7FBCA10A205FCAFD6F090,); };
+985959785319747668373CC6 = { isa = PBXProject; attributes = { LastUpgradeCheck = 1640; TargetAttributes = { BD64E34F3B89E990E8D455E3 = { TestTargetID = 28842F0FBEF7D211F304ACBC; }; }; }; buildConfigurationList = 3C05BEEE7303EE3FA7B250FA; compatibilityVersion = "Xcode 14.0"; developmentRegion = zh_CN; knownRegions = (en, Base, zh_CN); mainGroup = EB814BE3CA3B78C0734C5605; productRefGroup = 4EDC8BFAFC6BD936B849F38C; projectDirPath = ""; projectRoot = ""; targets = (28842F0FBEF7D211F304ACBC, BD64E34F3B89E990E8D455E3,); };
+}; rootObject = 985959785319747668373CC6; }

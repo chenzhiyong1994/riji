@@ -14,3 +14,8 @@ art/**/cache/
 *.dpapi.xml
 .env
 .env.local
+
+ios/**/xcuserdata/
+*.p12
+*.pfx
+*.mobileprovision
