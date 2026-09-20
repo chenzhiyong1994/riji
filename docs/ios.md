@@ -4,7 +4,7 @@ iOS 版使用 Swift / WKWebView 原生宿主，复用 Android 1.1.3 的完整离
 
 ## 下载包与安装条件
 
-[下载 iOS IPA](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3-ios-unsigned.ipa) · [SHA-256 校验](../downloads/SHA256SUMS.txt)
+[下载 iOS IPA](https://chenzhiyong1994.github.io/riji/downloads/Riji-1.1.3-ios-unsigned.ipa) · [SHA-256 校验](../downloads/SHA256SUMS.txt)
 
 GitHub 分发的 `Riji-1.1.3-ios-unsigned.ipa` 是供个人签名的未签名 ARM64 真机包。**它不能在 Safari 中下载后直接点开安装，也不是 App Store / TestFlight 版本。** 安装需要在用户自己的设备和账号下完成签名。
 

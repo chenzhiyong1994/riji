@@ -18,7 +18,9 @@ Windows 使用 `Get-FileHash ./Riji-1.1.3.apk -Algorithm SHA256`；Linux 使用 
 
 ## iOS / iPadOS
 
-[下载 Riji-1.1.3-ios-unsigned.ipa](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3-ios-unsigned.ipa) · [安装步骤](../docs/ios.md) · [校验文件](SHA256SUMS.txt)
+主页同站下载与 [GitHub 原始文件](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3-ios-unsigned.ipa) 提供相同 IPA，校验值一致。
+
+[下载 Riji-1.1.3-ios-unsigned.ipa](https://chenzhiyong1994.github.io/riji/downloads/Riji-1.1.3-ios-unsigned.ipa) · [安装步骤](../docs/ios.md) · [校验文件](SHA256SUMS.txt)
 
 支持 iOS / iPadOS 16.0+，版本 `1.1.3` / build `1`，ARM64 真机包，60,481,099 字节（57.7 MiB）。**IPA 未签名，需要使用自己的账号和工具签名后安装，不能下载后直接点开安装。** 更新时沿用个人签名身份与 Bundle Identifier，先导出备份，不要先卸载。
 

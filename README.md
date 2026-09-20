@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://chenzhiyong1994.github.io/riji/">项目主页</a> ·
   <a href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3.apk">下载 Android 安装包</a> ·
-  <a href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3-ios-unsigned.ipa">下载 iOS IPA（需签名）</a> ·
+  <a href="https://chenzhiyong1994.github.io/riji/downloads/Riji-1.1.3-ios-unsigned.ipa">下载 iOS IPA（需签名）</a> ·
   <a href="CHANGELOG.md">版本说明</a> ·
   <a href="CONTRIBUTING.md">参与开发</a>
 </p>
@@ -22,7 +22,7 @@
 
 下载后打开 APK，按系统提示允许当前下载工具安装应用。已有同签名日跻/迹练的用户可以覆盖更新；升级前建议导出备份，不要先卸载。包名保持 `local.jilian.app`，存储与旧版 JSON 备份继续兼容。
 
-**[下载日跻 1.1.3 iOS IPA](https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3-ios-unsigned.ipa)** · iOS / iPadOS 16.0+ · [安装说明](docs/ios.md) · [SHA-256 校验](downloads/SHA256SUMS.txt)
+**[下载日跻 1.1.3 iOS IPA](https://chenzhiyong1994.github.io/riji/downloads/Riji-1.1.3-ios-unsigned.ipa)** · iOS / iPadOS 16.0+ · [安装说明](docs/ios.md) · [SHA-256 校验](downloads/SHA256SUMS.txt)
 
 **IPA 未签名，需使用自己的账号和工具签名后安装，不能在 Safari 中下载后直接打开。** 也可在 Mac 上使用 Xcode 构建并安装；不是 App Store / TestFlight 版本。更新时沿用相同签名身份与 Bundle Identifier，先导出备份，不要卸载。Android 与 iOS 的 JSON 备份互通。
 
