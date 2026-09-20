@@ -144,8 +144,11 @@ final class TrainingViewController: UIViewController, WKUIDelegate, WKNavigation
     }
 
     private func callback(_ name: String, text: String) {
-        webView.callAsyncJavaScript("window[callback](text)", arguments: ["callback": name, "text": text],
-                                   in: nil, in: .page, completionHandler: nil)
+        // JSON-encode arguments; avoid interpolating backup text as JavaScript.
+        // The classic API also avoids WebKit bug 293831 on the iOS 18.5 simulator.
+        let bytes = try! JSONSerialization.data(withJSONObject: [name, text])
+        let arguments = String(data: bytes, encoding: .utf8)!
+        webView.evaluateJavaScript("((args) => window[args[0]](args[1]))(\(arguments))", completionHandler: nil)
     }
 
     private func exportBackup(_ text: String) {
