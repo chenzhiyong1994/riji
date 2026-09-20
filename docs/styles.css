@@ -193,6 +193,22 @@ h1 {
 .release-meta span {
   padding: 0 7px;
 }
+.install-note {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+  margin: 12px auto 0;
+  max-width: 540px;
+}
+.install-note a {
+  color: var(--pale);
+  display: inline-block;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.download-actions {
+  margin: 25px 0 10px;
+}
 .hero-screens {
   display: flex;
   align-items: flex-start;

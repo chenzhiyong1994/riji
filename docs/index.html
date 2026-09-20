@@ -6,12 +6,12 @@
     <meta name="theme-color" content="#28272c" />
     <meta
       name="description"
-      content="日跻，一个开源、离线、无需账号的 Android 训练记录 App。记录每组重量与次数，回看训练历史，数据保存在本机。"
+      content="日跻，一个开源、离线、无需账号的 Android / iOS 训练记录 App。记录每组重量与次数，回看训练历史，数据保存在本机。"
     />
     <meta property="og:title" content="日跻 · 离线训练记录" />
     <meta
       property="og:description"
-      content="如月之恒，如日之升。开源 Android App，下载即可开始训练记录。"
+      content="如月之恒，如日之升。开源离线训练记录，提供 Android APK 与需自行签名的 iOS IPA 下载。"
     />
     <meta
       property="og:image"
@@ -42,7 +42,7 @@
     <main id="main">
       <section class="hero wrap">
         <div class="eyebrow">
-          <span class="status-dot"></span> OPEN SOURCE / ANDROID
+          <span class="status-dot"></span> OPEN SOURCE / ANDROID + iOS
         </div>
         <h1>日跻</h1>
         <p class="slogan">如月之恒，如日之升</p>
@@ -64,12 +64,20 @@
             >下载 Android 版</a
           ><a
             class="button secondary"
-            href="https://github.com/chenzhiyong1994/riji"
-            >查看源码 <span aria-hidden="true">↗</span></a
+            href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3-ios-unsigned.ipa"
+            aria-describedby="ios-install-note"
+            >下载 iOS 版 <span aria-hidden="true">↓</span></a
           >
         </div>
         <p class="release-meta">
-          v1.1.3 <span>·</span> Android 8.0+ <span>·</span> 57.8 MiB
+          v1.1.3 <span>·</span> Android 8.0+ <span>·</span> iOS / iPadOS 16.0+
+        </p>
+        <p class="install-note" id="ios-install-note">
+          iOS IPA 需自行签名安装，不能下载后直接打开。
+          <a
+            href="https://github.com/chenzhiyong1994/riji/blob/main/docs/ios.md"
+            >查看安装说明 ↗</a
+          >
         </p>
         <div class="hero-screens" aria-label="日跻界面展示">
           <div class="phone side left">
@@ -214,8 +222,8 @@
             </p>
             <p>
               App 不包含广告或分析统计
-              SDK，不申请网络权限。通过系统文件选择器导出
-              JSON，即可自行保存备份。
+              SDK，训练功能完整离线。通过系统文件选择器导出
+              JSON，即可自行保存备份，也可在 Android 与 iOS 间手动迁移。
             </p>
             <p class="backup-note">
               没有云同步，卸载会删除本地数据。请定期导出备份，更新时使用同签名安装包覆盖安装。
@@ -239,11 +247,24 @@
         <p class="eyebrow">READY WHEN YOU ARE</p>
         <h2>开始记录今天的训练</h2>
         <p>日跻 1.1.3 · 免费下载 · 开源代码</p>
-        <a
-          class="button primary"
-          href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3.apk"
-          >下载 APK <span aria-hidden="true">↓</span></a
-        >
+        <div class="actions download-actions">
+          <a
+            class="button primary"
+            href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3.apk"
+            >下载 Android APK <span aria-hidden="true">↓</span></a
+          ><a
+            class="button secondary"
+            href="https://github.com/chenzhiyong1994/riji/raw/refs/heads/main/downloads/Riji-1.1.3-ios-unsigned.ipa"
+            aria-describedby="ios-download-note"
+            >下载 iOS IPA <span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <p class="install-note" id="ios-download-note">
+          iOS 包未签名，需要个人签名后安装。<a
+            href="https://github.com/chenzhiyong1994/riji/blob/main/docs/ios.md"
+            >安装步骤 ↗</a
+          >
+        </p>
         <p class="download-links">
           <a
             href="https://github.com/chenzhiyong1994/riji/blob/main/downloads/README.md"
@@ -257,9 +278,10 @@
         <details>
           <summary>当前版本的使用边界</summary>
           <p>
-            最低 Android 8.0，已在 Android 16
-            模拟器验证；实体手机和所有旧系统仍需补充测试。请保持 Android System
-            WebView 更新。计时器暂不提供后台或锁屏提醒音。
+            Android 8.0+，已在 Android 16 模拟器验证。iOS / iPadOS 16.0+，已通过
+            iOS 模拟器验证；IPA
+            需自行签名，签名有效期由所用方式决定。实体设备、个人签名安装及旧系统仍需补充验证。
+            请保持 Android System WebView 更新。计时器暂不提供后台或锁屏提醒音。
           </p>
           <p>
             80

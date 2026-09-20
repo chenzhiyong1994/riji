@@ -37,8 +37,11 @@ Windows 使用 `./gradlew.bat`。Debug 包为 `app/build/outputs/apk/debug/app-d
 
 ## 代码与素材
 
+iOS 开发需要 Mac 与 Xcode 16+，打开 `ios/Riji.xcodeproj` 可直接运行模拟器。运行 `bash scripts/test-ios.sh` 执行真实 WKWebView 集成测试，`bash scripts/build-ios.sh` 输出不含签名材料的 ARM64 IPA。个人设备安装需自行签名，详见 [iOS 开发与安装](docs/ios.md)。共享界面或存储契约改变时检查两端。
+
 - `app/src/main/assets/`：离线界面、数据逻辑、动作库与动画。
 - `app/src/main/java/`：受限 WebView、原子存储、备份导入导出与启动屏。
+- `ios/`：Swift 原生宿主、Xcode 工程、系统文件选择器及原生集成测试。
 - `tests/`：数据、素材完整性、浏览器流程和品牌布局检查。
 - `art/exercise-library/`：80 个动画的制作脚本、清单、预览与技术验证。
 - `docs/`：GitHub Pages 介绍页和公开文档。
